@@ -1,5 +1,9 @@
 language: python
   python:
     - "3.6"
+  # command to install dependencies
+  install:
+    - pip install pytest requests
+  # command to run tests
   script:
     - pytest
