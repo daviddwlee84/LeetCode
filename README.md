@@ -1,4 +1,4 @@
-# David's LeetCode Practice
+# David's LeetCode Practice [![Build Status](https://travis-ci.org/daviddwlee84/LeetCode.svg?branch=master)](https://travis-ci.org/daviddwlee84/LeetCode)
 
 [**LeetCode Algorithms Problems**](https://leetcode.com/problemset/algorithms/)
 
