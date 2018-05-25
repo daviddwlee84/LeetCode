@@ -25,7 +25,7 @@ Number | Difficulty | Problem | Date | Category | Method-TimeComplexity | Remark
 |002|Medium  |[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|2018/3/12|LinkedList|[Naive-O(n)](Python3/2-Medium-AddTwoNumbers/Naive002.py)|[Note](Python3/2-Medium-AddTwoNumbers/Note002.md)|-
 |006|Medium  |[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|2018/3/22|Array|[Naive-O(n)](Python3/6-Medium-ZigZagConversion/Naive006.py)|[Note](Python3/6-Medium-ZigZagConversion/Note006.md)|-
 |007|Easy    |[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|2018/3/22|Array|[Naive-O(n)](Python3/7-Easy-ReverseInteger/Naive007.py)|[Note](Python3/7-Easy-ReverseInteger/Note007.md)|-
-|009|Easy    |[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|2018/3/22|Array|[Naive-O(n)](Python3/9-Easy-PalindromeNumber/Naive009.py)|[Note](Python3/9-Easy-PalindromeNumber/Note009.md)|Without using string
+|009|Easy    |[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|2018/3/22|Array|[Naive-O(n)](Python3/9-Easy-PalindromeNumber/Naive009.py), [Without using string-O(n)](Python3/9-Easy-PalindromeNumber/NotString009.py)|[Note](Python3/9-Easy-PalindromeNumber/Note009.md)|-
 
 ## Resources
 
