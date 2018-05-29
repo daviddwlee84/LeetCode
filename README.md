@@ -26,6 +26,7 @@ Number | Difficulty | Problem | Date | Category | Method-TimeComplexity | Remark
 |006|Medium  |[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|2018/3/22|Array|[Naive-O(n)](Python3/6-Medium-ZigZagConversion/Naive006.py)|[Note](Python3/6-Medium-ZigZagConversion/Note006.md)|-
 |007|Easy    |[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|2018/3/22|Array|[Naive-O(n)](Python3/7-Easy-ReverseInteger/Naive007.py)|[Note](Python3/7-Easy-ReverseInteger/Note007.md)|-
 |009|Easy    |[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|2018/3/22|Array|[Naive-O(n)](Python3/9-Easy-PalindromeNumber/Naive009.py), [Without using string-O(n)](Python3/9-Easy-PalindromeNumber/NotString009.py)|[Note](Python3/9-Easy-PalindromeNumber/Note009.md)|-
+|144|Medium  |[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)|2018/5/29|Binary Tree|[Recursive-O(n)](Python3/144-Medium-BinaryTreePreorderTraversal/Recursive144.py), [Iterative-O(n)](Python3/144-Medium-BinaryTreePreorderTraversal/Iterative144.py)|[Note](Python3/144-Medium-BinaryTreePreorderTraversal/Note144.md)|-
 
 ## Resources
 
