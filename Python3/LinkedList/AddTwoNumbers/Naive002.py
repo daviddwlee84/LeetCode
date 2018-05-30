@@ -1,5 +1,4 @@
-import ListNode as ln
-from ListNode import ListNode
+from ..ListNodeModule import ListNode, listNodeConverter, printListNode
 
 class Solution:
     def addTwoNumbers(self, l1, l2):
@@ -44,17 +43,17 @@ class Solution:
         return head
 
 def main():
-    l1 = ln.listNodeConverter([2, 4, 3])
-    l2 = ln.listNodeConverter([5, 6, 4])
-    ln.printListNode(l1)
-    ln.printListNode(l2)
-    ln.printListNode(Solution().addTwoNumbers(l1, l2))
+    l1 = listNodeConverter([2, 4, 3])
+    l2 = listNodeConverter([5, 6, 4])
+    printListNode(l1)
+    printListNode(l2)
+    printListNode(Solution().addTwoNumbers(l1, l2))
 
-    l1 = ln.listNodeConverter([1, 8])
-    l2 = ln.listNodeConverter([0])
-    ln.printListNode(l1)
-    ln.printListNode(l2)
-    ln.printListNode(Solution().addTwoNumbers(l1, l2))
+    l1 = listNodeConverter([1, 8])
+    l2 = listNodeConverter([0])
+    printListNode(l1)
+    printListNode(l2)
+    printListNode(Solution().addTwoNumbers(l1, l2))
 
 if __name__ == "__main__":
     main()

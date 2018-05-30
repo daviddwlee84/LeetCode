@@ -1,11 +1,6 @@
-import sys, os
-sys.path.append(os.getcwd() + '/Python3/BinaryTree')
-sys.path.append(os.getcwd() + '/Python3/BinaryTree/144-Medium-BinaryTreePreorderTraversal')
-sys.path.append(os.getcwd() + '/Python3/BinaryTree/94-Medium-BinaryTreeInorderTraversal')
-
-import TreeNodeModule as tn
-from Recursive144 import Solution as preorder_recursive
-from Iterative144 import Solution as preorder_iterative
+import BinaryTree.TreeNodeModule as tn
+from BinaryTree.BinaryTreePreorderTraversal.Recursive144 import Solution as preorder_recursive
+from BinaryTree.BinaryTreePreorderTraversal.Iterative144 import Solution as preorder_iterative
 
 testcase = []
 testcase.append(tn.stringToTreeNode("[1,null,2,3]"))
@@ -25,8 +20,8 @@ def test_iterative_preorder():
     for num, case in enumerate(testcase):
         assert preorder_iterative().preorderTraversal(case) == preorderAns[num]
 
-from Recursive94 import Solution as inorder_recursive
-from Iterative94 import Solution as inorder_iterative
+from BinaryTree.BinaryTreeInorderTraversal.Recursive94 import Solution as inorder_recursive
+from BinaryTree.BinaryTreeInorderTraversal.Iterative94 import Solution as inorder_iterative
 
 inorderAns = []
 inorderAns.append([1,3,2])
