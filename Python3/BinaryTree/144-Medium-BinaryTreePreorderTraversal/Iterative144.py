@@ -1,4 +1,3 @@
-import TreeNode
 class Solution:
     def preorderTraversal(self, root):
         """
