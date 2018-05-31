@@ -24,3 +24,7 @@ Given 1->2->3->4, you should return the list as 2->1->4->3.
 1. Check if node can swap
 2. Swap every two node (use swap helper function)
 3. Link the last node to the latest swapped two node
+
+### Recursive
+
+* Time Complexity: O(n)
