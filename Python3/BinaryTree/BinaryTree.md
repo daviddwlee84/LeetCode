@@ -41,3 +41,9 @@ Post-order traversal is to traverse the left subtree first. Then traverse the ri
 
 * Breath-First Search
     * Level-order Traversal
+
+## LeetCode Remark
+
+### [Frequently Asked Questions](https://leetcode.com/faq/#binary-tree)
+
+Testcase: the serialized format of a binary tree using level order traversal
