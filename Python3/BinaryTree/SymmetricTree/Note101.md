@@ -39,3 +39,7 @@ Bonus points if you could solve it both recursively and iteratively.
 5. Compare leftnode's left child with rightnode's right child AND leftnode's right child with rightnode's leftchild
 
 ### Iterative
+
+Both do preorder traversal, but in different way
+Left subtree visit left child first, and right subtree visit right child first
+Compare the value of leftNode and rightNode each time
