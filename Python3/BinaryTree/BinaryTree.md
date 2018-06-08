@@ -160,3 +160,7 @@ Or you can think the problem in this way: for a node in a tree, if you know the 
 ### [Frequently Asked Questions](https://leetcode.com/faq/#binary-tree)
 
 Testcase: the serialized format of a binary tree using level order traversal
+
+## Other Resources
+
+[Binary Tree](http://www.csie.ntnu.edu.tw/~u91029/BinaryTree.html)
