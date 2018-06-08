@@ -27,3 +27,12 @@ def test_BottomUp():
     assert BottomUp().maxDepth(testTree) == depthAns
     assert BottomUp().maxDepth(testTree2) == depthAns2
     assert BottomUp().maxDepth(testTree3) == depthAns3
+
+
+
+from BinaryTree.MaximumDepthofBinaryTree.TopDown2 import Solution as TopDown2
+
+def test_TopDown2():
+    assert TopDown2().maxDepth(testTree) == depthAns
+    assert TopDown2().maxDepth(testTree2) == depthAns2
+    assert TopDown2().maxDepth(testTree3) == depthAns3
