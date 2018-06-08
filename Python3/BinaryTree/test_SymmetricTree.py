@@ -1,4 +1,4 @@
-from BinaryTree.SymmetricTree.Recursive import Solution as SymTree_recursive
+from BinaryTree.SymmetricTree.Recursive101 import Solution as SymTree_recursive
 import BinaryTree.TreeNodeModule as tn
 
 

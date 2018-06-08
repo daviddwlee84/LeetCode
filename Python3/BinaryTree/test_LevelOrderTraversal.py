@@ -1,5 +1,5 @@
 import BinaryTree.TreeNodeModule as tn
-from BinaryTree.BinaryTreeLevelOrderTraversal.BFS import Solution as levelorder_BFS
+from BinaryTree.BinaryTreeLevelOrderTraversal.BFS102 import Solution as levelorder_BFS
 
 testcase = []
 '''

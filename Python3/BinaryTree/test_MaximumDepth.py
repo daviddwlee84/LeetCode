@@ -1,4 +1,4 @@
-from BinaryTree.MaximumDepthofBinaryTree.TopDown import Solution as TopDown
+from BinaryTree.MaximumDepthofBinaryTree.TopDown104 import Solution as TopDown
 import BinaryTree.TreeNodeModule as tn
 
 '''
@@ -21,7 +21,7 @@ def test_TopDown():
     assert TopDown().maxDepth(testTree3) == depthAns3
 
 
-from BinaryTree.MaximumDepthofBinaryTree.BottomUp import Solution as BottomUp
+from BinaryTree.MaximumDepthofBinaryTree.BottomUp104 import Solution as BottomUp
 
 def test_BottomUp():
     assert BottomUp().maxDepth(testTree) == depthAns
@@ -30,7 +30,7 @@ def test_BottomUp():
 
 
 
-from BinaryTree.MaximumDepthofBinaryTree.TopDown2 import Solution as TopDown2
+from BinaryTree.MaximumDepthofBinaryTree.TopDown104_2 import Solution as TopDown2
 
 def test_TopDown2():
     assert TopDown2().maxDepth(testTree) == depthAns

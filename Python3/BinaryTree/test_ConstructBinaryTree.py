@@ -1,4 +1,4 @@
-from BinaryTree.ConstructBinaryTreefromInorderandPostorderTraversal.DivideAndConquer import Solution as InPostOrder_DC
+from BinaryTree.ConstructBinaryTreefromInorderandPostorderTraversal.DivideAndConquer106 import Solution as InPostOrder_DC
 import BinaryTree.TreeNodeModule as tn
 
 inorder = [9,3,15,20,7]
