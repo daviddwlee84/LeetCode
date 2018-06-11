@@ -13,6 +13,7 @@ class TreeNode:
  2  3  4     5  6
 [1, 2, 3, None, 4]
 """
+# If parent's index is i then it's left child is i*2 and right child is i*2+1
 def listToBinaryTree(lst):
     root = TreeNode(lst[0])
     nodeList = [root]
@@ -29,7 +30,9 @@ def listToBinaryTree(lst):
     return root
 
 
+### Below follow LeetCode's format (i.e. Level-order)
 
+# Deserialize
 def stringToTreeNode(input_string):
     input_string = input_string.strip()
     input_string = input_string[1:-1]
@@ -63,6 +66,7 @@ def stringToTreeNode(input_string):
             nodeQueue.append(node.right)
     return root
 
+# Serialize
 from queue import Queue
 # i.e. Level-order Traversal
 def treeNodeToList(root):
