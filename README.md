@@ -1,6 +1,5 @@
 # David's LeetCode Practice [![Build Status](https://travis-ci.org/daviddwlee84/LeetCode.svg?branch=master)](https://travis-ci.org/daviddwlee84/LeetCode)
 
-[**LeetCode Algorithms Problems**](https://leetcode.com/problemset/algorithms/)
 
 ## Testing (based on [pytest](https://docs.pytest.org/en/latest/contents.html))
 
@@ -62,6 +61,20 @@ Number | Difficulty | Problem | Date | Category | Method-TimeComplexity | Remark
 * [Dynamic Programming](python3/DynamicProgramming/DynamicProgramming.md)
 
 ## Resources
+
+### LeetCode Links
+
+* [**LeetCode Algorithms Problems**](https://leetcode.com/problemset/algorithms/)
+
+#### Top Interview Questions
+
+* [Top Interview Questions - Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
+* [Top Interview Questions - Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
+* [Top Interview Questions - Hard Collection](https://leetcode.com/explore/interview/card/top-interview-questions-hard/)
+
+#### Introduction to Data Structure
+
+* [Binary Tree](https://leetcode.com/explore/learn/card/data-structure-tree/)
 
 ### Detail Solutions
 
