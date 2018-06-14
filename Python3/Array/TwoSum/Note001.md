@@ -20,5 +20,21 @@ return [0, 1].
 
 #### Complexity
 
-* Time complexity: O(nlogn)
-* Space complexity: O(1)
+* Time Complexity: O(nlogn)
+* Space Complexity: O(1)
+
+### Hesh Table
+
+* Time Complexity: O(n)
+* Space Complexity: O(n)
+
+* Store the index of each value in the array
+* Because it would have exactly one solution, so there must be a corresponding value in hash table
+
+### Sorted Hesh Table
+
+* Time Complexity: O(n)
+* Space Complexity: O(n)
+
+* Store the index of each value in the array
+* Search from both sides of the back and beginning, and sum them to compare with target value

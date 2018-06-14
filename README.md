@@ -21,7 +21,7 @@ Test all the units (in the main directory):
 
 Number | Difficulty | Problem | Date | Category | Method-TimeComplexity | Remark | TODO |
 |-------------:|-------------|-------------| -------------|-------------|-------------| -------------|------|
-|001|Easy    |[Two Sum](https://leetcode.com/problems/two-sum/description/)|2018/3/12|Array|[Naive-O(nlogn)](Python3/Array/TwoSum/Naive001.py)|[Note](Python3/Array/TwoSum//Note001.md)|HashTable-O(n)
+|001|Easy    |[Two Sum](https://leetcode.com/problems/two-sum/description/)|2018/3/12|Array|[Naive-O(nlogn)](Python3/Array/TwoSum/Naive001.py), [HashTable-O(n)](Python3/Array/TwoSum/HashTable001.py), [Sorted HashTable-O(n)](Python3/Array/TwoSum/SortedHashTable001.py)|[Note](Python3/Array/TwoSum//Note001.md)|-
 |002|Medium  |[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|2018/3/12|Linked List|[Naive-O(n)](Python3/LinkedList/AddTwoNumbers/Naive002.py)|[Note](Python3/LinkedList/AddTwoNumbers//Note002.md)|-
 |006|Medium  |[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|2018/3/22|Array|[Naive-O(n)](Python3/Array/ZigZagConversion/Naive006.py)|[Note](Python3/Array/ZigZagConversion/Note006.md)|-
 |007|Easy    |[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|2018/3/22|Array|[Naive-O(n)](Python3/Array/ReverseInteger/Naive007.py)|[Note](Python3/Array/ReverseInteger/Note007.md)|-
