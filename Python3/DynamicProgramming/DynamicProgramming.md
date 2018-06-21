@@ -2,7 +2,7 @@
 
 ## Note
 
-### Tips of find DP solution
+### Tips of finding DP solution
 
 It's hard to figure out DP solution at the first glance.
 
