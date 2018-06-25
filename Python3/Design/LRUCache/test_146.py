@@ -1,4 +1,4 @@
-from NaiveLRU146 import LRUCache as Naive
+from Naive146 import LRUCache as Naive
 from OrderedDict146 import LRUCache as OrderedDict
 
 def test_Naive():
