@@ -5,6 +5,8 @@ class ListNode:
         self.next = None
 
 def listNodeConverter(lst):
+    if len(lst) == 0:
+        return None
     head = ListNode(0)
     ptr = head
     for i, num in enumerate(lst):
