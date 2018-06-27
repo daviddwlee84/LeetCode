@@ -1,5 +1,6 @@
 from Binary078 import Solution as binary
 from DFS078 import Solution as dfs
+from Backtracking078 import Solution as backtracking
 
 testcase = []
 testcase.append([1,2,3])
@@ -25,3 +26,7 @@ def test_binary():
 def test_dfs():
     for i, case in enumerate(testcase):
         assert sorted(dfs().subsets(case)) == sorted(answer[i])
+
+def test_backtracking():
+    for i, case in enumerate(testcase):
+        assert sorted(backtracking().subsets(case)) == sorted(answer[i])
