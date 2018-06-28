@@ -7,6 +7,9 @@ class BinaryHeap:
         self.__size = len(initialHeap)
         self.__items = initialHeap
         self.__minHeapMode = minHeapMode # Default is min heap
+    
+    def __repr__(self):
+        return ("Min" if self.__minHeapMode else "Max") + " Heap with size: " + str(self.__size) + " and data: " + str(self.__items)
 
     def __getLeftChildIndex(self, parentIndex):
         return 2*parentIndex + 1
@@ -97,9 +100,3 @@ class BinaryHeap:
                 else:
                     self.__swap(index, biggerChildIndex)
                 index = biggerChildIndex
-
-
-         
-
-
-    

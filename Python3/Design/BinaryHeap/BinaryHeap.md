@@ -27,6 +27,7 @@
 
 * [Pytest Exception](https://stackoverflow.com/questions/23337471/how-to-properly-assert-that-an-exception-gets-raised-in-pytest)
 * [Pyton - User-defined Exception](https://docs.python.org/3.6/tutorial/errors.html#user-defined-exceptions)
+* [Python - __str__ vs. __repr__](https://stackoverflow.com/questions/1436703/difference-between-str-and-repr)
 
 ## Resources
 
