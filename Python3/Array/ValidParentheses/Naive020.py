@@ -18,6 +18,7 @@ class Solution:
                     # Encounter close bracket when there is no open bracket in front
                     return False
                 if closeBrackets[openBrackets.index(stack.pop())] != char:
+                    # Compare with the corresponding brackets
                     return False
         if len(stack) == 0:
             return True

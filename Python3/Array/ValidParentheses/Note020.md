@@ -54,3 +54,9 @@ Output: true
 
 * Push the encountered open bracket into stack.
 * Pop the stack when encounter close bracket and see if it is the corresponding one.
+
+### Hash Table
+
+* Time Complexity: O(n)
+
+* Improve the time of searching the corresponding bracket.
