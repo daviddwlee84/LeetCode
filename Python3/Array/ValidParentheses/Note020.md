@@ -2,7 +2,7 @@
 
 ## Description
 
-Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
 An input string is valid if:
 
@@ -60,3 +60,22 @@ Output: true
 * Time Complexity: O(n)
 
 * Improve the time of searching the corresponding bracket.
+
+### Other Solution
+
+```java
+public boolean isValid(String s) {
+	Stack<Character> stack = new Stack<Character>();
+	for (char c : s.toCharArray()) {
+		if (c == '(')
+			stack.push(')');
+		else if (c == '{')
+			stack.push('}');
+		else if (c == '[')
+			stack.push(']');
+		else if (stack.isEmpty() || stack.pop() != c)
+			return false;
+	}
+	return stack.isEmpty();
+}
+```
