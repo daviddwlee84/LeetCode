@@ -27,5 +27,9 @@ Output: 49
 
 ### Two Pointer
 
+* Time Complexity: O(n)
 
-
+* Use two pointer to point at the front and the end of the array. (index)
+* Calculate the area and update the max area
+* Update the shorter pointer (either go right or left)
+* Do until two pointer across
