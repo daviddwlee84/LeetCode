@@ -32,6 +32,7 @@ Test all the units (in the main directory):
 
 * Catagory
     * `Catagory1, Catagory2, ...`
+    * Usually record in Data Structure. (The Algorithm strategy will be noted in the Method field)
     * Code will be put in the main catagory folder (i.e. the first one).
     * Some catagory may be the Related Topic tags marked by LeetCode.
     * TODO: Most of the categories need to be updated. (The date before 2018/9/22)
@@ -45,6 +46,7 @@ Test all the units (in the main directory):
 |  007|Easy    |[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|2018/3/22|Array|[Naive-O(n)](Python3/Array/ReverseInteger/Naive007.py)|[Note](Python3/Array/ReverseInteger/Note007.md)|-
 |  008|Medium  |[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|2018/9/30|String|[Naive-O(n)](Python3/String/StringToInteger/Naive008.py)|[Note](Python3/String/StringToInteger/Note008.md)|-
 |  009|Easy    |[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|2018/3/22|Array|[Naive-O(n)](Python3/Array/PalindromeNumber/Naive009.py), [Without using string-O(n)](Python3/Array/PalindromeNumber/NotString009.py)|[Note](Python3/Array/PalindromeNumber/Note009.md)|-
+|  010|Hard *  |[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|TODO|Array||[Note](Python3/String/RegularExpressionMatching/Note010.md)|Recursion, DP
 |  011|Medium  |[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|2018/9/22|Array|[Naive-O(n²)](Python3/Array/ContainerWithMostWater/Naive011.py), [TwoPointer-O(n)](Python3/Array/ContainerWithMostWater/TwoPointer011.py)|[Note](Python3/Array/ContainerWithMostWater/Note011.md)|-
 |  013|Eazy    |[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|2018/9/29|String|[Naive-O(n)](Python3/String/RomanToInteger/Naive013.py)|[Note](Python3/String/RomanToInteger/Note013.md)|-
 |  014|Eazy    |[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|2018/9/16|Array|[Naive-O(n*len)](Python3/Array/LongestCommonPrefix/Naive014.py)|[Note](Python3/Array/LongestCommonPrefix/Note014.md)|-
