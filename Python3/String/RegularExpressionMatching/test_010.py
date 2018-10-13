@@ -1,4 +1,4 @@
-# from Naive010 import Solution as naive
+from DC010 import Solution as DivideAndConquer
 
 ss = []
 ss.append("aa")
@@ -49,6 +49,6 @@ ans.append(True)
 ans.append(True)
 ans.append(True)
 
-# def test_navie():
-#     for i, s in enumerate(ss):
-#         assert naive().isMatch(s, ps[i]) == ans[i]
+def test_DC():
+    for i, s in enumerate(ss):
+        assert DivideAndConquer().isMatch(s, ps[i]) == ans[i]
