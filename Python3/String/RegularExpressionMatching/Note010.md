@@ -92,3 +92,62 @@ We proceed with the same recursion as in Divide and Conquer, except because call
 #### Top-down approach
 
 #### Bottom-up approach
+
+### Others
+
+```python
+class Solution:
+    def isMatch(self, s, p):
+        return self.helper(s, 0, p, 0, {})
+
+    def helper(self, s, i, p, j, memo):
+        if (i, j) in memo:
+            return memo[(i,j)]
+        if len(p) == j: return len(s) == i
+        if len(s) == i:
+            if (len(p)-j) %2 == 1: return False
+            index = j + 1
+            while index < len(p) :
+                if p[index] != '*':
+                    return False
+                index += 2
+            return True
+        if len(p) - j > 1 and p[j + 1] == '*' :
+            if self.is_char_matched(s[i], p[j]):
+                matched = self.helper(s, i+1, p, j, memo) or self.helper(s, i , p , j + 2, memo)
+            else:
+                matched = self.helper(s, i, p, j + 2, memo)
+        else:
+            matched = self.is_char_matched(s[i], p[j]) and self.helper(s, i + 1, p, j + 1, memo)
+        memo[(i,j)] = matched
+        return matched
+
+    def is_char_matched(self, s, p):
+        return s == p or p == "."
+```
+
+```python
+class Solution:
+    def isMatch(self, s, p):
+        p = p[::-1]
+        s = s[::-1]
+        m, n = len(s), len(p)
+        dp = [[False for j in range(n+1)] for i in range(m+1)]
+        dp[-1][-1] = True
+        j = 0
+        while j < n:
+            if p[j] == '*':
+                dp[-1][j+1] = dp[-1][j-1]
+                for i in range(m):
+                    if dp[i][j-1]:
+                        dp[i][j+1] = True
+                    elif dp[i-1][j+1]:
+                        dp[i][j+1] = (s[i] == p[j+1]) or (p[j+1]=='.')
+                j += 1
+            else:
+                for i in range(m):
+                    if p[j] == s[i] or p[j] == '.':
+                        dp[i][j] = dp[i-1][j-1]
+            j += 1
+        return dp[m-1][n-1]
+```
