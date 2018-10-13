@@ -62,3 +62,33 @@ Output: false
 ## Solution
 
 [LeetCode Official Solution](https://leetcode.com/problems/regular-expression-matching/solution/)
+
+### Divide and Conquer
+
+The solution without `*`
+
+```python
+def match(text, pattern):
+    if not pattern:
+        return not text
+    first_match = bool(text) and pattern[0] in {text[0], '.'}
+    return first_match and match(text[1:], pattern[1:])
+```
+
+* If there's a star
+    * we may ignore this part of the pattern, or delete a matching character in the text
+* If we have a match on the remaining strings after any of these operations, then the initial inputs matched
+
+### Dynamic Programming
+
+**Intuition**
+
+As the problem has an optimal substructure, it is natural to cache intermediate results. We ask the question `dp(i, j)`: does `text[i:]` and `pattern[j:]` match? We can describe our answer in terms of answers to questions involving smaller strings.
+
+**Algorithm**
+
+We proceed with the same recursion as in Divide and Conquer, except because calls will only ever be made to `match(text[i:], pattern[j:])`, we use `dp(i, j)` to handle those calls instead, saving us expensive string-building operations and allowing us to cache the intermediate results.
+
+#### Top-down approach
+
+#### Bottom-up approach

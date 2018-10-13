@@ -1,4 +1,5 @@
 from DC010 import Solution as DivideAndConquer
+from TopDownDP010 import Solution as TopDownDP
 
 ss = []
 ss.append("aa")
@@ -52,3 +53,7 @@ ans.append(True)
 def test_DC():
     for i, s in enumerate(ss):
         assert DivideAndConquer().isMatch(s, ps[i]) == ans[i]
+
+def test_TopDownDP():
+    for i, s in enumerate(ss):
+        assert TopDownDP().isMatch(s, ps[i]) == ans[i]
