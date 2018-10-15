@@ -35,3 +35,58 @@ A   L S  I G
 Y A   H R
 P     I
 ```
+
+## Solution
+
+### Naive
+
+* Time Complexity: O(n)
+
+* Calculate each pattern's length
+* Use index in pattern to specify which row to put in
+* Combine each row and output the answer
+
+### Others
+
+#### Use python's negative index of list
+
+```python
+class Solution:
+    def convert(self, s, numRows):
+        # exit early if we don't have enough rows to make pattern
+        if numRows < 2:
+            return s
+
+        combo = [''] * numRows
+        i = 0
+        row = -1
+
+        # we add characters to strings (each string is array)
+        for char in s:
+            combo[i] += char
+            if i == 0 or i == numRows - 1:
+                row = -row
+            i += row
+        return ''.join(combo)
+```
+
+```python
+class Solution:
+    def convert(self, s, numRows):
+        # exit early if we don't have enough rows to make pattern
+        if numRows == 1:
+            return s
+
+        combo = [''] * numRows
+        i = 0
+
+        # we add characters to strings (each string is array)
+        for char in s:
+            combo[i] += char
+            if i == 0:
+                direction = 1
+            elif i == numRows - 1:
+                direction = -1
+            i += direcction
+        return ''.join(combo)
+```

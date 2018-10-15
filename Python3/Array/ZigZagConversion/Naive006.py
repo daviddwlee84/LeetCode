@@ -6,20 +6,30 @@ class Solution:
         :rtype: str
         """
         
-        grid = [""] * numRows
+        grid = [""] * numRows # Table to store temporary status of ZigZag form
 
-        connectChar = numRows - 2
-        if connectChar < 0:
+        connectChar = numRows - 2 # Subtract the first and last row
+        if connectChar < 0: # Prevent single row (=> modulo by 0)
             connectChar = 1
-        totalChar = numRows + connectChar
+        totalChar = numRows + connectChar # Calculate how many char each pattern
+        # Example:
+        # numRows = 3
+        # P   X  ...
+        # P P X X
+        # P   X
+        # P is the Pattern
         for i, c in enumerate(s):
-            index = i % totalChar
+            index = i % totalChar # Position in each Pattern
+
+            # Consider which row to put in
             if index < numRows:
-                j = 2
+                j = 2 # Initial status of j
                 grid[index] += c
             else:
                 grid[numRows - j] += c
                 j += 1
+
+        # Combine into one string
         result = ""
         for s in grid:
             result += s
