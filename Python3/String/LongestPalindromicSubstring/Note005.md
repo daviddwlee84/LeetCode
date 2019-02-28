@@ -28,3 +28,9 @@ Output: "bb"
 For each possible substring, check if it's palindrom, and keep the longest one.
 
 * Time Complexity: O(n³)
+
+### Dynamic Programming
+
+### Expand Around Center
+
+TODO
