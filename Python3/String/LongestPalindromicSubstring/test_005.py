@@ -1,5 +1,6 @@
 from Naive005 import Solution as Naive
 from DP005 import Solution as DP
+from ExpandAroundCenter005 import Solution as EAC
 
 strings = []
 strings.append("babad")
@@ -24,3 +25,7 @@ def test_naive():
 def test_DP():
     for i, s in enumerate(strings):
         assert any([DP().longestPalindrome(s) == a for a in answer[i]])
+
+def test_EAC():
+    for i, s in enumerate(strings):
+        assert any([EAC().longestPalindrome(s) == a for a in answer[i]])
