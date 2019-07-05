@@ -70,3 +70,89 @@ class MyQueue {
 > * [CppTest](https://cpptest.sourceforge.io/tutorial.html)
 > * [cppreference.com - std::vector](https://en.cppreference.com/w/cpp/container/vector)
 > * [How to set initial size of std::vector?](https://stackoverflow.com/questions/11457571/how-to-set-initial-size-of-stdvector)
+
+## Queue & BFS
+
+One common application of Breadth-first Search (BFS) is to find the shortest path from the root node to the target node.
+
+using BFS:
+
+* do traversal
+* find the shortest path
+
+Typically, it happens in a tree or a graph, or more abstract scenarios.
+
+* nodes: actual node or status
+* edges: actual edge or transition
+
+### Template I
+
+```java
+/**
+ * Return the length of the shortest path between root and target node.
+ */
+int BFS(Node root, Node target) {
+    Queue<Node> queue;  // store all nodes which are waiting to be processed
+    int step = 0;       // number of steps neeeded from root to current node
+    // initialize
+    add root to queue;
+    // BFS
+    while (queue is not empty) {
+        step = step + 1;
+        // iterate the nodes which are already in the queue
+        int size = queue.size();
+        for (int i = 0; i < size; ++i) {
+            Node cur = the first node in queue;
+            return step if cur is target;
+            for (Node next : the neighbors of cur) {
+                add next to queue;
+            }
+            remove the first node from queue;
+        }
+    }
+    return -1;          // there is no path from root to target
+}
+```
+
+### Template II - never visit a node twice
+
+e.g. in graph with cycle => cause infinite loop
+
+Add a "hast set" to solve this problem. (`Set<Node> visited;`)
+
+```java
+/**
+ * Return the length of the shortest path between root and target node.
+ */
+int BFS(Node root, Node target) {
+    Queue<Node> queue;  // store all nodes which are waiting to be processed
+    Set<Node> visited;  // store all the nodes that we've visited
+    int step = 0;       // number of steps neeeded from root to current node
+    // initialize
+    add root to queue;
+    add root to visited;
+    // BFS
+    while (queue is not empty) {
+        step = step + 1;
+        // iterate the nodes which are already in the queue
+        int size = queue.size();
+        for (int i = 0; i < size; ++i) {
+            Node cur = the first node in queue;
+            return step if cur is target;
+            for (Node next : the neighbors of cur) {
+                if (next is not in used) {
+                    add next to queue;
+                    add next to visited;
+                }
+                remove the first node from queue;
+            }
+        }
+    }
+    return -1;          // there is no path from root to target
+}
+```
+
+> There are some cases where one does not need keep the visited hash set:
+>
+> * You are absolutely sure there is no cycle, for example, in tree traversal;
+> * You do want to add the node to the queue multiple times.
