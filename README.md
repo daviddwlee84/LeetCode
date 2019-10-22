@@ -115,7 +115,7 @@ Test all the units (in the main directory):
 |  687|Medium  |[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|TODO|Binary Tree||[Note](Python3/BinaryTree/LongestUnivaluePath/Note687.md)|-
 |👍 752|Medium  |[Open the Lock](https://leetcode.com/problems/open-the-lock/)|2019/7/5|Search|[BFS-O(n²)](Python3/Search/OpenTheLock/BFS752.py)|[Note](Python3/Search/OpenTheLock/Note752.md)|Improve time complexity
 |  801|Medium  |[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|TODO|Array||[Note](Python3/Array/MinimumSwapsToMakeSequencesIncreasing/Note801.md)|-
-|👍 1143|Medium  |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|2019/10/22|String|[BruteForce-O(2^n)](Python3/String/LongestCommonSubsequence/BruteForce1143.py)|[Note](Python3/String/LongestCommonSubsequence/Note1143.md)|DP
+|👍 1143|Medium  |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|2019/10/22|String|[BruteForce-O(2^n)](Python3/String/LongestCommonSubsequence/BruteForce1143.py), [DP-O(mn)](Python3/String/LongestCommonSubsequence/DP1143.py)|[Note](Python3/String/LongestCommonSubsequence/Note1143.md)|DP
 
 ## LeetCode Learn Progress
 
