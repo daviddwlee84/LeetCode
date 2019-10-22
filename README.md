@@ -79,6 +79,7 @@ Test all the units (in the main directory):
 |  067|Easy    |[Add Binary](https://leetcode.com/problems/add-binary/)|2019/10/22|String|[Adder-O(n)](Python3/String/AddBinary/Naive067.py)|-|-
 |  069|Easy    |[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|2019/10/22|Search|[Naive-O(n)](Python3/Search/Sqrt_x/Naive069.py), [BinarySearch-O(logn)](Python3/Search/Sqrt_x/BinarySearch069.py)|-|-
 |  070|Easy    |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|2018/6/13|DP|[DP-O(n)](Python3/DynamicProgramming/ClimbingStairs/DP070.py), [Recursive-O(n)](Python3/DynamicProgramming/ClimbingStairs/Recursive070.py)|[Note](Python3/DynamicProgramming/ClimbingStairs/Note070.md)|-
+|👍 072|Hard    |[Edit Distance](https://leetcode.com/problems/edit-distance/)|TODO|String|||DP
 |👍 078|Medium  |[Subsets](https://leetcode.com/problems/subsets/)|2018/6/27|BM|[Binary-O(2ⁿ)](Python3/BitManipulation/Subsets/Binary078.py), [DFSBased-O(2ⁿ)](Python3/BitManipulation/Subsets/DFS078.py), [Backtracking-O(2ⁿ)](Python3/BitManipulation/Subsets/Backtracking078.py)|[Note](Python3/BitManipulation/Subsets/Note078.md)|-
 |  083|Easy    |[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|2019/10/22|Linked List|[Naive-O(n)](Python3/LinkedList/RemoveDuplicatesFromSortedList/Naive083.py)|-|-
 |  094|Medium  |[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|2018/5/29|Binary Tree|[Recursive-O(n)](Python3/BinaryTree/BinaryTreeInorderTraversal/Recursive94.py), [Iterative-O(n)](Python3/BinaryTree/BinaryTreeInorderTraversal/Iterative94.py)|[Note](Python3/BinaryTree/BinaryTreeInorderTraversal/Note94.md)|-
@@ -114,6 +115,7 @@ Test all the units (in the main directory):
 |  687|Medium  |[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|TODO|Binary Tree||[Note](Python3/BinaryTree/LongestUnivaluePath/Note687.md)|-
 |👍 752|Medium  |[Open the Lock](https://leetcode.com/problems/open-the-lock/)|2019/7/5|Search|[BFS-O(n²)](Python3/Search/OpenTheLock/BFS752.py)|[Note](Python3/Search/OpenTheLock/Note752.md)|Improve time complexity
 |  801|Medium  |[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|TODO|Array||[Note](Python3/Array/MinimumSwapsToMakeSequencesIncreasing/Note801.md)|-
+|👍 1143|Medium  |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|TODO|String|||DP
 
 ## LeetCode Learn Progress
 
@@ -152,8 +154,14 @@ Circular Queue|2019/7/4 |Data Structure|[C++](Learn/Cpp/Queue/CircularQueue.cpp)
 
 ## Notes
 
-* [Binary Tree](python3/BinaryTree/BinaryTree.md)
-* [Dynamic Programming](python3/DynamicProgramming/DynamicProgramming.md)
+Data Structure
+
+* [Queue and Stack](Notes/DataStructure/QueueStack.md)
+* [Binary Tree](Notes/DataStructure/BinaryTree.md)
+
+Algorithm
+
+* [Dynamic Programming](Notes/Algorithm/DynamicProgramming.md)
 
 ## Resources
 

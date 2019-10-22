@@ -54,7 +54,7 @@ For each recursion level, we can only focus on the problem within one single nod
 "Top-down" means that in each recursion level, we will visit the node first to come up with some values, and pass these values to its children when calling the function recursively.
 So the "top-down" solution can be considered as kind of **preorder** traversal.
 
-```
+```txt
 top_down(root, params)
 
 1. return specific value for null node
@@ -68,7 +68,7 @@ For instance, consider this problem: given a binary tree, find its maximum depth
 
 We know that the depth of the root node is 1. For each node, if we know the depth of the node, we will know the depth of its children. Therefore, if we pass the depth of the node as a parameter when calling the function recursively, all the nodes know the depth of themselves. And for leaf nodes, we can use the depth to update the final answer.
 
-```
+```txt
 maximum_depth(root, depth)
 
 1. return if root is null
@@ -99,7 +99,7 @@ void maximum_depth(TreeNode* root, int depth) {
 "Bottom-up" is another recursion solution. In each recursion level, we will firstly call the functions recursively for all the children nodes and then come up with the answer according to the return values and the value of the root node itself.
 This process can be regarded as kind of **postorder** traversal.
 
-```
+```txt
 bottom_up(root)
 
 1. return specific value for null node
@@ -114,7 +114,7 @@ If we know the maximum depth l of the subtree rooted at its left child and the m
 
 It means that for each node, we can get the answer after solving the problem of its children. Therefore, we can solve this problem using a "bottom-up" solution.
 
-```
+```txt
 maximum_depth(root)
 
 1. return 0 if root is null                 // return 0 for null node
@@ -148,12 +148,12 @@ Or you can think the problem in this way: for a node in a tree, if you know the 
 ## Summary
 
 * Depth-First Search
-    * Pre-order Traversal
-    * In-order Traversal (change output order)
-    * Post-order Traversal (change output order)
+  * Pre-order Traversal
+  * In-order Traversal (change output order)
+  * Post-order Traversal (change output order)
 
 * Breath-First Search
-    * Level-order Traversal
+  * Level-order Traversal
 
 ## LeetCode Remark
 
