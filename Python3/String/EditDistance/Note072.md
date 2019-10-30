@@ -46,16 +46,26 @@ Summary
 
 ## Solution
 
+### Recursive
+
+* Time Complexity: $O(m^n)$
+* Space Complexity: $O(m^n)$
+
 ### Dynamic Programming
 
 * Time Complexity: $O(m \times n)$
-* Space Complexity: $O(m \times n)$
+* Space Complexity: $O(m \times n)$ (can be optimize to $O(n)$)
 
 1. Use a table to store the optimal result
    1. Table size with (m+1)x(n+1)
    2. Initial the first column and first row of table to be 0 to length
 2. Compare character by character => to see when the new char come, what operation can we apply to make two words be the same
    * use the conclusion of the rules
+
+## Others' Solution
+
+* [C++ O(n)-space DP - LeetCode Discuss](https://leetcode.com/problems/edit-distance/discuss/25846/C%2B%2B-O%28n%29-space-DP) - optimize the space complexity
+* [Python solutions and intuition - LeetCode Discuss](https://leetcode.com/problems/edit-distance/discuss/159295/Python-solutions-and-intuition) - from recursive to caching to dynamic programming
 
 ## Resources
 

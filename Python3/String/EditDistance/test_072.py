@@ -1,4 +1,5 @@
 from DP072 import Solution as DP
+from Recursive072 import Solution as Recursive
 
 testcase = [
     ("horse", "ros", 3),
@@ -13,3 +14,7 @@ testcase = [
 def test_dp():
     for word1, word2, ans in testcase:
         assert DP().minDistance(word1, word2) == ans   
+
+def test_recursive():
+    for word1, word2, ans in testcase:
+        assert Recursive().minDistance(word1, word2) == ans   
