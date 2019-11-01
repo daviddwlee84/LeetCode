@@ -92,7 +92,7 @@ Test all the units (in the main directory):
 |  109|Medium  |[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|TODO|Binary Tree|[Naive-O(n)](Python3/BinaryTree/ConvertBinarySearchTreeToSortedDoublyLinkedList/Naive109.py)|[Note](Python3/BinaryTree/ConvertBinarySearchTreeToSortedDoublyLinkedList/Note109.md)|-
 |👍 112|Easy    |[Path Sum](https://leetcode.com/problems/path-sum/)|2018/6/8|Binary Tree|[Naive-O(n)](Python3/BinaryTree/PathSum/Naive112.py)|[Note](Python3/BinaryTree/PathSum/Note112.md)|Can be imporved
 |  116|Medium  |[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|TODO|Tree|[DFS-O(n)](Python3/BinaryTree/PopulatingNextRightPointersInEachNode/DFS116.py)|[Note](Python3/BinaryTree/PopulatingNextRightPointersInEachNode/Note116.md)|-
-|  111|Easy    |[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|TODO|Binary Tree|||-
+|  111|Easy    |[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|2019/11/1|Binary Tree|[BFS-O(n)](Python3/BinaryTree/MinimumDepthofBinaryTree/BFS111.py)||-
 |  121|Easy    |[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|2018/6/13|DP|[DP-O(n)](Python3/DynamicProgramming/BestTimetoBuyandSellStock/DP121.py)|[Note](Python3/DynamicProgramming/BestTimetoBuyandSellStock/Note121.md)|-
 |  122|Easy    |[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|2018/6/14|Array|[Greedy-O(n)](Python3/Array/BestTimetoBuyandSellStockII/Greedy122.py), [Tricky-O(n)](Python3/Array/BestTimetoBuyandSellStockII/Tricky122.py)|[Note](Python3/Array/BestTimetoBuyandSellStockII/Note122.md)|-
 |👍 128|Hard    |[Longest Consecutive Sequence](https://leetcode.com/problems/longest-turbulent-subarray/)|TODO|String|||
@@ -193,6 +193,7 @@ Algorithm
   * [《LeetCode題解》](https://legacy.gitbook.com/book/siddontang/leetcode-solution/details)
 * JavaScript
   * [《初學者練習 - LeetCode with Javascript》](https://legacy.gitbook.com/book/skyyen999/-leetcode-with-javascript/details)
+  * [azl397985856/leetcode: LeetCode Solutions: A Record of My Problem Solving Journey.](https://github.com/azl397985856/leetcode)
 * Go
   * [LeetCode-in-Go](https://github.com/aQuaYi/LeetCode-in-Go)
 * Mixed
