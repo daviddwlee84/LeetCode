@@ -11,31 +11,33 @@ Test all the units (in the main directory):
 ### Symbols
 
 * Difficulty:
-    * Harder: ▲
-    * Same: -
-    * Easier: ▼
+  * Harder: ▲
+  * Same: -
+  * Easier: ▼
 * Important: *
 * Good: 👍
 
 ### Abbreviation
 
 * Algorithm
-    * DP - Dynamic Programming
-    * DC - Divide and Conquer
+  * DP - Dynamic Programming
+  * DC - Divide and Conquer
 * Data Structure
-    * HT - Hash Table
-    * BST - Binary Search Tree
+  * HT - Hash Table
+  * BST - Binary Search Tree
 * Others
-    * BM - Bit Manipulation
+  * BM - Bit Manipulation
+
+> Naive means the first thought of mine (usually a little better than Brute-Force, but may need to be optimized.)
 
 ### Remark
 
 * Catagory
-    * `Catagory1, Catagory2, ...`
-    * Usually record in Data Structure. (The Algorithm strategy will be noted in the Method field)
-    * Code will be put in the main catagory folder (i.e. the first one).
-    * Some catagory may be the Related Topic tags marked by LeetCode.
-    * TODO: Most of the categories need to be updated. (The date before 2018/9/22)
+  * `Catagory1, Catagory2, ...`
+  * Usually record in Data Structure. (The Algorithm strategy will be noted in the Method field)
+  * Code will be put in the main catagory folder (i.e. the first one).
+  * Some catagory may be the Related Topic tags marked by LeetCode.
+  * TODO: Most of the categories need to be updated. (The date before 2018/9/22)
 
 |Number | Difficulty | Problem | Date | Category | Method-TimeComplexity | Remark | TODO |
 |-------------:|-------------|-------------|-------------|-------------|-------------|-------------|------|
@@ -114,7 +116,7 @@ Test all the units (in the main directory):
 |  236|Medium  |[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|2018/6/10|Binary Tree|[Naive-O(n)](Python3/BinaryTree/LowestCommonAncestorofaBinaryTree/Naive236.py)|[Note](Python3/BinaryTree/LowestCommonAncestorofaBinaryTree/Note236.md)|Maybe has another approach
 |👍 257|Easy ▲  |[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|2018/6/11|Binary Tree|[Iterative-O(n)](Python3/BinaryTree/BinaryTreePaths/Iterative257.py), [Recursive-O(n)](Python3/BinaryTree/BinaryTreePaths/Recursive257.py)|[Note](Python3/BinaryTree/BinaryTreePaths/Note257.md)|-
 |👍 279|Medium  |[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|2019/8/22|Search|[BFS-O(n)](Python3/Search/PerfectSquares/BFS279.py)|[Note](Python3/Search/PerfectSquares/Note279.md)|DP solution
-|  297|Hard    |[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|TODO|Binary Tree||[Note](Python3/BinaryTree/SerializeandDeserializeBinaryTree/Note297.md)|-
+|  297|Hard    |[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|2019/11/14|Binary Tree|[Naive-O(n)](Python3/BinaryTree/SerializeAndDeserializeBinaryTree/Naive297.py)|[Note](Python3/BinaryTree/SerializeAndDeserializeBinaryTree/Note297.md)|-
 |👍 300|Medium  |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|2019/11/11|Array|[BruteForce-O(2ⁿ)](Python3/Array/LongestIncreasingSubsequence/BruteForce300.py), [MemoryRecursive-O(n²)](Python3/Array/LongestIncreasingSubsequence/MemoryRecursive300.py), [DP-O(n²)](Python3/Array/LongestIncreasingSubsequence/DP300.py), [BinarySearch-O(nlogn)](Python3/Array/LongestIncreasingSubsequence/BinarySearch300.py)|[Note](Python3/Array/LongestIncreasingSubsequence/Note300.md)|-
 |👍 347|Medium  |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|2019/9/27|Array|[HT-O(n)](Python3/Array/TopKFrequentElements/HTHeap347.py)|[Note](Python3/Array/TopKFrequentElements/Note347.md)|-
 |👍 426|Medium  |[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)|TODO|BST|Need subscription||-
