@@ -2,6 +2,10 @@
 
 ## Testing
 
+* local dependencies
+  * `pytest`
+  * `pytest-cov`
+
 ### Correctness (based on [pytest](https://docs.pytest.org/en/latest/contents.html))
 
 Test all the units (in the main directory):
@@ -9,6 +13,10 @@ Test all the units (in the main directory):
 `py.test -v`
 
 ### Code Coverage
+
+`pytest --cov-report term --cov Python3/`
+
+> if successful you should see a new `.coverage` file
 
 * [Code Coverage Done Right | Codecov](https://codecov.io/)
 * [codecov/codecov-python: Python report uploader for Codecov](https://github.com/codecov/codecov-python)
