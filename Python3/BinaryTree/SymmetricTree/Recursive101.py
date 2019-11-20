@@ -16,7 +16,7 @@ class Solution:
         elif not leftnode or not rightnode: # Only one reach leaf
             return False
         else:
-            '''
+            r'''
                 O
                / \
               A   A

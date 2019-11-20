@@ -8,8 +8,6 @@
 # i.e. The stringToTreeNode, treeNodeToList function in my TreeNodeModule.py
 # follow the LeetCode convention
 
-import sys
-sys.path.append('..')
 from collections import deque
 from BinaryTree.TreeNodeModule import TreeNode, stringToTreeNode, treeNodeToList
 

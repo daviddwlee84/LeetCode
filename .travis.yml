@@ -2,14 +2,13 @@
 language: python
 python:
   - 3.6
-# command to install dependencies
 before_install:
   - python --version
+# command to install dependencies
+install:
   - pip install -U pip
   - pip install -U pytest
   - pip install codecov
-#install:
-#  - pip install ".[test]" . # install package + test dependencies
 # command to run tests
 script: # run tests
   - pytest # or py.test for Python version 3.5 and below
