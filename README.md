@@ -1,10 +1,19 @@
-# David's LeetCode Practice [![Build Status](https://travis-ci.org/daviddwlee84/LeetCode.svg?branch=master)](https://travis-ci.org/daviddwlee84/LeetCode)
+# David's LeetCode Practice [![Build Status](https://travis-ci.org/daviddwlee84/LeetCode.svg?branch=master)](https://travis-ci.org/daviddwlee84/LeetCode) [![codecov](https://codecov.io/gh/daviddwlee84/LeetCode/branch/master/graph/badge.svg)](https://codecov.io/gh/daviddwlee84/LeetCode)
 
-## Testing (based on [pytest](https://docs.pytest.org/en/latest/contents.html))
+## Testing
+
+### Correctness (based on [pytest](https://docs.pytest.org/en/latest/contents.html))
 
 Test all the units (in the main directory):
 
 `py.test -v`
+
+### Code Coverage
+
+* [Code Coverage Done Right | Codecov](https://codecov.io/)
+* [codecov/codecov-python: Python report uploader for Codecov](https://github.com/codecov/codecov-python)
+* [codecov/example-python: Python coverage example](https://github.com/codecov/example-python)
+* [Frequently Asked Questions - Where is the repository upload token found?](https://docs.codecov.io/docs/frequently-asked-questions#section-where-is-the-repository-upload-token-found-)
 
 ## Python3 Progress
 

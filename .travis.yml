@@ -1,9 +1,17 @@
+# https://blog.travis-ci.com/2019-08-07-extensive-python-testing-on-travis-ci
 language: python
 python:
-  - "3.6"
+  - 3.6
 # command to install dependencies
-install:
-  - pip install pytest requests
+before_install:
+  - python --version
+  - pip install -U pip
+  - pip install -U pytest
+  - pip install codecov
+#install:
+#  - pip install ".[test]" . # install package + test dependencies
 # command to run tests
-script:
-  - pytest # or py.test for Python versions 3.5 and below
+script: # run tests
+  - pytest # or py.test for Python version 3.5 and below
+after_success:
+  - codecov # submit coverage
