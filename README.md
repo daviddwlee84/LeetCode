@@ -5,6 +5,7 @@
 * local dependencies
   * `pytest`
   * `pytest-cov`
+  * `coverage`
 
 ### Correctness (based on [pytest](https://docs.pytest.org/en/latest/contents.html))
 
@@ -18,10 +19,14 @@ Test all the units (in the main directory):
 
 > if successful you should see a new `.coverage` file
 
+`coverage report`
+
+* [Coverage.py — Coverage.py 4.3.4 documentation](https://coverage.readthedocs.io/en/coverage-4.3.4/index.html)
 * [Code Coverage Done Right | Codecov](https://codecov.io/)
 * [codecov/codecov-python: Python report uploader for Codecov](https://github.com/codecov/codecov-python)
 * [codecov/example-python: Python coverage example](https://github.com/codecov/example-python)
 * [Frequently Asked Questions - Where is the repository upload token found?](https://docs.codecov.io/docs/frequently-asked-questions#section-where-is-the-repository-upload-token-found-)
+* [Excluding code from coverage.py — Coverage.py 4.3.4 documentation](https://coverage.readthedocs.io/en/coverage-4.3.4/excluding.html)
 
 ## Python3 Progress
 
