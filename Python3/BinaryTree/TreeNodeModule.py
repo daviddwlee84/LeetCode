@@ -17,6 +17,8 @@ class TreeNode:
 """
 # If parent's index is i then it's left child is i*2 and right child is i*2+1
 def listToBinaryTree(lst):
+    if len(lst) == 0:
+        return None
     root = TreeNode(lst[0])
     nodeList = [root]
     for i in range(2, len(lst)+1):

@@ -1,4 +1,4 @@
-from BinaryTree.MinimumDepthofBinaryTree.BFS111 import Solution as BFS
+from BinaryTree.MinimumDepthOfBinaryTree.BFS111 import Solution as BFS
 import BinaryTree.TreeNodeModule as tn
 
 raw_testcase = [
