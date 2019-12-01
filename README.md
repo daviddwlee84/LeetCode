@@ -103,7 +103,7 @@ Test all the units (in the main directory):
 |  067|Easy    |[Add Binary](https://leetcode.com/problems/add-binary/)|2019/10/22|String|[Adder-O(n)](Python3/String/AddBinary/Naive067.py)|-|-
 |  069|Easy    |[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|2019/10/22|Search|[Naive-O(n)](Python3/Search/Sqrt_x/Naive069.py), [BinarySearch-O(logn)](Python3/Search/Sqrt_x/BinarySearch069.py)|-|-
 |  070|Easy    |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|2018/6/13|DP|[DP-O(n)](Python3/DynamicProgramming/ClimbingStairs/DP070.py), [Recursive-O(n)](Python3/DynamicProgramming/ClimbingStairs/Recursive070.py)|[Note](Python3/DynamicProgramming/ClimbingStairs/Note070.md)|-
-|👍 072|Hard    |[Edit Distance](https://leetcode.com/problems/edit-distance/)|2019/10/30|String|[DP-O(mn)](Python3/String/EditDistance/DP072.py), [Recursive-O(m^n)](Python3/String/EditDistance/Recursive072.py)|[Note](Python3/String/EditDistance/Note072.md)|-
+|👍 072|Hard    |[Edit Distance](https://leetcode.com/problems/edit-distance/)|2019/10/30|String|[DP-O(mn)](Python3/String/EditDistance/DP072.py), [Recursive-O(mⁿ)](Python3/String/EditDistance/Recursive072.py)|[Note](Python3/String/EditDistance/Note072.md)|-
 |👍 078|Medium  |[Subsets](https://leetcode.com/problems/subsets/)|2018/6/27|BM|[Binary-O(2ⁿ)](Python3/BitManipulation/Subsets/Binary078.py), [DFSBased-O(2ⁿ)](Python3/BitManipulation/Subsets/DFS078.py), [Backtracking-O(2ⁿ)](Python3/BitManipulation/Subsets/Backtracking078.py)|[Note](Python3/BitManipulation/Subsets/Note078.md)|-
 |  083|Easy    |[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|2019/10/22|Linked List|[Naive-O(n)](Python3/LinkedList/RemoveDuplicatesFromSortedList/Naive083.py)|-|-
 |  088|Easy    |[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|2019/11/18|Array|[Naive-O(n)](Python3/Array/MergeSortedArray/Naive088.py)||-
@@ -153,6 +153,27 @@ Test all the units (in the main directory):
 |  801|Medium  |[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|TODO|Array||[Note](Python3/Array/MinimumSwapsToMakeSequencesIncreasing/Note801.md)|-
 |👍 978|Medium  |[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|TODO|String|||
 |👍 1143|Medium  |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|2019/10/22|String|[BruteForce-O(2^n)](Python3/String/LongestCommonSubsequence/BruteForce1143.py), [DP-O(mn)](Python3/String/LongestCommonSubsequence/DP1143.py)|[Note](Python3/String/LongestCommonSubsequence/Note1143.md)|DP
+
+## Weekly Contest
+
+### Weekly Contest 163
+
+* [Weekly Contest 163](https://leetcode.com/contest/weekly-contest-163)
+* [Ranking](https://leetcode.com/contest/weekly-contest-163/ranking)
+
+|Number | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------:|------------|-------------------|------|-----------------------|-------------|------|
+|   1260|Easy        |[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) ([contest](https://leetcode.com/contest/weekly-contest-163/problems/shift-2d-grid/)) |2019/11/17|[Naive](Contest/WeeklyContest163/1260-Shift2DGrid.py)|-|-
+
+### Weekly Contest 165
+
+* [Weekly Contest 165](https://leetcode.com/contest/weekly-contest-165)
+* [Ranking](https://leetcode.com/contest/weekly-contest-165/ranking/)
+
+|Number | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------:|------------|-------------------|------|-----------------------|-------------|------|
+|   1275|Easy        |[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) ([contest](https://leetcode.com/contest/weekly-contest-165/problems/find-winner-on-a-tic-tac-toe-game/)) |2019/12/1|[Naive](Contest/WeeklyContest165/1275-FindWinnerOnATicTacToeGame.py)|-|-
+|   1276|Medium      |[Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/) ([contest](https://leetcode.com/contest/weekly-contest-165/problems/number-of-burgers-with-no-waste-of-ingredients/)) |2019/12/1|[Naive](Contest/WeeklyContest165/1275-FindWinnerOnATicTacToeGame.py)|-|-
 
 ## LeetCode Learn Progress
 
