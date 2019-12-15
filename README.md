@@ -177,6 +177,16 @@ Test all the units (in the main directory):
 |   1275|Easy        |[Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) ([contest](https://leetcode.com/contest/weekly-contest-165/problems/find-winner-on-a-tic-tac-toe-game/)) |2019/12/1|[Naive](Contest/WeeklyContest165/1275-FindWinnerOnATicTacToeGame.py)|-|-
 |   1276|Medium      |[Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients/) ([contest](https://leetcode.com/contest/weekly-contest-165/problems/number-of-burgers-with-no-waste-of-ingredients/)) |2019/12/1|[Naive](Contest/WeeklyContest165/1275-FindWinnerOnATicTacToeGame.py)|-|-
 
+### Weekly Contest 167
+
+* [Weekly Contest 167](https://leetcode.com/contest/weekly-contest-167/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-167/ranking/)
+
+|Number | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------:|------------|-------------------|------|-----------------------|-------------|------|
+|   1290|Easy        |[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) ([contest](https://leetcode.com/contest/weekly-contest-167/problems/convert-binary-number-in-a-linked-list-to-integer/)) |2019/12/15|[Naive](Contest/WeeklyContest167/1290-ConvertBinaryNumberInALinkedListToInteger.py)|-|-
+|   1291|Medium      |[Sequential Digits](https://leetcode.com/problems/sequential-digits/) ([contest](https://leetcode.com/contest/weekly-contest-167/problems/sequential-digits/)) |2019/12/15|[Naive](Contest/WeeklyContest167/1291-SequentialDigits.py)|-|-
+
 ## LeetCode Learn Progress
 
 > [LeetCode Explore Learn](https://leetcode.com/explore/learn/)
