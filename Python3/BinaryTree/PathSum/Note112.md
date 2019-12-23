@@ -10,7 +10,7 @@ Given a binary tree and a sum, determine if the tree has a root-to-leaf path suc
 
 Given the below binary tree and `sum = 22`,
 
-```
+```txt
       5
      / \
     4   8
@@ -21,7 +21,6 @@ Given the below binary tree and `sum = 22`,
 ```
 
 return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
-
 
 ## Solution
 
