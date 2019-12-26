@@ -209,9 +209,10 @@ Introduction to Data Structure
 * [Binary Search Tree](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/)
 * [Trie](https://leetcode.com/explore/learn/card/trie)
 
-Design        |  Date   |   Category   |  Implementaiton  |  Remark  | TODO |
---------------|---------|--------------|------------------|----------|------|
-Circular Queue|2019/7/4 |Data Structure|[C++](Learn/Cpp/Queue/CircularQueue.cpp)|[Note](Notes/QueueStack.md#Circular-Queue)|-
+Design        |  Date    |   Category   |  Implementaiton  |  Remark  | TODO |
+--------------|----------|--------------|------------------|----------|------|
+Circular Queue|2019/7/4  |Data Structure|[C++](Learn/Cpp/Queue/CircularQueue.cpp)|[Note](Notes/DataStructure/QueueStack.md#Circular-Queue), [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|-
+Min Stack     |2019/12/26|Data Structure|[C++](Learn/Cpp/Stack/MinStack.cpp)|[Min Stack](https://leetcode.com/problems/min-stack/)|-
 
 ## DIY Progress
 
@@ -244,6 +245,9 @@ Algorithm
 
 * [LeetFree](https://www.leetfree.com/)
 * [Codeforces](http://codeforces.com/)
+* [Newcoder](https://www.nowcoder.com/)
+  * [劍指Offer](https://www.nowcoder.com/ta/coding-interviews)
+* [AlgoExpert](https://www.algoexpert.io)
 
 ### LeetCode Links
 

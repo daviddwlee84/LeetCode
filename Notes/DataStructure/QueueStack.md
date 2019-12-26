@@ -156,3 +156,59 @@ int BFS(Node root, Node target) {
 >
 > * You are absolutely sure there is no cycle, for example, in tree traversal;
 > * You do want to add the node to the queue multiple times.
+
+## Stack: Last-in-first-out Data Structure
+
+Goals:
+
+1. Understand the `definition` of LIFO and Stack;
+2. Be able to `implement` a stack using dynamic array;
+3. Be familiar with the `built-in stack structure`;
+4. Be able to use a stack to solve problems.
+
+### Last-in-first-out Data Structure
+
+should support two operations: `push` and `pop`
+
+```cpp
+#include <iostream>
+
+class MyStack {
+    private:
+        vector<int> data;               // store elements
+    public:
+        /** Insert an element into the stack. */
+        void push(int x) {
+            data.push_back(x);
+        }
+        /** Checks whether the queue is empty or not. */
+        bool isEmpty() {
+            return data.empty();
+        }
+        /** Get the top item from the queue. */
+        int top() {
+            return data.back();
+        }
+        /** Delete an element from the queue. Return true if the operation is successful. */
+        bool pop() {
+            if (isEmpty()) {
+                return false;
+            }
+            data.pop_back();
+            return true;
+        }
+};
+
+int main() {
+    MyStack s;
+    s.push(1);
+    s.push(2);
+    s.push(3);
+    for (int i = 0; i < 4; ++i) {
+        if (!s.isEmpty()) {
+            cout << s.top() << endl;
+        }
+        cout << (s.pop() ? "true" : "false") << endl;
+    }
+}
+```
