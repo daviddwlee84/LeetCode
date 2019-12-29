@@ -1,5 +1,6 @@
 # David's LeetCode Practice [![Build Status](https://travis-ci.org/daviddwlee84/LeetCode.svg?branch=master)](https://travis-ci.org/daviddwlee84/LeetCode) [![codecov](https://codecov.io/gh/daviddwlee84/LeetCode/branch/master/graph/badge.svg)](https://codecov.io/gh/daviddwlee84/LeetCode)
 
+
 ## Testing
 
 * local dependencies
@@ -196,6 +197,18 @@ Test all the units (in the main directory):
 |------:|------------|-------------------|------|-----------------------|-------------|------|
 |   1290|Easy        |[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) ([contest](https://leetcode.com/contest/weekly-contest-167/problems/convert-binary-number-in-a-linked-list-to-integer/)) |2019/12/15|[Naive](Contest/WeeklyContest167/1290-ConvertBinaryNumberInALinkedListToInteger.py)|-|-
 |   1291|Medium      |[Sequential Digits](https://leetcode.com/problems/sequential-digits/) ([contest](https://leetcode.com/contest/weekly-contest-167/problems/sequential-digits/)) |2019/12/15|[Naive](Contest/WeeklyContest167/1291-SequentialDigits.py)|-|-
+
+### Weekly Contest 169
+
+* [Weekly Contest 169](https://leetcode.com/contest/weekly-contest-169/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-169/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) ([contest](https://leetcode.com/contest/weekly-contest-169/problems/find-n-unique-integers-sum-up-to-zero/))|2019/12/29|[Naive](Contest/WeeklyContest169/FindNUniqueIntegersSumUpToZero.py)|-|-
+|Medium ▼    |[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) ([contest](https://leetcode.com/contest/weekly-contest-169/problems/all-elements-in-two-binary-search-trees/))|2019/12/29|[Naive](Contest/WeeklyContest169/AllElementsInTwoBinarySearchTrees.py)|-|-
+|Medium      |[Jump Game III](https://leetcode.com/problems/jump-game-iii/) ([contest](https://leetcode.com/contest/weekly-contest-169/problems/jump-game-iii/))|2019/12/29|[Naive](Contest/WeeklyContest169/JumpGameIII.py)|-|-
+|Hard        |[Verbal Arithmetic Puzzle](https://leetcode.com/problems/verbal-arithmetic-puzzle/) ([contest](https://leetcode.com/contest/weekly-contest-169/problems/verbal-arithmetic-puzzle/))|TODO|[Naive](Contest/WeeklyContest169/VerbalArithmeticPuzzle.py)|-|Backtracking + Pruning
 
 ## LeetCode Learn Progress
 
