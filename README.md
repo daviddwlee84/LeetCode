@@ -119,6 +119,7 @@ Test all the units (in the main directory):
 |👍  104|Easy   |[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|2018/6/8|Binary Tree|[Top-Down-O(n)](Python3/BinaryTree/MaximumDepthofBinaryTree/TopDown104.py), [Bottom-up-O(n)](Python3/BinaryTree/MaximumDepthofBinaryTree/BottomUp104.py), [Top-Down2-O(n)](Python3/BinaryTree/MaximumDepthofBinaryTree/TopDown104_2.py)|[Note](Python3/BinaryTree/MaximumDepthofBinaryTree/Note104.md)|-
 |  105|Medium  |[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|2018/6/9|Binary Tree|[DC-O(n)](Python3/BinaryTree/ConstructBinaryTreefromPreorderandInorderTraversal/DivideAndConquer105.py)|[Note](Python3/BinaryTree/ConstructBinaryTreefromPreorderandInorderTraversal/Note105.md)|-
 |  106|Medium  |[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|2018/6/8|Binary Tree|[DC-O(n)](Python3/BinaryTree/ConstructBinaryTreefromInorderandPostorderTraversal/DivideAndConquer106.py)|[Note](Python3/BinaryTree/ConstructBinaryTreefromInorderandPostorderTraversal/Note106.md)|-
+|  107|Easy    |[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|2019/12/30|Binary Tree|[Naive-O(n)](Python3/BinaryTree/BinaryTreeLevelOrderTraversalII/Naive107.py)|-|-
 |  108|Easy    |[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|2019/11/13|BST|[Recursive-O(n)](Python3/BinaryTree/ConvertSortedArrayToBinarySearchTree/Recursive108.py)|[Note](Python3/BinaryTree/ConvertSortedArrayToBinarySearchTree/Note108.md)|Test case
 |  109|Medium  |[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|2019/11/13|BST|[TwoPointerRecursive-O(nlogn)](Python3/BinaryTree/ConvertSortedListToBinarySearchTree/TwoPointerRecursive109.py)|[Note](Python3/BinaryTree/ConvertSortedListToBinarySearchTree/Note109.md)|Inorder Simulation, Test case
 |  111|Easy    |[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|2019/11/1|Binary Tree|[BFS-O(n)](Python3/BinaryTree/MinimumDepthOfBinaryTree/BFS111.py)||-
@@ -250,7 +251,50 @@ Algorithm
 * [Codeforces](http://codeforces.com/)
 * [Newcoder](https://www.nowcoder.com/)
   * [劍指Offer](https://www.nowcoder.com/ta/coding-interviews)
-* [AlgoExpert](https://www.algoexpert.io)
+
+> Paid
+>
+> * [AlgoExpert](https://www.algoexpert.io)
+> * [Grokking **Dynamic Programming Patterns** for Coding Interviews](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews)
+>   1. 0/1 Knapsack
+>      * Equal Subset Sum Partition
+>      * Subset Sum
+>      * Minimum Subset Sum Difference
+>      * Count of Subset Sum
+>      * Target Sum
+>   2. Unbounded Knapsack
+>      * Unbounded Knapsack
+>      * Rod Cutting
+>      * Coin Change
+>      * Minimum Coin Change
+>      * Maximum Ribbon Cut
+>   3. Fibonacci Numbers
+>      * Fibonacci numbers
+>      * Staircase
+>      * Number factors
+>      * Minimum jumps to reach the end
+>      * Minimum jumps with fee
+>      * House thief
+>   4. Palindromic Subsequence
+>      * Longest Palindromic Subsequence
+>      * Longest Palindromic Substring
+>      * Count of Palindromic Substrings
+>      * Minimum Deletions in a String to make it a Palindrome
+>      * Palindromic Partitioning
+>   5. Longest Common Substring
+>      * Longest Common Substring
+>      * Longest Common Subsequence
+>      * Minimum Deletions & Insertions to Transform a String into another
+>      * Longest Increasing Subsequence
+>      * Maximum Sum Increasing Subsequence
+>      * Shortest Common Super-sequence
+>      * Minimum Deletions to Make a Sequence Sorted
+>      * Longest Repeating Subsequence
+>      * Subsequence Pattern Matching
+>      * Longest Bitonic Subsequence
+>      * Longest Alternating Subsequence
+>      * Edit Distance
+>      * Strings Interleaving
 
 ### LeetCode Links
 
