@@ -215,6 +215,18 @@ Test all the units (in the main directory):
 |Medium      |[Jump Game III](https://leetcode.com/problems/jump-game-iii/) ([contest](https://leetcode.com/contest/weekly-contest-169/problems/jump-game-iii/))|2019/12/29|[Naive](Contest/WeeklyContest169/JumpGameIII.py)|-|-
 |Hard        |[Verbal Arithmetic Puzzle](https://leetcode.com/problems/verbal-arithmetic-puzzle/) ([contest](https://leetcode.com/contest/weekly-contest-169/problems/verbal-arithmetic-puzzle/))|TODO|[Naive](Contest/WeeklyContest169/VerbalArithmeticPuzzle.py)|-|Backtracking + Pruning
 
+### Weekly Contest 170
+
+* [Weekly Contest 170](https://leetcode.com/contest/weekly-contest-170/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-170/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) ([contest](https://leetcode.com/contest/weekly-contest-170/problems/decrypt-string-from-alphabet-to-integer-mapping/))|2020/1/5|[Naive](Contest/WeeklyContest170/FindNUniqueIntegersSumUpToZero.py)|-|-
+|Medium      |[All Elements in Two Binary Search Trees](https://leetcode.com/problems/xor-queries-of-a-subarray/) ([contest](https://leetcode.com/contest/weekly-contest-170/problems/xor-queries-of-a-subarray/))|2020/1/5|[Naive](Contest/WeeklyContest170/AllElementsInTwoBinarySearchTrees_Naive.py), [D&C w/ Memory](Contest/WeeklyContest170/AllElementsInTwoBinarySearchTrees_DCMem.py), [XOR property](Contest/WeeklyContest170/AllElementsInTwoBinarySearchTrees_XOR.py)|-|-
+|Medium      |[Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/) ([contest](https://leetcode.com/contest/weekly-contest-170/problems/get-watched-videos-by-your-friends/))|2020/1/5|[BFS](Contest/WeeklyContest170/GetWatchedVideosByYourFriends.py)|-|-
+|Hard        |[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) ([contest](https://leetcode.com/contest/weekly-contest-170/problems/minimum-insertion-steps-to-make-a-string-palindrome/))|TODO|-|-|Find mid and compare LCS of head & tail
+
 ## LeetCode Learn Progress
 
 > [LeetCode Explore Learn](https://leetcode.com/explore/learn/)
