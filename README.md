@@ -120,21 +120,26 @@ Test all the units (in the main directory):
 |👍  104|Easy   |[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|2018/6/8|Binary Tree|[Top-Down-O(n)](Python3/BinaryTree/MaximumDepthofBinaryTree/TopDown104.py), [Bottom-up-O(n)](Python3/BinaryTree/MaximumDepthofBinaryTree/BottomUp104.py), [Top-Down2-O(n)](Python3/BinaryTree/MaximumDepthofBinaryTree/TopDown104_2.py)|[Note](Python3/BinaryTree/MaximumDepthofBinaryTree/Note104.md)|-
 |  105|Medium  |[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|2018/6/9|Binary Tree|[DC-O(n)](Python3/BinaryTree/ConstructBinaryTreefromPreorderandInorderTraversal/DivideAndConquer105.py)|[Note](Python3/BinaryTree/ConstructBinaryTreefromPreorderandInorderTraversal/Note105.md)|-
 |  106|Medium  |[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|2018/6/8|Binary Tree|[DC-O(n)](Python3/BinaryTree/ConstructBinaryTreefromInorderandPostorderTraversal/DivideAndConquer106.py)|[Note](Python3/BinaryTree/ConstructBinaryTreefromInorderandPostorderTraversal/Note106.md)|-
+|  107|Easy    |[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|2019/12/30|Binary Tree|[Naive-O(n)](Python3/BinaryTree/BinaryTreeLevelOrderTraversalII/Naive107.py)|-|-
 |  108|Easy    |[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|2019/11/13|BST|[Recursive-O(n)](Python3/BinaryTree/ConvertSortedArrayToBinarySearchTree/Recursive108.py)|[Note](Python3/BinaryTree/ConvertSortedArrayToBinarySearchTree/Note108.md)|Test case
 |  109|Medium  |[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|2019/11/13|BST|[TwoPointerRecursive-O(nlogn)](Python3/BinaryTree/ConvertSortedListToBinarySearchTree/TwoPointerRecursive109.py)|[Note](Python3/BinaryTree/ConvertSortedListToBinarySearchTree/Note109.md)|Inorder Simulation, Test case
+|👍 110|Easy ▲  |[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/submissions/)|2019/12/30|Binary Tree|[Naive-O(n)](Python3/BinaryTree/BalancedBinaryTree/Naive110.py)|[Note](Python3/BinaryTree/BalancedBinaryTree/Note110.md)|improve time complexity a bit
 |  111|Easy    |[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|2019/11/1|Binary Tree|[BFS-O(n)](Python3/BinaryTree/MinimumDepthOfBinaryTree/BFS111.py)||-
 |👍 112|Easy    |[Path Sum](https://leetcode.com/problems/path-sum/)|2018/6/8|Binary Tree|[Naive-O(n)](Python3/BinaryTree/PathSum/Naive112.py)|[Note](Python3/BinaryTree/PathSum/Note112.md)|Can be imporved
 |👍 113|Medium |[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|2019/12/23|Binary Tree|[Naive-O(n)](Python3/BinaryTree/PathSumII/Naive113.py)|[Note](Python3/BinaryTree/PathSumII/Note113.md)|-
+|👍 114|Medium |[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|2019/12/31|Binary Tree|[Naive-O(n)](Python3/BinaryTree/FlattenBinaryTreeToLinkedList/Naive114.py)|[Note](Python3/BinaryTree/FlattenBinaryTreeToLinkedList/Note114.md)|more elegant way
 |  116|Medium  |[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|2019/12/24|Binary Tree|[Naive-O(n)](Python3/BinaryTree/PopulatingNextRightPointersInEachNode/Naive116.py), [DFS-O(n)](Python3/BinaryTree/PopulatingNextRightPointersInEachNode/DFS116.py)|[Note](Python3/BinaryTree/PopulatingNextRightPointersInEachNode/Note116.md)|Test
 |  117|Medium *|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|2019/12/24|Binary Tree|[DFS-O(n)](Python3/BinaryTree/PopulatingNextRightPointersInEachNodeII/DFS117.py)|[Note](Python3/BinaryTree/PopulatingNextRightPointersInEachNodeII/Note117.md)|Test
 |  118|Easy    |[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|2019/12/28|Array|[Naive-O(n)](Python3/Array/PascalsTriangle/Naive118.py)|[Note](Python3/Array/PascalsTriangle/Note118.md)|Faster approach (memory, recursive, iterative)
 |  120|Medium *|[Triangle](https://leetcode.com/problems/triangle/)|2019/12/25|Array|[Naive-O(n)](Python3/Array/Triangle/Naive120.py)|[Note](Python3/Array/Triangle/Note120.md)|less space DP
 |  121|Easy    |[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|2018/6/13|DP|[DP-O(n)](Python3/DynamicProgramming/BestTimetoBuyandSellStock/DP121.py)|[Note](Python3/DynamicProgramming/BestTimetoBuyandSellStock/Note121.md)|-
 |  122|Easy    |[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|2018/6/14|Array|[Greedy-O(n)](Python3/Array/BestTimetoBuyandSellStockII/Greedy122.py), [Tricky-O(n)](Python3/Array/BestTimetoBuyandSellStockII/Tricky122.py)|[Note](Python3/Array/BestTimetoBuyandSellStockII/Note122.md)|-
+|  125|Easy    |[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|2020/1/2|String|[Naive-O(n)](Python3/String/ValidPalindrome/Naive125.py)|-|-
 |  127|Medium *|[Word Ladder](https://leetcode.com/problems/word-ladder/)|2019/12/25|String|[BFS-O(n)](Python3/String/WordLadder/BFS127.py)|[Note](Python3/String/WordLadder/Note127.md)|Bidirectional BFS
 |👍 128|Hard ▼  |[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|2019/11/14|Array|[Naive-O(n²)](Python3/Array/LongestConsecutiveSequence/Naive128.py), [HT-O(n)](Python3/Array/LongestConsecutiveSequence/HT128.py)|[Note](Python3/Array/LongestConsecutiveSequence/Note128.md)|-
 |👍 136|Easy    |[Single Number](https://leetcode.com/problems/single-number/)|2019/12/18|Array|[HT-O(n)](Python3/Array/SingleNumber/HT136.py)|[Note](Python3/Array/SingleNumber/Note136.md)|Other solutions
 |  139|Medium  |[Word Break](https://leetcode.com/problems/word-break/)|TODO|String||[Note](Python3/String/WordBreak/Note139.md)|-
+|  141|Medium *|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|2019/12/31|Linked List|[Naive-O(n)](Python3/LinkedList/LinkedListCycle/Naive141.py), [TwoPointer-O(n)](Python3/LinkedList/LinkedListCycle/TwoPointer141.py)|[Note](Python3/LinkedList/LinkedListCycle/Note141.md)|testcase
 |  144|Medium  |[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|2018/5/29|Binary Tree|[Recursive-O(n)](Python3/BinaryTree/BinaryTreePreorderTraversal/Recursive144.py), [Iterative-O(n)](Python3/BinaryTree/BinaryTreePreorderTraversal/Iterative144.py)|[Note](Python3/BinaryTree/BinaryTreePreorderTraversal/Note144.md)|-
 |  145|Hard ▼  |[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|2018/6/2|Binary Tree|[Recursive-O(n)](Python3/BinaryTree/BinaryTreePostorderTraversal/Recursive145.py), [Iterative-O(n)](Python3/BinaryTree/BinaryTreePostorderTraversal/Iterative145.py)|[Note](Python3/BinaryTree/BinaryTreePostorderTraversal/Note145.md)|-
 |  146|Hard ▼  |[LRU Cache](https://leetcode.com/problems/lru-cache/)|2018/6/25|Design|[Naive](Python3/Design/LRUCache/Naive146.py), [OrderedDict](Python3/Design/LRUCache/OrderedDict146.py)|[Note](Python3/Design/LRUCache/Note146.md)|DoubleLinkedList
@@ -263,7 +268,50 @@ Algorithm
 * [Codeforces](http://codeforces.com/)
 * [Newcoder](https://www.nowcoder.com/)
   * [劍指Offer](https://www.nowcoder.com/ta/coding-interviews)
-* [AlgoExpert](https://www.algoexpert.io)
+
+> Paid
+>
+> * [AlgoExpert](https://www.algoexpert.io)
+> * [Grokking **Dynamic Programming Patterns** for Coding Interviews](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews)
+>   1. 0/1 Knapsack
+>      * Equal Subset Sum Partition
+>      * Subset Sum
+>      * Minimum Subset Sum Difference
+>      * Count of Subset Sum
+>      * Target Sum
+>   2. Unbounded Knapsack
+>      * Unbounded Knapsack
+>      * Rod Cutting
+>      * Coin Change
+>      * Minimum Coin Change
+>      * Maximum Ribbon Cut
+>   3. Fibonacci Numbers
+>      * Fibonacci numbers
+>      * Staircase
+>      * Number factors
+>      * Minimum jumps to reach the end
+>      * Minimum jumps with fee
+>      * House thief
+>   4. Palindromic Subsequence
+>      * Longest Palindromic Subsequence
+>      * Longest Palindromic Substring
+>      * Count of Palindromic Substrings
+>      * Minimum Deletions in a String to make it a Palindrome
+>      * Palindromic Partitioning
+>   5. Longest Common Substring
+>      * Longest Common Substring
+>      * Longest Common Subsequence
+>      * Minimum Deletions & Insertions to Transform a String into another
+>      * Longest Increasing Subsequence
+>      * Maximum Sum Increasing Subsequence
+>      * Shortest Common Super-sequence
+>      * Minimum Deletions to Make a Sequence Sorted
+>      * Longest Repeating Subsequence
+>      * Subsequence Pattern Matching
+>      * Longest Bitonic Subsequence
+>      * Longest Alternating Subsequence
+>      * Edit Distance
+>      * Strings Interleaving
 
 ### LeetCode Links
 
