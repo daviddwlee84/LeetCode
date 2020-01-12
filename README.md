@@ -227,6 +227,18 @@ Test all the units (in the main directory):
 |Medium      |[Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/) ([contest](https://leetcode.com/contest/weekly-contest-170/problems/get-watched-videos-by-your-friends/))|2020/1/5|[BFS](Contest/WeeklyContest170/GetWatchedVideosByYourFriends.py)|-|-
 |Hard        |[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) ([contest](https://leetcode.com/contest/weekly-contest-170/problems/minimum-insertion-steps-to-make-a-string-palindrome/))|TODO|-|-|Find mid and compare LCS of head & tail
 
+### Weekly Contest 171
+
+* [Weekly Contest 171](https://leetcode.com/contest/weekly-contest-171/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-171/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) ([contest](https://leetcode.com/contest/weekly-contest-171/problems/convert-integer-to-the-sum-of-two-no-zero-integers/))|TODO|[Naive](Contest/WeeklyContest171/ConvertIntegerToTheSumOfTwoNoZeroIntegers.py)|-|-
+|Medium      |[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) ([contest](https://leetcode.com/contest/weekly-contest-171/problems/minimum-flips-to-make-a-or-b-equal-to-c/))|2020/1/12|[Naive](Contest/WeeklyContest171/MinimumFlipsToMakeAOrBEqualToC.py)|-|-
+|Medium      |[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) ([contest](https://leetcode.com/contest/weekly-contest-171/problems/number-of-operations-to-make-network-connected/))|TODO|-|-|-
+|Hard        |[Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/) ([contest](https://leetcode.com/contest/weekly-contest-171/problems/minimum-distance-to-type-a-word-using-two-fingers/))|TODO|-|-|3D array DP `dp[ith char][left finger][right finger]`
+
 ## LeetCode Learn Progress
 
 > [LeetCode Explore Learn](https://leetcode.com/explore/learn/)
@@ -361,6 +373,10 @@ Algorithm
 * Python Operations Time Complexity
   * [Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
   * [TimeComplexity - Python Wiki](https://wiki.python.org/moin/TimeComplexity)
+* Python Tricks
+  * For memorized recursive
+    * [Python Tutorial: Memoization and Decorators](https://www.python-course.eu/python3_memoization.php)
+    * [Build a "function with a memory" in Python - Samuel Taylor](https://www.samueltaylor.org/articles/function-with-memory.html)
 * Tkinter (`_tkinter.TclError: no display name and no $DISPLAY environment variable`, `_tkinter.TclError: couldn't connect to display ":0"`)
   1. Install tkinter `sudo apt-get install python3-tk`
   2. Install [Xming X Server for Windows](https://sourceforge.net/projects/xming/)
