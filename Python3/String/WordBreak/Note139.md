@@ -35,6 +35,13 @@ Output: false
 
 ## Solution
 
-### Backtracking Replacement?!
+### Recursive with Memory
+
+1. Split string into small parts
+2. If a parts is in wordDict then search the rest part
 
 ### Dynamic Programming
+
+## Others' Solution
+
+* [Word Break Problem | Dynamic Programming | GeeksforGeeks - YouTube](https://www.youtube.com/watch?v=hLQYQ4zj0qg)

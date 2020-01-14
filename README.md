@@ -1,6 +1,5 @@
 # David's LeetCode Practice [![Build Status](https://travis-ci.org/daviddwlee84/LeetCode.svg?branch=master)](https://travis-ci.org/daviddwlee84/LeetCode) [![codecov](https://codecov.io/gh/daviddwlee84/LeetCode/branch/master/graph/badge.svg)](https://codecov.io/gh/daviddwlee84/LeetCode)
 
-
 ## Testing
 
 * local dependencies
@@ -138,12 +137,12 @@ Test all the units (in the main directory):
 |  127|Medium *|[Word Ladder](https://leetcode.com/problems/word-ladder/)|2019/12/25|String|[BFS-O(n)](Python3/String/WordLadder/BFS127.py)|[Note](Python3/String/WordLadder/Note127.md)|Bidirectional BFS
 |👍 128|Hard ▼  |[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|2019/11/14|Array|[Naive-O(n²)](Python3/Array/LongestConsecutiveSequence/Naive128.py), [HT-O(n)](Python3/Array/LongestConsecutiveSequence/HT128.py)|[Note](Python3/Array/LongestConsecutiveSequence/Note128.md)|-
 |👍 136|Easy    |[Single Number](https://leetcode.com/problems/single-number/)|2019/12/18|Array|[HT-O(n)](Python3/Array/SingleNumber/HT136.py)|[Note](Python3/Array/SingleNumber/Note136.md)|Other solutions
-|  139|Medium  |[Word Break](https://leetcode.com/problems/word-break/)|TODO|String||[Note](Python3/String/WordBreak/Note139.md)|-
+|👍 139|Medium  |[Word Break](https://leetcode.com/problems/word-break/)|2020/1/14|String|[Recursive-O(2ⁿ)](Python3/String/WordBreak/Recursive139.py)|[Note](Python3/String/WordBreak/Note139.md)|-
 |  141|Medium *|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|2019/12/31|Linked List|[Naive-O(n)](Python3/LinkedList/LinkedListCycle/Naive141.py), [TwoPointer-O(n)](Python3/LinkedList/LinkedListCycle/TwoPointer141.py)|[Note](Python3/LinkedList/LinkedListCycle/Note141.md)|testcase
 |  144|Medium  |[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|2018/5/29|Binary Tree|[Recursive-O(n)](Python3/BinaryTree/BinaryTreePreorderTraversal/Recursive144.py), [Iterative-O(n)](Python3/BinaryTree/BinaryTreePreorderTraversal/Iterative144.py)|[Note](Python3/BinaryTree/BinaryTreePreorderTraversal/Note144.md)|-
 |  145|Hard ▼  |[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|2018/6/2|Binary Tree|[Recursive-O(n)](Python3/BinaryTree/BinaryTreePostorderTraversal/Recursive145.py), [Iterative-O(n)](Python3/BinaryTree/BinaryTreePostorderTraversal/Iterative145.py)|[Note](Python3/BinaryTree/BinaryTreePostorderTraversal/Note145.md)|-
 |  146|Hard ▼  |[LRU Cache](https://leetcode.com/problems/lru-cache/)|2018/6/25|Design|[Naive](Python3/Design/LRUCache/Naive146.py), [OrderedDict](Python3/Design/LRUCache/OrderedDict146.py)|[Note](Python3/Design/LRUCache/Note146.md)|DoubleLinkedList
-|  147|Medium  |[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|2020/1/3|Linked List|[Naive-O(n²)](Python3/LinkedList/InsertionSortList/Naive147.py)|[Note](Python3/LinkedList/InsertionSortList/Note147.md)|Do it again with other style
+|  147|Medium  |[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|2020/1/14|Linked List|[Naive-O(n²)](Python3/LinkedList/InsertionSortList/Naive147.py)|[Note](Python3/LinkedList/InsertionSortList/Note147.md)|Do it again with other style
 |  151|Medium  |[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|2019/10/22|String|[Pythonic-O(n)](Python3/String/ReverseWordsInAString/Pythonic151.py), [Trick-O(n)](Python3/String/ReverseWordsInAString/Trick151.py)|[Note](Python3/String/ReverseWordsInAString/Note151.md)|-
 |  155|Easy    |[Min Stack](https://leetcode.com/problems/min-stack/)|2018/6/28|Design|[Naive](Python3/Design/MinStack/Naive155.py), [Improve](Python3/Design/MinStack/Improve155.py)|[Note](Python3/Design/MinStack/Note155.md)|Naive?!
 |  167|Easy    |[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|2019/9/18|Array|[TwoPointer-O(n)](Python3/Array/TwoSumII/TwoPointer167.py)|[Note](Python3/Array/TwoSumII/Note167.md)|-
@@ -366,6 +365,8 @@ Algorithm
 * [Google | L5 | MTV | Oct 2019 [Offer] - LeetCode Discuss](https://leetcode.com/discuss/interview-experience/424540/google-l5-mtv-oct-2019-offer)
 
 ### Others
+
+Usually online judgement TLE limitation is 1 second. => we can estimate the time complexity as the power of ten.
 
 * Type hints (Python 3.5 feature)
   * [Python document - typing](https://docs.python.org/3/library/typing.html)
