@@ -4,7 +4,8 @@ class ListNode:
         self.val = x
         self.next = None
 
-def listNodeConverter(lst):
+
+def listNodeConverter(lst: list) -> ListNode:
     if len(lst) == 0:
         return None
     head = ListNode(0)
@@ -16,13 +17,16 @@ def listNodeConverter(lst):
             ptr = ptr.next
     return head
 
-def printListNode(ln):
+
+def printListNode(ln: ListNode):
     while(ln != None):
         print(ln.val, end=" -> ")
         ln = ln.next
     print("")
 
-def compareListNode(ln1, ln2):
+
+def compareListNode(ln1: ListNode, ln2: ListNode) -> bool:
+    # TODO: make sure there is no loop in it
     while ln1 != None and ln2 != None:
         if ln1.val != ln2.val:
             return False
