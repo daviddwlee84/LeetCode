@@ -212,3 +212,25 @@ int main() {
     }
 }
 ```
+
+### DFS - Template I - Recursion
+
+There are two ways to implement DFS. The first one is to do recursion which you might already be familiar with. Here we provide a template as reference:
+
+```java
+/*
+ * Return true if there is a path from cur to target.
+ */
+boolean DFS(Node cur, Node target, Set<Node> visited) {
+    return true if cur is target;
+    for (next : each neighbor of cur) {
+        if (next is not in visited) {
+            add next to visted;
+            return true if DFS(next, target, visited) == true;
+        }
+    }
+    return false;
+}
+```
+
+It seems like we don't have to use any stacks when we implement DFS recursively. But actually, we are using the implicit stack provided by the system, also known as the [Call Stack](https://en.wikipedia.org/wiki/Call_stack).

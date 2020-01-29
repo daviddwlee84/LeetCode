@@ -1,4 +1,5 @@
 from BFS200 import Solution as BFS
+from DFS200 import Solution as DFS
 
 testcase = []
 testcase.append(
@@ -34,10 +35,18 @@ answer.append(3)
 answer.append(0)
 answer.append(1)
 
+
 def _str_to_list(strings: str):
     return [list(row) for row in strings.split()]
+
 
 def test_BFS():
     for test, num in zip(testcase, answer):
         grid = _str_to_list(test)
         assert BFS().numIslands(grid) == num
+
+
+def test_DFS():
+    for test, num in zip(testcase, answer):
+        grid = _str_to_list(test)
+        assert DFS().numIslands(grid) == num
