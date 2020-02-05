@@ -1,8 +1,13 @@
-from Naive020 import Solution as stack
+from Naive020 import Solution as naive
+from Stack020 import Solution as stack
 from Dict020 import Solution as hashtable
 
 strings = ["()", "()[]{}", "(]", "([)]", "{[]}"]
 answers = [True, True, False, False, True]
+
+def test_naive():
+    for i, s in enumerate(strings):
+        assert naive().isValid(s) == answers[i]
 
 def test_stack():
     for i, s in enumerate(strings):
