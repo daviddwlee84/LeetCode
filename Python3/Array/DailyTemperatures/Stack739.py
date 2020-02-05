@@ -3,13 +3,15 @@ from typing import List
 
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
-        stack = []  # store index
+        stack = []  # store index (days haven't found warmer day)
         res = [0] * len(T)  # answer
 
         for i, t in enumerate(T):
 
-            # if found a higher one then pop
+            # If found a higher one then pop
             while stack and T[stack[-1]] < t:
+                # t => current highest temperature
+                # pop for any temperature is less than t
                 res[stack[-1]] = i - stack[-1]
                 stack.pop()
 

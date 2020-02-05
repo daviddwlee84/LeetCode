@@ -1,4 +1,5 @@
 from Naive739 import Solution as naive
+from Naive2_739 import Solution as naive2
 from Stack739 import Solution as stack
 
 testcase = [
@@ -8,10 +9,14 @@ testcase = [
     ([72, 73], [1, 0])
 ]
 
-
 def test_naive():
     for T, ans in testcase:
         assert naive().dailyTemperatures(T.copy()) == ans
+
+
+def test_naive2():
+    for T, ans in testcase:
+        assert naive2().dailyTemperatures(T.copy()) == ans
 
 
 def test_stack():
