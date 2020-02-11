@@ -164,7 +164,7 @@ Test all the units (in the main directory):
 |👍 347|Medium  |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|2019/9/27|Array|[HT-O(n)](Python3/Array/TopKFrequentElements/HTHeap347.py)|[Note](Python3/Array/TopKFrequentElements/Note347.md)|-
 |👍 426|Medium  |[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)|TODO|BST|Need subscription||-
 |  460|Hard    |[LFU Cache](https://leetcode.com/problems/lfu-cache/)|2018/6/25|Design|[Naive](Python3/Design/LFUCache/Naive460.py)|[Note](Python3/Design/LFUCache/Note460.md)|OrderedDict, LinkedList
-|👍 494|Medium |[Target Sum](https://leetcode.com/problems/target-sum/)|2020/2/10|Array|[Naive-O(n!)](Python3/Array/TargetSum/Naive494.py), [RecursiveWithMemory-O(n!)](Python3/Array/TargetSum/RecursiveWithMemory494.py)|[Note](Python3/Array/TargetSum/Note494.md), Learn: Queue & Stack|DP
+|👍 494|Medium |[Target Sum](https://leetcode.com/problems/target-sum/)|2020/2/10|Array|[Naive-O(n²)](Python3/Array/TargetSum/Naive494.py), [RecursiveWithMemory-O(l*n)](Python3/Array/TargetSum/RecursiveWithMemory494.py), [2D DP-O(l*n)](Python3/Array/TargetSum/DP_2D_494.py), [1D DP-O(l*n)](Python3/Array/TargetSum/DP_1D_494.py)|[Note](Python3/Array/TargetSum/Note494.md), Learn: Queue & Stack|more optimization on DP
 |  559|Easy    |[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|2019/11/14|Tree|[Naive-O(n)](Python3/BinaryTree/MaximumDepthOfNaryTree/Naive559.py), [DFS-O(n)](Python3/BinaryTree/MaximumDepthOfNaryTree/DFS559.py)|[Note](Python3/BinaryTree/MaximumDepthOfNaryTree/Note559.md)|Test
 |👍 673|Medium  |[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|TODO|String|||
 |👍 674|Easy    |[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|TODO|String|||
@@ -312,14 +312,14 @@ Algorithm
 >      * Coin Change
 >      * Minimum Coin Change
 >      * Maximum Ribbon Cut
->   3. Fibonacci Numbers
+>   3. Fibonacci Numbers (Fibonacci Sequence (eg: House Thief, Jump Game))
 >      * Fibonacci numbers
 >      * Staircase
 >      * Number factors
 >      * Minimum jumps to reach the end
 >      * Minimum jumps with fee
 >      * House thief
->   4. Palindromic Subsequence
+>   4. Palindromic Subsequence (Shortest Path (eg: Unique Paths I/II))
 >      * Longest Palindromic Subsequence
 >      * Longest Palindromic Substring
 >      * Count of Palindromic Substrings
@@ -339,6 +339,12 @@ Algorithm
 >      * Longest Alternating Subsequence
 >      * Edit Distance
 >      * Strings Interleaving
+>
+> * 0/1 Knapsack
+> * Unbounded Knapsack
+> * Shortest Path (eg: Unique Paths I/II)
+> * Fibonacci Sequence (eg: House Thief, Jump Game)
+> * Longest Common Substring/Subsequeunce
 
 ### LeetCode Links
 

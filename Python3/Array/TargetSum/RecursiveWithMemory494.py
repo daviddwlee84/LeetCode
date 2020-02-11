@@ -22,10 +22,12 @@ class Solution:
             if targetSum == 0:
                 return 1
             return 0
-        
+
         # Calculate the number of ways (if this case haven't happened before and is not the base case)
-        numWaysIfAdd = self.helper(nums, S, curIdx + 1, targetSum + nums[curIdx])
-        numWaysIfMinus = self.helper(nums, S, curIdx + 1, targetSum - nums[curIdx])
+        numWaysIfAdd = self.helper(
+            nums, S, curIdx + 1, targetSum + nums[curIdx])
+        numWaysIfMinus = self.helper(
+            nums, S, curIdx + 1, targetSum - nums[curIdx])
 
         numWays = numWaysIfAdd + numWaysIfMinus
         self.memo[curSerial] = numWays

@@ -45,6 +45,8 @@ It's hard to figure out DP solution at the first glance.
 ## Resources
 
 * [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+* [DP IS EASY! 5 Steps to Think Through DP Questions. - LeetCode Discuss](https://leetcode.com/problems/target-sum/discuss/455024/DP-IS-EASY!-5-Steps-to-Think-Through-DP-Questions.)
+* [What does a state represent in terms of Dynamic Programming? - Quora](https://www.quora.com/What-does-a-state-represent-in-terms-of-Dynamic-Programming)
 
 ### Book
 
