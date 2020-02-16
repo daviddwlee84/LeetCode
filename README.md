@@ -250,10 +250,22 @@ Test all the units (in the main directory):
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-|Easy        |[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) ([contest](https://leetcode.com/contest/weekly-contest-171/problems/convert-integer-to-the-sum-of-two-no-zero-integers/))|TODO|[Naive](Contest/WeeklyContest171/ConvertIntegerToTheSumOfTwoNoZeroIntegers.py)|-|-
+|Easy        |[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) ([contest](https://leetcode.com/contest/weekly-contest-171/problems/convert-integer-to-the-sum-of-two-no-zero-integers/))|2020/1/12|[Naive](Contest/WeeklyContest171/ConvertIntegerToTheSumOfTwoNoZeroIntegers.py)|-|-
 |Medium      |[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) ([contest](https://leetcode.com/contest/weekly-contest-171/problems/minimum-flips-to-make-a-or-b-equal-to-c/))|2020/1/12|[Naive](Contest/WeeklyContest171/MinimumFlipsToMakeAOrBEqualToC.py)|-|-
 |Medium      |[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) ([contest](https://leetcode.com/contest/weekly-contest-171/problems/number-of-operations-to-make-network-connected/))|TODO|-|-|-
 |Hard        |[Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/) ([contest](https://leetcode.com/contest/weekly-contest-171/problems/minimum-distance-to-type-a-word-using-two-fingers/))|TODO|-|-|3D array DP `dp[ith char][left finger][right finger]`
+
+### Weekly Contest 176
+
+* [Weekly Contest 176](https://leetcode.com/contest/weekly-contest-176/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-176/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|2020/2/16|[Naive](Contest/WeeklyContest176/1.py)|-|-
+|Medium      |[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|2020/2/16|[Naive](Contest/WeeklyContest176/2.py)|-|-
+|Medium      |[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|TODO|-|-|-
+|Hard        |[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|2020/2/16|-|[Brute Force](Contest/WeeklyContest176/4.py), [Bottom Up](Contest/WeeklyContest176/4_2.py)|-
 
 ## LeetCode Learn Progress
 
