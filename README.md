@@ -52,6 +52,15 @@ Test all the units (in the main directory):
 
 > Naive means the first thought of mine (usually a little better than Brute-Force, but may need to be optimized.)
 
+### LeetCode Patterns
+
+* [Leetcode Patterns – Medium](https://medium.com/leetcode-patterns)
+  * Leetcode Pattern 0 - Iterative traversals on Trees
+  * Leetcode Pattern 1 - DFS + BFS
+  * Leetcode Pattern 2 - Sliding Windows for Strings
+  * Leetcode Pattern 3 - Backtracking
+  * Leetcode Pattern 4 - Meta Stuff
+
 ### Remark
 
 * Catagory
@@ -59,6 +68,7 @@ Test all the units (in the main directory):
   * Usually record in Data Structure. (The Algorithm strategy will be noted in the Method field)
   * Code will be put in the main catagory folder (i.e. the first one).
   * Some catagory may be the Related Topic tags marked by LeetCode.
+  * (Add Pattern 0~4 in brackets)
   * TODO: Most of the categories need to be updated. (The date before 2018/9/22)
 
 |Number | Difficulty | Problem | Date | Category | Method-TimeComplexity | Remark | TODO |
@@ -152,7 +162,9 @@ Test all the units (in the main directory):
 |  198|Easy    |[House Robber](https://leetcode.com/problems/house-robber/)|2018/6/14|DP|[DP-O(n)](Python3/DynamicProgramming/HouseRobber/DP198.py)|[Note](Python3/DynamicProgramming/HouseRobber/Note198.md)|Can improve space complexity
 |👍 200|Medium  |[Number of Islands](https://leetcode.com/problems/number-of-islands/)|2019/7/5|Search|[BFS-O(n²)](Python3/Search/NumberOfIslands/BFS200.py), [DFS-O(n²)](Python3/Search/NumberOfIslands/DFS200.py)|[Note](Python3/Search/NumberOfIslands/Note200.md), Learn: Queue & Stack|try Union
 |  206|Easy    |[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|2018/6/26|Linked List|[Iterative-O(n)](Python3/LinkedList/ReverseLinkedList/Iterative206.py), [Recursive-O(n)](Python3/LinkedList/ReverseLinkedList/Recursive206.py)|[Note](Python3/LinkedList/ReverseLinkedList/Note206.md)|-
+|👍 207|Medium *|[Course Schedule](https://leetcode.com/problems/course-schedule/)|TODO|Array|-|-|-
 |👍 208|Medium *|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|2018/6/24|Design|[Trie](Python3/Design/ImplementTrie/Trie208.py)|[Note](Python3/Design/ImplementTrie/Note208.md)|-
+|👍 210|Medium *|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|TODO|Array|-|-|-
 |  215|Medium  |[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|2019/9/18|Array|[QuickSort-O(nlogn)](Python3/Array/KthLargestElementInAnArray/QuickSort215.py), [SelectionSortLike-O(n)](Python3/Array/KthLargestElementInAnArray/SelectionSortLike215.py)|[Note](Python3/Array/KthLargestElementInAnArray/Note215.md)|min-heap
 |  225|Easy    |[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|2018/6/24|Design|[TwoQueue](Python3/Design/ImplementStackusingQueues/TwoQueue225.py)|[Note](Python3/Design/ImplementStackusingQueues/Note225.md)|-
 |  232|Easy    |[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|2018/6/24|Design|[TwoStack](Python3/Design/ImplementQueueusingStacks/TwoStack232.py)|[Note](Python3/Design/ImplementQueueusingStacks/Note232.md)|-
@@ -166,6 +178,7 @@ Test all the units (in the main directory):
 |  460|Hard    |[LFU Cache](https://leetcode.com/problems/lfu-cache/)|2018/6/25|Design|[Naive](Python3/Design/LFUCache/Naive460.py)|[Note](Python3/Design/LFUCache/Note460.md)|OrderedDict, LinkedList
 |👍 494|Medium |[Target Sum](https://leetcode.com/problems/target-sum/)|2020/2/10|Array|[Naive-O(n²)](Python3/Array/TargetSum/Naive494.py), [RecursiveWithMemory-O(l*n)](Python3/Array/TargetSum/RecursiveWithMemory494.py), [2D DP-O(l*n)](Python3/Array/TargetSum/DP_2D_494.py), [1D DP-O(l*n)](Python3/Array/TargetSum/DP_1D_494.py)|[Note](Python3/Array/TargetSum/Note494.md), Learn: Queue & Stack|more optimization on DP
 |  559|Easy    |[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|2019/11/14|Tree|[Naive-O(n)](Python3/BinaryTree/MaximumDepthOfNaryTree/Naive559.py), [DFS-O(n)](Python3/BinaryTree/MaximumDepthOfNaryTree/DFS559.py)|[Note](Python3/BinaryTree/MaximumDepthOfNaryTree/Note559.md)|Test
+|👍 630|Hard *  |[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|TODO|Array|-|-|-
 |👍 673|Medium  |[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|TODO|String|||
 |👍 674|Easy    |[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|TODO|String|||
 |  687|Medium  |[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|TODO|Binary Tree||[Note](Python3/BinaryTree/LongestUnivaluePath/Note687.md)|-
@@ -368,6 +381,7 @@ Algorithm
 * Mixed
   * [qiyuangong/leetcode: Python & JAVA Solutions for Leetcode](https://github.com/qiyuangong/leetcode)
   * [haoel/leetcode: LeetCode Problems' Solutions](https://github.com/haoel/leetcode)
+  * [grandyang/leetcode: Provide all my solutions and explanations in Chinese for all the Leetcode coding problems.](https://github.com/grandyang/leetcode)
 
 ### Experience
 
