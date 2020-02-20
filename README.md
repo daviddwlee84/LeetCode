@@ -169,6 +169,8 @@ Test all the units (in the main directory):
 |  225|Easy    |[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|2018/6/24|Design|[TwoQueue](Python3/Design/ImplementStackusingQueues/TwoQueue225.py)|[Note](Python3/Design/ImplementStackusingQueues/Note225.md)|-
 |  232|Easy    |[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|2018/6/24|Design|[TwoStack](Python3/Design/ImplementQueueusingStacks/TwoStack232.py)|[Note](Python3/Design/ImplementQueueusingStacks/Note232.md)|-
 |  236|Medium  |[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|2018/6/10|Binary Tree|[Naive-O(n)](Python3/BinaryTree/LowestCommonAncestorofaBinaryTree/Naive236.py)|[Note](Python3/BinaryTree/LowestCommonAncestorofaBinaryTree/Note236.md)|Maybe has another approach
+|  252|Easy *|[Meeting Rooms](https://leetfree.com/problems/meeting-rooms.html) (premium)|2020/2/20|Array|[Sorting-O(nlogn)](Python3/Array/MeetingRooms/Sorting252.py)|[Note](Python3/Array/MeetingRooms/Note252.md), Facebook|-
+|👍 253|Medium *|[Meeting Rooms II](https://leetfree.com/problems/meeting-rooms-ii.html) (premium)|TODO|Array||[Note](Python3/Array/MeetingRoomsII/Note253.md), Facebook|-
 |👍 257|Easy ▲  |[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|2018/6/11|Binary Tree|[Iterative-O(n)](Python3/BinaryTree/BinaryTreePaths/Iterative257.py), [Recursive-O(n)](Python3/BinaryTree/BinaryTreePaths/Recursive257.py)|[Note](Python3/BinaryTree/BinaryTreePaths/Note257.md), Learn: Queue & Stack|-
 |👍 279|Medium  |[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|2019/8/22|Search|[BFS-O(n)](Python3/Search/PerfectSquares/BFS279.py)|[Note](Python3/Search/PerfectSquares/Note279.md)|DP solution
 |  297|Hard    |[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|2019/11/14|Binary Tree|[Naive-O(n)](Python3/BinaryTree/SerializeAndDeserializeBinaryTree/Naive297.py)|[Note](Python3/BinaryTree/SerializeAndDeserializeBinaryTree/Note297.md)|-
@@ -264,8 +266,8 @@ Test all the units (in the main directory):
 |------------|-------------------|------|-----------------------|-------------|------|
 |Easy        |[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|2020/2/16|[Naive](Contest/WeeklyContest176/1.py)|-|-
 |Medium      |[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|2020/2/16|[Naive](Contest/WeeklyContest176/2.py)|-|-
-|Medium      |[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|TODO|-|-|-
-|Hard        |[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|2020/2/16|-|[Brute Force](Contest/WeeklyContest176/4.py), [Bottom Up](Contest/WeeklyContest176/4_2.py)|-
+|Medium      |[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|TODO||[Note](Contest/WeeklyContest176/MaximumNumberOfEventsThatCanBeAttended.md)|-
+|Hard        |[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|2020/2/16|[Brute Force](Contest/WeeklyContest176/4.py), [Bottom Up](Contest/WeeklyContest176/4_2.py)|-|-
 
 ## LeetCode Learn Progress
 
