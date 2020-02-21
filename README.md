@@ -110,6 +110,7 @@ Test all the units (in the main directory):
 |👍 048|Medium *|[Rotate Image](https://leetcode.com/problems/rotate-image/)|2019/12/2|Array|[Naive-O(n)](Python3/Array/RotateImage/Naive048.py)|[Note](Python3/Array/RotateImage/Note048.md)|-
 |👍 049|Medium *|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|2019/12/3|String, HT|[Naive-O(nk)](Python3/String/GroupAnagrams/Naive049.py), [Sorting-O(nklogk)](Python3/String/GroupAnagrams/Sorting049.py), [Counter-O(nk)](Python3/String/GroupAnagrams/Counter049.py)|[Note](Python3/String/GroupAnagrams/Note049.md)|testcase
 |  053|Easy ▲  |[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|2018/6/12|Array, DP, DC|[BruteForce-O(n³)](Python3/Array/MaximumSubarray/Naive053.py), [DP-O(n)](Python3/Array/MaximumSubarray/DP053.py), [DC-O(nlogn)](Python3/Array/MaximumSubarray/DC053.py)|[Note](Python3/Array/MaximumSubarray/Note053.md)|-
+|  056|Medium *|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|2020/2/21|Array|[Sorting-O(nlogn)](Python3/Array/MergeIntervals/Sorting056.py)|[Note](Python3/Array/MergeIntervals/Note056.md)|Improve performance
 |  058|Easy    |[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|2019/9/30|String|Not even worth to do|-|-
 |  066|Easy    |[Plus One](https://leetcode.com/problems/plus-one/)|2019/10/19|Array|[Naive-O(n)](Python3/Array/PlusOne/Naive066.py)|-|-
 |  067|Easy    |[Add Binary](https://leetcode.com/problems/add-binary/)|2019/10/22|String|[Adder-O(n)](Python3/String/AddBinary/Naive067.py)|-|-
