@@ -279,8 +279,20 @@ Test all the units (in the main directory):
 |------------|-------------------|------|-----------------------|-------------|------|
 |Easy        |[Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|2020/2/23|[datetime](Contest/WeeklyContest177/1.py)|-|-
 |Medium      |[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/)|2020/2/23|[Naive](Contest/WeeklyContest177/2.py)|-|-
-|Medium      ||TODO||[Note](Contest/WeeklyContest177/ClosestDivisors.md)|-
-|Hard        ||TODO||-|-
+|Medium      |[Closest Divisors](https://leetcode.com/problems/closest-divisors/)|TODO||[Note](Contest/WeeklyContest177/ClosestDivisors.md)|-
+|Hard        |[Largest Multiple of Three](https://leetcode.com/problems/largest-multiple-of-three/)|TODO||-|-
+
+### Weekly Contest 178
+
+* [Weekly Contest 178](https://leetcode.com/contest/weekly-contest-178/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-178/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|2020/3/1|[Naive](Contest/WeeklyContest178/1.py)|-|-
+|Medium      |[Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/)|TODO||-|-
+|Medium      |[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|2020/3/1|[Naive](Contest/WeeklyContest178/3.py)|-|-
+|Hard        |[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|TODO||-|-
 
 ## LeetCode Learn Progress
 
