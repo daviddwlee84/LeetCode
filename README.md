@@ -267,7 +267,7 @@ Test all the units (in the main directory):
 |------------|-------------------|------|-----------------------|-------------|------|
 |Easy        |[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|2020/2/16|[Naive](Contest/WeeklyContest176/1.py)|-|-
 |Medium      |[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|2020/2/16|[Naive](Contest/WeeklyContest176/2.py)|-|-
-|Medium      |[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|2020/2/21|[Greedy w/ Min Heap](Contest/WeeklyContest176/3.py)|[Note](Contest/WeeklyContest176/MaximumNumberOfEventsThatCanBeAttended.md)|-
+|Medium      |[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|2020/2/21|[Greedy w/ Min Heap](Contest/WeeklyContest176/3.py)|[Note](Contest/WeeklyContest176/MaximumNumberOfEventsThatCanBeAttended.md)|Practice interval problems
 |Hard        |[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|2020/2/16|[Brute Force](Contest/WeeklyContest176/4.py), [Bottom Up](Contest/WeeklyContest176/4_2.py)|-|-
 
 ### Weekly Contest 177
@@ -293,6 +293,18 @@ Test all the units (in the main directory):
 |Medium      |[Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/)|TODO||-|-
 |Medium      |[Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|2020/3/1|[Naive](Contest/WeeklyContest178/3.py)|-|-
 |Hard        |[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|TODO||-|-
+
+### Weekly Contest 179
+
+* [Weekly Contest 179](https://leetcode.com/contest/weekly-contest-179/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-179/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|2020/3/9|[Naive](Contest/WeeklyContest179/1.py)|-|-
+|Medium      |[Bulb Switcher III](https://leetcode.com/problems/bulb-switcher-iii/)|2020/3/9|[Naive](Contest/WeeklyContest179/2.py), [Sorting](Contest/WeeklyContest179/2_2.py), [Improved Sort](Contest/WeeklyContest179/2_3.py)|-|-
+|Medium      |[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|TODO||-|MUST DO
+|Hard        |[Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|TODO||-|-
 
 ## LeetCode Learn Progress
 
