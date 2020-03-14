@@ -267,7 +267,7 @@ Test all the units (in the main directory):
 |------------|-------------------|------|-----------------------|-------------|------|
 |Easy        |[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|2020/2/16|[Naive](Contest/WeeklyContest176/1.py)|-|-
 |Medium      |[Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|2020/2/16|[Naive](Contest/WeeklyContest176/2.py)|-|-
-|Medium      |[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|2020/2/21|[Greedy w/ Min Heap](Contest/WeeklyContest176/3.py)|[Note](Contest/WeeklyContest176/MaximumNumberOfEventsThatCanBeAttended.md)|Practice interval problems
+|Medium *    |[Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|2020/3/14|[Greedy w/ Min Heap](Contest/WeeklyContest176/3.py)|[Note](Contest/WeeklyContest176/MaximumNumberOfEventsThatCanBeAttended.md)|Practice interval problems
 |Hard        |[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|2020/2/16|[Brute Force](Contest/WeeklyContest176/4.py), [Bottom Up](Contest/WeeklyContest176/4_2.py)|-|-
 
 ### Weekly Contest 177
