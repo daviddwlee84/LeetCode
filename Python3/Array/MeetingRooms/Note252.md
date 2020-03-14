@@ -14,3 +14,7 @@ return false.
 
 1. Sorting by the start time
 2. Iterate through, if the end time of the previous meeting is greater then the start time of current meeting, then it can't attend the current meeting.
+
+## Resources
+
+* [python - How to sort (list/tuple) of lists/tuples by the element at a given index? - Stack Overflow](https://stackoverflow.com/questions/3121979/how-to-sort-list-tuple-of-lists-tuples-by-the-element-at-a-given-index)
