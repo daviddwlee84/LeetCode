@@ -306,6 +306,18 @@ Test all the units (in the main directory):
 |Medium      |[Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/)|TODO||-|MUST DO
 |Hard        |[Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|TODO||-|-
 
+### Weekly Contest 180
+
+* [Weekly Contest 180](https://leetcode.com/contest/weekly-contest-180/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-180/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)|2020/3/15|[Naive-O(n)](Contest/WeeklyContest180/1.py)|-|-
+|Medium      |[Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|2020/3/15|[Naive](Contest/WeeklyContest180/2.py)|-|-
+|Medium *    |[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|2020/3/15|[Naive-O(n)](Contest/WeeklyContest180/3.py)|-|-
+|Hard        |[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|TODO|[Naive-O(k*n!)](Contest/WeeklyContest180/1.py)|-|-
+
 ## LeetCode Learn Progress
 
 > [LeetCode Explore Learn](https://leetcode.com/explore/learn/)
