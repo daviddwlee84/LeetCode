@@ -47,6 +47,7 @@ Test all the units (in the main directory):
 * Data Structure
   * HT - Hash Table
   * BST - Binary Search Tree
+  * PQ - Priority Queue (usually Heap)
 * Others
   * BM - Bit Manipulation
 
@@ -188,6 +189,7 @@ Test all the units (in the main directory):
 |👍 739|Medium  |[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|2019/12/26|Array|[Naive-O(n²)](Python3/Array/DailyTemperatures/Naive739.py), [Naive2-O(n²)](Python3/Array/DailyTemperatures/Naive2_739.py), [Stack-O(n²)](Python3/Array/DailyTemperatures/Stack739.py)|[Note](Python3/Array/DailyTemperatures/Note739.md), Learn: Queue & Stack|-
 |👍 752|Medium  |[Open the Lock](https://leetcode.com/problems/open-the-lock/)|2019/7/5|Search|[BFS-O(n²)](Python3/Search/OpenTheLock/BFS752.py)|[Note](Python3/Search/OpenTheLock/Note752.md), Learn: Queue & Stack|Improve time complexity
 |  801|Medium  |[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|TODO|Array||[Note](Python3/Array/MinimumSwapsToMakeSequencesIncreasing/Note801.md)|-
+|👍 857|Hard *  |[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|TODO|Array|-|-|-
 |👍 978|Medium  |[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|TODO|String|||
 |👍 1143|Medium  |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|2019/10/22|String|[BruteForce-O(2^n)](Python3/String/LongestCommonSubsequence/BruteForce1143.py), [DP-O(mn)](Python3/String/LongestCommonSubsequence/DP1143.py)|[Note](Python3/String/LongestCommonSubsequence/Note1143.md)|DP
 
@@ -316,7 +318,7 @@ Test all the units (in the main directory):
 |Easy        |[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)|2020/3/15|[Naive-O(n)](Contest/WeeklyContest180/1.py)|-|-
 |Medium      |[Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|2020/3/15|[Naive](Contest/WeeklyContest180/2.py)|-|-
 |Medium *    |[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|2020/3/15|[Naive-O(n)](Contest/WeeklyContest180/3.py)|-|-
-|Hard        |[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|TODO|[Naive-O(k*n!)](Contest/WeeklyContest180/1.py)|-|-
+|Hard        |[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|2020/3/16|[Naive-O(k*n!)](Contest/WeeklyContest180/1.py), [Greedy + PQ - O(nlogn)](Contest/WeeklyContest180/4_2.py)|[Note](Contest/WeeklyContest180/MaximumPerformanceOfATeam.md), 857|-
 
 ## LeetCode Learn Progress
 
