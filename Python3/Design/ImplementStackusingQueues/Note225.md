@@ -11,7 +11,7 @@ Implement the following operations of a stack using queues.
 
 **Example**:
 
-```
+```cpp
 MyStack stack = new MyStack();
 
 stack.push(1);
@@ -30,4 +30,3 @@ stack.empty(); // returns false
 ## Solution
 
 [Official Solution](https://leetcode.com/problems/implement-stack-using-queues/solution/)
-

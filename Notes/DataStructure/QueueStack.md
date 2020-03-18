@@ -234,3 +234,34 @@ boolean DFS(Node cur, Node target, Set<Node> visited) {
 ```
 
 It seems like we don't have to use any stacks when we implement DFS recursively. But actually, we are using the implicit stack provided by the system, also known as the [Call Stack](https://en.wikipedia.org/wiki/Call_stack).
+
+### DFS - Template II
+
+The advantage of the recursion solution is that it is easier to implement. However, there is a huge disadvantage: if the depth of recursion is too high, you will suffer from `stack overflow`. In that case, you might want to use BFS instead or implement DFS using an explicit stack.
+
+Here we provide a template using an explicit stack:
+
+```java
+/*
+ * Return true if there is a path from cur to target.
+ */
+boolean DFS(int root, int target) {
+    Set<Node> visited;
+    Stack<Node> stack;
+    add root to stack;
+    while (s is not empty) {
+        Node cur = the top element in stack;
+        remove the cur from the stack;
+        return true if cur is target;
+        for (Node next : the neighbors of cur) {
+            if (next is not in visited) {
+                add next to visited;
+                add next to stack;
+            }
+        }
+    }
+    return false;
+}
+```
+
+The logic is exactly the same with the recursion solution. But we use `while` loop and `stack` to simulate the `system call stack` during recursion. Running through several examples manually will definitely help you understand it better.

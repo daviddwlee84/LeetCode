@@ -7,11 +7,12 @@ class MyQueue:
         self.data = []
         self.auxiliary = []
 
-    def push(self, x):
+    def push(self, x: int) -> None:
         """
         Push element x to the back of queue.
-        :type x: int
-        :rtype: void
+
+        Time Complexity: O(n)
+        Space Complexity: O(n)
         """
         if len(self.data) == 0:
             # If queue is empty then the front will be the new input element
@@ -20,42 +21,46 @@ class MyQueue:
         while len(self.data) != 0:
             # Pop out every element in data and store it in auxiliary
             self.auxiliary.append(self.data.pop())
-        self.auxiliary.append(x) # Add new element to the top of auxilary
+        self.auxiliary.append(x)  # Add new element to the top of auxilary
 
         while len(self.auxiliary) != 0:
             # Push all elements back to data
             self.data.append(self.auxiliary.pop())
 
-    def pop(self):
+    def pop(self) -> int:
         """
         Removes the element from in front of queue and returns that element.
-        :rtype: int
+
+        Time Complexity: O(1)
+        Space Complexity: O(1)
         """
-        rtn = self.data.pop() # The top element in data is the front element of queue
+        rtn = self.data.pop()  # The top element in data is the front element of queue
         if len(self.data) != 0:
             # Set front as the last element
             self.front = self.data[len(self.data)-1]
-        
+
         return rtn
 
-    def peek(self):
+    def peek(self) -> int:
         """
         Get the front element.
-        :rtype: int
+
+        Time Complexity: O(1)
+        Space Complexity: O(1)
         """
         return self.front
-        
 
-    def empty(self):
+    def empty(self) -> bool:
         """
         Returns whether the queue is empty.
-        :rtype: bool
+
+        Time Complexity: O(1)
+        Space Complexity: O(1)
         """
         if len(self.data):
             return False
         else:
             return True
-        
 
 
 # Your MyQueue object will be instantiated and called as such:
