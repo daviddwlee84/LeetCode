@@ -324,6 +324,18 @@ Test all the units (in the main directory):
 |Medium *    |[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|2020/3/15|[Naive-O(n)](Contest/WeeklyContest180/3.py)|-|-
 |Hard        |[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|2020/3/16|[Naive-O(k*n!)](Contest/WeeklyContest180/4.py), [Greedy + PQ - O(nlogn)](Contest/WeeklyContest180/4_2.py)|[Note](Contest/WeeklyContest180/MaximumPerformanceOfATeam.md), 857|-
 
+### Weekly Contest 181
+
+* [Weekly Contest 181](https://leetcode.com/contest/weekly-contest-181/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-181/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)|2020/3/22|[Naive-O(n)](Contest/WeeklyContest181/1.py)|-|-
+|Medium      |[Four Divisors](https://leetcode.com/problems/four-divisors/)|2020/3/22|[Naive-O(klogn)](Contest/WeeklyContest181/2.py)|-|-
+|Medium      |[Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)|2020/3/22|[Naive-O(n)](Contest/WeeklyContest181/3.py)|-|-
+|Hard        |[Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/)|2020/3/22|[Naive-O(n²)](Contest/WeeklyContest181/4.py)|-|-
+
 ## LeetCode Learn Progress
 
 > [LeetCode Explore Learn](https://leetcode.com/explore/learn/)
