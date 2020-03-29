@@ -338,6 +338,18 @@ Test all the units (in the main directory):
 |Medium      |[Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)|2020/3/22|[Naive-O(n)](Contest/WeeklyContest181/3.py)|-|-
 |Hard        |[Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/)|2020/3/22|[Naive-O(n²)](Contest/WeeklyContest181/4.py)|-|-
 
+### Weekly Contest 182
+
+* [Weekly Contest 182](https://leetcode.com/contest/weekly-contest-182/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-182/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|2020/3/29|[Naive-O(n)](Contest/WeeklyContest182/1.py)|-|-
+|Medium      |[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|2020/3/29|[Naive-O(n^3)](Contest/WeeklyContest182/2.py)|-|-
+|Medium      |[Design Underground System](https://leetcode.com/problems/design-underground-system/)|2020/3/29|[Naive-O(n)](Contest/WeeklyContest182/3.py)|-|-
+|Hard        |[Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/)|TODO||-|-
+
 ## LeetCode Learn Progress
 
 > [LeetCode Explore Learn](https://leetcode.com/explore/learn/)
