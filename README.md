@@ -150,7 +150,7 @@ Test all the units (in the main directory):
 |👍 128|Hard ▼  |[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|2019/11/14|Array|[Naive-O(n²)](Python3/Array/LongestConsecutiveSequence/Naive128.py), [HT-O(n)](Python3/Array/LongestConsecutiveSequence/HT128.py)|[Note](Python3/Array/LongestConsecutiveSequence/Note128.md)|-
 |  130|Medium  |[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|2020/3/25|Array|[Naive-O(mn)](Python3/Array/SurroundedRegions/Naive130.py)|[Note](Python3/Array/SurroundedRegions/Note130.md)|
 |  133|Medium  |[Clone Graph](https://leetcode.com/problems/clone-graph/)|2020/1/16|Graph|[Recursive-O(n)](Python3/Graph/CloneGraph/Recursive133.py), [DFS-O(n)](Python3/Graph/CloneGraph/DFS133.py)|[Note](Python3/Graph/CloneGraph/Note133.md), Learn: Queue & Stack|Do it again
-|👍 136|Easy    |[Single Number](https://leetcode.com/problems/single-number/)|2019/12/18|Array|[HT-O(n)](Python3/Array/SingleNumber/HT136.py)|[Note](Python3/Array/SingleNumber/Note136.md)|Other solutions
+|👍 136|Easy    |[Single Number](https://leetcode.com/problems/single-number/)|2019/12/18|Array|[HT-O(n)](Python3/Array/SingleNumber/HT136.py), [Set-O(n)](Python3/Array/SingleNumber/Set136.py), [BM-O(n)](Python3/Array/SingleNumber/BM136.py)|[Note](Python3/Array/SingleNumber/Note136.md)|-
 |👍 138|Medium *|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|2020/3/18|Array|[ProductList-O(n)](Python3/Array/ProductOfArrayExceptSelf/ProductList138.py), [SingleProductList-O(n)](Python3/Array/ProductOfArrayExceptSelf/SingleProductList138.py)|[Note](Python3/Array/ProductOfArrayExceptSelf/Note138.md)|testcase
 |👍 139|Medium  |[Word Break](https://leetcode.com/problems/word-break/)|2020/1/14|String|[Recursive-O(2ⁿ)](Python3/String/WordBreak/Recursive139.py), [DP-O(n²)](Python3/String/WordBreak/DP139.py)|[Note](Python3/String/WordBreak/Note139.md)|-
 |  141|Easy *  |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|2019/12/31|Linked List|[Naive-O(n)](Python3/LinkedList/LinkedListCycle/Naive141.py), [TwoPointer-O(n)](Python3/LinkedList/LinkedListCycle/TwoPointer141.py)|[Note](Python3/LinkedList/LinkedListCycle/Note141.md), Microsoft|testcase
@@ -308,6 +308,8 @@ Algorithm
 ### LeetCode Links
 
 * [**LeetCode Algorithms Problems**](https://leetcode.com/problemset/algorithms/)
+* [30-Day LeetCoding Challenge](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge) - 2020/4/1~2020/4/30
+  * [🤩 30-Day LeetCoding Challenge 💪🔥 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/551411/30-day-leetcoding-challenge)
 
 #### Top Interview Questions
 
