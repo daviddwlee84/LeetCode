@@ -10,7 +10,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 
 **Example 1**:
 
-```
+```txt
 Input: [7,1,5,3,6,4]
 Output: 7
 Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4.
@@ -19,7 +19,7 @@ Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-
 
 **Example 2**:
 
-```
+```txt
 Input: [1,2,3,4,5]
 Output: 4
 Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4.
@@ -29,7 +29,7 @@ Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-
 
 **Example 3**:
 
-```
+```txt
 Input: [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
@@ -65,3 +65,7 @@ Collect peak (local maximum) and valley (local minimum) when go through the arra
 
 Because it don't need any transaction fee, we can buy and sell many times we want.
 So we can buy it every time and sell it the next day (if the price goes up), then we are able to find another stock and won't be restrict in the "may not engage in multiple transactions at the same time" condition.
+
+## Others' Solution
+
+* [LeetCode Challenge Day 5 - Buy and Sell Stock II - YouTube](https://www.youtube.com/watch?v=MTnFIF2I2gw)
