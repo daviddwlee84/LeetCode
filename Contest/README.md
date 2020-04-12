@@ -149,12 +149,25 @@
 |Easy        |[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|2020/3/29|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest182/1.py)|-|-
 |Medium      |[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)|2020/3/29|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest182/2.py)|-|-
 |Medium      |[Design Underground System](https://leetcode.com/problems/design-underground-system/)|2020/3/29|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest182/3.py)|-|-
-|Hard        |[Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/)|TODO||-|-
+|Hard        |[Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/)|TODO||[Note](LeetCodeWeeklyContest/WeeklyContest182/FindAllGoodStrings.md)|-
+
+### Weekly Contest 184
+
+* [Weekly Contest 184](https://leetcode.com/contest/weekly-contest-184/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-184/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|2020/4/12|[Naive-O(n^2)](LeetCodeWeeklyContest/WeeklyContest184/1.py)|-|-
+|Medium      |[Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/)|2020/4/12|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest184/2.py)|-|-
+|Medium      |[HTML Entity Parser](https://leetcode.com/problems/html-entity-parser/)|2020/4/12|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest184/3.py)|-|-
+|Hard        |[Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)|2020/4/12|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest184/4.py)|-|-
 
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
 * [AtCoder](https://atcoder.jp/)
+* [CS Academy](https://csacademy.com/)
 
 ### Good Competitor
 
@@ -162,6 +175,7 @@
   * [Profile - LeetCode](https://leetcode.com/tmwilliamlin168/)
   * [YouTube](https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q)
 * Errichto
+  * [Profile - LeetCode](https://leetcode.com/errichto/)
   * [YouTube](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)
     * [How to start Competitive Programming? For beginners! - YouTube](https://www.youtube.com/watch?v=xAeiXy8-9Y8)
       * [Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf)
