@@ -163,6 +163,18 @@
 |Medium      |[HTML Entity Parser](https://leetcode.com/problems/html-entity-parser/)|2020/4/12|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest184/3.py)|-|-
 |Hard        |[Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)|2020/4/12|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest184/4.py)|-|-
 
+### Weekly Contest 186
+
+* [Weekly Contest 186](https://leetcode.com/contest/weekly-contest-186/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-186/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Maximum Score After Splitting a String](https://leetcode.com/contest/weekly-contest-186/problems/maximum-score-after-splitting-a-string/)|2020/4/26|[Naive-O(nk)](LeetCodeWeeklyContest/WeeklyContest186/1.py)|-|-
+|Medium      |[Maximum Points You Can Obtain from Cards](https://leetcode.com/contest/weekly-contest-186/problems/maximum-points-you-can-obtain-from-cards/)|2020/4/26|, [Improve-O(k)](LeetCodeWeeklyContest/WeeklyContest186/2_3.py)|[Naive-O(nk)-TLE](LeetCodeWeeklyContest/WeeklyContest186/2.py), [Greedy-WA](LeetCodeWeeklyContest/WeeklyContest186/2_2.py)|-
+|Medium      |[Diagonal Traverse II](https://leetcode.com/contest/weekly-contest-186/problems/diagonal-traverse-ii/)|TODO|-|[Naive-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest186/3.py)|-
+|Hard        |[Constrained Subset Sum](https://leetcode.com/contest/weekly-contest-186/problems/constrained-subset-sum/)|TODO|-|-|-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
