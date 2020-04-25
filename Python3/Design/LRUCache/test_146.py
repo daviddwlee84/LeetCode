@@ -1,43 +1,46 @@
 from Naive146 import LRUCache as Naive
 from OrderedDict146 import LRUCache as OrderedDict
+from DoubleLinkedList146 import LRUCache as DoubleLinkedList
+from typing import List
+
+
+testcase = [
+    (["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"],
+     [[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]],
+     [None, None, None, 1, None, -1, None, -1, 3, 4]),
+    (["LRUCache", "put", "put", "get", "put", "put", "get"],
+     [[2], [2, 1], [2, 2], [2], [1, 1], [4, 1], [2]],
+     [None, None, None, 2, None, None, -1])
+]
+
+
+def helper(instructions: List[str], values: List[int], answer: List[int], cacheClass):
+    cache = None
+
+    for ins, val, ans in zip(instructions, values, answer):
+        if ins == 'LRUCache':
+            cache = cacheClass(*val)
+            ret = None
+        elif ins == 'put':
+            ret = cache.put(*val)
+        elif ins == 'get':
+            ret = cache.get(*val)
+        else:
+            assert False
+
+        assert ret == ans
+
 
 def test_Naive():
-    cache = Naive(2)
-    cache.put(1, 1)
-    cache.put(2, 2)
-    assert cache.get(1) == 1         # returns 1
-    cache.put(3, 3)                  # evicts key 2
-    assert cache.get(2) == -1        # returns -1 (not found)
-    cache.put(4, 4)                  # evicts key 1
-    assert cache.get(1) == -1        # returns -1 (not found)
-    assert cache.get(3) == 3         # returns 3
-    assert cache.get(4) == 4         # returns 4
+    for test in testcase:
+        helper(*test, Naive)
 
-    cache = Naive(2)
-    cache.put(2, 1)
-    cache.put(2, 2)                  # update key 2
-    assert cache.get(2) == 2         # returns 1
-    cache.put(1, 1)                  
-    cache.put(4, 1)                  # evicts key 2
-    assert cache.get(2) == -1        # returns -1 (not found)
 
 def test_OrderedDict():
-    cache = OrderedDict(2)
-    cache.put(1, 1)
-    cache.put(2, 2)
-    assert cache.get(1) == 1         # returns 1
-    cache.put(3, 3)                  # evicts key 2
-    assert cache.get(2) == -1        # returns -1 (not found)
-    cache.put(4, 4)                  # evicts key 1
-    assert cache.get(1) == -1        # returns -1 (not found)
-    assert cache.get(3) == 3         # returns 3
-    assert cache.get(4) == 4         # returns 4
+    for test in testcase:
+        helper(*test, OrderedDict)
 
-    cache = OrderedDict(2)
-    cache.put(2, 1)
-    cache.put(2, 2)                  # update key 2
-    assert cache.get(2) == 2         # returns 1
-    cache.put(1, 1)                  
-    cache.put(4, 1)                  # evicts key 2
-    assert cache.get(2) == -1        # returns -1 (not found)
- 
+
+def test_DoubleLinkedList():
+    for test in testcase:
+        helper(*test, DoubleLinkedList)
