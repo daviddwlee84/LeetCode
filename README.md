@@ -215,6 +215,7 @@ Test all the units (in the main directory):
 |  ???|Easy     |[Counting Elements](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3289/)|2020/4/7|Array|[Naive-O(nlogn)](Python3/Array/CountingElements/Naive.py), [SinglePass-O(n)](Python3/Array/CountingElements/SinglePass.py)||testcase
 |  ???|Easy     |[Perform String Shifts](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/529/week-2/3299/)|2020/4/15|String|[Naive-O(n)](Python3/String/PerformStringShifts/Naive.py)||testcase
 |  ???|Easy     |[Leftmost Column with at Least a One](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/530/week-3/3306/)|2020/4/21|Interactive|[Naive-O(mn)](Python3/Interactive/LeftmostColumnWithAtLeastAOne/Naive.py), [BinarySearch-O(n)](Python3/Interactive/LeftmostColumnWithAtLeastAOne/BinarySearch.py), [Improve-O(n+m)](Python3/Interactive/LeftmostColumnWithAtLeastAOne/Improve.py)|[Note](Python3/Interactive/LeftmostColumnWithAtLeastAOne/LeftmostColumnWithAtLeastAOne.md)|testcase, do this again
+|  ???|Easy     |[First Unique Number](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3313/)|2020/4/28|Design|[Naive](Python3/Design/FirstUniqueNumber/Naive.py), [HT Counter](Python3/Design/FirstUniqueNumber/HTCounter.py), [Double Linked List](Python3/Design/FirstUniqueNumber/DLL.py), [Double Linked List + HT](Python3/Design/FirstUniqueNumber/DLLHT.py)|[Note](Python3/Design/FirstUniqueNumber/Note.md)|testcase, improve follow the hint (set, heap)
 
 ## [Contest](Contest)
 
