@@ -30,6 +30,8 @@ Test all the units (in the main directory):
 
 ## Python3 Progress
 
+> Python 3.8
+
 ### Symbols
 
 * Difficulty:
@@ -193,7 +195,7 @@ Test all the units (in the main directory):
 |  297|Hard    |[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|2019/11/14|Binary Tree|[Naive-O(n)](Python3/BinaryTree/SerializeAndDeserializeBinaryTree/Naive297.py)|[Note](Python3/BinaryTree/SerializeAndDeserializeBinaryTree/Note297.md)|-
 |👍 300|Medium  |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|2019/11/11|Array|[BruteForce-O(2ⁿ)](Python3/Array/LongestIncreasingSubsequence/BruteForce300.py), [MemoryRecursive-O(n²)](Python3/Array/LongestIncreasingSubsequence/MemoryRecursive300.py), [DP-O(n²)](Python3/Array/LongestIncreasingSubsequence/DP300.py), [BinarySearch-O(nlogn)](Python3/Array/LongestIncreasingSubsequence/BinarySearch300.py)|[Note](Python3/Array/LongestIncreasingSubsequence/Note300.md)|-
 |👍 347|Medium  |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|2019/9/27|Array|[HT-O(n)](Python3/Array/TopKFrequentElements/HTHeap347.py)|[Note](Python3/Array/TopKFrequentElements/Note347.md)|-
-|👍 373|Medium  |[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|TODO|Array|||-
+|👍 373|Medium  |[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|2020/5/3|Array|[Priority Queue-O(klogk)](Python3/Array/FindKPairsWithSmallestSums/PriorityQueue373.py), [Heap Merge Sort](Python3/Array/FindKPairsWithSmallestSums/HeapMergeSort373.py)|related to 1439 (competition)|testcase, do it again
 |👍 378|Medium  |[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|TODO|Array|||-
 |👍 426|Medium  |[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)|TODO|BST|Need subscription||-
 |  460|Hard    |[LFU Cache](https://leetcode.com/problems/lfu-cache/)|2018/6/25|Design|[Naive](Python3/Design/LFUCache/Naive460.py)|[Note](Python3/Design/LFUCache/Note460.md)|OrderedDict, LinkedList
