@@ -175,6 +175,18 @@
 |Medium      |[Diagonal Traverse II](https://leetcode.com/contest/weekly-contest-186/problems/diagonal-traverse-ii/)|TODO|-|[Naive-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest186/3.py)|-
 |Hard        |[Constrained Subset Sum](https://leetcode.com/contest/weekly-contest-186/problems/constrained-subset-sum/)|TODO|-|-|-
 
+### Weekly Contest 187
+
+* [Weekly Contest 187](https://leetcode.com/contest/weekly-contest-187/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-187/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Destination City](https://leetcode.com/problems/destination-city/)|2020/5/3|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest187/1.py)|-|-
+|Medium      |[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|2020/5/3|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest187/2.py)|-|-
+|Medium      |[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|TODO|-|[SlidingWindow-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest187/3.py), [Naive-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest187/3_2.py)|-
+|Hard        |[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|TODO|-|-|-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
