@@ -184,8 +184,8 @@
 |------------|-------------------|------|-----------------------|-------------|------|
 |Easy        |[Destination City](https://leetcode.com/problems/destination-city/)|2020/5/3|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest187/1.py)|-|-
 |Medium      |[Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|2020/5/3|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest187/2.py)|-|-
-|Medium      |[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|TODO|-|[SlidingWindow-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest187/3.py), [Naive-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest187/3_2.py)|-
-|Hard        |[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|TODO|-|-|-
+|Medium *    |[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|2020/5/3|[Sliding Window with Deque](LeetCodeWeeklyContest/WeeklyContest187/3_3.py)|[Note](LeetCodeWeeklyContest/WeeklyContest187/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.md), [Naive-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest187/3_2.py)|do it again
+|Hard *      |[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|2020/5/4|[Use subcase](LeetCodeWeeklyContest/WeeklyContest187/4.py)|[Note](LeetCodeWeeklyContest/WeeklyContest187/FindTheKthSmallestSumOfAMatrixWithSortedRows.md)|do it again
 
 ## Resources
 
