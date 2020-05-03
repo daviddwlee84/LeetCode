@@ -197,6 +197,7 @@ Test all the units (in the main directory):
 |👍 347|Medium  |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|2019/9/27|Array|[HT-O(n)](Python3/Array/TopKFrequentElements/HTHeap347.py)|[Note](Python3/Array/TopKFrequentElements/Note347.md)|-
 |👍 373|Medium  |[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|2020/5/3|Array|[Priority Queue-O(klogk)](Python3/Array/FindKPairsWithSmallestSums/PriorityQueue373.py), [Heap Merge Sort](Python3/Array/FindKPairsWithSmallestSums/HeapMergeSort373.py)|related to 1439 (competition)|testcase, do it again
 |👍 378|Medium  |[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|TODO|Array|||-
+|   383|Easy    |[Ransom Note](https://leetcode.com/problems/ransom-note/)|2020/5/4|String|[Naive-O(n)](Python3/String/RansomNote/Naive383.py)|-|testcase
 |👍 426|Medium  |[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)|TODO|BST|Need subscription||-
 |  460|Hard    |[LFU Cache](https://leetcode.com/problems/lfu-cache/)|2018/6/25|Design|[Naive](Python3/Design/LFUCache/Naive460.py)|[Note](Python3/Design/LFUCache/Note460.md)|OrderedDict, LinkedList
 |👍 494|Medium |[Target Sum](https://leetcode.com/problems/target-sum/)|2020/2/10|Array|[Naive-O(n²)](Python3/Array/TargetSum/Naive494.py), [RecursiveWithMemory-O(l*n)](Python3/Array/TargetSum/RecursiveWithMemory494.py), [2D DP-O(l*n)](Python3/Array/TargetSum/DP_2D_494.py), [1D DP-O(l*n)](Python3/Array/TargetSum/DP_1D_494.py)|[Note](Python3/Array/TargetSum/Note494.md), Learn: Queue & Stack|more optimization on DP
@@ -337,8 +338,13 @@ Algorithm
 ### LeetCode Links
 
 * [**LeetCode Algorithms Problems**](https://leetcode.com/problemset/algorithms/)
-* [30-Day LeetCoding Challenge](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge) - 2020/4/1~2020/4/30
-  * [🤩 30-Day LeetCoding Challenge 💪🔥 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/551411/30-day-leetcoding-challenge)
+
+> 2020 Coronavirus quarantine special events
+>
+> * [30-Day LeetCoding Challenge](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge) - 2020/4/1~2020/4/30
+>   * [🤩 30-Day LeetCoding Challenge 💪🔥 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/551411/30-day-leetcoding-challenge)
+> * [May LeetCoding Challenge](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/)
+>   * [👨‍💻 May LeetCoding Challenge 🧠✨ - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/595334/may-leetcoding-challenge)
 
 #### Top Interview Questions
 
