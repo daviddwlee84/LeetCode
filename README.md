@@ -215,6 +215,7 @@ Test all the units (in the main directory):
 |  687|Medium  |[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|TODO|Binary Tree||[Note](Python3/BinaryTree/LongestUnivaluePath/Note687.md)|-
 |👍 739|Medium  |[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|2019/12/26|Array|[Naive-O(n²)](Python3/Array/DailyTemperatures/Naive739.py), [Naive2-O(n²)](Python3/Array/DailyTemperatures/Naive2_739.py), [Stack-O(n²)](Python3/Array/DailyTemperatures/Stack739.py)|[Note](Python3/Array/DailyTemperatures/Note739.md), Learn: Queue & Stack|-
 |👍 752|Medium  |[Open the Lock](https://leetcode.com/problems/open-the-lock/)|2019/7/5|Search|[BFS-O(n²)](Python3/Search/OpenTheLock/BFS752.py)|[Note](Python3/Search/OpenTheLock/Note752.md), Learn: Queue & Stack|Improve time complexity
+|  703|Easy    |[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|2020/5/8|Design|[Naive-O(n)](Python3/Design/KthLargestElementInAStream/Naive703.py), [Heap-O(n)](Python3/Design/KthLargestElementInAStream/Heap703.py)|[Note](Python3/Design/KthLargestElementInAStream/Note703.md)|testcase
 |  771|Easy    |[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|2020/5/2|String|[Naive-O(n)](Python3/String/JewelsAndStones/Naive771.py), [Naive2-O(n)](Python3/String/JewelsAndStones/Naive2_771.py)||testcase
 |  801|Medium  |[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|TODO|Array||[Note](Python3/Array/MinimumSwapsToMakeSequencesIncreasing/Note801.md)|-
 |  844|Easy    |[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|2020/4/9|String|[Naive-O(n)](Python3/String/BackspaceStringCompare/Naive844.py), [TwoPointer-O(n)](Python3/String/BackspaceStringCompare/TwoPointer844.py)||testcase
@@ -257,6 +258,18 @@ Design        |  Date    |   Category   |  Implementaiton  |  Remark  | TODO |
 Circular Queue|2019/7/4  |Data Structure|[C++](Learn/Cpp/Queue/CircularQueue.cpp)|[Note](Notes/DataStructure/QueueStack.md#Circular-Queue), [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|-
 Min Stack     |2019/12/26|Data Structure|[C++](Learn/Cpp/Stack/MinStack.cpp)|[Min Stack](https://leetcode.com/problems/min-stack/)|-
 
+## Notes
+
+Data Structure
+
+* [Queue and Stack](Notes/DataStructure/QueueStack.md)
+* [Binary Tree](Notes/DataStructure/BinaryTree.md)
+* [Priority Queue and Heap](Notes/DataStructure/PriorityQueue_Heap.md)
+
+Algorithm
+
+* [Dynamic Programming](Notes/Algorithm/DynamicProgramming.md)
+
 ## DIY Progress
 
 ### Data Structure
@@ -272,17 +285,6 @@ Min Stack     |2019/12/26|Data Structure|[C++](Learn/Cpp/Stack/MinStack.cpp)|[Mi
 |-------------|-------------|-------------|-------------|-------------|-------------|------|
 |Easy    |Linked List|2018/3/12|Linked List|[Singly-Linked List](Python3/LinkedList/ListNodeModule.py)|-|Double-Linked List
 |Medium *|Binary Heap (Min/Max Heap)|2018/6/28|Design|[Binary Heap](Python3/Design/BinaryHeap/BinaryHeap.py)|[Note](Python3/Design/BinaryHeap/BinaryHeap.md)|-
-
-## Notes
-
-Data Structure
-
-* [Queue and Stack](Notes/DataStructure/QueueStack.md)
-* [Binary Tree](Notes/DataStructure/BinaryTree.md)
-
-Algorithm
-
-* [Dynamic Programming](Notes/Algorithm/DynamicProgramming.md)
 
 ## Resources
 
