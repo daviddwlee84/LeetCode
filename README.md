@@ -216,6 +216,7 @@ Test all the units (in the main directory):
 |👍 739|Medium  |[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|2019/12/26|Array|[Naive-O(n²)](Python3/Array/DailyTemperatures/Naive739.py), [Naive2-O(n²)](Python3/Array/DailyTemperatures/Naive2_739.py), [Stack-O(n²)](Python3/Array/DailyTemperatures/Stack739.py)|[Note](Python3/Array/DailyTemperatures/Note739.md), Learn: Queue & Stack|-
 |👍 752|Medium  |[Open the Lock](https://leetcode.com/problems/open-the-lock/)|2019/7/5|Search|[BFS-O(n²)](Python3/Search/OpenTheLock/BFS752.py)|[Note](Python3/Search/OpenTheLock/Note752.md), Learn: Queue & Stack|Improve time complexity
 |  703|Easy    |[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|2020/5/8|Design|[Naive-O(n)](Python3/Design/KthLargestElementInAStream/Naive703.py), [Heap-O(n)](Python3/Design/KthLargestElementInAStream/Heap703.py)|[Note](Python3/Design/KthLargestElementInAStream/Note703.md)|testcase
+|  704|Easy    |[Binary Search](https://leetcode.com/problems/binary-search)|2020/5/9|Array|[Iterative(<)-O(logn)](Python3/Array/BinarySearch/Iterative704.py), [Recursive(<=)-O(logn)](Python3/Array/BinarySearch/Recursive704.py)||Test
 |  771|Easy    |[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|2020/5/2|String|[Naive-O(n)](Python3/String/JewelsAndStones/Naive771.py), [Naive2-O(n)](Python3/String/JewelsAndStones/Naive2_771.py)||testcase
 |  801|Medium  |[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|TODO|Array||[Note](Python3/Array/MinimumSwapsToMakeSequencesIncreasing/Note801.md)|-
 |  844|Easy    |[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|2020/4/9|String|[Naive-O(n)](Python3/String/BackspaceStringCompare/Naive844.py), [TwoPointer-O(n)](Python3/String/BackspaceStringCompare/TwoPointer844.py)||testcase
@@ -253,6 +254,10 @@ Introduction to Data Structure
 * [Binary Search Tree](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/)
 * [Trie](https://leetcode.com/explore/learn/card/trie)
 
+Learning about...
+
+* [Binary Search](https://leetcode.com/explore/learn/card/binary-search/)
+
 Design        |  Date    |   Category   |  Implementaiton  |  Remark  | TODO |
 --------------|----------|--------------|------------------|----------|------|
 Circular Queue|2019/7/4  |Data Structure|[C++](Learn/Cpp/Queue/CircularQueue.cpp)|[Note](Notes/DataStructure/QueueStack.md#Circular-Queue), [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|-
@@ -269,6 +274,7 @@ Data Structure
 Algorithm
 
 * [Dynamic Programming](Notes/Algorithm/DynamicProgramming.md)
+* [Binary Search](Notes/Algorithm/BinarySearch.md)
 
 ## DIY Progress
 
