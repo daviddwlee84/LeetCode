@@ -187,6 +187,18 @@
 |Medium *    |[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|2020/5/3|[Sliding Window with Deque](LeetCodeWeeklyContest/WeeklyContest187/3_3.py)|[Note](LeetCodeWeeklyContest/WeeklyContest187/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.md), [Naive-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest187/3_2.py)|do it again
 |Hard *      |[Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)|2020/5/4|[Use subcase](LeetCodeWeeklyContest/WeeklyContest187/4.py)|[Note](LeetCodeWeeklyContest/WeeklyContest187/FindTheKthSmallestSumOfAMatrixWithSortedRows.md)|do it again
 
+### Weekly Contest 188
+
+* [Weekly Contest 188](https://leetcode.com/contest/weekly-contest-188/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-188/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+|Easy        |[Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)|2020/5/10|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest188/1.py)|-|-
+|Medium      |[Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)|2020/5/10|[Naive-O(n! * n)-TLE](LeetCodeWeeklyContest/WeeklyContest188/2.py), [XORArray-O(n!)](LeetCodeWeeklyContest/WeeklyContest188/2_2.py)|-|-
+|Medium ▲    |[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|2020/5/10|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest188/3.py)|-|-
+|Hard        |[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)|TODO||-|-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
