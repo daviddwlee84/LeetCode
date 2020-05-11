@@ -119,7 +119,7 @@ Test all the units (in the main directory):
 |👍 064|Medium *|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|2020/4/19|Array|[Naive-O(mn)](Python3/Array/MinimumPathSum/Naive064.py), [NoAdditionalSpace-O(mn)](Python3/Array/MinimumPathSum/NoAdditionalSpace064.py)||testcase
 |  066|Easy    |[Plus One](https://leetcode.com/problems/plus-one/)|2019/10/19|Array|[Naive-O(n)](Python3/Array/PlusOne/Naive066.py)|-|-
 |  067|Easy    |[Add Binary](https://leetcode.com/problems/add-binary/)|2019/10/22|String|[Adder-O(n)](Python3/String/AddBinary/Naive067.py)|-|-
-|  069|Easy    |[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|2019/10/22|Search|[Naive-O(n)](Python3/Search/Sqrt_x/Naive069.py), [BinarySearch-O(logn)](Python3/Search/Sqrt_x/BinarySearch069.py)|-|-
+|  069|Easy    |[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|2019/10/22|Search|[Naive-O(n)](Python3/Search/Sqrt_x/Naive069.py), [BinarySearch-O(logn)](Python3/Search/Sqrt_x/BinarySearch069.py), [BinarySearch2-O(logn)](Python3/Search/Sqrt_x/BinarySearch2_069.py), [BinarySearch3-O(logn)](Python3/Search/Sqrt_x/BinarySearch3_069.py)|-|-
 |  070|Easy    |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|2018/6/13|DP|[DP-O(n)](Python3/DynamicProgramming/ClimbingStairs/DP070.py), [Recursive-O(n)](Python3/DynamicProgramming/ClimbingStairs/Recursive070.py)|[Note](Python3/DynamicProgramming/ClimbingStairs/Note070.md)|-
 |  071|Medium  |[Simplify Path](https://leetcode.com/problems/simplify-path/)|2019/12/17|String|[Stack-O(n)](Python3/String/SimplifyPath/Stack071.py)|[Note](Python3/String/SimplifyPath/Note071.md)|-
 |👍 072|Hard    |[Edit Distance](https://leetcode.com/problems/edit-distance/)|2019/10/30|String|[DP-O(mn)](Python3/String/EditDistance/DP072.py), [Recursive-O(mⁿ)](Python3/String/EditDistance/Recursive072.py)|[Note](Python3/String/EditDistance/Note072.md)|-
@@ -216,6 +216,8 @@ Test all the units (in the main directory):
 |  687|Medium  |[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|TODO|Binary Tree||[Note](Python3/BinaryTree/LongestUnivaluePath/Note687.md)|-
 |👍 739|Medium  |[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|2019/12/26|Array|[Naive-O(n²)](Python3/Array/DailyTemperatures/Naive739.py), [Naive2-O(n²)](Python3/Array/DailyTemperatures/Naive2_739.py), [Stack-O(n²)](Python3/Array/DailyTemperatures/Stack739.py)|[Note](Python3/Array/DailyTemperatures/Note739.md), Learn: Queue & Stack|-
 |👍 752|Medium  |[Open the Lock](https://leetcode.com/problems/open-the-lock/)|2019/7/5|Search|[BFS-O(n²)](Python3/Search/OpenTheLock/BFS752.py)|[Note](Python3/Search/OpenTheLock/Note752.md), Learn: Queue & Stack|Improve time complexity
+|  703|Easy    |[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|2020/5/8|Design|[Naive-O(n)](Python3/Design/KthLargestElementInAStream/Naive703.py), [Heap-O(n)](Python3/Design/KthLargestElementInAStream/Heap703.py)|[Note](Python3/Design/KthLargestElementInAStream/Note703.md)|testcase
+|  704|Easy    |[Binary Search](https://leetcode.com/problems/binary-search)|2020/5/9|Array|[Iterative(<)-O(logn)](Python3/Array/BinarySearch/Iterative704.py), [Recursive(<=)-O(logn)](Python3/Array/BinarySearch/Recursive704.py)||Test
 |  771|Easy    |[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|2020/5/2|String|[Naive-O(n)](Python3/String/JewelsAndStones/Naive771.py), [Naive2-O(n)](Python3/String/JewelsAndStones/Naive2_771.py)||testcase
 |  801|Medium  |[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|TODO|Array||[Note](Python3/Array/MinimumSwapsToMakeSequencesIncreasing/Note801.md)|-
 |  844|Easy    |[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|2020/4/9|String|[Naive-O(n)](Python3/String/BackspaceStringCompare/Naive844.py), [TwoPointer-O(n)](Python3/String/BackspaceStringCompare/TwoPointer844.py)||testcase
@@ -224,6 +226,7 @@ Test all the units (in the main directory):
 |  876|Easy    |[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|2020/4/8|Linked List|[Naive-O(n)](Python3/LinkedList/MiddleOfTheLinkedList/Naive876.py), [TwoPointer-O(n)](Python3/LinkedList/MiddleOfTheLinkedList/TwoPointer876.py)||testcase
 |👍 978|Medium  |[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|TODO|String|||
 |  993|Easy    |[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|2020/5/7|Binary Tree|[IterativeBFS-O(n)](Python3/BinaryTree/CousinsInBinaryTree/IterativeBFS993.py), [RecursiveDFS-O(n)](Python3/BinaryTree/CousinsInBinaryTree/RecursiveDFS993.py)||testcase
+|  997|Easy    |[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|2020/5/10|Array|[Naive-O(n)](Python3/Array/FindTheTownJudge/Naive997.py), [Improve-O(n)](Python3/Array/FindTheTownJudge/Improve997.py)||
 |  1008|Medium  |[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|2020/4/20|Binary Tree|[Naive-O(n)](Python3/BinaryTree/ConstructBinarySearchTreeFromPreorderTraversal/Naive1008.py)||testcase
 |  1009|Easy    |[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) ([Number Complement](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3319/))|2020/5/4|BitManipulation|[Naive-O(n)](Python3/BitManipulation/ComplementOfBase10Integer/Naive1009.py), [Pythonic-O(n)](Python3/BitManipulation/ComplementOfBase10Integer/Pythonic1009.py)||testcase
 |  1046|Easy    |[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|2020/4/12|Array|[Naive-O(n)](Python3/Array/LastStoneWeight/Naive1046.py)||-
@@ -253,10 +256,27 @@ Introduction to Data Structure
 * [Binary Search Tree](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/)
 * [Trie](https://leetcode.com/explore/learn/card/trie)
 
+Learning about...
+
+* [Binary Search](https://leetcode.com/explore/learn/card/binary-search/)
+
 Design        |  Date    |   Category   |  Implementaiton  |  Remark  | TODO |
 --------------|----------|--------------|------------------|----------|------|
 Circular Queue|2019/7/4  |Data Structure|[C++](Learn/Cpp/Queue/CircularQueue.cpp)|[Note](Notes/DataStructure/QueueStack.md#Circular-Queue), [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|-
 Min Stack     |2019/12/26|Data Structure|[C++](Learn/Cpp/Stack/MinStack.cpp)|[Min Stack](https://leetcode.com/problems/min-stack/)|-
+
+## Notes
+
+Data Structure
+
+* [Queue and Stack](Notes/DataStructure/QueueStack.md)
+* [Binary Tree](Notes/DataStructure/BinaryTree.md)
+* [Priority Queue and Heap](Notes/DataStructure/PriorityQueue_Heap.md)
+
+Algorithm
+
+* [Dynamic Programming](Notes/Algorithm/DynamicProgramming.md)
+* [Binary Search](Notes/Algorithm/BinarySearch.md)
 
 ## DIY Progress
 
@@ -273,17 +293,6 @@ Min Stack     |2019/12/26|Data Structure|[C++](Learn/Cpp/Stack/MinStack.cpp)|[Mi
 |-------------|-------------|-------------|-------------|-------------|-------------|------|
 |Easy    |Linked List|2018/3/12|Linked List|[Singly-Linked List](Python3/LinkedList/ListNodeModule.py)|-|Double-Linked List
 |Medium *|Binary Heap (Min/Max Heap)|2018/6/28|Design|[Binary Heap](Python3/Design/BinaryHeap/BinaryHeap.py)|[Note](Python3/Design/BinaryHeap/BinaryHeap.md)|-
-
-## Notes
-
-Data Structure
-
-* [Queue and Stack](Notes/DataStructure/QueueStack.md)
-* [Binary Tree](Notes/DataStructure/BinaryTree.md)
-
-Algorithm
-
-* [Dynamic Programming](Notes/Algorithm/DynamicProgramming.md)
 
 ## Resources
 
