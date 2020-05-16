@@ -68,7 +68,7 @@ Test all the units (in the main directory):
 
 * Catagory
   * `Catagory1, Catagory2, ...`
-  * Usually record in Data Structure. (The Algorithm strategy will be noted in the Method field)
+  * Usually record in (input data) Data Structure. (The Algorithm (and additional/special Data Structrue) strategy will be noted in the Method field)
   * Code will be put in the main catagory folder (i.e. the first one).
   * Some catagory may be the Related Topic tags marked by LeetCode.
   * (Add Pattern 0~4 in brackets)
@@ -179,8 +179,10 @@ Test all the units (in the main directory):
 |  203|Easy    |[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|2020/3/18|Linked List|[Naive-O(n)](Python3/LinkedList/RemoveLinkedListElements/Naive203.py)||testcase, single pointer
 |  206|Easy    |[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|2018/6/26|Linked List|[Iterative-O(n)](Python3/LinkedList/ReverseLinkedList/Iterative206.py), [Recursive-O(n)](Python3/LinkedList/ReverseLinkedList/Recursive206.py)|[Note](Python3/LinkedList/ReverseLinkedList/Note206.md)|-
 |👍 207|Medium *|[Course Schedule](https://leetcode.com/problems/course-schedule/)|TODO|Array|-|-|-
-|👍 208|Medium *|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|2018/6/24|Design|[Trie](Python3/Design/ImplementTrie/Trie208.py)|[Note](Python3/Design/ImplementTrie/Note208.md)|-
+|👍 208|Medium *|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|2018/6/24|Design|[Naive](Python3/Design/ImplementTrie/Naive208.py), [Trie (using Hashmap)](Python3/Design/ImplementTrie/Trie208.py), [Trie (using Array)](Python3/Design/ImplementTrie/Trie_array208.py)|[Note](Python3/Design/ImplementTrie/Note208.md)|testcase
 |👍 210|Medium *|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|TODO|Array|-|-|-
+|👍 211|Medium *|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|TODO|Design|-|-|Trie solution
+|👍 212|Hard *  |[Word Search II](https://leetcode.com/problems/word-search-ii/)|TODO|Array|-|-|Trie solution
 |  215|Medium  |[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|2019/9/18|Array|[QuickSort-O(nlogn)](Python3/Array/KthLargestElementInAnArray/QuickSort215.py), [SelectionSortLike-O(n)](Python3/Array/KthLargestElementInAnArray/SelectionSortLike215.py)|[Note](Python3/Array/KthLargestElementInAnArray/Note215.md)|min-heap
 |👍 221|Medium *|[Maximal Square](https://leetcode.com/problems/maximal-square/)|2020/4/27|Array|[Naive-O(k x (mn)^2)](Python3/Array/MaximalSquare/Naive221.py), [BruteForce-O((mn)^2)](Python3/Array/MaximalSquare/BruteForce221.py), [DP-O(mn)](Python3/Array/MaximalSquare/DP221.py), [Better DP-O(mn)](Python3/Array/MaximalSquare/DP_2_221.py)|[Note](Python3/Array/MaximalSquare/Note221.md)|-
 |  225|Easy    |[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|2018/6/24|Design|[Two Queue](Python3/Design/ImplementStackusingQueues/TwoQueue225.py)|[Note](Python3/Design/ImplementStackusingQueues/Note225.md), Learn: Queue & Stack|-
@@ -254,10 +256,10 @@ Introduction to Algorithm
 
 Introduction to Data Structure
 
-* [Binary Tree](https://leetcode.com/explore/learn/card/data-structure-tree/)
+* [Binary Tree](https://leetcode.com/explore/learn/card/data-structure-tree/) - [note](Notes/DataStructure/BinaryTree.md)
 * [Queue & Stack](https://leetcode.com/explore/learn/card/queue-stack/) - [note](Notes/DataStructure/QueueStack.md)
 * [Binary Search Tree](https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/)
-* [Trie](https://leetcode.com/explore/learn/card/trie)
+* [Trie](https://leetcode.com/explore/learn/card/trie) - [note](Notes/DataStructure/Trie_PrefixTree.md)
 
 Learning about...
 
@@ -275,6 +277,7 @@ Data Structure
 * [Queue and Stack](Notes/DataStructure/QueueStack.md)
 * [Binary Tree](Notes/DataStructure/BinaryTree.md)
 * [Priority Queue and Heap](Notes/DataStructure/PriorityQueue_Heap.md)
+* [Trie (prefix tree)](Notes/DataStructure/Trie_PrefixTree.md)
 
 Algorithm
 
