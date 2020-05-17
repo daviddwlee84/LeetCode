@@ -209,7 +209,7 @@
 | Easy       |[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|2020/5/17|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest189/1.py)|-|-
 | Medium     |[Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|2020/5/17|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest189/2.py)|-|-
 | Medium     |[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)|2020/5/17|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest189/3.py)|-|-
-| Hard       |[Maximum Number of Darts Inside of a Circular Dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/)|TODO||[Attempt1-WA](LeetCodeWeeklyContest/WeeklyContest189/4.py), [Attempt2-WA](LeetCodeWeeklyContest/WeeklyContest189/4_2.py)|-
+| Hard       |[Maximum Number of Darts Inside of a Circular Dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/)|2020/5/17|[CircleIntersect-O(n^3)](LeetCodeWeeklyContest/WeeklyContest189/4_3.py)|[Note](LeetCodeWeeklyContest/WeeklyContest189/MaximumNumberOfDartsInsideOfACircularDartboard.md), [Attempt1-WA](LeetCodeWeeklyContest/WeeklyContest189/4.py), [Attempt2-WA](LeetCodeWeeklyContest/WeeklyContest189/4_2.py)|-
 
 ## Resources
 
