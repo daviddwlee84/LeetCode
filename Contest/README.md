@@ -199,6 +199,18 @@
 |Medium ▲    |[Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)|2020/5/10|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest188/3.py)|-|-
 |Hard        |[Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/)|TODO||-|-
 
+### Weekly Contest 189
+
+* [Weekly Contest 189](https://leetcode.com/contest/weekly-contest-189/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-189/ranking/)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|2020/5/17|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest189/1.py)|-|-
+| Medium     |[Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|2020/5/17|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest189/2.py)|-|-
+| Medium     |[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)|2020/5/17|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest189/3.py)|-|-
+| Hard       |[Maximum Number of Darts Inside of a Circular Dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/)|TODO||[Attempt1-WA](LeetCodeWeeklyContest/WeeklyContest189/4.py), [Attempt2-WA](LeetCodeWeeklyContest/WeeklyContest189/4_2.py)|-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
