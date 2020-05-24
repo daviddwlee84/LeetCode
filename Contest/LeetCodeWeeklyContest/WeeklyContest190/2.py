@@ -1,5 +1,6 @@
 class Solution:
     def maxVowels(self, s: str, k: int) -> int:
+        """ cumulative sum array """
         vowels = set(['a', 'e', 'i', 'o', 'u'])
         vowel_count = [0]
         max_num = 0

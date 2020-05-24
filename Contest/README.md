@@ -219,9 +219,9 @@
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|2020/5/24|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest190/1.py)|-|-
-| Medium     |[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|2020/5/24|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest190/2.py)|-|-
+| Medium     |[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|2020/5/24|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest190/2.py), [TwoPointer-O(n)](LeetCodeWeeklyContest/WeeklyContest190/2_2.py)|-|-
 | Medium     |[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|2020/5/24|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest190/3.py)|-|-
-| Hard       |[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|TODO||[BruteForce-O(n*n!^2)](LeetCodeWeeklyContest/WeeklyContest190/4.py)|-
+| Hard *     |[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|2020/5/24|[DP-O(n^2)](LeetCodeWeeklyContest/WeeklyContest190/4_2.py)|[Note](LeetCodeWeeklyContest/WeeklyContest190/MaxDotProductOfTwoSubsequences.md), [BruteForce-O(n*n!^2)](LeetCodeWeeklyContest/WeeklyContest190/4.py)|do it again
 
 ## Resources
 
