@@ -211,6 +211,18 @@
 | Medium     |[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)|2020/5/17|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest189/3.py)|-|-
 | Hard       |[Maximum Number of Darts Inside of a Circular Dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/)|2020/5/17|[CircleIntersect-O(n^3)](LeetCodeWeeklyContest/WeeklyContest189/4_3.py)|[Note](LeetCodeWeeklyContest/WeeklyContest189/MaximumNumberOfDartsInsideOfACircularDartboard.md), [Attempt1-WA](LeetCodeWeeklyContest/WeeklyContest189/4.py), [Attempt2-WA](LeetCodeWeeklyContest/WeeklyContest189/4_2.py)|-
 
+### Weekly Contest 190
+
+* [Weekly Contest 190](https://leetcode.com/contest/weekly-contest-190/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-190/ranking/): 2813 / 11873
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|2020/5/24|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest190/1.py)|-|-
+| Medium     |[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|2020/5/24|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest190/2.py)|-|-
+| Medium     |[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|2020/5/24|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest190/3.py)|-|-
+| Hard       |[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|TODO||[BruteForce-O(n*n!^2)](LeetCodeWeeklyContest/WeeklyContest190/4.py)|-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
