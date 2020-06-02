@@ -186,6 +186,7 @@ Test all the units (in the main directory):
 |  215|Medium  |[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|2019/9/18|Array|[QuickSort-O(nlogn)](Python3/Array/KthLargestElementInAnArray/QuickSort215.py), [SelectionSortLike-O(n)](Python3/Array/KthLargestElementInAnArray/SelectionSortLike215.py)|[Note](Python3/Array/KthLargestElementInAnArray/Note215.md)|min-heap
 |👍 221|Medium *|[Maximal Square](https://leetcode.com/problems/maximal-square/)|2020/4/27|Array|[Naive-O(k x (mn)^2)](Python3/Array/MaximalSquare/Naive221.py), [BruteForce-O((mn)^2)](Python3/Array/MaximalSquare/BruteForce221.py), [DP-O(mn)](Python3/Array/MaximalSquare/DP221.py), [Better DP-O(mn)](Python3/Array/MaximalSquare/DP_2_221.py)|[Note](Python3/Array/MaximalSquare/Note221.md)|-
 |  225|Easy    |[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|2018/6/24|Design|[Two Queue](Python3/Design/ImplementStackusingQueues/TwoQueue225.py)|[Note](Python3/Design/ImplementStackusingQueues/Note225.md), Learn: Queue & Stack|-
+|👍 226|Easy *  |[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|2020/6/1|Binary Tree|[Naive](Python3/BinaryTree/InvertBinaryTree/Naive226.py)|[Note](Python3/BinaryTree/InvertBinaryTree/Note226.md)|-
 |👍 230|Medium *|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|2020/5/20|Binary Tree|[Naive-O(n)](Python3/BinaryTree/KthSmallestElementInABST/Naive230.py), [Iterative-O(n)](Python3/BinaryTree/KthSmallestElementInABST/Iterative230.py)|[Note](Python3/BinaryTree/KthSmallestElementInABST/Note230.md)|testcase
 |  232|Easy    |[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|2018/6/24|Design|[Two Stack](Python3/Design/ImplementQueueusingStacks/TwoStack232.py)|[Note](Python3/Design/ImplementQueueusingStacks/Note232.md), Learn: Queue & Stack|-
 |  236|Medium  |[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|2018/6/10|Binary Tree|[Naive-O(n)](Python3/BinaryTree/LowestCommonAncestorofaBinaryTree/Naive236.py)|[Note](Python3/BinaryTree/LowestCommonAncestorofaBinaryTree/Note236.md)|Maybe has another approach
@@ -234,6 +235,7 @@ Test all the units (in the main directory):
 |👍 857|Hard *  |[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)|2020/3/17|Array|[Greedy-O(n²logn)](Python3/Array/MinimumCostToHireKWorkers/Greedy857.py), [Greedy w/ PQ-O(nlogn)](Python3/Array/MinimumCostToHireKWorkers/GreedyPQ857.py)|[Note](Python3/Array/MinimumCostToHireKWorkers/Note857.md)|-
 |👍 862|Hard *  |[Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)|TODO|Array||[Note](Python3/Array/ShortestSubarrayWithSumAtLeastK/Note862.md)|Deque
 |  876|Easy    |[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|2020/4/8|Linked List|[Naive-O(n)](Python3/LinkedList/MiddleOfTheLinkedList/Naive876.py), [TwoPointer-O(n)](Python3/LinkedList/MiddleOfTheLinkedList/TwoPointer876.py)||testcase
+|👍 886|Medium *|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|2020/5/27|Array|||testcase
 |👍 901|Medium  |[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|2020/5/19|Design|[Naive-O(n)](Python3/Design/OnlineStockSpan/Naive901.py), [Count-O(n)](Python3/Design/OnlineStockSpan/Count901.py), [Stack-O(n)](Python3/Design/OnlineStockSpan/Stack901.py)||testcase
 |👍 918|Medium *|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|2020/5/15|Array|[Naive-O(n)](Python3/Array/MaximumSumCircularSubarray/Naive918.py), [MinSumSubarray-O(n)](Python3/Array/MaximumSumCircularSubarray/MinSumSubarray918.py)|[Note](Python3/Array/MaximumSumCircularSubarray/Note918.md)|use other approach
 |👍 978|Medium  |[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|TODO|String|||
@@ -377,6 +379,8 @@ Algorithm
 >   * [🤩 30-Day LeetCoding Challenge 💪🔥 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/551411/30-day-leetcoding-challenge)
 > * [May LeetCoding Challenge](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/)
 >   * [👨‍💻 May LeetCoding Challenge 🧠✨ - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/595334/may-leetcoding-challenge)
+> * [June LeetCoding Challenge](https://leetcode.com/explore/challenge/card/june-leetcoding-challenge/)
+>   * [🥳💎[LeetCode Polo Shirt] June LeetCoding Challenge! 👕🔥 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704/June-LeetCoding-Challenge)
 
 #### Top Interview Questions
 
