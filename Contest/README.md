@@ -171,7 +171,7 @@
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
 |Easy        |[Maximum Score After Splitting a String](https://leetcode.com/contest/weekly-contest-186/problems/maximum-score-after-splitting-a-string/)|2020/4/26|[Naive-O(nk)](LeetCodeWeeklyContest/WeeklyContest186/1.py)|-|-
-|Medium      |[Maximum Points You Can Obtain from Cards](https://leetcode.com/contest/weekly-contest-186/problems/maximum-points-you-can-obtain-from-cards/)|2020/4/26|, [Improve-O(k)](LeetCodeWeeklyContest/WeeklyContest186/2_3.py)|[Naive-O(nk)-TLE](LeetCodeWeeklyContest/WeeklyContest186/2.py), [Greedy-WA](LeetCodeWeeklyContest/WeeklyContest186/2_2.py)|-
+|Medium      |[Maximum Points You Can Obtain from Cards](https://leetcode.com/contest/weekly-contest-186/problems/maximum-points-you-can-obtain-from-cards/)|2020/4/26|[Improve-O(k)](LeetCodeWeeklyContest/WeeklyContest186/2_3.py)|[Naive-O(nk)-TLE](LeetCodeWeeklyContest/WeeklyContest186/2.py), [Greedy-WA](LeetCodeWeeklyContest/WeeklyContest186/2_2.py)|-
 |Medium      |[Diagonal Traverse II](https://leetcode.com/contest/weekly-contest-186/problems/diagonal-traverse-ii/)|TODO|-|[Naive-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest186/3.py)|-
 |Hard        |[Constrained Subset Sum](https://leetcode.com/contest/weekly-contest-186/problems/constrained-subset-sum/)|TODO|-|-|-
 
@@ -222,6 +222,18 @@
 | Medium     |[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|2020/5/24|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest190/2.py), [TwoPointer-O(n)](LeetCodeWeeklyContest/WeeklyContest190/2_2.py)|-|-
 | Medium     |[Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)|2020/5/24|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest190/3.py)|-|-
 | Hard *     |[Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)|2020/5/24|[DP-O(n^2)](LeetCodeWeeklyContest/WeeklyContest190/4_2.py)|[Note](LeetCodeWeeklyContest/WeeklyContest190/MaxDotProductOfTwoSubsequences.md), [BruteForce-O(n*n!^2)](LeetCodeWeeklyContest/WeeklyContest190/4.py)|do it again
+
+### Weekly Contest 192
+
+* [Weekly Contest 192](https://leetcode.com/contest/weekly-contest-192/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-192/ranking/): 2779 / 13805
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|2020/6/7|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest192/1.py)|-|-
+| Medium     |[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|2020/6/7|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest192/2.py)|-|-
+| Medium     |[Design Browser History](https://leetcode.com/problems/design-browser-history/)|2020/6/7|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest192/3.py)|-|-
+| Hard       |[Paint House III](https://leetcode.com/problems/paint-house-iii/)|TODO||[BruteForce-O(n^m)-TLE](LeetCodeWeeklyContest/WeeklyContest192/4.py)|-
 
 ## Resources
 
