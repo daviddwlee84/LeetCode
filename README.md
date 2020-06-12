@@ -208,6 +208,7 @@ Test all the units (in the main directory):
 |   367|Easy    |[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|2020/5/9|Math|[Naive-O(n)](Python3/Math/ValidPerfectSquare/Naive367.py), [BinarySearch-O(n)](Python3/Math/ValidPerfectSquare/BinarySearch367.py)|-|testcase
 |👍 373|Medium  |[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|2020/5/3|Array|[Priority Queue-O(klogk)](Python3/Array/FindKPairsWithSmallestSums/PriorityQueue373.py), [Heap Merge Sort](Python3/Array/FindKPairsWithSmallestSums/HeapMergeSort373.py)|related to 1439 (competition)|testcase, do it again
 |👍 378|Medium  |[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|TODO|Array|||-
+|   380|Medium  |[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|2020/6/12|Design|[Naive-O(1)](Python3/Design/InsertDeleteGetRandomO(1).py)||testcase, use HT + array
 |   383|Easy    |[Ransom Note](https://leetcode.com/problems/ransom-note/)|2020/5/4|String|[Naive-O(n)](Python3/String/RansomNote/Naive383.py)|-|testcase
 |   387|Easy    |[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|2020/5/5|String|[Naive-O(n)](Python3/String/FirstUniqueCharacterInAString/Naive387.py)|-|testcase
 |👍 402|Medium  |[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|2020/5/13|String|[Naive-O(n)](Python3/Stirng/RemoveKDigits/Greedy402.py)||do this again
