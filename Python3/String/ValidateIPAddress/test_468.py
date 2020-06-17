@@ -18,8 +18,8 @@ testcase = [
 
 def test_naive():
     _test_with_answer(naive)
-    _test_with_socket(naive)
-    _test_with_ipaddress(naive)
+    # _test_with_socket(naive)
+    # _test_with_ipaddress(naive)
 
 
 def _test_with_answer(solution):
