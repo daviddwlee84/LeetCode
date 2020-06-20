@@ -116,6 +116,7 @@ Test all the units (in the main directory):
 |👍 055|Medium *|[Jump Game](https://leetcode.com/problems/jump-game/)|2020/4/26|Array|[Backtracking-O(2^n)](Python3/Array/JumpGame/Backtracking055.py), [DPTopDown-O(n^2)](Python3/Array/JumpGame/DPTopDown055.py), [DPBottomUp-O(n^2)](Python3/Array/JumpGame/DPBottomUp055.py), [Greedy-O(n)](Python3/Array/JumpGame/Greedy055.py)|[Note](Python3/Array/JumpGame/Note055.md), Good DP walk through|-
 |  056|Medium *|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|2020/2/21|Array|[Sorting-O(nlogn)](Python3/Array/MergeIntervals/Sorting056.py)|[Note](Python3/Array/MergeIntervals/Note056.md)|Improve performance
 |  058|Easy    |[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|2019/9/30|String|Not even worth to do|-|-
+|👍 060|Medium *|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|2020/6/20|String|[Naive-O(n!)](Python3/String/PermutationSequence/Naive060.py), [Backtracking-O(n!)](Python3/String/PermutationSequence/Backtracking060.py), [Math-O(n)](Python3/String/PermutationSequence/Math060.py)||do it again (math one)
 |👍 064|Medium *|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|2020/4/19|Array|[Naive-O(mn)](Python3/Array/MinimumPathSum/Naive064.py), [NoAdditionalSpace-O(mn)](Python3/Array/MinimumPathSum/NoAdditionalSpace064.py)||testcase
 |  066|Easy    |[Plus One](https://leetcode.com/problems/plus-one/)|2019/10/19|Array|[Naive-O(n)](Python3/Array/PlusOne/Naive066.py)|-|-
 |  067|Easy    |[Add Binary](https://leetcode.com/problems/add-binary/)|2019/10/22|String|[Adder-O(n)](Python3/String/AddBinary/Naive067.py)|-|-
@@ -441,3 +442,22 @@ Usually online judgement TLE limitation is 1 second. => we can estimate the time
   1. Install tkinter `sudo apt-get install python3-tk`
   2. Install [Xming X Server for Windows](https://sourceforge.net/projects/xming/)
   3. `export DISPLAY=:0;`
+
+Quick typing math symbol
+
+* MacOS
+  * `control + command + space`
+* Ubuntu
+  * `ctrl + .` in naive GTK Linux apps
+  * `ctrl + shift + e + space` in some other apps
+  * [How to insert an emoji into a text in Ubuntu 18.04 and later? - Ask Ubuntu](https://askubuntu.com/questions/1045915/how-to-insert-an-emoji-into-a-text-in-ubuntu-18-04-and-later)
+  * [Emoji Selector - GNOME Shell Extensions](https://extensions.gnome.org/extension/1162/emoji-selector/)
+    * [maoschanz/emoji-selector-for-gnome: This extension provide a popup menu with some emojis ; clicking on an emoji copies it to the clipboard.](https://github.com/maoschanz/emoji-selector-for-gnome)
+    * [How do I check my version of GNOME-Shell? - Ask Ubuntu](https://askubuntu.com/questions/13348/how-do-i-check-my-version-of-gnome-shell)
+    * `super (win) + .`
+  * GNOME Shell Extensions
+    * [**How to Use GNOME Shell Extensions [Complete Guide] - It's FOSS**](https://itsfoss.com/gnome-shell-extensions/)
+    * [GNOME Shell Extensions](https://extensions.gnome.org/)
+    * `gnome-tweaks`
+* Windows
+  * `win + .`
