@@ -235,6 +235,18 @@
 | Medium     |[Design Browser History](https://leetcode.com/problems/design-browser-history/)|2020/6/7|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest192/3.py)|-|-
 | Hard       |[Paint House III](https://leetcode.com/problems/paint-house-iii/)|TODO||[BruteForce-O(n^m)-TLE](LeetCodeWeeklyContest/WeeklyContest192/4.py)|-
 
+### Weekly Contest 195
+
+* [Weekly Contest 195](https://leetcode.com/contest/weekly-contest-195/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-195/ranking/): Unrated due to server error
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Path Crossing](https://leetcode.com/problems/path-crossing/)|2020/6/28|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest195/1.py)|-|-
+| Medium     |[Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)|2020/6/28|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest195/2.py)|-|-
+| Medium     |[Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)|TODO||-|2^n brute force, dp, sorting + calc?!
+| Hard       |[Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)|TODO|||-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
