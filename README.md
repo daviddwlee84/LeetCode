@@ -117,6 +117,7 @@ Test all the units (in the main directory):
 |  056|Medium *|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|2020/2/21|Array|[Sorting-O(nlogn)](Python3/Array/MergeIntervals/Sorting056.py)|[Note](Python3/Array/MergeIntervals/Note056.md)|Improve performance
 |  058|Easy    |[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|2019/9/30|String|Not even worth to do|-|-
 |👍 060|Medium *|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|2020/6/20|String|[Naive-O(n!)](Python3/String/PermutationSequence/Naive060.py), [Backtracking-O(n!)](Python3/String/PermutationSequence/Backtracking060.py), [Math-O(n)](Python3/String/PermutationSequence/Math060.py)||do it again (math one)
+|👍 062|Medium  |[Unique Paths](https://leetcode.com/problems/unique-paths/)|2020/6/29|Array|[Naive-O(m+n)](Python3/Array/UniquePaths/Naive062.py), [DP-O(mn)](Python3/Array/UniquePaths/DP062.py)||-
 |👍 064|Medium *|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|2020/4/19|Array|[Naive-O(mn)](Python3/Array/MinimumPathSum/Naive064.py), [NoAdditionalSpace-O(mn)](Python3/Array/MinimumPathSum/NoAdditionalSpace064.py)||testcase
 |  066|Easy    |[Plus One](https://leetcode.com/problems/plus-one/)|2019/10/19|Array|[Naive-O(n)](Python3/Array/PlusOne/Naive066.py)|-|-
 |  067|Easy    |[Add Binary](https://leetcode.com/problems/add-binary/)|2019/10/22|String|[Adder-O(n)](Python3/String/AddBinary/Naive067.py)|-|-
