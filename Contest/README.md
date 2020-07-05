@@ -254,10 +254,10 @@
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|2020/7/5|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest196/1.py)|-|-
-| Medium     |[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)|TODO||[Naive-O(n)-TLE](LeetCodeWeeklyContest/WeeklyContest195/2.py)|-
-| Medium     |[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|TODO||-|-
-| Hard       |[Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)|TODO||-|-
+| Easy       |[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|2020/7/5|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest196/1.py), [Distribute-O(n)](LeetCodeWeeklyContest/WeeklyContest196/1_2.py)|-|-
+| Medium     |[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)|2020/7/5|[Math-O(1)](LeetCodeWeeklyContest/WeeklyContest196/2_2.py)|[Naive-O(n)-TLE](LeetCodeWeeklyContest/WeeklyContest196/2.py)|-
+| Medium *   |[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|2020/7/5|[Pre-computeation-O(mnn)](LeetCodeWeeklyContest/WeeklyContest196/3.py), [DP with Stack-O(mn)](LeetCodeWeeklyContest/WeeklyContest196/3_2.py)|-|do it again
+| Hard       |[Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)|2020/7/5|[Gredy-O(n^2)](LeetCodeWeeklyContest/WeeklyContest196/4.py)|Bytedance|TODO: BIT, segment tree
 
 ## Resources
 
@@ -275,3 +275,10 @@
   * [YouTube](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)
     * [How to start Competitive Programming? For beginners! - YouTube](https://www.youtube.com/watch?v=xAeiXy8-9Y8)
       * [Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf)
+
+### Estimating Time Complexity to Avoid TLE
+
+* [How do I estimate the run time of a program while solving questions on CodeChef?](https://www.quora.com/How-do-I-estimate-the-run-time-of-a-program-while-solving-questions-on-CodeChef)
+* [How to estimate if a solution will exceed the time limit based on big-O?](https://codeforces.com/blog/entry/21772?)
+  * Just multiply the number of operations in a loop by the amount of times it loops and try to estimate using that.
+* [Knowing the complexity in competitive programming](https://www.geeksforgeeks.org/knowing-the-complexity-in-competitive-programming/)
