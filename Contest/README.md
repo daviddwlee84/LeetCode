@@ -247,6 +247,18 @@
 | Medium     |[Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)|TODO||-|2^n brute force, dp, sorting + calc?!
 | Hard       |[Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)|TODO|||-
 
+### Weekly Contest 196
+
+* [Weekly Contest 196](https://leetcode.com/contest/weekly-contest-196/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-196/ranking/): 6460 / 14301
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|2020/7/5|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest196/1.py)|-|-
+| Medium     |[Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)|TODO||[Naive-O(n)-TLE](LeetCodeWeeklyContest/WeeklyContest195/2.py)|-
+| Medium     |[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|TODO||-|-
+| Hard       |[Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)|TODO||-|-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
