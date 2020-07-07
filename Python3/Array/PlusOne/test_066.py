@@ -1,4 +1,5 @@
 from Naive066 import Solution as naive
+from FullAdder066 import Solution as fulladder
 
 testcase = [
     ([1, 2, 3], [1, 2, 4]),
@@ -9,4 +10,9 @@ testcase = [
 
 def test_naive():
     for case, ans in testcase:
-        assert naive().plusOne(case) == ans
+        assert naive().plusOne(case.copy()) == ans
+
+
+def test_fulladder():
+    for case, ans in testcase:
+        assert fulladder().plusOne(case) == ans
