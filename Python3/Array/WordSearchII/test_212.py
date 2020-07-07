@@ -1,4 +1,5 @@
 from Naive212 import Solution as naive
+import os
 
 testcase = [
     ([
@@ -17,7 +18,8 @@ testcase = [
 
 large_case = ['large_case.txt']
 for case in large_case:
-    with open(case, 'r') as stream:
+    path = os.path.dirname(os.path.realpath(__file__))
+    with open(os.path.join(path, case), 'r') as stream:
         testcase.append(tuple(eval(item) for item in stream.readlines()))
 
 def test_naive():
