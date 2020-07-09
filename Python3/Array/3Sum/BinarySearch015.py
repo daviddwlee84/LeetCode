@@ -12,6 +12,7 @@ class Solution:
         """
         # something like hash table with frequency (deal with duplicate)
         counter = Counter(nums)
+        # this will get the sorted keys (i.e. non-duplicate numbers)
         nums = sorted(counter)
 
         result = []
@@ -31,7 +32,9 @@ class Solution:
             if num < 0:
                 target = -num
 
+                # search the left most starting point, if not found then start from i + 1
                 left = bisect_left(nums, target - nums[-1], i + 1)
+                # search the right most starting point, if not found then start form left
                 right = bisect_left(nums, target / 2, left)
                 for a in nums[left:right]:
                     b = target - a
