@@ -259,6 +259,26 @@
 | Medium *   |[Count Submatrices With All Ones](https://leetcode.com/problems/count-submatrices-with-all-ones/)|2020/7/5|[Pre-computeation-O(mnn)](LeetCodeWeeklyContest/WeeklyContest196/3.py), [DP with Stack-O(mn)](LeetCodeWeeklyContest/WeeklyContest196/3_2.py)|-|do it again
 | Hard       |[Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)|2020/7/5|[Gredy-O(n^2)](LeetCodeWeeklyContest/WeeklyContest196/4.py)|Bytedance|TODO: BIT, segment tree
 
+### Weekly Contest 197
+
+* [Weekly Contest 197](https://leetcode.com/contest/weekly-contest-197/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-197/ranking/): 2153 / 13983
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|2020/7/12|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest197/1.py)|-|-
+| Medium     |[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)|2020/7/12|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest197/2.py)||-
+| Medium     |[Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)|2020/7/12|[Naive-O(mnn)](LeetCodeWeeklyContest/WeeklyContest197/3.py)|-|-
+| Hard       |[Best Position for a Service Centre](https://leetcode.com/problems/best-position-for-a-service-centre/)|TODO|||TODO: geometric mean
+
+Geometric Mean:
+
+* [Geometric median - Wikipedia](https://en.wikipedia.org/wiki/Geometric_median#:~:text=The%20geometric%20median%20of%20a,central%20tendency%20in%20higher%20dimensions.)
+* [python - Geometric median of multidimensional points - Stack Overflow](https://stackoverflow.com/questions/30299267/geometric-median-of-multidimensional-points)
+* [Geometric Median in one line of native python.](https://gist.github.com/caffeine-potent/e885a11333be566f33f9a5d2a0c1f2e8) - not enough precision
+* [Geometric Median - GeeksforGeeks](https://www.geeksforgeeks.org/geometric-median/)
+* [mrwojo/geometric_median: Geometric median in Python](https://github.com/mrwojo/geometric_median)
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
