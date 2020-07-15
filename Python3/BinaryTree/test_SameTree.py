@@ -1,5 +1,6 @@
 from BinaryTree.TreeNodeModule import listToBinaryTree
 from BinaryTree.SameTree.Recursive100 import Solution as recursive
+from BinaryTree.SameTree.Naive100 import Solution as naive
 
 
 testcase = [
@@ -9,8 +10,16 @@ testcase = [
     ([], [], True)
 ]
 
+
 def test_recursive():
     for p_list, q_list, isSame in testcase:
         p = listToBinaryTree(p_list)
         q = listToBinaryTree(q_list)
         assert recursive().isSameTree(p, q) == isSame
+
+
+def test_naive():
+    for p_list, q_list, isSame in testcase:
+        p = listToBinaryTree(p_list)
+        q = listToBinaryTree(q_list)
+        assert naive().isSameTree(p, q) == isSame
