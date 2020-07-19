@@ -233,7 +233,7 @@
 | Easy       |[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|2020/6/7|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest192/1.py)|-|-
 | Medium     |[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)|2020/6/7|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest192/2.py)|-|-
 | Medium     |[Design Browser History](https://leetcode.com/problems/design-browser-history/)|2020/6/7|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest192/3.py)|-|-
-| Hard       |[Paint House III](https://leetcode.com/problems/paint-house-iii/)|TODO||[BruteForce-O(n^m)-TLE](LeetCodeWeeklyContest/WeeklyContest192/4.py)|-
+| Hard       |[Paint House III](https://leetcode.com/problems/paint-house-iii/)|2020/6/7|[DP-O(mtn^2)](LeetCodeWeeklyContest/WeeklyContest192/4_2.py)|[BruteForce-O(n^m)-TLE](LeetCodeWeeklyContest/WeeklyContest192/4.py)|-
 
 ### Weekly Contest 195
 
@@ -278,6 +278,20 @@ Geometric Mean:
 * [Geometric Median in one line of native python.](https://gist.github.com/caffeine-potent/e885a11333be566f33f9a5d2a0c1f2e8) - not enough precision
 * [Geometric Median - GeeksforGeeks](https://www.geeksforgeeks.org/geometric-median/)
 * [mrwojo/geometric_median: Geometric median in Python](https://github.com/mrwojo/geometric_median)
+
+### Weekly Contest 198
+
+* [Weekly Contest 198](https://leetcode.com/contest/weekly-contest-198/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-198/ranking/): 7717 / 15151
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Water Bottles](https://leetcode.com/problems/water-bottles/)|2020/7/19|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest198/1.py)|-|-
+| Medium     |[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|TODO||[Naive DFS-O(n^2logn)-TLE](LeetCodeWeeklyContest/WeeklyContest198/2.py)|-
+| Medium     |[Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/)|TODO||-|-
+| Hard       |[Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)|TODO||-|-
+
+* [Seems like this round is held by Microsoft](https://zhuanlan.zhihu.com/p/161033795)
 
 ## Resources
 
