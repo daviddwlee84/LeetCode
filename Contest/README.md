@@ -287,11 +287,12 @@ Geometric Mean:
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Water Bottles](https://leetcode.com/problems/water-bottles/)|2020/7/19|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest198/1.py)|-|-
-| Medium     |[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|TODO||[Naive DFS-O(n^2logn)-TLE](LeetCodeWeeklyContest/WeeklyContest198/2.py)|-
-| Medium     |[Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/)|TODO||-|-
-| Hard       |[Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)|TODO||-|-
+| Medium *   |[Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|2020/7/19|[DFS-O(n)](LeetCodeWeeklyContest/WeeklyContest198/2_2.py)|[Naive DFS-O(n^2logn)-TLE](LeetCodeWeeklyContest/WeeklyContest198/2.py)|do it again
+| Medium     |[Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/)|TODO||-|segment tree?!
+| Hard       |[Find a Value of a Mysterious Function Closest to Target](https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)|2020/7/19|[Set-O(n)](LeetCodeWeeklyContest/WeeklyContest198/4.py)|-|-
 
 * [Seems like this round is held by Microsoft](https://zhuanlan.zhihu.com/p/161033795)
+* [Winning LeetCode Weekly Contest 198 - YouTube](https://www.youtube.com/watch?v=izGTqs-4y-I)
 
 ## Resources
 
