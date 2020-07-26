@@ -303,7 +303,7 @@ Geometric Mean:
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest199/1.py)||-|-
 | Medium     |[Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/)|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest199/2.py)||-|-
-| Medium *   |[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest199/3.py)||(some guy turn this into a graph problem)|TODO: better solution
+| Medium *   |[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest199/3.py), [Better-O(n)](LeetCodeWeeklyContest/WeeklyContest199/3_2.py)||(some guy turn this into a graph problem)|do it again
 | Hard *     |[String Compression II](https://leetcode.com/problems/string-compression-ii/)||[Greedy(fail)-WA](LeetCodeWeeklyContest/WeeklyContest199/4_fail.py)|-|DP
 
 ## Resources
@@ -327,6 +327,7 @@ Geometric Mean:
   * [Discord - Interview Solutions](https://discord.com/invite/y9WEnzQ)
   * [AWice/leetcode: My public repository for all things LeetCode.](https://github.com/awice/leetcode)
   * [alexwice - Twitch](https://www.twitch.tv/alexwice)
+  * [Alex Wice - YouTube](https://www.youtube.com/user/AlexWice)
 
 ### Estimating Time Complexity to Avoid TLE
 
