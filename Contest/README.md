@@ -294,6 +294,18 @@ Geometric Mean:
 * [Seems like this round is held by Microsoft](https://zhuanlan.zhihu.com/p/161033795)
 * [Winning LeetCode Weekly Contest 198 - YouTube](https://www.youtube.com/watch?v=izGTqs-4y-I)
 
+### Weekly Contest 199
+
+* [Weekly Contest 199](https://leetcode.com/contest/weekly-contest-199/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-199/ranking/): 2865 / 14278
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest199/1.py)||-|-
+| Medium     |[Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/)|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest199/2.py)||-|-
+| Medium *   |[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest199/3.py)||(some guy turn this into a graph problem)|TODO: better solution
+| Hard *     |[String Compression II](https://leetcode.com/problems/string-compression-ii/)||[Greedy(fail)-WA](LeetCodeWeeklyContest/WeeklyContest199/4_fail.py)|-|DP
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
@@ -302,14 +314,19 @@ Geometric Mean:
 
 ### Good Competitor
 
-* William Lin
+* William Lin (C++)
   * [Profile - LeetCode](https://leetcode.com/tmwilliamlin168/)
   * [YouTube](https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q)
-* Errichto
+* Errichto (C++)
   * [Profile - LeetCode](https://leetcode.com/errichto/)
   * [YouTube](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)
     * [How to start Competitive Programming? For beginners! - YouTube](https://www.youtube.com/watch?v=xAeiXy8-9Y8)
       * [Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf)
+* Alex Wice (Python)
+  * [Profile - LeetCode](https://leetcode.com/awice/)
+  * [Discord - Interview Solutions](https://discord.com/invite/y9WEnzQ)
+  * [AWice/leetcode: My public repository for all things LeetCode.](https://github.com/awice/leetcode)
+  * [alexwice - Twitch](https://www.twitch.tv/alexwice)
 
 ### Estimating Time Complexity to Avoid TLE
 
