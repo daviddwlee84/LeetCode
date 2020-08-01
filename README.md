@@ -53,7 +53,7 @@ Test all the units (in the main directory):
 * Others
   * BM - Bit Manipulation
 
-> Naive means the first thought of mine (usually a little better than Brute-Force, but may need to be optimized.)
+> *Naive* means the first thought of mine (usually a little better than Brute-Force, but may need to be optimized.)
 
 ### LeetCode Patterns
 
@@ -93,7 +93,7 @@ Test all the units (in the main directory):
 |  016|Medium  |[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|2018/10/13|Array|[TwoPointer-O(n²)](Python3/Array/3SumClosest/TwoPointer016.py)|[Note](Python3/Array/3SumClosest/Note016.md)|-
 |  017|Medium  |[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|2019/3/1|String|[Backtracking-O(n!)](Python3/String/LetterCombinationsOfAPhoneNumber/Backtracking017.py)|[Note](Python3/String/LetterCombinationsOfAPhoneNumber/Note017.md)|-
 |👍 018|Medium ▲|[4Sum](https://leetcode.com/problems/4sum/)|2019/3/2|Array, HT|[GeneralizedTwoPointer-O(n³)](Python3/Array/4Sum/GeneralizedTwoPointer018.py)|[Note](Python3/Array/4Sum/Note018.md)|-
-|   019|Medium  |[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|2019/3/3|Linked List|[HT-O(n)](Python3/LinkedList/RemoveNthNodeFromEndOfList/HT019.py)|[Note](Python3/LinkedList/RemoveNthNodeFromEndOfList/Note019.md)|Two Pointer (reduce space complexity)
+|   019|Medium *|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|2019/3/3|Linked List|[HT-O(n)](Python3/LinkedList/RemoveNthNodeFromEndOfList/HT019.py), [TwoPointer-O(n)](Python3/LinkedList/RemoveNthNodeFromEndOfList/TwoPointer019.py)|[Note](Python3/LinkedList/RemoveNthNodeFromEndOfList/Note019.md), Sina Interview|-
 |👍 020|Easy    |[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|2018/9/15|String, Stack|[Naive-O(n)](Python3/String/ValidParentheses/Naive020.py), [Stack-O(n)](Python3/String/ValidParentheses/Stack020.py), [HashTable-O(n)](Python3/String/ValidParentheses/Dict020.py)|[Note](Python3/String/ValidParentheses/Note020.md), Learn: Queue & Stack|-
 |  021|Easy    |[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|2018/6/27|Linked List|[Better-O(n)](Python3/LinkedList/MergeTwoSortedLists/Better021.py)|[Note](Python3/LinkedList/MergeTwoSortedLists/Note021.md)|-
 |  023|Hard    |[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|2018/6/26|Linked List|[Naive-O(kn)](Python3/LinkedList/MergeKSortedLists/Naive023.py), [DC-O(nlogk)](Python3/LinkedList/MergeKSortedLists/DC023.py)|[Note](Python3/LinkedList/MergeKSortedLists/Note023.md)|Compare K each time, Heap, attrgetter
@@ -125,7 +125,7 @@ Test all the units (in the main directory):
 |  066|Easy    |[Plus One](https://leetcode.com/problems/plus-one/)|2019/10/19|Array|[Naive-O(n)](Python3/Array/PlusOne/Naive066.py), [FullAdder](Python3/Array/PlusOne/FullAdder066.py)|-|-
 |  067|Easy    |[Add Binary](https://leetcode.com/problems/add-binary/)|2019/10/22|String|[Adder-O(n)](Python3/String/AddBinary/Adder067.py), [Iterative-O(n)](Python3/String/AddBinary/Iterative067.py)|-|-
 |  069|Easy    |[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|2019/10/22|Search|[Naive-O(n)](Python3/Search/Sqrt_x/Naive069.py), [BinarySearch-O(logn)](Python3/Search/Sqrt_x/BinarySearch069.py), [BinarySearch2-O(logn)](Python3/Search/Sqrt_x/BinarySearch2_069.py), [BinarySearch3-O(logn)](Python3/Search/Sqrt_x/BinarySearch3_069.py)|-|-
-|  070|Easy    |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|2018/6/13|DP|[DP-O(n)](Python3/DynamicProgramming/ClimbingStairs/DP070.py), [Recursive-O(n)](Python3/DynamicProgramming/ClimbingStairs/Recursive070.py)|[Note](Python3/DynamicProgramming/ClimbingStairs/Note070.md)|TODO: move this to Array
+|  070|Easy    |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|2018/6/13|DP|[DP-O(n)](Python3/Array/ClimbingStairs/DP070.py), [Recursive-O(n)](Python3/Array/ClimbingStairs/Recursive070.py), [Naive-O(n)](Python3/Array/ClimbingStairs/Naive070.py)|[Note](Python3/Array/ClimbingStairs/Note070.md)|-
 |  071|Medium  |[Simplify Path](https://leetcode.com/problems/simplify-path/)|2019/12/17|String|[Stack-O(n)](Python3/String/SimplifyPath/Stack071.py)|[Note](Python3/String/SimplifyPath/Note071.md)|-
 |👍 072|Hard    |[Edit Distance](https://leetcode.com/problems/edit-distance/)|2019/10/30|String|[DP-O(mn)](Python3/String/EditDistance/DP072.py), [Recursive-O(mⁿ)](Python3/String/EditDistance/Recursive072.py)|[Note](Python3/String/EditDistance/Note072.md)|-
 |👍 075|Medium  |[Sort Colors](https://leetcode.com/problems/sort-colors/)|2020/6/11|Array|[CountingSort-O(n)](Python3/Array/SortColors/CountingSort075.py), [DutchNationalFlagProblem-O(n)](Python3/Array/SortColors/DutchNationalFlagProblem075.py)|[Note](Python3/Array/SortColors/Note075.md)|testcase, do this again
@@ -170,6 +170,7 @@ Test all the units (in the main directory):
 |👍 137|Medium *|[Single Number II](https://leetcode.com/problems/single-number-ii/)|2020/6/22|Array|[Naive-O(n)](Python3/Array/SingleNumberII/Naive137.py), [BitManipulation-O(n)](Python3/Array/SingleNumberII/BitManipulation137.py), [BitManipulation 2-O(n)](Python3/Array/SingleNumberII/BitManipulation2_137.py), [Math-O(n)](Python3/Array/SingleNumberII/Math137.py)||testcase
 |👍 138|Medium *|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|2020/3/18|Array|[ProductList-O(n)](Python3/Array/ProductOfArrayExceptSelf/ProductList138.py), [ProductList2-O(n)](Python3/Array/ProductOfArrayExceptSelf/ProductList2_138.py), [SingleProductList-O(n)](Python3/Array/ProductOfArrayExceptSelf/SingleProductList138.py)|[Note](Python3/Array/ProductOfArrayExceptSelf/Note138.md)|testcase
 |👍 139|Medium  |[Word Break](https://leetcode.com/problems/word-break/)|2020/1/14|String|[Recursive-O(2ⁿ)](Python3/String/WordBreak/Recursive139.py), [DP-O(n²)](Python3/String/WordBreak/DP139.py)|[Note](Python3/String/WordBreak/Note139.md)|-
+|👍 140|Hard    |[Word Break II](https://leetcode.com/problems/word-break-ii/)|2020/7/30|String|[Naive-O(n^2)](Python3/String/WordBreakII/Naive140.py)||-
 |  141|Easy *  |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|2019/12/31|Linked List|[Naive-O(n)](Python3/LinkedList/LinkedListCycle/Naive141.py), [TwoPointer-O(n)](Python3/LinkedList/LinkedListCycle/TwoPointer141.py)|[Note](Python3/LinkedList/LinkedListCycle/Note141.md), Microsoft|testcase
 |👍 142|Medium *|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|2020/6/25|Linked List|[TwoPointer-O(n)](Python3/LinkedList/LinkedListCycleII/TwoPointer142.py)||do it again
 |  143|Medium  |[Reorder List](https://leetcode.com/problems/reorder-list/)|2020/3/25|Linked List|[Naive-O(n)](Python3/LinkedList/ReorderList/Naive143.py), [Improved-O(n)](Python3/LinkedList/ReorderList/Improved143.py)||testcase
@@ -224,6 +225,7 @@ Test all the units (in the main directory):
 |   283|Easy    |[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|2020/4/4|Array|[Naive-O(n)](Python3/Array/MoveZeroes/Naive283.py), [TwoPointer-O(n)](Python3/Array/MoveZeroes/TwoPointer283.py)|-|testcase
 |  297|Hard    |[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|2019/11/14|Binary Tree|[Naive-O(n)](Python3/BinaryTree/SerializeAndDeserializeBinaryTree/Naive297.py)|[Note](Python3/BinaryTree/SerializeAndDeserializeBinaryTree/Note297.md)|-
 |👍 300|Medium  |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|2019/11/11|Array|[BruteForce-O(2ⁿ)](Python3/Array/LongestIncreasingSubsequence/BruteForce300.py), [MemoryRecursive-O(n²)](Python3/Array/LongestIncreasingSubsequence/MemoryRecursive300.py), [DP-O(n²)](Python3/Array/LongestIncreasingSubsequence/DP300.py), [BinarySearch-O(nlogn)](Python3/Array/LongestIncreasingSubsequence/BinarySearch300.py)|[Note](Python3/Array/LongestIncreasingSubsequence/Note300.md)|-
+|👍 309|Medium *|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|2020/7/29|Array|[StateMachine-O(n)](Python3/Array/BestTimeToBuyAndSellStockWithCooldown/StateMachine309.py), [DP-O(n)](Python3/Array/BestTimeToBuyAndSellStockWithCooldown/DP309.py)||-
 |👍 328|Medium  |[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|2020/5/16|Linked List|[Naive-O(n)](Python3/LinkedList/OddEvenLinkedList/Naive328.py)||testcase
 |👍 332|Medium *|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|2020/6/28|Array|[Naive-O(n)](Python3/Array/ReconstructItinerary/Naive332.py), [EulerianPath-O(ElogE)](Python3/Array/ReconstructItinerary/EulerianPath332.py), [DFS-O(nlogn)](Python3/Array/ReconstructItinerary/DFS332.py)||do it again
 |   344|Easy    |[Reverse String](https://leetcode.com/problems/reverse-string/)|2020/6/4|String|[Naive-O(n)](Python3/String/ReverseString/Naive344.py), [Recursive-O(n)](Python3/String/ReverseString/Recursive344.py)|[Note](Python3/String/ReverseString/Note344.md)|testcase
@@ -438,8 +440,11 @@ Algorithm
 >   * [👨‍💻 May LeetCoding Challenge 🧠✨ - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/595334/may-leetcoding-challenge)
 > * [June LeetCoding Challenge](https://leetcode.com/explore/challenge/card/june-leetcoding-challenge/)
 >   * [🥳💎[LeetCode Polo Shirt] June LeetCoding Challenge! 👕🔥 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704/June-LeetCoding-Challenge)
-> * [Explore - LeetCode](https://leetcode.com/explore/challenge/card/july-leetcoding-challenge)
+> * [July LeetCoding Challenge](https://leetcode.com/explore/challenge/card/july-leetcoding-challenge)
 >   * [🔥👕[LeetCode Polo Shirt] July LeetCoding Challenge! 👕🔥 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704/leetcode-polo-shirt-july-leetcoding-challenge)
+>   * [Is Leetcode discontinuing with the Monthly challenges? - LeetCode Discuss](https://leetcode.com/discuss/explore/july-leetcoding-challenge/758118/is-leetcode-discontinuing-with-the-monthly-challenges)
+> * [August LeetCoding Challenge](https://leetcode.com/explore/challenge/card/august-leetcoding-challenge)
+>   * [🔥👕[LeetCode Polo Shirt] August LeetCoding Challenge! 👕🔥 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704/leetcode-polo-shirt-august-leetcoding-challenge)
 
 #### Top Interview Questions
 

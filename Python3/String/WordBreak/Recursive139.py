@@ -15,7 +15,7 @@ def memoize(f):
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         self.wordSet = set(wordDict)
-        return self.dfs_helper(s, )
+        return self.dfs_helper(s)
 
     @memoize
     def dfs_helper(self, s: str) -> bool:
