@@ -301,10 +301,22 @@ Geometric Mean:
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest199/1.py)||-|-
-| Medium     |[Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/)|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest199/2.py)||-|-
-| Medium *   |[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest199/3.py), [Better-O(n)](LeetCodeWeeklyContest/WeeklyContest199/3_2.py)||(some guy turn this into a graph problem)|do it again
-| Hard *     |[String Compression II](https://leetcode.com/problems/string-compression-ii/)||[Greedy(fail)-WA](LeetCodeWeeklyContest/WeeklyContest199/4_fail.py)|-|DP
+| Easy       |[Shuffle String](https://leetcode.com/problems/shuffle-string/)|2020/7/26|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest199/1.py)|-|-
+| Medium     |[Bulb Switcher IV](https://leetcode.com/problems/bulb-switcher-iv/)|2020/7/26|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest199/2.py)|-|-
+| Medium *   |[Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)|2020/7/26|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest199/3.py), [Better-O(n)](LeetCodeWeeklyContest/WeeklyContest199/3_2.py)||(some guy turn this into a graph problem)|do it again
+| Hard *     |[String Compression II](https://leetcode.com/problems/string-compression-ii/)|TODO||[Greedy(fail)-WA](LeetCodeWeeklyContest/WeeklyContest199/4_fail.py)|DP
+
+### Weekly Contest 200
+
+* [Weekly Contest 200](https://leetcode.com/contest/weekly-contest-200/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-200/ranking/): 3647 / 15382
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|2020/8/2|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest200/1.py)|-|-
+| Medium     |[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)|2020/8/2|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest200/2.py)|-|-
+| Medium     |[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/)|TODO||[GreedyBubbleSort(fail)-WA](LeetCodeWeeklyContest/WeeklyContest200/3_fail.py)|
+| Hard       |[Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/)|TODO|[DFS(fail)-WA](LeetCodeWeeklyContest/WeeklyContest200/4_fail.py)|-|DP, graph
 
 ## Resources
 
