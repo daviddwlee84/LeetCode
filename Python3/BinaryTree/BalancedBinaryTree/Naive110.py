@@ -1,5 +1,4 @@
 from ..TreeNodeModule import TreeNode
-from collections import deque
 
 
 class Solution:

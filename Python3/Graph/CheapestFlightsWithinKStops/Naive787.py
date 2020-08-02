@@ -1,6 +1,7 @@
 from typing import List
 from collections import defaultdict
 
+
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
         """
@@ -11,21 +12,21 @@ class Solution:
             edges[start].append((end, price))
 
         self.cost = float('inf')
-    
+
         def dfs(curr_city: int, curr_cost: int, curr_stops: int, visited):
             if curr_city == dst and curr_stops <= K + 1:
                 self.cost = min(self.cost, curr_cost)
                 return
-            
+
             if curr_stops > K or curr_cost > self.cost:
                 # early stop
                 return
-            
+
             for end, price in edges[curr_city]:
                 if end not in visited and curr_stops <= K:
-                    dfs(end, curr_cost + price, curr_stops + 1, visited | set([curr_city]))
-            
-        
+                    dfs(end, curr_cost + price, curr_stops +
+                        1, visited | set([curr_city]))
+
         dfs(src, 0, 0, set())
 
         return self.cost if self.cost != float('inf') else -1
