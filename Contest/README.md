@@ -315,8 +315,10 @@ Geometric Mean:
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|2020/8/2|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest200/1.py)|-|-
 | Medium     |[Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/)|2020/8/2|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest200/2.py)|-|-
-| Medium     |[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/)|TODO||[GreedyBubbleSort(fail)-WA](LeetCodeWeeklyContest/WeeklyContest200/3_fail.py)|
-| Hard       |[Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/)|TODO|[DFS(fail)-WA](LeetCodeWeeklyContest/WeeklyContest200/4_fail.py)|-|DP, graph
+| Medium *   |[Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/)|2020/8/3|[Naive-O(n^2)](LeetCodeWeeklyContest/WeeklyContest200/3.py), [Better-O(n^2)](LeetCodeWeeklyContest/WeeklyContest200/3_2.py)|[GreedyBubbleSort(fail)-WA](LeetCodeWeeklyContest/WeeklyContest200/3_fail.py)|
+| Hard *     |[Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/)|TODO|[DFS(fail)-WA](LeetCodeWeeklyContest/WeeklyContest200/4_fail.py)|-|DP, graph
+
+* [alexwice - Interview Weekly #7 aftershow - Twitch](https://www.twitch.tv/videos/697904854)
 
 ## Resources
 
