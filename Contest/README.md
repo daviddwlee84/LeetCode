@@ -320,6 +320,28 @@ Geometric Mean:
 
 * [alexwice - Interview Weekly #7 aftershow - Twitch](https://www.twitch.tv/videos/697904854)
 
+### Weekly Contest 201
+
+* [Weekly Contest 201](https://leetcode.com/contest/weekly-contest-201/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-200/ranking/): 2812 / 15616
+
+> Take 9 mins to finish first 2 questions and use the rest of the time to...
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|2020/8/9|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest201/1.py)|-|-
+| Medium *   |[Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)|2020/8/9|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest201/2.py)|-|better solution
+| Medium *   |[Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)|TODO||[Find all + remove overlap(fail)-TLE](LeetCodeWeeklyContest/WeeklyContest201/3_fail.py)|cumulative sum + set?!
+| Hard *     |[Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)|TODO|Top-Down DP, Bottom-Up DP|[Cut Mid(fail)-WA](LeetCodeWeeklyContest/WeeklyContest201/4_fail.py), [Cut Mid 2(fail)-WA](LeetCodeWeeklyContest/WeeklyContest201/4_2_fail.py)|DPs
+
+* Interval Related
+  * [Interval List Intersections - LeetCode](https://leetcode.com/problems/interval-list-intersections/)
+  * [Find Non-overlapping intervals among a given set of intervals - GeeksforGeeks](https://www.geeksforgeeks.org/find-non-overlapping-intervals-among-a-given-set-of-intervals/)
+  * [algorithm - Maximum non-overlapping intervals in a interval tree - Stack Overflow](https://stackoverflow.com/questions/19850580/maximum-non-overlapping-intervals-in-a-interval-tree#:~:text=The%20maximum%20non%2Doverlapping%20set,%2C%20%5B1230%2C%201400%5D%20.)
+  * [Leetcode is Easy! The Interval Pattern. | by Tim Park | Medium](https://medium.com/@timpark0807/leetcode-is-easy-the-interval-pattern-d68a7c1c841)
+  * [Non-overlapping Intervals - LeetCode](https://leetcode.com/problems/non-overlapping-intervals/)
+  * [Maximal Disjoint Intervals - GeeksforGeeks](https://www.geeksforgeeks.org/maximal-disjoint-intervals/)
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
