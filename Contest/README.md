@@ -6,9 +6,12 @@ File naming convention:
 
 > strictly since Weekly Contest 202
 
-* `num.py`: written by myself
-* `num_fail.py`: written by myself during contest but fail
-* `num_other.py`: mimic others' answer after contest
+* Correct
+  * `num.py`: written by myself
+  * `num_other.py`: mimic others' answer after contest
+  * `num_fixed.py`: written by myself, was failed during the contest but fixed afterward
+* Wrong
+  * `num_fail.py`: written by myself during contest but fail
 
 ### Weekly Contest 163
 
@@ -359,10 +362,14 @@ Geometric Mean:
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[Three Consecutive Odds](https://leetcode.com/contest/weekly-contest-202/problems/three-consecutive-odds/)|2020/8/15|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest202/1.py)|-|-
-| Medium     |[Minimum Operations to Make Array Equal](https://leetcode.com/contest/weekly-contest-202/problems/minimum-operations-to-make-array-equal/)|2020/8/15|[Naive(Math)-O(n)](LeetCodeWeeklyContest/WeeklyContest202/2.py)|-|-
-| Medium *   |[Magnetic Force Between Two Balls](https://leetcode.com/contest/weekly-contest-202/problems/magnetic-force-between-two-balls/)|TODO||[Binary Search-WA](LeetCodeWeeklyContest/WeeklyContest202/3_fail.py)|-
-| Hard *     |[Minimum Number of Days to Eat N Oranges](https://leetcode.com/contest/weekly-contest-202/problems/minimum-number-of-days-to-eat-n-oranges/)|TODO||[Top-down DP-TLE](LeetCodeWeeklyContest/WeeklyContest202/4_fail.py), [Bottom-up DP-TLE](LeetCodeWeeklyContest/WeeklyContest202/4_2_fail.py)|
+| Easy       |[Three Consecutive Odds](https://leetcode.com/contest/weekly-contest-202/problems/three-consecutive-odds/)|2020/8/16|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest202/1.py)|-|-
+| Medium     |[Minimum Operations to Make Array Equal](https://leetcode.com/contest/weekly-contest-202/problems/minimum-operations-to-make-array-equal/)|2020/8/16|[Naive(Math)-O(1)](LeetCodeWeeklyContest/WeeklyContest202/2.py), [Other-O(n)](LeetCodeWeeklyContest/WeeklyContest202/2_other.py)|-|-
+| Medium *   |[Magnetic Force Between Two Balls](https://leetcode.com/contest/weekly-contest-202/problems/magnetic-force-between-two-balls/)|2020/8/16|[Binary Search-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest202/3_fixed.py), [Better Binary Search 2-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest202/3_other.py)||-
+| Hard *     |[Minimum Number of Days to Eat N Oranges](https://leetcode.com/contest/weekly-contest-202/problems/minimum-number-of-days-to-eat-n-oranges/)|2020/8/16|[Top-down DP-O(logn)](LeetCodeWeeklyContest/WeeklyContest202/4_other.py)|[Top-down DP-TLE](LeetCodeWeeklyContest/WeeklyContest202/4_fail.py), [Bottom-up DP-TLE](LeetCodeWeeklyContest/WeeklyContest202/4_2_fail.py)|
+
+* [Interview Weekly #10 - YouTube](https://www.youtube.com/watch?v=PZn394-UK-E)
+  * All the solution ar available are available in Discord `#lc-contest-solns`
+* [Place k elements such that minimum distance is maximized - GeeksforGeeks](https://www.geeksforgeeks.org/place-k-elements-such-that-minimum-distance-is-maximized/)
 
 ## Resources
 

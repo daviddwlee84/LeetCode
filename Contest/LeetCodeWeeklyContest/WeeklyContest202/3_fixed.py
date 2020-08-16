@@ -28,7 +28,7 @@ class Solution:
 
         result = -1
 
-        left = position[0]
+        left = 0
         right = position[n - 1]
 
         while left < right:

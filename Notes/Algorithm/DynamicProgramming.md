@@ -47,6 +47,13 @@ It's hard to figure out DP solution at the first glance.
 * [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 * [DP IS EASY! 5 Steps to Think Through DP Questions. - LeetCode Discuss](https://leetcode.com/problems/target-sum/discuss/455024/DP-IS-EASY!-5-Steps-to-Think-Through-DP-Questions.)
 * [What does a state represent in terms of Dynamic Programming? - Quora](https://www.quora.com/What-does-a-state-represent-in-terms-of-Dynamic-Programming)
+* [**How to solve DP - String? Template and 4 Steps to be followed. - LeetCode Discuss**](https://leetcode.com/discuss/general-discussion/651719/how-to-solve-dp-string-template-and-4-steps-to-be-followed)
+
+### Tutorial
+
+* [Dynamic Programming lecture #1 - Fibonacci, iteration vs recursion - YouTube](https://www.youtube.com/watch?v=YBSt1jYwVfU)
+* [Dynamic Programming lecture #2 - Coin change, double counting - YouTube](https://www.youtube.com/watch?v=1mtvm2ubHCY)
+* [Dynamic Programming lecture #3 - Line of wines - YouTube](https://www.youtube.com/watch?v=pwpOC1dph6U)
 
 ### Book
 
