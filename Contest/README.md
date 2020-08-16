@@ -2,6 +2,14 @@
 
 ## Weekly Contest
 
+File naming convention:
+
+> strictly since Weekly Contest 202
+
+* `num.py`: written by myself
+* `num_fail.py`: written by myself during contest but fail
+* `num_other.py`: mimic others' answer after contest
+
 ### Weekly Contest 163
 
 * [Weekly Contest 163](https://leetcode.com/contest/weekly-contest-163)
@@ -323,7 +331,7 @@ Geometric Mean:
 ### Weekly Contest 201
 
 * [Weekly Contest 201](https://leetcode.com/contest/weekly-contest-201/)
-* [Ranking](https://leetcode.com/contest/weekly-contest-200/ranking/): 2812 / 15616
+* [Ranking](https://leetcode.com/contest/weekly-contest-201/ranking/): 2812 / 15616
 
 > Take 9 mins to finish first 2 questions and use the rest of the time to...
 
@@ -341,6 +349,20 @@ Geometric Mean:
   * [Leetcode is Easy! The Interval Pattern. | by Tim Park | Medium](https://medium.com/@timpark0807/leetcode-is-easy-the-interval-pattern-d68a7c1c841)
   * [Non-overlapping Intervals - LeetCode](https://leetcode.com/problems/non-overlapping-intervals/)
   * [Maximal Disjoint Intervals - GeeksforGeeks](https://www.geeksforgeeks.org/maximal-disjoint-intervals/)
+
+### Weekly Contest 202
+
+* [Weekly Contest 202](https://leetcode.com/contest/weekly-contest-202/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-202/ranking/): 4988 / 14373
+
+> Take 9 mins to finish first 2 questions and use the rest of the time to...
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Three Consecutive Odds](https://leetcode.com/contest/weekly-contest-202/problems/three-consecutive-odds/)|2020/8/15|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest202/1.py)|-|-
+| Medium     |[Minimum Operations to Make Array Equal](https://leetcode.com/contest/weekly-contest-202/problems/minimum-operations-to-make-array-equal/)|2020/8/15|[Naive(Math)-O(n)](LeetCodeWeeklyContest/WeeklyContest202/2.py)|-|-
+| Medium *   |[Magnetic Force Between Two Balls](https://leetcode.com/contest/weekly-contest-202/problems/magnetic-force-between-two-balls/)|TODO||[Binary Search-WA](LeetCodeWeeklyContest/WeeklyContest202/3_fail.py)|-
+| Hard *     |[Minimum Number of Days to Eat N Oranges](https://leetcode.com/contest/weekly-contest-202/problems/minimum-number-of-days-to-eat-n-oranges/)|TODO||[Top-down DP-TLE](LeetCodeWeeklyContest/WeeklyContest202/4_fail.py), [Bottom-up DP-TLE](LeetCodeWeeklyContest/WeeklyContest202/4_2_fail.py)|
 
 ## Resources
 
