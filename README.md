@@ -227,6 +227,7 @@ Test all the units (in the main directory):
 |👍 300|Medium  |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|2019/11/11|Array|[BruteForce-O(2ⁿ)](Python3/Array/LongestIncreasingSubsequence/BruteForce300.py), [MemoryRecursive-O(n²)](Python3/Array/LongestIncreasingSubsequence/MemoryRecursive300.py), [DP-O(n²)](Python3/Array/LongestIncreasingSubsequence/DP300.py), [BinarySearch-O(nlogn)](Python3/Array/LongestIncreasingSubsequence/BinarySearch300.py)|[Note](Python3/Array/LongestIncreasingSubsequence/Note300.md)|-
 |👍 309|Medium *|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|2020/7/29|Array|[StateMachine-O(n)](Python3/Array/BestTimeToBuyAndSellStockWithCooldown/StateMachine309.py), [DP-O(n)](Python3/Array/BestTimeToBuyAndSellStockWithCooldown/DP309.py)||-
 |👍 328|Medium  |[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|2020/5/16|Linked List|[Naive-O(n)](Python3/LinkedList/OddEvenLinkedList/Naive328.py)||testcase
+|👍 330|Hard    |[Patching Array](https://leetcode.com/problems/patching-array/)|2020/8/17|Array|[Naive-O(n^2)](Python3/Array/PatchingArray/Naive330.py), [Trick-O(n)](Python3/Array/PatchingArray/Trick330.py)||-
 |👍 332|Medium *|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|2020/6/28|Array|[Naive-O(n)](Python3/Array/ReconstructItinerary/Naive332.py), [EulerianPath-O(ElogE)](Python3/Array/ReconstructItinerary/EulerianPath332.py), [DFS-O(nlogn)](Python3/Array/ReconstructItinerary/DFS332.py)||do it again
 |   342|Easy    |[Power of Four](https://leetcode.com/problems/power-of-four/)|2020/8/4|Math|[Naive-O(n)](Python3/Math/PowerOfFour/Naive342.py), [Math-O(n)](Python3/Math/PowerOfFour/Math342.py)||testcase
 |   344|Easy    |[Reverse String](https://leetcode.com/problems/reverse-string/)|2020/6/4|String|[Naive-O(n)](Python3/String/ReverseString/Naive344.py), [Recursive-O(n)](Python3/String/ReverseString/Recursive344.py)|[Note](Python3/String/ReverseString/Note344.md)|testcase
@@ -374,12 +375,14 @@ Algorithm
 
 ## Resources
 
-### Online Judgement
+### Online Judgement / Assessment
 
 * [LeetFree](https://www.leetfree.com/)
 * [Codeforces](http://codeforces.com/)
-* [Newcoder](https://www.nowcoder.com/)
+* [Newcoder](https://www.nowcoder.com/) - Interview OA in China
   * [劍指Offer](https://www.nowcoder.com/ta/coding-interviews)
+* [**CodeSignal**](https://app.codesignal.com/) - Intern Interview OA in America
+* [binarysearch.io](https://binarysearch.io/)
 
 > Paid
 >
