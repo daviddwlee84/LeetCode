@@ -376,6 +376,7 @@ Geometric Mean:
 * [Codeforces](https://codeforces.com/)
 * [AtCoder](https://atcoder.jp/)
 * [CS Academy](https://csacademy.com/)
+* [binarysearch.io | Master Algorithms with Others](https://binarysearch.io/)
 
 ### Good Competitor
 

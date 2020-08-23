@@ -8,7 +8,7 @@ class Solution:
 
         0 : node has not been visited
         -1: node is being visited, if we found a vertex marked as -1, then there is a ring
-        1 : 
+        1 : node has already visited (course taken)
         """
         graph = [[] for _ in range(numCourses)]
         visited = [0] * numCourses
