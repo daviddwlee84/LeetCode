@@ -358,18 +358,28 @@ Geometric Mean:
 * [Weekly Contest 202](https://leetcode.com/contest/weekly-contest-202/)
 * [Ranking](https://leetcode.com/contest/weekly-contest-202/ranking/): 4988 / 14373
 
-> Take 9 mins to finish first 2 questions and use the rest of the time to...
-
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[Three Consecutive Odds](https://leetcode.com/contest/weekly-contest-202/problems/three-consecutive-odds/)|2020/8/16|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest202/1.py)|-|-
-| Medium     |[Minimum Operations to Make Array Equal](https://leetcode.com/contest/weekly-contest-202/problems/minimum-operations-to-make-array-equal/)|2020/8/16|[Naive(Math)-O(1)](LeetCodeWeeklyContest/WeeklyContest202/2.py), [Other-O(n)](LeetCodeWeeklyContest/WeeklyContest202/2_other.py)|-|-
-| Medium *   |[Magnetic Force Between Two Balls](https://leetcode.com/contest/weekly-contest-202/problems/magnetic-force-between-two-balls/)|2020/8/16|[Binary Search-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest202/3_fixed.py), [Better Binary Search 2-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest202/3_other.py)||-
-| Hard *     |[Minimum Number of Days to Eat N Oranges](https://leetcode.com/contest/weekly-contest-202/problems/minimum-number-of-days-to-eat-n-oranges/)|2020/8/16|[Top-down DP-O(logn)](LeetCodeWeeklyContest/WeeklyContest202/4_other.py)|[Top-down DP-TLE](LeetCodeWeeklyContest/WeeklyContest202/4_fail.py), [Bottom-up DP-TLE](LeetCodeWeeklyContest/WeeklyContest202/4_2_fail.py)|
+| Easy       |[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|2020/8/16|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest202/1.py)|-|-
+| Medium     |[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|2020/8/16|[Naive(Math)-O(1)](LeetCodeWeeklyContest/WeeklyContest202/2.py), [Other-O(n)](LeetCodeWeeklyContest/WeeklyContest202/2_other.py)|-|-
+| Medium *   |[Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)|2020/8/16|[Binary Search-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest202/3_fixed.py), [Better Binary Search 2-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest202/3_other.py)||-
+| Hard *     |[Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)|2020/8/16|[Top-down DP-O(logn)](LeetCodeWeeklyContest/WeeklyContest202/4_other.py)|[Top-down DP-TLE](LeetCodeWeeklyContest/WeeklyContest202/4_fail.py), [Bottom-up DP-TLE](LeetCodeWeeklyContest/WeeklyContest202/4_2_fail.py)|
 
 * [Interview Weekly #10 - YouTube](https://www.youtube.com/watch?v=PZn394-UK-E)
   * All the solution ar available are available in Discord `#lc-contest-solns`
 * [Place k elements such that minimum distance is maximized - GeeksforGeeks](https://www.geeksforgeeks.org/place-k-elements-such-that-minimum-distance-is-maximized/)
+
+### Weekly Contest 204
+
+* [Weekly Contest 204](https://leetcode.com/contest/weekly-contest-204/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-204/ranking/): 2326 / 13949
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|2020/8/30|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest204/1.py)|-|-
+| Medium     |[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|2020/8/30|[Greedy-O(n)](LeetCodeWeeklyContest/WeeklyContest204/2.py)|-|-
+| Medium     |[Minimum Number of Days to Disconnect Island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/)|TODO||[Trick-WA](LeetCodeWeeklyContest/WeeklyContest204/3_fail.py)|-
+| Hard *     |[Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)|TODO|||
 
 ## Resources
 
@@ -377,6 +387,10 @@ Geometric Mean:
 * [AtCoder](https://atcoder.jp/)
 * [CS Academy](https://csacademy.com/)
 * [binarysearch.io | Master Algorithms with Others](https://binarysearch.io/)
+
+> * [jmerle/competitive-companion: Browser extension which parses competitive programming problems](https://github.com/jmerle/competitive-companion)
+
+* [huzecong/leetcode-contest-helper: A LeetCode contest utility for the dead serious. Generate template code for local testing.](https://github.com/huzecong/leetcode-contest-helper)
 
 ### Good Competitor
 
@@ -394,6 +408,10 @@ Geometric Mean:
   * [AWice/leetcode: My public repository for all things LeetCode.](https://github.com/awice/leetcode)
   * [alexwice - Twitch](https://www.twitch.tv/alexwice)
   * [Alex Wice - YouTube](https://www.youtube.com/user/AlexWice)
+* ecnerwala - Andrew Lawrence He (C++)
+  * [Github](https://github.com/ecnerwala)
+    * [ecnerwala’s gists](https://gist.github.com/ecnerwala)
+  * [ecnerwala - YouTube](https://www.youtube.com/channel/UCn9ng6ZUnh5weU1BsIQoZ5w)
 
 ### Estimating Time Complexity to Avoid TLE
 
