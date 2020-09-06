@@ -392,8 +392,12 @@ Geometric Mean:
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|2020/9/6|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest205/1.py)|-|-
 | Medium     |[Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)|2020/9/6|[HT-O(n)](LeetCodeWeeklyContest/WeeklyContest205/2.py)|[Set Combination-WA](LeetCodeWeeklyContest/WeeklyContest205/2_fail.py), [Counter-WA](LeetCodeWeeklyContest/WeeklyContest205/2_2_fail.py), [Brute Force-TLE](LeetCodeWeeklyContest/WeeklyContest205/2_3_fail.py), [Counter-TLE](LeetCodeWeeklyContest/WeeklyContest205/2_4_fail.py)|-
-| Medium     |[Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)|2020/9/6|[Greedy Groupby-O(n)](LeetCodeWeeklyContest/WeeklyContest205/3.py)||-
-| Hard *     |[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|TODO|||-
+| Medium     |[Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)|2020/9/6|[Greedy Groupby-O(n)](LeetCodeWeeklyContest/WeeklyContest205/3.py)||Sparse Table
+| Hard *     |[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|2020/9/6|[Greedy with Disjoint Set Union-O(n)](LeetCodeWeeklyContest/WeeklyContest205/4_other.py)||-
+
+* [Interview Weekly #13 - YouTube](https://www.youtube.com/watch?v=e6SR2_CSQwU)
+* Disjoint Set Union
+  * [Disjoint Set notes](../Notes/DataStructure/DisjointSet.md)
 
 ## Resources
 
