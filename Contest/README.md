@@ -377,9 +377,23 @@ Geometric Mean:
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|2020/8/30|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest204/1.py)|-|-
-| Medium     |[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|2020/8/30|[Greedy-O(n)](LeetCodeWeeklyContest/WeeklyContest204/2.py)|-|-
+| Medium     |[Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|2020/8/30|[Greedy-O(n)](LeetCodeWeeklyContest/WeeklyContest204/2.py)|-|Alex: GroupBy, TwoPointer
 | Medium     |[Minimum Number of Days to Disconnect Island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/)|TODO||[Trick-WA](LeetCodeWeeklyContest/WeeklyContest204/3_fail.py)|-
 | Hard *     |[Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)|TODO|||
+
+* [Interview Weekly #12 - YouTube](https://www.youtube.com/watch?v=9JufxKZZ49Q) - TODO
+
+### Weekly Contest 205
+
+* [Weekly Contest 205](https://leetcode.com/contest/weekly-contest-205/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-205/ranking/): 3998 / 13171
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)|2020/9/6|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest205/1.py)|-|-
+| Medium     |[Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)|2020/9/6|[HT-O(n)](LeetCodeWeeklyContest/WeeklyContest205/2.py)|[Set Combination-WA](LeetCodeWeeklyContest/WeeklyContest205/2_fail.py), [Counter-WA](LeetCodeWeeklyContest/WeeklyContest205/2_2_fail.py), [Brute Force-TLE](LeetCodeWeeklyContest/WeeklyContest205/2_3_fail.py), [Counter-TLE](LeetCodeWeeklyContest/WeeklyContest205/2_4_fail.py)|-
+| Medium     |[Minimum Deletion Cost to Avoid Repeating Letters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)|2020/9/6|[Greedy Groupby-O(n)](LeetCodeWeeklyContest/WeeklyContest205/3.py)||-
+| Hard *     |[Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|TODO|||-
 
 ## Resources
 
