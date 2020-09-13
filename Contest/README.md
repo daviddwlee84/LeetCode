@@ -406,10 +406,12 @@ Geometric Mean:
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|2020/9/6|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest206/1.py)|[TransposeSum-WA](LeetCodeWeeklyContest/WeeklyContest206/1_fail.py)|-
-| Medium     |[Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/)|2020/9/6|[Naive-O(n^2)](LeetCodeWeeklyContest/WeeklyContest206/2.py)||-
-| Medium     |[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|2020/9/13|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest206/3.py)||-
-| Hard *     |[Check If String Is Transformable With Substring Sort Operations](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)|TODO|[Greedy-WA](LeetCodeWeeklyContest/WeeklyContest206/4_fail.py)||-
+| Easy       |[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|2020/9/13|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest206/1.py), [Better-O(n^3)](LeetCodeWeeklyContest/WeeklyContest206/1_other.py), [Sum-O(n^2)](LeetCodeWeeklyContest/WeeklyContest206/1_2_other.py)|[TransposeSum-WA](LeetCodeWeeklyContest/WeeklyContest206/1_fail.py)|-
+| Medium     |[Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/)|2020/9/13|[Naive-O(n^2)](LeetCodeWeeklyContest/WeeklyContest206/2.py)|-|-
+| Medium     |[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|2020/9/13|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest206/3.py), [DSU-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest206/3_other.py)||-
+| Hard *     |[Check If String Is Transformable With Substring Sort Operations](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)|2020/9/13|[BubbleSort-O(n^2)](LeetCodeWeeklyContest/WeeklyContest206/4_other.py)|[Greedy-WA](LeetCodeWeeklyContest/WeeklyContest206/4_fail.py)|-
+
+* [Interview Weekly #14 - YouTube](https://www.youtube.com/watch?v=8_eJjEv2zqM)
 
 ## Resources
 

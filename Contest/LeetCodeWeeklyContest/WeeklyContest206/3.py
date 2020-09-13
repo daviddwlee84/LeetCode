@@ -6,6 +6,12 @@ import heapq
 
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
+        """
+        Sort of Kruskal's algorithm (maybe)
+        https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
+
+        (Another way to get Minimum Spanning Tree (MST) is Prim's algorithm)
+        """
         points = [(i, *point) for i, point in enumerate(points)]
 
         edges = defaultdict(list)
