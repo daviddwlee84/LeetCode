@@ -399,6 +399,18 @@ Geometric Mean:
 * Disjoint Set Union
   * [Disjoint Set notes](../Notes/DataStructure/DisjointSet.md)
 
+### Weekly Contest 206
+
+* [Weekly Contest 206](https://leetcode.com/contest/weekly-contest-206/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-206/ranking/): 1281 / 13291
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|2020/9/6|[Naive-O(n^3)](LeetCodeWeeklyContest/WeeklyContest206/1.py)|[TransposeSum-WA](LeetCodeWeeklyContest/WeeklyContest206/1_fail.py)|-
+| Medium     |[Count Unhappy Friends](https://leetcode.com/problems/count-unhappy-friends/)|2020/9/6|[Naive-O(n^2)](LeetCodeWeeklyContest/WeeklyContest206/2.py)||-
+| Medium     |[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|2020/9/13|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest206/3.py)||-
+| Hard *     |[Check If String Is Transformable With Substring Sort Operations](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)|TODO|[Greedy-WA](LeetCodeWeeklyContest/WeeklyContest206/4_fail.py)||-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
