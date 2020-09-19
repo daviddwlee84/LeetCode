@@ -3,6 +3,8 @@ class Solution:
         """
         :type prices: List[int]
         :rtype: int
+
+        > You can always convert a greedy solution to a "DP" solution by keeping a record of the local optima at each timestep.
         """
 
         profit = 0
@@ -11,7 +13,7 @@ class Solution:
             return profit
 
         minimum = prices[0]
-        
+
         for i in range(1, len(prices)):
             if prices[i] < minimum:
                 minimum = prices[i]
