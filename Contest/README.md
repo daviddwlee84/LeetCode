@@ -413,6 +413,18 @@ Geometric Mean:
 
 * [Interview Weekly #14 - YouTube](https://www.youtube.com/watch?v=8_eJjEv2zqM)
 
+### Weekly Contest 207
+
+* [Weekly Contest 207](https://leetcode.com/contest/weekly-contest-207/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-207/ranking/): 2923 / 12923
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|2020/9/13|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest207/1.py)||-
+| Medium     |[Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|2020/9/20|[Naive-O(n!)](LeetCodeWeeklyContest/WeeklyContest207/2.py)|-|-
+| Medium *   |[Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/)|2020/9/20|[DP-O(n^2)](LeetCodeWeeklyContest/WeeklyContest207/3.py)|[BackTracking-TLE-O(n!)](LeetCodeWeeklyContest/WeeklyContest207/3_fail.py)|-
+| Hard *     |[Minimum Cost to Connect Two Groups of Points](https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/)|TODO|||-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
