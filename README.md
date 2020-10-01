@@ -306,6 +306,7 @@ Test all the units (in the main directory):
 |👍 901|Medium  |[Online Stock Span](https://leetcode.com/problems/online-stock-span/)|2020/5/19|Design|[Naive-O(n)](Python3/Design/OnlineStockSpan/Naive901.py), [Count-O(n)](Python3/Design/OnlineStockSpan/Count901.py), [Stack-O(n)](Python3/Design/OnlineStockSpan/Stack901.py)||testcase
 |   916|Medium  |[Word Subsets](https://leetcode.com/problems/word-subsets/)|2020/9/5|String|[Naive-O(n)](Python3/String/WordSubsets/Naive916.py), [Improve-O(n)](Python3/String/WordSubsets/Improve916.py), [Counter-O(n)](Python3/String/WordSubsets/Counter916.py)||testcase
 |👍 918|Medium *|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|2020/5/15|Array|[Naive-O(n)](Python3/Array/MaximumSumCircularSubarray/Naive918.py), [MinSumSubarray-O(n)](Python3/Array/MaximumSumCircularSubarray/MinSumSubarray918.py)|[Note](Python3/Array/MaximumSumCircularSubarray/Note918.md)|use other approach
+|  933|Easy    |[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|2020/10/1|Design|[Naive-O(n)](Python3/Design/NumberOfRecentCells/Naive933.py), [Naive2-O(n)](Python3/Design/NumberOfRecentCells/Naive2_933.py), [BinarySearch-O(logn)](Python3/Design/NumberOfRecentCells/BinarySearch933.py), [Queue-O(min(n, 3000))](Python3/Design/NumberOfRecentCells/Queue933.py), [CircularList-O(n)](Python3/Design/NumberOfRecentCells/CircularList933.py)||testcase
 |👍 952|Hard *  |[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|TODO|Array|||
 |   957|Medium  |[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|2020/7/3|Array|[Naive-O(n)](Python3/Array/PrisonCellsAfterNDays/Naive957.py), [LoopDetection-O(n)](Python3/Array/PrisonCellsAfterNDays/LoopDetection957.py)|[Note-O(n)](Python3/Array/PrisonCellsAfterNDays/Note957.md)|
 |👍 978|Medium  |[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|TODO|String|||
@@ -480,6 +481,8 @@ Algorithm
 >   * [🔥👕[LeetCode Polo Shirt] August LeetCoding Challenge! 👕🔥 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704/leetcode-polo-shirt-august-leetcoding-challenge)
 > * [September LeetCoding Challenge](https://leetcode.com/explore/challenge/card/september-leetcoding-challenge)
 >   * [🕔🚀 September LeetCoding Challenge and the Time Travel Ticket! 🚀🕤 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704/september-leetcoding-challenge-and-the-time-travel-ticket)
+> * [October LeetCoding Challenge](https://leetcode.com/explore/featured/card/october-leetcoding-challenge/)
+>   * [🕔🚀 October LeetCoding Challenge and the Time Travel Ticket! 🚀🕤 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704/october-leetcoding-challenge-and-the-time-travel-ticket)
 
 #### Top Interview Questions
 
