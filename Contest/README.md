@@ -420,10 +420,24 @@ Geometric Mean:
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|2020/9/13|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest207/1.py)||-
+| Easy       |[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|2020/9/20|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest207/1.py)||-
 | Medium     |[Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|2020/9/20|[Naive-O(n!)](LeetCodeWeeklyContest/WeeklyContest207/2.py)|-|-
 | Medium *   |[Maximum Non Negative Product in a Matrix](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/)|2020/9/20|[DP-O(n^2)](LeetCodeWeeklyContest/WeeklyContest207/3.py)|[BackTracking-TLE-O(n!)](LeetCodeWeeklyContest/WeeklyContest207/3_fail.py)|-
 | Hard *     |[Minimum Cost to Connect Two Groups of Points](https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/)|TODO|||-
+
+* [Interview Weekly #15 - YouTube](https://www.youtube.com/watch?v=bCx9XvseEIo)
+
+### Biweekly Contest 36
+
+* [Biweekly Contest 36](https://leetcode.com/contest/biweekly-contest-36)
+* [Ranking](https://leetcode.com/contest/biweekly-contest-36/ranking/): 1821 / 8332
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Design Parking System](https://leetcode.com/contest/biweekly-contest-36/problems/design-parking-system/)|2020/9/13|[Naive-O(1)](LeetCodeBiweeklyContest/BiweeklyContest36/1.py)||-
+| Medium     |[Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/contest/biweekly-contest-36/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|2020/9/20|[Naive-O(n)](LeetCodeBiweeklyContest/BiweeklyContest36/2.py)|-|-
+| Medium *   |[Find Valid Matrix Given Row and Column Sums](https://leetcode.com/contest/biweekly-contest-36/problems/find-valid-matrix-given-row-and-column-sums/)|TODO|||-
+| Hard *     |[Find Servers That Handled Most Number of Requests](https://leetcode.com/contest/biweekly-contest-36/problems/find-servers-that-handled-most-number-of-requests/)|TODO||[Naive-O(n*k)-TLE](LeetCodeBiweeklyContest/BiweeklyContest36/4_fail.py)|-
 
 ## Resources
 
