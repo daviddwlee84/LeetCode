@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         self.answer = []
@@ -8,8 +9,9 @@ class Solution:
 
     def backtracking(self, current_sum: int, candidates: List[int], used: List[int], target: int):
         if current_sum == target and sorted(used) not in self.answer:
-            self.answer.append(sorted(used)) # use sort to prevent duplicate set
+            # use sort to prevent duplicate set
+            self.answer.append(sorted(used))
         elif current_sum < target:
             for candidate in candidates:
-                self.backtracking(current_sum+candidate, candidates, used+[candidate], target)
-            
+                self.backtracking(current_sum + candidate,
+                                  candidates, used + [candidate], target)
