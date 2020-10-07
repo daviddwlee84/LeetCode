@@ -28,3 +28,26 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 1. Sort the interval with start time
 2. If end time of last interval is greater or equal current start time. Then they can be combined.
+
+---
+
+## Fail
+
+```py
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        intervals.sort(key=lambda x: x[1])
+
+        answer = []
+        for s, e in intervals:
+            if answer and answer[-1][1] >= s:
+                if answer[-1][0] >= s:
+                    answer[-1][0] = s
+                    answer[-1][1] = e
+                else:
+                    answer[-1][1] = e
+            else:
+                answer.append([s, e])
+
+        return answer
+```
