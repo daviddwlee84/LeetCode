@@ -32,3 +32,97 @@ as "[1,2,3,null,null,4,5]"
 ## Others' Solution
 
 * [Recursive preorder, Python and C++, O(n) - LeetCode Discuss](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74259/Recursive-preorder-Python-and-C%2B%2B-O%28n%29)
+
+### Pre-order
+
+```py
+class Codec:
+
+    def serialize(self, root: TreeNode) -> str:
+        """Encodes a tree to a single string.
+        """
+        res = []
+        def preorder(root):
+            if not root:
+                return None
+            res.append(root.val)
+            preorder(root.left)
+            preorder(root.right)
+        preorder(root)
+        return ' '.join(map(str, res))
+
+    def deserialize(self, data: str) -> TreeNode:
+        """Decodes your encoded data to tree.
+        """
+        inputs = data.split()
+        inputs = list(map(int, inputs))
+        def build(minv, maxv):
+            if inputs and minv < inputs[0] < maxv:
+                v = inputs.pop(0)
+                root = TreeNode(v)
+                root.left = build(minv, v)
+                root.right = build(v, maxv)
+                return root
+
+        node = build(float('-inf'), float('inf'))
+        return node
+```
+
+```py
+class Codec:
+
+    def serialize(self, root: TreeNode) -> str:
+        """Encodes a tree to a single string.
+        """
+        vals = []
+        def preOrder(node):
+            if node:
+                vals.append(node.val)
+                preOrder(node.left)
+                preOrder(node.right)
+
+        preOrder(root)
+        return ' '.join(map(str, vals))
+
+    def deserialize(self, data: str) -> TreeNode:
+        """Decodes your encoded data to tree.
+        """
+        vals = deque(int(val) for val in data.split())
+        def build(min_val, max_val):
+            if vals and min_val < vals[0] < max_val:
+                val = vals.popleft()
+                node = TreeNode(val)
+                node.left = build(min_val, val)
+                node.right = build(val, max_val)
+                return node
+
+        return build(float('-inf'), float('inf'))
+```
+
+```py
+class Codec:
+
+    def serialize(self, root: TreeNode) -> str:
+        """Encodes a tree to a single string.
+        """
+        # pre-order traverse
+        if root == None:
+            return ""
+        return "->".join([str(root.val), self.serialize(root.left), self.serialize(root.right)])
+
+    def deserialize(self, data: str) -> TreeNode:
+        """Decodes your encoded data to tree.
+        """
+        s = collections.deque(data.split("->"))
+
+        def helper(datalist: collections.deque()) -> TreeNode:
+            val = datalist.popleft()
+            if val == "":
+                return None
+            root = TreeNode(int(val), None, None)
+            root.left = helper(datalist)
+            root.right = helper(datalist)
+            return root
+
+        return helper(s)
+```
