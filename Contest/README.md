@@ -448,8 +448,20 @@ Geometric Mean:
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)|2020/10/4|[Naive-O(n^2)](LeetCodeWeeklyContest/WeeklyContest209/1.py)||-
 | Medium     |[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|2020/10/4|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest209/2.py)|-|-
-| Medium *   |[Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/)|TOTO||[CenterDegree-WA](LeetCodeWeeklyContest/WeeklyContest209/3_fail.py), [EdgeDegree-TLE](LeetCodeWeeklyContest/WeeklyContest209/3_fail2.py), [PriorityQueue-WA](LeetCodeWeeklyContest/WeeklyContest209/3_fail3.py)|-
+| Medium *   |[Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/)|TODO||[CenterDegree-WA](LeetCodeWeeklyContest/WeeklyContest209/3_fail.py), [EdgeDegree-TLE](LeetCodeWeeklyContest/WeeklyContest209/3_fail2.py), [PriorityQueue-WA](LeetCodeWeeklyContest/WeeklyContest209/3_fail3.py)|-
 | Hard *     |[Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)|TODO|||-
+
+### Weekly Contest 210
+
+* [Weekly Contest 210](https://leetcode.com/contest/weekly-contest-210/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-210/ranking/): 1474 / 11792
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|2020/10/11|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest210/1.py)||-
+| Medium     |[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|2020/10/11|[Naive-O(n^2)](LeetCodeWeeklyContest/WeeklyContest210/2.py)|-|-
+| Medium     |[Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)|2020/10/11|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest210/3.py)|[BruteFoce-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest210/3_fail.py)|-
+| Hard       |[Count Subtrees With Max Distance Between Cities](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)|TODO|||-
 
 ## Resources
 
