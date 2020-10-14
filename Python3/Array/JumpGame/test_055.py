@@ -2,6 +2,7 @@ from Backtracking055 import Solution as backtracking
 from DPTopDown055 import Solution as DPtopdown
 from DPBottomUp055 import Solution as DPbottomup
 from Greedy055 import Solution as greedy
+from Greedy2_055 import Solution as greedy2
 
 testcase = [
     ([2, 3, 1, 1, 4], True),
@@ -30,3 +31,7 @@ def test_DPbottomup():
 def test_greedy():
     for nums, ans in testcase:
         assert greedy().canJump(nums) == ans
+
+def test_greedy2():
+    for nums, ans in testcase:
+        assert greedy2().canJump(nums) == ans
