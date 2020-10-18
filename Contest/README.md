@@ -477,9 +477,11 @@ Geometric Mean:
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)|2020/10/18|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest211/1.py)||-
-| Medium     |[Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/)|TODO||-|-
-| Medium     |[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|TODO||[Backtracking-O(n!)-TLE](LeetCodeWeeklyContest/WeeklyContest211/3_fail.py)|-
-| Hard       |[Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/)|TODO||[BruteFoce-O(n^2)-WA](LeetCodeWeeklyContest/WeeklyContest211/4_fail.py)|-
+| Medium     |[Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/)|2020/10/18|[Best](LeetCodeWeeklyContest/WeeklyContest211/2_other.py), [BruteForce](LeetCodeWeeklyContest/WeeklyContest211/2_other2.py), [DFS](LeetCodeWeeklyContest/WeeklyContest211/2_other3.py)|-|-
+| Medium     |[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|2020/10/18|[TopDownDP-MLE](LeetCodeWeeklyContest/WeeklyContest211/3_other.py), [BottomUpDP](LeetCodeWeeklyContest/WeeklyContest211/3_other2.py)|[Backtracking-O(n!)-TLE](LeetCodeWeeklyContest/WeeklyContest211/3_fail.py)|-
+| Hard       |[Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/)|2020/10/18|[DSU](LeetCodeWeeklyContest/WeeklyContest211/4_other.py)|[BruteFoce-O(n^2)-WA](LeetCodeWeeklyContest/WeeklyContest211/4_fail.py)|-
+
+* [Interview Weekly #19 - YouTube](https://www.youtube.com/watch?v=KFPZzHd8fh8)
 
 ## Resources
 
