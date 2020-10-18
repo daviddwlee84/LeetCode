@@ -137,6 +137,7 @@ Test all the units (in the main directory):
 |👍 079|Medium *|[Word Search](https://leetcode.com/problems/word-search/)|2020/6/30|Array|[Naive-O(nlogn)](Python3/Array/WordSearch/Naive079.py), [DFS-O(mn4^s)](Python3/Array/WordSearch/DFS079.py), [DFS 2-O(mn4^s)](Python3/Array/WordSearch/DFS2_079.py)||do it again
 |  083|Easy    |[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|2019/10/22|Linked List|[Naive-O(n)](Python3/LinkedList/RemoveDuplicatesFromSortedList/Naive083.py)|-|-
 |  085|Hard    |[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|TODO|Array||[Note](Python3/Array/MaximalRectangle/Note085.md)|-
+|👍 086|Medium *|[Partition List](https://leetcode.com/problems/partition-list/)|2020/10/18|Linked List|[TwoPointer-O(n)](Python3/LinkedList/PartitionList/TwoPointer086.py)||[Naive-O(n) Fix WA](Python3/LinkedList/PartitionList/Naive086.py), do it again
 |  088|Easy    |[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|2019/11/18|Array|[Naive-O(n)](Python3/Array/MergeSortedArray/Naive088.py)||-
 |  091|Medium *|[Decode Ways](https://leetcode.com/problems/decode-ways/)|2020/9/28|Array|[Naive-O(n)](Python3/Array/DecodeWays/Naive91.py), |[Note](Python3/Array/DecodeWays/Note91.md)|TODO: Top-down DP, Bottom-up DP, Constant Space DP
 |👍 092|Medium *|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|2020/9/20|Linked List|[Naive-O(n)](Python3/LinkedList/ReverseLinkedListII/Naive092.py), [OnePass-O(n)](Python3/LinkedList/ReverseLinkedListII/OnePass092.py)||testcase, OnePass
@@ -289,6 +290,8 @@ Test all the units (in the main directory):
 |👍 673|Medium  |[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|TODO|String|||
 |👍 674|Easy    |[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|TODO|String|||
 |👍 678|Medium *|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|2020/4/17|String|[Naive-O(n*3^n)](Python3/String/ValidParenthesisString/Naive678.py), [DP-O(n)](Python3/String/ValidParenthesisString/DP678.py), [Greedy-O(n)](Python3/String/ValidParenthesisString/Greedy678.py)|[Note](Python3/String/ValidParenthesisString/Note678.md)|do this again
+|👍 684|Medium *|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|2020/10/18|Graph|[DSU](Python3/Graph/RedundantConnection/DSU684.py)||do this again, DFS, BFS
+|👍 685|Hard    |[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|TODO|Graph|||DSU
 |  687|Medium  |[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|TODO|Binary Tree||[Note](Python3/BinaryTree/LongestUnivaluePath/Note687.md)|-
 |👍 698|Medium *|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|TODO|Array|||-
 |  700|Easy    |[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|2020/6/15|Binary Tree|[Naive-O(logn)](Python3/BinaryTree/SearchInABinarySearchTree/Naive700.py)||testcase

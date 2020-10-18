@@ -86,6 +86,8 @@ class DSU:
         return self.sz[self.find(x)]
 ```
 
-## Example
+## Tutorial
 
 * [花花酱 LeetCode Disjoint set / Union Find Forest SP1 – Huahua's Tech Road](https://zxi.mytechroad.com/blog/data-structure/sp1-union-find-set/)
+  * [**花花酱 Disjoint-set/Union-find Forest - 刷题找工作 SP1 - YouTube**](https://www.youtube.com/watch?v=VJnUwsE4fWA)
+* [Union-Find算法详解 - labuladong的算法小抄](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/unionfind-suan-fa-xiang-jie)
