@@ -397,7 +397,7 @@ Geometric Mean:
 
 * [Interview Weekly #13 - YouTube](https://www.youtube.com/watch?v=e6SR2_CSQwU)
 * Disjoint Set Union
-  * [Disjoint Set notes](../Notes/DataStructure/DisjointSet.md)
+  * [Disjoint Set notes](../Notes/DataStructure/DisjointSet_UnionFind.md)
 
 ### Weekly Contest 206
 
@@ -439,6 +439,8 @@ Geometric Mean:
 | Medium *   |[Find Valid Matrix Given Row and Column Sums](https://leetcode.com/contest/biweekly-contest-36/problems/find-valid-matrix-given-row-and-column-sums/)|TODO|||-
 | Hard *     |[Find Servers That Handled Most Number of Requests](https://leetcode.com/contest/biweekly-contest-36/problems/find-servers-that-handled-most-number-of-requests/)|TODO||[Naive-O(n*k)-TLE](LeetCodeBiweeklyContest/BiweeklyContest36/4_fail.py)|-
 
+* [Interview Weekly #16 - YouTube](https://www.youtube.com/watch?v=5QGk9NGmiNI)
+
 ### Weekly Contest 209
 
 * [Weekly Contest 209](https://leetcode.com/contest/weekly-contest-209/)
@@ -451,6 +453,8 @@ Geometric Mean:
 | Medium *   |[Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/)|TODO||[CenterDegree-WA](LeetCodeWeeklyContest/WeeklyContest209/3_fail.py), [EdgeDegree-TLE](LeetCodeWeeklyContest/WeeklyContest209/3_fail2.py), [PriorityQueue-WA](LeetCodeWeeklyContest/WeeklyContest209/3_fail3.py)|-
 | Hard *     |[Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)|TODO|||-
 
+* [Interview Weekly #17 - YouTube](https://www.youtube.com/watch?v=vGWkfm2_twQ)
+
 ### Weekly Contest 210
 
 * [Weekly Contest 210](https://leetcode.com/contest/weekly-contest-210/)
@@ -462,6 +466,20 @@ Geometric Mean:
 | Medium     |[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)|2020/10/11|[Naive-O(n^2)](LeetCodeWeeklyContest/WeeklyContest210/2.py)|-|-
 | Medium     |[Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/)|2020/10/11|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest210/3.py)|[BruteFoce-O(n^2)-TLE](LeetCodeWeeklyContest/WeeklyContest210/3_fail.py)|-
 | Hard       |[Count Subtrees With Max Distance Between Cities](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)|TODO|||-
+
+* [Interview Weekly #18 - YouTube](https://www.youtube.com/watch?v=KYorL6QSBek)
+
+### Weekly Contest 211
+
+* [Weekly Contest 211](https://leetcode.com/contest/weekly-contest-211/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-211/ranking/): 2712 / 11960
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)|2020/10/18|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest211/1.py)||-
+| Medium     |[Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/)|TODO||-|-
+| Medium     |[Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)|TODO||[Backtracking-O(n!)-TLE](LeetCodeWeeklyContest/WeeklyContest211/3_fail.py)|-
+| Hard       |[Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/)|TODO||[BruteFoce-O(n^2)-WA](LeetCodeWeeklyContest/WeeklyContest211/4_fail.py)|-
 
 ## Resources
 
