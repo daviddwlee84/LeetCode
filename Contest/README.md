@@ -483,6 +483,18 @@ Geometric Mean:
 
 * [Interview Weekly #19 - YouTube](https://www.youtube.com/watch?v=KFPZzHd8fh8)
 
+### Weekly Contest 212
+
+* [Weekly Contest 212](https://leetcode.com/contest/weekly-contest-212/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-212/ranking/): 1764 / 10984
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Slowest Key](https://leetcode.com/problems/slowest-key/)|2020/10/25|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest212/1.py)||-
+| Medium     |[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|2020/10/25|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest212/2.py)|-|-
+| Medium     |[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|TODO||[Backtracking-MLE](LeetCodeWeeklyContest/WeeklyContest212/3_fail.py)|-
+| Hard       |[Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/)|TODO|||-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
