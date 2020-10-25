@@ -15,3 +15,10 @@ class Solution:
                 if seq_diff != diff:
                     return False
         return True
+
+        # or we can do
+        #
+        # return all(
+        #     array[i + 1] - array[i] == array[1] - array[0]
+        #     for i in range(len(array) - 1)
+        # )

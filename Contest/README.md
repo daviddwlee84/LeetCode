@@ -491,9 +491,11 @@ Geometric Mean:
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Slowest Key](https://leetcode.com/problems/slowest-key/)|2020/10/25|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest212/1.py)||-
-| Medium     |[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|2020/10/25|[Naive-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest212/2.py)|-|-
-| Medium     |[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|TODO||[Backtracking-MLE](LeetCodeWeeklyContest/WeeklyContest212/3_fail.py)|-
-| Hard       |[Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/)|TODO|||-
+| Medium     |[Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|2020/10/25|[Naive-O(query * nlogn)](LeetCodeWeeklyContest/WeeklyContest212/2.py)|-|-
+| Medium     |[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|2020/10/25|[BinarySearch + DFS-O(RC log W)](LeetCodeWeeklyContest/WeeklyContest212/3_other.py), [Dijkstra](LeetCodeWeeklyContest/WeeklyContest212/3_other2.py)|[Backtracking-MLE](LeetCodeWeeklyContest/WeeklyContest212/3_fail.py)|DSU kruskal (Alex Wice)
+| Hard       |[Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/)|TODO|||
+
+* [Interview Weekly #20 - YouTube](https://www.youtube.com/watch?v=AM__3Zx1XNw)
 
 ## Resources
 
