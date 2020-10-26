@@ -1,4 +1,6 @@
 from Naive140 import Solution as naive
+from Backtracking140 import Solution as backtracking
+from DP140 import Solution as topdowndp
 
 testcase = [
     ("catsanddog", ["cat", "cats", "and", "sand", "dog"], [
@@ -19,3 +21,13 @@ testcase = [
 def test_naive():
     for s, wordDict, ans in testcase:
         assert sorted(naive().wordBreak(s, wordDict)) == sorted(ans)
+
+
+def test_backtracking():
+    for s, wordDict, ans in testcase:
+        assert sorted(backtracking().wordBreak(s, wordDict)) == sorted(ans)
+
+
+def test_topdowndp():
+    for s, wordDict, ans in testcase:
+        assert sorted(topdowndp().wordBreak(s, wordDict)) == sorted(ans)

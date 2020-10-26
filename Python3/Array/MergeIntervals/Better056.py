@@ -21,3 +21,6 @@ class Solution:
                 merged[-1][1] = max(merged[-1][1], interval[1])
 
         return merged
+
+# Runtime: 120 ms, faster than 19.59% of Python3 online submissions for Merge Intervals.
+# Memory Usage: 15.9 MB, less than 92.25% of Python3 online submissions for Merge Intervals.
