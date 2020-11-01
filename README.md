@@ -32,6 +32,19 @@ Test all the units (in the main directory):
 
 > Python 3.8
 
+* Virtual Environment
+  * [Installing packages using pip and virtual environments — Python Packaging User Guide](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment)
+  * [Creating a Virtual Environment – Real Python](https://realpython.com/lessons/creating-virtual-environment/)
+  * [venv — Creation of virtual environments — Python 3.9.0 documentation](https://docs.python.org/3/library/venv.html)
+* Install Latest Python
+  * [How to Install Python 3.8 on Ubuntu 18.04 | Linuxize](https://linuxize.com/post/how-to-install-python-3-8-on-ubuntu-18-04/)
+* Python Docker
+  * [Docker Hub](https://hub.docker.com/_/python)
+
+```sh
+docker pull python:3.8
+```
+
 ### Symbols
 
 * Difficulty:

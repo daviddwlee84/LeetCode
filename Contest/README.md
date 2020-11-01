@@ -499,6 +499,8 @@ Geometric Mean:
 
 ### Weekly Contest 213
 
+> Better do this again...
+
 * [Weekly Contest 213](https://leetcode.com/contest/weekly-contest-213/)
 * [Ranking](https://leetcode.com/contest/weekly-contest-213/ranking/): 2051 / 10630
 
@@ -506,8 +508,10 @@ Geometric Mean:
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)|2020/11/1|[DFS](LeetCodeWeeklyContest/WeeklyContest213/1.py)|[Permutation-O(n!)-TLE](LeetCodeWeeklyContest/WeeklyContest213/1_fail.py)|-
 | Medium *   |[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|2020/11/1|[Top-down DP](LeetCodeWeeklyContest/WeeklyContest213/2.py)|[DFS-TLE](LeetCodeWeeklyContest/WeeklyContest213/2_fail.py)|Bottom-up DP, Alex Wice's solution (Kxxxxx algorithm?!)...
-| Medium *   |[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|2020/11/1|[PQ](LeetCodeWeeklyContest/WeeklyContest213/3.py)||Maybe there are better ways?
-| Hard *     |[Kth Smallest Instructions](https://leetcode.com/problems/kth-smallest-instructions/)|TODO||[Permutation-TLE](LeetCodeWeeklyContest/WeeklyContest213/4_fail.py)| Distinct version [kth permutation](https://leetcode.com/problems/permutation-sequence/)?!
+| Medium *   |[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|2020/11/1|[PQ](LeetCodeWeeklyContest/WeeklyContest213/3.py)||Maybe there are better ways?, Binary Search for the index
+| Hard *     |[Kth Smallest Instructions](https://leetcode.com/problems/kth-smallest-instructions/)|2020/11/1|[Math Combination](LeetCodeWeeklyContest/WeeklyContest213/4_other.py)|[Permutation-TLE](LeetCodeWeeklyContest/WeeklyContest213/4_fail.py)| Distinct version [kth permutation](https://leetcode.com/problems/permutation-sequence/)?!
+
+* [Interview Weekly #20 - YouTube](https://www.youtube.com/watch?v=RY2r-9DpKAE)
 
 ## Resources
 
