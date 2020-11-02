@@ -8,7 +8,7 @@ class Solution:
         length = len(nums)
 
         # The left and right arrays as described in the algorithm
-        L, R, answer = [0]*length, [0]*length, [0]*length
+        L, R, answer = [0] * length, [0] * length, [0] * length
 
         # L[i] contains the product of all the elements to the left
         # Note: for the element at index '0', there are no elements to the left,

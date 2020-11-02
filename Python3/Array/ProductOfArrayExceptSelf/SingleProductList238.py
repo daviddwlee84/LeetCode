@@ -9,7 +9,7 @@ class Solution:
         length = len(nums)
 
         # The answer array to be returned
-        answer = [0]*length
+        answer = [0] * length
 
         # answer[i] contains the product of all the elements to the left
         # Note: for the element at index '0', there are no elements to the left,

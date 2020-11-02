@@ -14,7 +14,7 @@ class Solution:
 
         answer = []
         for i in range(len(nums)):
-            answer.append(left[i] * right[-i-1])
+            answer.append(left[i] * right[-i - 1])
 
         return answer
 
