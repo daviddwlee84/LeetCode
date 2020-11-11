@@ -1,6 +1,6 @@
-from ProductList138 import Solution as PL
-from ProductList2_138 import Solution as PL2
-from SingleProductList138 import Solution as SPL
+from ProductList238 import Solution as PL
+from ProductList2_238 import Solution as PL2
+from SingleProductList238 import Solution as SPL
 
 testcase = [
     ([4, 5, 1, 8, 2],
