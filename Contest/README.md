@@ -522,8 +522,11 @@ Geometric Mean:
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/contest/weekly-contest-224/problems/number-of-rectangles-that-can-form-the-largest-square/)|2021/1/17|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest224/1.py)||-
 | Medium     |[Tuple with Same Product](https://leetcode.com/contest/weekly-contest-224/problems/tuple-with-same-product/)|2021/1/17|[Math-O(n^2)](LeetCodeWeeklyContest/WeeklyContest224/2.py)||-
-| Medium *   |[Largest Submatrix With Rearrangements](https://leetcode.com/contest/weekly-contest-224/problems/largest-submatrix-with-rearrangements/)|TODO||[Greedy-WA](LeetCodeWeeklyContest/WeeklyContest224/3_fail.py)|-
-| Hard       |[Cat and Mouse II](https://leetcode.com/contest/weekly-contest-224/problems/cat-and-mouse-ii/)|TODO|||-
+| Medium *   |[Largest Submatrix With Rearrangements](https://leetcode.com/contest/weekly-contest-224/problems/largest-submatrix-with-rearrangements/)|2021/1/17|[Prefix Sum and Sort](LeetCodeWeeklyContest/WeeklyContest224/3_other.py)|[Greedy-WA](LeetCodeWeeklyContest/WeeklyContest224/3_fail.py)|-
+| Hard       |[Cat and Mouse II](https://leetcode.com/contest/weekly-contest-224/problems/cat-and-mouse-ii/)|2021/1/17|[DFS(Cheat)](LeetCodeWeeklyContest/WeeklyContest224/4_other.py)||-
+
+* [Interview Weekly #32 - YouTube](https://www.youtube.com/watch?v=E3XV8qXdQDs)
+* [Lucky 28th! Leetcode Weekly Contest 224 (28th) with commentary - YouTube](https://www.youtube.com/watch?v=2oTyqSWVV68)
 
 ## Resources
 
