@@ -513,6 +513,18 @@ Geometric Mean:
 
 * [Interview Weekly #20 - YouTube](https://www.youtube.com/watch?v=RY2r-9DpKAE)
 
+### Weekly Contest 224
+
+* [Weekly Contest 224](https://leetcode.com/contest/weekly-contest-224/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-224/ranking/): 2582 / 11023
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/contest/weekly-contest-224/problems/number-of-rectangles-that-can-form-the-largest-square/)|2021/1/17|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest224/1.py)||-
+| Medium     |[Tuple with Same Product](https://leetcode.com/contest/weekly-contest-224/problems/tuple-with-same-product/)|2021/1/17|[Math-O(n^2)](LeetCodeWeeklyContest/WeeklyContest224/2.py)||-
+| Medium *   |[Largest Submatrix With Rearrangements](https://leetcode.com/contest/weekly-contest-224/problems/largest-submatrix-with-rearrangements/)|TODO||[Greedy-WA](LeetCodeWeeklyContest/WeeklyContest224/3_fail.py)|-
+| Hard       |[Cat and Mouse II](https://leetcode.com/contest/weekly-contest-224/problems/cat-and-mouse-ii/)|TODO|||-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
