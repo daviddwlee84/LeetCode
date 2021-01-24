@@ -528,6 +528,18 @@ Geometric Mean:
 * [Interview Weekly #32 - YouTube](https://www.youtube.com/watch?v=E3XV8qXdQDs)
 * [Lucky 28th! Leetcode Weekly Contest 224 (28th) with commentary - YouTube](https://www.youtube.com/watch?v=2oTyqSWVV68)
 
+### Weekly Contest 225
+
+* [Weekly Contest 225](https://leetcode.com/contest/weekly-contest-225/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-225/ranking/): 2681 / 11282
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)|2021/1/24|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest225/1.py)||-
+| Medium *   |[Change Minimum Characters to Satisfy One of Three Conditions](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)|TODO||[Greedy-WA](LeetCodeWeeklyContest/WeeklyContest225/2_fail.py)|Alex Wice Solution
+| Medium     |[Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)|2021/1/24|[prefix sum-O(n)](LeetCodeWeeklyContest/WeeklyContest225/3.py)||bottom up DP
+| Hard *     |[Building Boxes](https://leetcode.com/problems/building-boxes/)|TODO||[Math-WA](LeetCodeWeeklyContest/WeeklyContest225/4_fail.py)|Alex Wice Solution
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
