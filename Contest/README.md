@@ -540,6 +540,20 @@ Geometric Mean:
 | Medium     |[Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)|2021/1/24|[prefix sum-O(n)](LeetCodeWeeklyContest/WeeklyContest225/3.py)||bottom up DP
 | Hard *     |[Building Boxes](https://leetcode.com/problems/building-boxes/)|TODO||[Math-WA](LeetCodeWeeklyContest/WeeklyContest225/4_fail.py)|Alex Wice Solution
 
+* [Interview Weekly #33 - YouTube](https://www.youtube.com/watch?v=JNL-e84CP8g)
+
+### Weekly Contest 226
+
+* [Weekly Contest 226](https://leetcode.com/contest/weekly-contest-226/)
+* [Ranking](https://leetcode.com/contest/weekly-contest-226/ranking/): 1329 / 11432
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)|2021/1/31|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest226/1.py)||-
+| Medium *   |[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|TODO|||-
+| Medium     |[Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)|2021/1/31|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest226/3.py)||-
+| Hard       |[Palindrome Partitioning IV](https://leetcode.com/problems/palindrome-partitioning-iv/)|2021/1/31|[BruteForce-O(n^3)](LeetCodeWeeklyContest/WeeklyContest226/4.py)||-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
