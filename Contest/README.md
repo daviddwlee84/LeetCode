@@ -550,9 +550,11 @@ Geometric Mean:
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)|2021/1/31|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest226/1.py)||-
-| Medium *   |[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|TODO|||-
+| Medium *   |[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|2021/1/31|[Greedy from middle](LeetCodeWeeklyContest/WeeklyContest226/2_other.py), [Greedy from end](LeetCodeWeeklyContest/WeeklyContest226/2_other2.py)||Topological Sort
 | Medium     |[Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)|2021/1/31|[Naive-O(n)](LeetCodeWeeklyContest/WeeklyContest226/3.py)||-
-| Hard       |[Palindrome Partitioning IV](https://leetcode.com/problems/palindrome-partitioning-iv/)|2021/1/31|[BruteForce-O(n^3)](LeetCodeWeeklyContest/WeeklyContest226/4.py)||-
+| Hard *     |[Palindrome Partitioning IV](https://leetcode.com/problems/palindrome-partitioning-iv/)|2021/1/31|[BruteForce-O(n^3)](LeetCodeWeeklyContest/WeeklyContest226/4.py)||Better one with cache
+
+* [Interview Weekly #34 - YouTube](https://www.youtube.com/watch?v=IOLi6XbolQQ)
 
 ## Resources
 
