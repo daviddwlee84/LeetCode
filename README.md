@@ -280,6 +280,7 @@ docker pull python:3.8
 |👍 402|Medium  |[Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|2020/5/13|String|[Naive-O(n)](Python3/String/RemoveKDigits/Greedy402.py)||do this again
 |   404|Easy    |[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|2020/8/1|BinaryTree|[Naive-O(n)](Python3/BinaryTree/SumOfLeftLeaves/Naive404.py)|-|testcase
 |👍 406|Medium *|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|2020/6/6|Array|[Sorting-O(n^2)](Python3/Array/QueueReconstructionByHeight/Sorting402.py), [InsertFromLowest-O(nlogn)](Python3/Array/QueueReconstructionByHeight/InsertFromLowest402.py), [InsertFromHighest-O(nlogn)](Python3/Array/QueueReconstructionByHeight/InsertFromHighest402.py), [Insert-O(n)](Python3/Array/QueueReconstructionByHeight/Insert402.py)|[Note](Python3/Array/QueueReconstructionByHeight/Note402.md)|do it again, testcase
+|👍 413|Medium *|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|2021/2/18|Array|[Naive-O(n)](Python3/Array/ArithmeticSlices/Naive413.py)||testcase, do it again
 |👍 416|Medium *|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|TODO|Array|||-
 |   419|Medium  |[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|TODO|Array|||
 |👍 426|Medium  |[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)|TODO|BST|Need subscription||-
