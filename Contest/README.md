@@ -556,6 +556,20 @@ Geometric Mean:
 
 * [Interview Weekly #34 - YouTube](https://www.youtube.com/watch?v=IOLi6XbolQQ)
 
+### Weekly Contest 236 (CN)
+
+* [Weekly Contest 236](https://leetcode-cn.com/contest/weekly-contest-236/)
+* [Ranking](https://leetcode-cn.com/contest/weekly-contest-236/ranking/): 86 / 5112 (leetcode-cn) 234 / 12115 (global)
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[数组元素积的符号](https://leetcode-cn.com/contest/weekly-contest-236/problems/sign-of-the-product-of-an-array/)|2021/4/11|[Naive](LeetCodeWeeklyContest/WeeklyContest236/1.py)||-
+| Medium     |[找出游戏的获胜者](https://leetcode-cn.com/contest/weekly-contest-236/problems/find-the-winner-of-the-circular-game/)|2021/4/11|[Naive](LeetCodeWeeklyContest/WeeklyContest236/2.py)||-
+| Medium     |[最少侧跳次数](https://leetcode-cn.com/contest/weekly-contest-236/problems/minimum-sideway-jumps/)|2021/4/11|[DP-O(3n)](LeetCodeWeeklyContest/WeeklyContest236/3.py)|[DFS-TLE](LeetCodeWeeklyContest/WeeklyContest236/3_fail.py)|-
+| Hard       |[求出 MK 平均值](https://leetcode-cn.com/contest/weekly-contest-236/problems/finding-mk-average/)|2021/4/11|[Naive](LeetCodeWeeklyContest/WeeklyContest236/4.py)||Size Balanced Tree or Fenwick Tree/Binary Indexed Tree
+
+* [python - Difference between del, remove, and pop on lists - Stack Overflow](https://stackoverflow.com/questions/11520492/difference-between-del-remove-and-pop-on-lists/11520540)
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
@@ -587,6 +601,11 @@ Geometric Mean:
   * [Github](https://github.com/ecnerwala)
     * [ecnerwala’s gists](https://gist.github.com/ecnerwala)
   * [ecnerwala - YouTube](https://www.youtube.com/channel/UCn9ng6ZUnh5weU1BsIQoZ5w)
+
+> Friends
+>
+> * Hanyu: [Koishi514 - 力扣（LeetCode）](https://leetcode-cn.com/u/koishi514/)
+> * Jiayu: [Jay - 力扣（LeetCode）](https://leetcode-cn.com/u/jay-68/)
 
 ### Estimating Time Complexity to Avoid TLE
 
