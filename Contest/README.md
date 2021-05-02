@@ -570,6 +570,20 @@ Geometric Mean:
 
 * [python - Difference between del, remove, and pop on lists - Stack Overflow](https://stackoverflow.com/questions/11520492/difference-between-del-remove-and-pop-on-lists/11520540)
 
+### Weekly Contest 239 (CN)
+
+* [Weekly Contest 239](https://leetcode-cn.com/contest/weekly-contest-239/)
+* [Ranking](https://leetcode-cn.com/contest/weekly-contest-239/ranking/): 1379 / 3905 (leetcode-cn) 4104 / 10870
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[到目标元素的最小距离](https://leetcode-cn.com/problems/minimum-distance-to-the-target-element/)|2021/5/2|[Naive](LeetCodeWeeklyContest/WeeklyContest239/1.py)||-
+| Medium     |[将字符串拆分为递减的连续值](https://leetcode-cn.com/problems/splitting-a-string-into-descending-consecutive-values/)|TODO||[BruteForce-TLE](LeetCodeWeeklyContest/WeeklyContest239/2_fail.py)|Better Backtracking
+| Medium     |[邻位交换的最小次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)|TODO||Should be some kind of bubble sort?!|Next permutation
+| Hard       |[包含每个查询的最小区间](https://leetcode-cn.com/problems/minimum-interval-to-include-each-query/)|TODO||[BruteForce-TLE](LeetCodeWeeklyContest/WeeklyContest239/4_fail.py)|-
+
+* (TODO) [Interview Weekly #46 - YouTube](https://www.youtube.com/watch?v=33LXNA14rX4)
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
