@@ -273,7 +273,7 @@ docker pull python:3.8
 |👍 373|Medium  |[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|2020/5/3|Array|[Priority Queue-O(klogk)](Python3/Array/FindKPairsWithSmallestSums/PriorityQueue373.py), [Heap Merge Sort](Python3/Array/FindKPairsWithSmallestSums/HeapMergeSort373.py)|related to 1439 (competition)|testcase, do it again
 |👍 376|Medium  |[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|2020/9/13|Array|[Naive-O(n)](Python3/Array/WiggleSubsequence/Naive376.py), [BottomUpDP-O(n)](Python3/Array/WiggleSubsequence/BottomUpDP376.py)||
 |👍 378|Medium  |[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|TODO|Array|||-
-|   380|Medium  |[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|2020/6/12|Design|[Naive-O(1)](Python3/Design/InsertDeleteGetRandomO(1).py)||testcase, use HT + array
+|   380|Medium  |[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|2020/6/12|Design|[Naive-O(1)](Python3/Design/InsertDeleteGetRandomO(1)/Naive380.py)||testcase, use HT + array
 |👍 382|Medium *|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|~~2020/11/8~~ TODO|Linked List|||Reservoir Sampling
 |   383|Easy    |[Ransom Note](https://leetcode.com/problems/ransom-note/)|2020/5/4|String|[Naive-O(n)](Python3/String/RansomNote/Naive383.py)|-|testcase
 |   387|Easy    |[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|2020/5/5|String|[Naive-O(n)](Python3/String/FirstUniqueCharacterInAString/Naive387.py)|-|testcase
@@ -314,9 +314,10 @@ docker pull python:3.8
 |  594|Easy    |[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|2021/2/4|Array|[Naive-O(n)](Python3/Array/LongestHarmoniousSubsequence/Naive594.py)||testcase
 |👍 621|Medium *|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|2020/7/28|Array|[Naive-O(nlogn)](Python3/Array/TaskScheduler/Naive621.py)|[Note](Python3/Array/TaskScheduler/Note621.md)|TODO: more solution
 |👍 624|Easy    |[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/) (premium)|2020/10/5|Array|[Naive-O(n)](Python3/Array/MaximumDistanceInArrays/Naive624.py)||-
-|👍 630|Hard *  |[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|TODO|Array|-|-|topological sort
+|👍 630|Hard *  |[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|2021/5/2|Array|[Naive-O(n+1!)](Python3/Array/CourseScheduleIII/Naive630.py), [Top-down DP-O(n * d)](Python3/Array/CourseScheduleIII/TopDownDP630.py), [PriorityQueue-O(nlogn)](Python3/Array/CourseScheduleIII/PriorityQueue630.py)|-|topological sort, Do it again (all total official has 6)
 |👍 636|Medium *|[Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|2020/10/25|Ad Hoc|[Naive-O(n)](Python3/AdHoc/ExclusiveTimeOfFunctions/Naive636.py)||testcase
 |👍 662|Medium *|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|2020/7/9|Binary Tree|[Naive-O(n)](Python3/BinaryTree/MaximumWidthOfBinaryTree/Naive662.py)|[Note](Python3/BinaryTree/MaximumWidthOfBinaryTree/Note662.md)|do it again (more elegant way), testcase
+|👍 665|Medium *|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array)|2021/5/4|Array|[Greedy-O(n)](Python3/Array/NonDecreasingArray/Greedy665.py)|[Note](Python3/Array/NonDecreasingArray/Note665.md)|do it again
 |👍 669|Medium *|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|2021/2/2|Binary Tree|[Recursive DFS-O(n)](Python3/BinaryTree/TrimABinarySearchTree/RecursiveDFS669.py)||do it again
 |👍 673|Medium  |[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|TODO|String|||
 |👍 674|Easy    |[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|TODO|String|||
@@ -332,6 +333,7 @@ docker pull python:3.8
 |  705|Easy    |[Design HashSet](https://leetcode.com/problems/design-hashset/)|2020/8/2|Design|[Naive-O(1)](Python3/Design/DesignHashSet/Naive705.py), [With Hash Function-O(1)](Python3/Design/DesignHashSet/HashFunction705.py)||testcase
 |  733|Easy    |[Flood Fill](https://leetcode.com/problems/flood-fill/)|2020/5/11|Array|[Naive-O(n)](Python3/Array/FloodFill/Naive733.py), [DFS-O(n)](Python3/Array/FloodFill/DFS733.py), [IterativeDFS-O(n)](Python3/Array/FloodFill/IterativeDFS733.py)||Test
 |👍 739|Medium  |[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|2019/12/26|Array|[Naive-O(n²)](Python3/Array/DailyTemperatures/Naive739.py), [Naive2-O(n²)](Python3/Array/DailyTemperatures/Naive2_739.py), [Stack-O(n²)](Python3/Array/DailyTemperatures/Stack739.py)|[Note](Python3/Array/DailyTemperatures/Note739.md), Learn: Queue & Stack|-
+|👍 745|Hard *  |[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|2021/5/1|Design|[RegularExpression-O(n)](Python3/Design/PrefixAndSuffixSearch/RE745.py), [Paired Trie-O(nk^2 + qk)](Python3/Design/PrefixAndSuffixSearch/PairedTrie745.py), [Trie of Suffix Wrapped Words-O(nk^2 + qk)](Python3/Design/PrefixAndSuffixSearch/SuffixWrappedWords745.py), [Double Set-O(n)](Python3/Design/PrefixAndSuffixSearch/DoubleSet745.py)||-
 |👍 752|Medium  |[Open the Lock](https://leetcode.com/problems/open-the-lock/)|2019/7/5|Search|[BFS-O(n²)](Python3/Search/OpenTheLock/BFS752.py)|[Note](Python3/Search/OpenTheLock/Note752.md), Learn: Queue & Stack|Improve time complexity
 |👍 763|Medium  |[Partition Labels](https://leetcode.com/problems/partition-labels/)|2020/9/5|String|[Naive-O(n)](Python3/String/PartitionLabels/Naive763.py)||
 |  771|Easy    |[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|2020/5/2|String|[Naive-O(n)](Python3/String/JewelsAndStones/Naive771.py), [Naive2-O(n)](Python3/String/JewelsAndStones/Naive2_771.py)||testcase
@@ -385,6 +387,7 @@ docker pull python:3.8
 |👍 1425|Hard  |[Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)|TODO|Array||[Note](Python3/Array/ConstrainedSubsequenceSum/Note1425.md)|-
 |👍 1462|Medium *|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)|TODO|Array|-|-|-
 |👍 1475|Easy *  |[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|2020/8/22|Array|[Naive-O(n^2)](Python3/Array/FinalPricesWithASpecialDiscountInAShop/Naive1475.py), [TwoPointer-O(n^2)](Python3/Array/FinalPricesWithASpecialDiscountInAShop/TwoPointer1475.py), [Stack-O(n^2)](Python3/Array/FinalPricesWithASpecialDiscountInAShop/Stack1475.py)||-
+|👍 1480|Easy *  |[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|2021/5/3|Array|[Naive-O(n)](Python3/Array/RunningSumOf1dArray/Naive1480.py), [In-Place-O(n)](Python3/Array/RunningSumOf1dArray/InPlace1480.py)||-
 |👍 1539|Medium  |[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|2021/1/6|Array|[Naive-O(n+k)](Python3/Array/KthMissingPositiveNumber/Naive1539.py)|-|better solution (log n)
 |👍 1547|Hard  |[Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)|2020/10/17|Array|[Top-Down DP-O(n^2)](Python3/Array/MinimumCostToCutAStick/TopDownDP1547.py)|FreeWheel 2020 OA, [Weekly Contest 201](Contest/README.md#Weekly-Contest-201)|testcase
 |👍 1601|Hard  |[Maximum Number of Achievable Transfer Requests](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/)|2020/9/28|Graph|[Naive-O(2^n)](Python3/Graph/MaximumNumberOfAchievableTransferRequests/Naive1601.py)||testcase
@@ -417,7 +420,7 @@ Learning about...
 
 * [Binary Search](https://leetcode.com/explore/learn/card/binary-search/)
 
-Design        |  Date    |   Category   |  Implementaiton  |  Remark  | TODO |
+Design        |  Date    |   Category   |  Implementation  |  Remark  | TODO |
 --------------|----------|--------------|------------------|----------|------|
 Circular Queue|2019/7/4  |Data Structure|[C++](Learn/Cpp/Queue/CircularQueue.cpp)|[Note](Notes/DataStructure/QueueStack.md#Circular-Queue), [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|-
 Min Stack     |2019/12/26|Data Structure|[C++](Learn/Cpp/Stack/MinStack.cpp)|[Min Stack](https://leetcode.com/problems/min-stack/)|-
@@ -539,6 +542,8 @@ Algorithm
 >   * [🕔🚀 September LeetCoding Challenge and the Time Travel Ticket! 🚀🕤 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704/september-leetcoding-challenge-and-the-time-travel-ticket)
 > * [October LeetCoding Challenge](https://leetcode.com/explore/featured/card/october-leetcoding-challenge/)
 >   * [🕔🚀 October LeetCoding Challenge and the Time Travel Ticket! 🚀🕤 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704/october-leetcoding-challenge-and-the-time-travel-ticket)
+> * [May LeetCoding Challenge 2021](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge-2021)
+>   * [🏅 May LeetCoding Challenge and the Badge!🏅 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704)
 
 #### Top Interview Questions
 
@@ -609,3 +614,7 @@ Quick typing math symbol
     * `gnome-tweaks`
 * Windows
   * `win + .`
+
+VSCode ignore formatting on file
+
+* [visual studio code - How to exclude file extensions and languages from "format on save" in VSCode? - Stack Overflow](https://stackoverflow.com/questions/44831313/how-to-exclude-file-extensions-and-languages-from-format-on-save-in-vscode)
