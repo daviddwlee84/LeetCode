@@ -34,3 +34,7 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 
 * Travel each node in sequence and store it in an array.
 * Construct another linked list with the reverse of the array.
+
+## Others' Solution
+
+* [单链表反转详解（4种算法实现）](http://c.biancheng.net/view/8105.html)
