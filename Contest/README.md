@@ -584,6 +584,18 @@ Geometric Mean:
 
 * (TODO) [Interview Weekly #46 - YouTube](https://www.youtube.com/watch?v=33LXNA14rX4)
 
+### Weekly Contest 243 (CN)
+
+* [Weekly Contest 243](https://leetcode-cn.com/contest/weekly-contest-243/)
+* [Ranking](https://leetcode-cn.com/contest/weekly-contest-243/ranking/): 562 / 4492 (leetcode-cn) 1580 / 12835
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[检查某单词是否等于两单词之和](https://leetcode-cn.com/contest/check-if-word-equals-summation-of-two-words/)|2021/5/30|[Naive](LeetCodeWeeklyContest/WeeklyContest243/1.py)||-
+| Medium     |[插入后的最大值](https://leetcode-cn.com/contest/maximum-value-after-insertion/)|2021/5/30|[Naive](LeetCodeWeeklyContest/WeeklyContest243/2.py)||-
+| Medium *   |[使用服务器处理任务](https://leetcode-cn.com/contest/process-tasks-using-servers/)|2021/5/30|[Greedy with Heap and Queue](LeetCodeWeeklyContest/WeeklyContest243/3.py)|[For-WA](LeetCodeWeeklyContest/WeeklyContest243/3_fail.py), [While-MLE](LeetCodeWeeklyContest/WeeklyContest243/3_fail2.py), [Task order issue-WA](LeetCodeWeeklyContest/WeeklyContest243/3_fail3.py), [Too slow-TLE](LeetCodeWeeklyContest/WeeklyContest243/3_fail4.py)|-
+| Hard *     |[准时抵达会议现场的最小跳过休息次数](https://leetcode-cn.com/contest/minimum-skips-to-arrive-at-meeting-on-time/)|TODO|||Use epsilon to determine if two floats are equal
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
