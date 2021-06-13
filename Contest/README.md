@@ -596,6 +596,18 @@ Geometric Mean:
 | Medium *   |[使用服务器处理任务](https://leetcode-cn.com/contest/process-tasks-using-servers/)|2021/5/30|[Greedy with Heap and Queue](LeetCodeWeeklyContest/WeeklyContest243/3.py)|[For-WA](LeetCodeWeeklyContest/WeeklyContest243/3_fail.py), [While-MLE](LeetCodeWeeklyContest/WeeklyContest243/3_fail2.py), [Task order issue-WA](LeetCodeWeeklyContest/WeeklyContest243/3_fail3.py), [Too slow-TLE](LeetCodeWeeklyContest/WeeklyContest243/3_fail4.py)|-
 | Hard *     |[准时抵达会议现场的最小跳过休息次数](https://leetcode-cn.com/contest/minimum-skips-to-arrive-at-meeting-on-time/)|TODO|||Use epsilon to determine if two floats are equal
 
+### Weekly Contest 245 (CN)
+
+* [Weekly Contest 245](https://leetcode-cn.com/contest/weekly-contest-245)
+* [Ranking](https://leetcode-cn.com/contest/weekly-contest-245/ranking/): 2010 / 4270 (leetcode-cn) 5784 / 12724
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[重新分配字符使所有字符串都相等](https://leetcode-cn.com/contest/weekly-contest-245/problems/redistribute-characters-to-make-all-strings-equal/)|2021/6/13|[Naive](LeetCodeWeeklyContest/WeeklyContest245/1.py)||-
+| Medium *   |[可移除字符的最大数目](https://leetcode-cn.com/contest/weekly-contest-245/problems/maximum-number-of-removable-characters/)|TODO||[TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail2.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail3.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail4.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail5.py)|-
+| Medium *   |[合并若干三元组以形成目标三元组](https://leetcode-cn.com/contest/weekly-contest-245/problems/merge-triplets-to-form-target-triplet/)|TODO|||-
+| Hard *     |[最佳运动员的比拼回合](https://leetcode-cn.com/contest/weekly-contest-245/problems/the-earliest-and-latest-rounds-where-players-compete/)|TODO|||-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
