@@ -603,10 +603,12 @@ Geometric Mean:
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[重新分配字符使所有字符串都相等](https://leetcode-cn.com/contest/weekly-contest-245/problems/redistribute-characters-to-make-all-strings-equal/)|2021/6/13|[Naive](LeetCodeWeeklyContest/WeeklyContest245/1.py)||-
-| Medium *   |[可移除字符的最大数目](https://leetcode-cn.com/contest/weekly-contest-245/problems/maximum-number-of-removable-characters/)|TODO||[TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail2.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail3.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail4.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail5.py)|-
-| Medium *   |[合并若干三元组以形成目标三元组](https://leetcode-cn.com/contest/weekly-contest-245/problems/merge-triplets-to-form-target-triplet/)|TODO|||-
-| Hard *     |[最佳运动员的比拼回合](https://leetcode-cn.com/contest/weekly-contest-245/problems/the-earliest-and-latest-rounds-where-players-compete/)|TODO|||-
+| Easy       |[重新分配字符使所有字符串都相等](https://leetcode-cn.com/problems/redistribute-characters-to-make-all-strings-equal/)|2021/6/13|[Naive](LeetCodeWeeklyContest/WeeklyContest245/1.py)||-
+| Medium *   |[可移除字符的最大数目](https://leetcode-cn.com/problems/maximum-number-of-removable-characters/)|2021/6/13|[Binary Search for k](LeetCodeWeeklyContest/WeeklyContest245/2_other.py)|[TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail2.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail3.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail4.py), [TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail5.py), [Remove RE-TLE](LeetCodeWeeklyContest/WeeklyContest245/2_fail6.py)|-
+| Medium *   |[合并若干三元组以形成目标三元组](https://leetcode-cn.com/problems/merge-triplets-to-form-target-triplet/)|2021/6/13|[Naive](LeetCodeWeeklyContest/WeeklyContest245/3.py), [Better](LeetCodeWeeklyContest/WeeklyContest245/3_2.py)||-
+| Hard *     |[最佳运动员的比拼回合](https://leetcode-cn.com/problems/the-earliest-and-latest-rounds-where-players-compete/)|TODO|||-
+
+* [Interview Weekly #51 - YouTube](https://www.youtube.com/watch?v=YSZ5QGIyag0)
 
 ## Resources
 
