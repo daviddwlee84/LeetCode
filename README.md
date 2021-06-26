@@ -259,6 +259,7 @@ docker pull python:3.8
 |👍 300|Medium  |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|2019/11/11|Array|[BruteForce-O(2ⁿ)](Python3/Array/LongestIncreasingSubsequence/BruteForce300.py), [MemoryRecursive-O(n²)](Python3/Array/LongestIncreasingSubsequence/MemoryRecursive300.py), [DP-O(n²)](Python3/Array/LongestIncreasingSubsequence/DP300.py), [BinarySearch-O(nlogn)](Python3/Array/LongestIncreasingSubsequence/BinarySearch300.py)|[Note](Python3/Array/LongestIncreasingSubsequence/Note300.md)|-
 |👍 309|Medium *|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|2020/7/29|Array|[StateMachine-O(n)](Python3/Array/BestTimeToBuyAndSellStockWithCooldown/StateMachine309.py), [DP-O(n)](Python3/Array/BestTimeToBuyAndSellStockWithCooldown/DP309.py)||-
 |👍 310|Medium *|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|~~2020/11/8~~ TODO|Graph|||-
+|👍 315|Hard *  |[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|2021/6/26|Array|[Binary Index Tree-O(nlogn)](Python3/Array/CountOfSmallerNumbersAfterSelf/BinaryIndexedTree315.py), [Merge Sort-TODO](Python3/Array/CountOfSmallerNumbersAfterSelf/MergeSort315.py)|[Note](Python3/Array/CountOfSmallerNumbersAfterSelf/Note315.md)|do it again
 |👍 316|Medium *|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|2020/10/11|String|[Greedy-O(n)](Python3/String/RemoveDuplicateLetters/Greedy316.py)||do it again
 |👍 322|Medium *|[Coin Change](https://leetcode.com/problems/coin-change/)|2020/10/5|Array|[Naive-O(n)](Python3/Array/CoinChange/Naive322.py), [DP-O(n * a)](Python3/Array/CoinChange/DP322.py)||testcase, do it again
 |👍 324|Medium *|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|2021/2/7|Array|[Naive-O(n)](Python3/Array/WiggleSortII/Naive324.py), [Median-O(n)](Python3/Array/WiggleSortII/Median324.py)||testcase, DO IT AGAIN
@@ -322,7 +323,7 @@ docker pull python:3.8
 |👍 673|Medium  |[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|TODO|String|||
 |👍 674|Easy    |[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|TODO|String|||
 |👍 678|Medium *|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|2020/4/17|String|[Naive-O(n*3^n)](Python3/String/ValidParenthesisString/Naive678.py), [DP-O(n)](Python3/String/ValidParenthesisString/DP678.py), [Greedy-O(n)](Python3/String/ValidParenthesisString/Greedy678.py)|[Note](Python3/String/ValidParenthesisString/Note678.md)|do this again
-|👍 684|Medium *|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|2020/10/18|Graph|[DSU](Python3/Graph/RedundantConnection/DSU684.py), [Union Find](Python3/Graph/RedundantConnection/UnionFind684.py), [Cycle Prevention DFS](Python3/Graph/RedundantConnection/CyclePreventionDFS684.py)||do this again, DFS, BFS
+|👍 684|Medium *|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|2020/10/18|Graph|[DSU-O(n)](Python3/Graph/RedundantConnection/DSU684.py), [Union Find-O(n)](Python3/Graph/RedundantConnection/UnionFind684.py), [Cycle Prevention DFS-O(n^2)](Python3/Graph/RedundantConnection/CyclePreventionDFS684.py)||do this again, DFS, BFS
 |👍 685|Hard    |[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|TODO|Graph|||DSU
 |  687|Medium  |[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|TODO|Binary Tree||[Note](Python3/BinaryTree/LongestUnivaluePath/Note687.md)|-
 |👍 698|Medium *|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|TODO|Array|||-
@@ -434,6 +435,8 @@ Data Structure
 * [Binary Tree](Notes/DataStructure/BinaryTree.md)
 * [Priority Queue and Heap](Notes/DataStructure/PriorityQueue_Heap.md)
 * [Trie (prefix tree)](Notes/DataStructure/Trie_PrefixTree.md)
+* [Fenwick Tree / Binary Indexed Tree](Notes/DataStructure/FenwickTree_BinaryIndexedTree.md) (TODO)
+* [Disjoint Set (Union-Find)](Notes/DataStructure/DisjointSet_UnionFind.md)
 
 Algorithm
 
@@ -596,6 +599,9 @@ Usually online judgement TLE limitation is 1 second. => we can estimate the time
   1. Install tkinter `sudo apt-get install python3-tk`
   2. Install [Xming X Server for Windows](https://sourceforge.net/projects/xming/)
   3. `export DISPLAY=:0;`
+* VSCode debug
+  * [Testing Python in Visual Studio Code](https://code.visualstudio.com/docs/python/testing#_debug-tests)
+  * [Python Test Explorer for Visual Studio Code - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter)
 
 Quick typing math symbol
 
