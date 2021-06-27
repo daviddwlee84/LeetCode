@@ -610,6 +610,18 @@ Geometric Mean:
 
 * [Interview Weekly #51 - YouTube](https://www.youtube.com/watch?v=YSZ5QGIyag0)
 
+### Weekly Contest 247
+
+* [Weekly Contest 247](https://leetcode-cn.com/contest/weekly-contest-247)
+* [Ranking](https://leetcode-cn.com/contest/weekly-contest-247/ranking/): 2563 / 12634
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Maximum Product Difference Between Two Pairs](https://leetcode.com/contest/weekly-contest-247/problems/maximum-product-difference-between-two-pairs/)|2021/6/27|[Naive](LeetCodeWeeklyContest/WeeklyContest247/1.py)||-
+| Medium     |[Cyclically Rotating a Grid](https://leetcode.com/contest/weekly-contest-247/problems/cyclically-rotating-a-grid/)|2021/6/27|[Naive](LeetCodeWeeklyContest/WeeklyContest247/2.py)||-
+| Medium     |[Number of Wonderful Substrings](https://leetcode.com/contest/weekly-contest-247/problems/number-of-wonderful-substrings/)|TODO||[Sliding Window-TLE](LeetCodeWeeklyContest/WeeklyContest247/3_fail.py), [Sliding Window with Memory-TLE](LeetCodeWeeklyContest/WeeklyContest247/3_fail2.py)|-
+| Hard       |[Count Ways to Build Rooms in an Ant Colony](https://leetcode.com/contest/weekly-contest-247/problems/count-ways-to-build-rooms-in-an-ant-colony/)|TODO||[Find all topological orderings-TLE](LeetCodeWeeklyContest/WeeklyContest247/4_fail.py)|-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
