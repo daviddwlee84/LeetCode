@@ -617,10 +617,10 @@ Geometric Mean:
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[Maximum Product Difference Between Two Pairs](https://leetcode.com/contest/weekly-contest-247/problems/maximum-product-difference-between-two-pairs/)|2021/6/27|[Naive](LeetCodeWeeklyContest/WeeklyContest247/1.py)||-
-| Medium     |[Cyclically Rotating a Grid](https://leetcode.com/contest/weekly-contest-247/problems/cyclically-rotating-a-grid/)|2021/6/27|[Naive](LeetCodeWeeklyContest/WeeklyContest247/2.py)||-
-| Medium *   |[Number of Wonderful Substrings](https://leetcode.com/contest/weekly-contest-247/problems/number-of-wonderful-substrings/)|2021/6/27|[Bitmask Hashmap](LeetCodeWeeklyContest/WeeklyContest247/3_other.py)|[Sliding Window-TLE](LeetCodeWeeklyContest/WeeklyContest247/3_fail.py), [Sliding Window with Memory-TLE](LeetCodeWeeklyContest/WeeklyContest247/3_fail2.py)|-
-| Hard *     |[Count Ways to Build Rooms in an Ant Colony](https://leetcode.com/contest/weekly-contest-247/problems/count-ways-to-build-rooms-in-an-ant-colony/)|TODO||[Find all topological orderings-TLE](LeetCodeWeeklyContest/WeeklyContest247/4_fail.py)|-
+| Easy       |[Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)|2021/6/27|[Naive](LeetCodeWeeklyContest/WeeklyContest247/1.py)||-
+| Medium     |[Cyclically Rotating a Grid](https://leetcode.com/problems/cyclically-rotating-a-grid/)|2021/6/27|[Naive](LeetCodeWeeklyContest/WeeklyContest247/2.py)||-
+| Medium *   |[Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/)|2021/6/27|[Bitmask Hashmap](LeetCodeWeeklyContest/WeeklyContest247/3_other.py)|[Sliding Window-TLE](LeetCodeWeeklyContest/WeeklyContest247/3_fail.py), [Sliding Window with Memory-TLE](LeetCodeWeeklyContest/WeeklyContest247/3_fail2.py)|-
+| Hard *     |[Count Ways to Build Rooms in an Ant Colony](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)|2021/6/27|[DFS](LeetCodeWeeklyContest/WeeklyContest247/4_other.py)|[Find all topological orderings-TLE](LeetCodeWeeklyContest/WeeklyContest247/4_fail.py)|Modular Multiplicative Inverse
 
 ## Resources
 
