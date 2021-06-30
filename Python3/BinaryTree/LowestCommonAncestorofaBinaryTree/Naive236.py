@@ -1,6 +1,9 @@
 class Solution:
     def lowestCommonAncestor(self, root, p, q):
         """
+        Directly search p and q and record its' path.
+        Pick the last same node of their path
+
         :type root: TreeNode
         :type p: TreeNode
         :type q: TreeNode

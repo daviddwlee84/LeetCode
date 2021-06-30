@@ -1,3 +1,6 @@
+from typing import List
+from ..TreeNodeModule import TreeNode
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -5,11 +8,13 @@
 #         self.left = None
 #         self.right = None
 
-# from typing import List
-
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        """
+        Directly search p and q and record its' path.
+        Pick the last same node of their path
+        """
         p_memory = []
         q_memory = []
 
