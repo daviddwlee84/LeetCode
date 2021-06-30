@@ -366,6 +366,7 @@ docker pull python:3.8
 |  993|Easy    |[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|2020/5/7|Binary Tree|[IterativeBFS-O(n)](Python3/BinaryTree/CousinsInBinaryTree/IterativeBFS993.py), [RecursiveDFS-O(n)](Python3/BinaryTree/CousinsInBinaryTree/RecursiveDFS993.py)||testcase
 |👍 994|Medium  |[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|2020/9/13|Graph|[Naive-O(V + E)](Python3/Graph/RottingOranges/Naive994.py)||
 |  997|Easy    |[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|2020/5/10|Array|[Naive-O(n)](Python3/Array/FindTheTownJudge/Naive997.py), [Improve-O(n)](Python3/Array/FindTheTownJudge/Improve997.py)||
+|👍 1004|Medium  |[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|2021/6/29|Array|[Naive-O(n)](Python3/Array/MaxConsecutiveOnesIII/Naive1004.py)||-
 |  1008|Medium  |[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|2020/4/20|Binary Tree|[Naive-O(n)](Python3/BinaryTree/ConstructBinarySearchTreeFromPreorderTraversal/Naive1008.py), [Naive2-O(n)](Python3/BinaryTree/ConstructBinarySearchTreeFromPreorderTraversal/Naive2_1008.py)|[Note](Python3/BinaryTree/ConstructBinarySearchTreeFromPreorderTraversal/Note1008.md)|testcase
 |  1009|Easy    |[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) ([Number Complement](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3319/))|2020/5/4|BitManipulation|[Naive-O(n)](Python3/BitManipulation/ComplementOfBase10Integer/Naive1009.py), [Pythonic-O(n)](Python3/BitManipulation/ComplementOfBase10Integer/Pythonic1009.py), [BM-O(n)](Python3/BitManipulation/ComplementOfBase10Integer/BM1009.py)||testcase
 |👍 1010|Easy    |[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|2020/10/14|Array|[Naive-O(n^2)](Python3/Array/PairsOfSongsWithTotalDurationsDivisibleBy60/Naive1010.py), [PrefixSum-O(n)](Python3/Array/PairsOfSongsWithTotalDurationsDivisibleBy60/PrefixSum1010.py)||testcase
@@ -551,6 +552,8 @@ Algorithm
 >   * [🕔🚀 October LeetCoding Challenge and the Time Travel Ticket! 🚀🕤 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704/october-leetcoding-challenge-and-the-time-travel-ticket)
 > * [May LeetCoding Challenge 2021](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge-2021)
 >   * [🏅 May LeetCoding Challenge and the Badge!🏅 - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/655704)
+> * [June LeetCode Challenge 2021](https://leetcode.com/explore/challenge/card/june-leetcoding-challenge-2021/)
+> * [July LeetCode Challenge 2021](https://leetcode.com/explore/featured/card/july-leetcoding-challenge-2021/)
 
 #### Top Interview Questions
 
