@@ -79,13 +79,14 @@ docker pull python:3.8
 
 ### Remark
 
-* Catagory
-  * `Catagory1, Catagory2, ...`
-  * Usually record in (input data) Data Structure. (The Algorithm (and additional/special Data Structrue) strategy will be noted in the Method field)
-  * Code will be put in the main catagory folder (i.e. the first one).
-  * Some catagory may be the Related Topic tags marked by LeetCode.
+* Category
+  * `Category1, Category2, ...`
+  * Usually record in (input data) Data Structure. (The Algorithm (and additional/special Data Structure) strategy will be noted in the Method field)
+  * Code will be put in the main category folder (i.e. the first one).
+  * Some category may be the Related Topic tags marked by LeetCode.
   * (Add Pattern 0~4 in brackets)
   * TODO: Most of the categories need to be updated. (The date before 2018/9/22)
+  * TODO: Mark "Good for Beginner" or "Good for Intermediate" etc.
 
 |Number | Difficulty | Problem | Date | Category | Method-TimeComplexity | Remark | TODO |
 |-------------:|-------------|-------------|-------------|-------------|-------------|-------------|------|
@@ -187,6 +188,7 @@ docker pull python:3.8
 |👍 129|Medium *|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|2020/6/26|Binary Tree|[Naive-O(nlogn)](Python3/BinaryTree/SumRootToLeafNumbers/Naive129.py), [DFS-O(n)](Python3/BinaryTree/SumRootToLeafNumbers/DFS129.py)||-
 |👍 130|Medium  |[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|2020/3/25|Array|[Naive-O(mn)](Python3/Array/SurroundedRegions/Naive130.py), [Boarders-O(mn)](Python3/Array/SurroundedRegions/Boarders130.py)|[Note](Python3/Array/SurroundedRegions/Note130.md)|
 |  133|Medium  |[Clone Graph](https://leetcode.com/problems/clone-graph/)|2020/1/16|Graph|[Recursive-O(n)](Python3/Graph/CloneGraph/Recursive133.py), [DFS-O(n)](Python3/Graph/CloneGraph/DFS133.py)|[Note](Python3/Graph/CloneGraph/Note133.md), Learn: Queue & Stack|Do it again
+|👍 135|Hard *  |[Candy](https://leetcode.com/problems/candy/)|2021/6/27|Array|[Brute Force-O(n^2)](Python3/Array/Candy/BruteForce135.py), [Two arrays-O(n)](Python3/Array/Candy/TwoArrays135.py)||do it again
 |👍 136|Easy    |[Single Number](https://leetcode.com/problems/single-number/)|2019/12/18|Array|[HT-O(n)](Python3/Array/SingleNumber/HT136.py), [Set-O(n)](Python3/Array/SingleNumber/Set136.py), [BM-O(n)](Python3/Array/SingleNumber/BM136.py)|[Note](Python3/Array/SingleNumber/Note136.md)|-
 |👍 137|Medium *|[Single Number II](https://leetcode.com/problems/single-number-ii/)|2020/6/22|Array|[Naive-O(n)](Python3/Array/SingleNumberII/Naive137.py), [BitManipulation-O(n)](Python3/Array/SingleNumberII/BitManipulation137.py), [BitManipulation 2-O(n)](Python3/Array/SingleNumberII/BitManipulation2_137.py), [Math-O(n)](Python3/Array/SingleNumberII/Math137.py)||testcase
 |👍 138|Medium *|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|2021/2/10|Linked List|[Naive-O(n)](Python3/LinkedList/CopyListWithRandomPointer/Naive138.py), [Interweave-O(n)](Python3/LinkedList/CopyListWithRandomPointer/Interweave138.py), [Map-O(n)](Python3/LinkedList/CopyListWithRandomPointer/Map138.py)||testcase
@@ -372,6 +374,7 @@ docker pull python:3.8
 |👍 1041|Medium  |[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|2020/11/8|Array|[Naive-O(n)](Python3/Array/RobotBoundedInCircle/Naive1041.py)|LinkedIn 2021 Summer Intern|testcase, do it again
 |👍 1044|Hard  |[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|2020/6/20|String|[Naive](Python3/String/LongestDuplicateSubstring/Naive1044.py), [BinarySearch-RabinKarp-O(nlogn)](Python3/String/LongestDuplicateSubstring/BinarySearch_RabinKarp1044.py)|[Note](Python3/String/LongestDuplicateSubstring/Note1044.md)|do it again
 |  1046|Easy    |[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|2020/4/12|Array|[Naive-O(n)](Python3/Array/LastStoneWeight/Naive1046.py)||-
+|  1047|Easy    |[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|2021/6/28|String|[Naive-O(n^n)](Python3/String/RemoveAllAdjacentDuplicatesInString/Naive1047.py), [Stack-O(n)](Python3/String/RemoveAllAdjacentDuplicatesInString/Stack1047.py), [Remove Pattern-O(n)](Python3/String/RemoveAllAdjacentDuplicatesInString/RemovePattern1047.py)|Good for beginner|-
 |👍  1091|Medium  |[Shortest Path in Bnary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|2021/2/13|Graph|[Naive-O(n)](Python3/Graph/ShortestPathInBinaryMatrix/Naive1091.py)||testcase
 |👍 1094|Medium  |[Car Pooling](https://leetcode.com/problems/car-pooling/)|2020/9/21|Array|[Naive-O(n)](Python3/Array/CarPooling/Naive1094.py)||testcase
 |👍 1143|Medium  |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|2019/10/22|String|[BruteForce-O(2ⁿ)](Python3/String/LongestCommonSubsequence/BruteForce1143.py), [DP-O(mn)](Python3/String/LongestCommonSubsequence/DP1143.py)|[Note](Python3/String/LongestCommonSubsequence/Note1143.md)|-
