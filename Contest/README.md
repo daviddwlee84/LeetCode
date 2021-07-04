@@ -622,6 +622,8 @@ Geometric Mean:
 | Medium *   |[Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/)|2021/6/27|[Bitmask Hashmap](LeetCodeWeeklyContest/WeeklyContest247/3_other.py)|[Sliding Window-TLE](LeetCodeWeeklyContest/WeeklyContest247/3_fail.py), [Sliding Window with Memory-TLE](LeetCodeWeeklyContest/WeeklyContest247/3_fail2.py)|-
 | Hard *     |[Count Ways to Build Rooms in an Ant Colony](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)|2021/6/27|[DFS](LeetCodeWeeklyContest/WeeklyContest247/4_other.py)|[Find all topological orderings-TLE](LeetCodeWeeklyContest/WeeklyContest247/4_fail.py)|Modular Multiplicative Inverse
 
+* (TODO) [Interview Weekly #53 - YouTube](https://www.youtube.com/watch?v=9uZjfpn1kwM)
+
 ### Weekly Contest 248
 
 * [Weekly Contest 248](https://leetcode-cn.com/contest/weekly-contest-248)
@@ -629,10 +631,12 @@ Geometric Mean:
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[Build Array from Permutation](https://leetcode.com/contest/weekly-contest-248/problems/build-array-from-permutation/)|2021/7/4|[Naive](LeetCodeWeeklyContest/WeeklyContest248/1.py)||-
-| Medium     |[Eliminate Maximum Number of Monsters](https://leetcode.com/contest/weekly-contest-248/problems/eliminate-maximum-number-of-monsters/)|2021/7/4|[Greedy](LeetCodeWeeklyContest/WeeklyContest248/2.py)|[Greedy-WA](LeetCodeWeeklyContest/WeeklyContest248/2_fail.py), [Greedy-WA](LeetCodeWeeklyContest/WeeklyContest248/2_fail2.py), [Greedy-WA](LeetCodeWeeklyContest/WeeklyContest248/2.py), [Greedy-WA](LeetCodeWeeklyContest/WeeklyContest248/2_fail3.py), [Greedy-TLE](LeetCodeWeeklyContest/WeeklyContest248/2_fail4.py), [Greedy-TLE](LeetCodeWeeklyContest/WeeklyContest248/2_fail5.py)|-
-| Medium     |[Count Good Numbers](https://leetcode.com/contest/weekly-contest-248/problems/count-good-numbers/)|TODO||[For-TLE](LeetCodeWeeklyContest/WeeklyContest248/3_fail.py) ([cpp](LeetCodeWeeklyContest/WeeklyContest248/3_fail.cpp)), [Math-TLE](LeetCodeWeeklyContest/WeeklyContest248/3_fail2.py) ([cpp](LeetCodeWeeklyContest/WeeklyContest248/3_fail2.cpp)), [Recursive-Error](LeetCodeWeeklyContest/WeeklyContest248/3_fail3.py), [Memory-MLE](LeetCodeWeeklyContest/WeeklyContest248/3_fail4.py)|-
-| Hard       |[Longest Common Subpath](https://leetcode.com/contest/weekly-contest-248/problems/longest-common-subpath/)|TODO|||-
+| Easy       |[Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|2021/7/4|[Naive](LeetCodeWeeklyContest/WeeklyContest248/1.py)||-
+| Medium     |[Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)|2021/7/4|[Greedy](LeetCodeWeeklyContest/WeeklyContest248/2.py)|[Greedy-WA](LeetCodeWeeklyContest/WeeklyContest248/2_fail.py), [Greedy-WA](LeetCodeWeeklyContest/WeeklyContest248/2_fail2.py), [Greedy-WA](LeetCodeWeeklyContest/WeeklyContest248/2.py), [Greedy-WA](LeetCodeWeeklyContest/WeeklyContest248/2_fail3.py), [Greedy-TLE](LeetCodeWeeklyContest/WeeklyContest248/2_fail4.py), [Greedy-TLE](LeetCodeWeeklyContest/WeeklyContest248/2_fail5.py)|-
+| Medium     |[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|2021/7/4|[Math with pow](LeetCodeWeeklyContest/WeeklyContest248/3.py)|[For-TLE](LeetCodeWeeklyContest/WeeklyContest248/3_fail.py) ([cpp](LeetCodeWeeklyContest/WeeklyContest248/3_fail.cpp)), [Math-TLE](LeetCodeWeeklyContest/WeeklyContest248/3_fail2.py) ([cpp](LeetCodeWeeklyContest/WeeklyContest248/3_fail2.cpp)), [Recursive-Error](LeetCodeWeeklyContest/WeeklyContest248/3_fail3.py), [Memory-MLE](LeetCodeWeeklyContest/WeeklyContest248/3_fail4.py)|-
+| Hard       |[Longest Common Subpath](https://leetcode.com/problems/longest-common-subpath/)|TODO|||-
+
+* (TODO) [Interview Weekly #54 - YouTube](https://www.youtube.com/watch?v=OSjSCpknl_k)
 
 ## Resources
 
