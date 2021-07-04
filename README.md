@@ -275,6 +275,7 @@ docker pull python:3.8
 |   342|Easy    |[Power of Four](https://leetcode.com/problems/power-of-four/)|2020/8/4|Math|[Naive-O(n)](Python3/Math/PowerOfFour/Naive342.py), [Math-O(n)](Python3/Math/PowerOfFour/Math342.py)||testcase
 |   344|Easy    |[Reverse String](https://leetcode.com/problems/reverse-string/)|2020/6/4|String|[Naive-O(n)](Python3/String/ReverseString/Naive344.py), [Recursive-O(n)](Python3/String/ReverseString/Recursive344.py)|[Note](Python3/String/ReverseString/Note344.md)|testcase
 |👍 347|Medium *|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|2019/9/27|Array|[Naive-O(nlogn)](Python3/Array/TopKFrequentElements/Naive347.py), [HT Heap-O(nlogk)](Python3/Array/TopKFrequentElements/HTHeap347.py), [HT Heap 2-O(nlogk)](Python3/Array/TopKFrequentElements/HTHeap2_347.py), [Quickselect-avg O(n)](Python3/Array/TopKFrequentElements/Quickselect347.py), [Bucket Sort-O(n)](Python3/Array/TopKFrequentElements/BucketSort347.py), [HT-O(n)](Python3/Array/TopKFrequentElements/HT347.py)|[Note](Python3/Array/TopKFrequentElements/Note347.md)|-
+|   363|Hard *  |[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|2021/7/3|Array|[Prefix Sum-O(m^2 n^2)](Python3/Array/MaxSumOfRectangleNoLargerThanK/PrefixSum363.py)|Similar problem: 325, 363, 560, 974, 1074|do it again
 |   367|Easy    |[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|2020/5/9|Math|[Naive-O(n)](Python3/Math/ValidPerfectSquare/Naive367.py), [BinarySearch-O(n)](Python3/Math/ValidPerfectSquare/BinarySearch367.py)|-|testcase
 |👍 368|Medium  |[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|2020/6/13|Array|[Naive-O(n!)](Python3/Array/LargestDivisibleSubset/Naive368.py), [DP-O(n²)](Python3/Array/LargestDivisibleSubset/DP368.py)|[Note](Python3/Array/LargestDivisibleSubset/Note368.md)|do it again (DP)
 |👍 373|Medium  |[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|2020/5/3|Array|[Priority Queue-O(klogk)](Python3/Array/FindKPairsWithSmallestSums/PriorityQueue373.py), [Heap Merge Sort](Python3/Array/FindKPairsWithSmallestSums/HeapMergeSort373.py)|related to 1439 (competition)|testcase, do it again
@@ -340,6 +341,7 @@ docker pull python:3.8
 |  704|Easy    |[Binary Search](https://leetcode.com/problems/binary-search)|2020/5/9|Array|[Iterative(<)-O(logn)](Python3/Array/BinarySearch/Iterative704.py), [Recursive(<=)-O(logn)](Python3/Array/BinarySearch/Recursive704.py)||Test
 |  705|Easy    |[Design HashSet](https://leetcode.com/problems/design-hashset/)|2020/8/2|Design|[Naive-O(1)](Python3/Design/DesignHashSet/Naive705.py), [With Hash Function-O(1)](Python3/Design/DesignHashSet/HashFunction705.py)||testcase
 |  733|Easy    |[Flood Fill](https://leetcode.com/problems/flood-fill/)|2020/5/11|Array|[Naive-O(n)](Python3/Array/FloodFill/Naive733.py), [DFS-O(n)](Python3/Array/FloodFill/DFS733.py), [IterativeDFS-O(n)](Python3/Array/FloodFill/IterativeDFS733.py)||Test
+|👍 718|Medium *|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|TODO|Array|||-
 |👍 739|Medium  |[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|2019/12/26|Array|[Naive-O(n²)](Python3/Array/DailyTemperatures/Naive739.py), [Naive2-O(n²)](Python3/Array/DailyTemperatures/Naive2_739.py), [Stack-O(n²)](Python3/Array/DailyTemperatures/Stack739.py)|[Note](Python3/Array/DailyTemperatures/Note739.md), Learn: Queue & Stack|-
 |👍 745|Hard *  |[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|2021/5/1|Design|[RegularExpression-O(n)](Python3/Design/PrefixAndSuffixSearch/RE745.py), [Paired Trie-O(nk^2 + qk)](Python3/Design/PrefixAndSuffixSearch/PairedTrie745.py), [Trie of Suffix Wrapped Words-O(nk^2 + qk)](Python3/Design/PrefixAndSuffixSearch/SuffixWrappedWords745.py), [Double Set-O(n)](Python3/Design/PrefixAndSuffixSearch/DoubleSet745.py)||-
 |👍 752|Medium  |[Open the Lock](https://leetcode.com/problems/open-the-lock/)|2019/7/5|Search|[BFS-O(n²)](Python3/Search/OpenTheLock/BFS752.py)|[Note](Python3/Search/OpenTheLock/Note752.md), Learn: Queue & Stack|Improve time complexity
@@ -385,6 +387,7 @@ docker pull python:3.8
 |👍 1094|Medium  |[Car Pooling](https://leetcode.com/problems/car-pooling/)|2020/9/21|Array|[Naive-O(n)](Python3/Array/CarPooling/Naive1094.py)||testcase
 |👍 1143|Medium  |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|2019/10/22|String|[BruteForce-O(2ⁿ)](Python3/String/LongestCommonSubsequence/BruteForce1143.py), [DP-O(mn)](Python3/String/LongestCommonSubsequence/DP1143.py)|[Note](Python3/String/LongestCommonSubsequence/Note1143.md)|-
 |👍 1200|Medium *|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|TODO|Array|||-
+|👍 1220|Hard *  |[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|2021/7/4|Math|[DP-O(5n)](Python3/Math/CountVowelsPermutation/DP1220.py)|good DP problem|do it again
 |  1232|Easy    |[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|2020/5/8|Math|[Naive-O(n)](Python3/Math/CheckIfItIsAStraightLine/Naive1232.py)||-
 |👍 1249|Medium *|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|2020/7/25|String|[Naive-O(n)](Python3/String/MinimumRemoveToMakeValidParentheses/Naive1249.py), [Naive 2-O(n)](Python3/String/MinimumRemoveToMakeValidParentheses/Naive2_1249.py)||stack, follow up: O(1) space
 |👍 1277|Medium  |[Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)|2020/5/22|String|[Naive-O(n^4)](Python3/Array/CountSquareSubmatricesWithAllOnes/Naive1277.py), [DP-O(mn)](Python3/Array/CountSquareSubmatricesWithAllOnes/DP1277.py)||testcase, do it again
@@ -479,6 +482,7 @@ Algorithm
 * [**CodeSignal**](https://app.codesignal.com/) - Intern Interview OA in America
 * [HackerRank](https://www.hackerrank.com/) - Interview OA
 * [binarysearch.io](https://binarysearch.io/)
+* [Topcoder Top Technology Talent On-Demand](https://www.topcoder.com/)
 
 > Paid
 >
