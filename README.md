@@ -395,6 +395,7 @@ docker pull python:3.8
 |👍 1288|Medium  |[Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|2020/10/4|Array|[Naive-O(n)](Python3/Array/RemoveCoveredIntervals/Naive1288.py)||testcase, do it with other solution
 |👍 1291|Medium  |[Sequential Digits](https://leetcode.com/problems/sequential-digits/)|2019/12/15|Math|[Naive-O(n)](Contest/LeetCodeWeeklyContest/WeeklyContest167/1291-SequentialDigits.py), [Recursive-O(nlogn)](Python3/Math/SequentialDigits/Recursive1291.py), [Naive2-O(n)](Python3/Math/SequentialDigits/Naive1291.py)|[Weekly Contest 167](Contest/README.md#Weekly-Contest-167)|testcase, Naive2 (generate sequence in order)
 |👍 1337|Easy    |[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|2021/2/15|Array|[Naive-O(n)](Python3/Array/TheKWeakestRowsInAMatrix/Naive1337.py)||max heap + binary search
+|   1338|Medium ▼|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|2021/7/6|Array|[Naive-O(n)](Python3/Array/ReduceArraySizeToTheHalf/Naive1338.py)||-
 |   1342|Easy    |[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|2020/9/20|Math|[Naive-O(n)](Python3/Math/NumberOfStepsToReduceANumberToZero/Naive1342.py), [Naive 2-O(n)](Python3/Math/NumberOfStepsToReduceANumberToZero/Naive2_1342.py)||(good for beginners)
 |👍 1344|Medium  |[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)|2020/7/14|Math|[Naive-O(1)](Python3/Math/AngleBetweenHandsOfAClock/Naive1344.py)||-
 |   1379|Medium ▼|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|2021/1/2|Binary Tree|[Naive-O(n)](Python3/BinaryTree/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree/Naive1379.py)|[Note](Python3/BinaryTree/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree/Note1379.md)|testcase, iterative
@@ -641,3 +642,13 @@ Quick typing math symbol
 VSCode ignore formatting on file
 
 * [visual studio code - How to exclude file extensions and languages from "format on save" in VSCode? - Stack Overflow](https://stackoverflow.com/questions/44831313/how-to-exclude-file-extensions-and-languages-from-format-on-save-in-vscode)
+
+```txt
+ ! [new branch]      master     -> origin/master  (unable to update local ref)
+warning: url has no scheme: 
+fatal: credential url cannot be parsed:
+error: update_ref failed for ref 'refs/remotes/origin/master': cannot lock ref 'refs/remotes/origin/master': unable to resolve reference 'refs/remotes/origin/master': reference broken
+```
+
+* [command line interface - Git error on git pull (unable to update local ref) - Stack Overflow](https://stackoverflow.com/questions/10068640/git-error-on-git-pull-unable-to-update-local-ref)
+* [Error: Cannot lock ref 'refs/remotes/origin/master'](https://github.com/desktop/desktop/issues/6121#issuecomment-437145964)
