@@ -311,7 +311,7 @@ docker pull python:3.8
 |👍 525|Medium *|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|2020/4/13|Array|[Naive-O(n²)](Python3/Array/ContiguousArray/Naive525.py), [HT-O(n)](Python3/Array/ContiguousArray/HT525.py), [ExtraArray-O(n)](Python3/Array/ContiguousArray/ExtraArray525.py), [HT2-O(n)](Python3/Array/ContiguousArray/HT2_525.py)|Didi Interview|do it again
 |👍 526|Medium  |[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|2021/1/3|Array|[BruteForce-O(n!)](Python3/Array/BeautifulArrangement/BruteForce526.py), [Backtracking with Memory](Python3/Array/BeautifulArrangement/BacktrackingWithMemory526.py)||testcase
 |  528|Medium *|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|2020/6/5|Design|[Naive-O(n)](Python3/Design/RandomPickWithWeight/Naive528.py), [Naive2-O(n)](Python3/Design/RandomPickWithWeight/Naive2_528.py), [Binary Search-O(n)](Python3/Design/RandomPickWithWeight/BinarySearch528.py), [OnePass-O(n)](Python3/Design/RandomPickWithWeight/OnePass528.py)|[Note](Python3/Design/RandomPickWithWeight/Note528.md)|testcase
-|  532|Medium  |[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|2020/10/3|Array|[Naive-O(n^2)](Python3/Array/K-diffPairsInAnArray/Naive532.py), [HT-O(n)](Python3/Array/K-diffPairsInAnArray/HT532.py)||testcase
+|  532|Medium  |[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|2020/10/3|Array|[Naive-O(n^2)](Python3/Array/K-diffPairsInAnArray/Naive532.py), [HT-O(n)](Python3/Array/K-diffPairsInAnArray/HT532.py), [Naive2-O(n)](Python3/Array/K-diffPairsInAnArray/Naive2_532.py)||testcase
 |👍 538|Medium *|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|2021/2/7|BinaryTree|[DFS-O(n)](Python3/BinaryTree/ConvertBSTToGreaterTree/DFS538.py), [Array-O(n)](Python3/BinaryTree/ConvertBSTToGreaterTree/Array538.py)|same as problem 1038|testcase, do it again
 |👍 540|Medium  |[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|2020/5/12|Array|[Naive-O(n)](Python3/Array/SingleElementInASortedArray/Naive540.py), [BinarySearchXOR-O(logn)](Python3/Array/SingleElementInASortedArray/BinarySearchXOR540.py)||testcase
 |👍 543|Easy    |[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|2020/4/11|Binary Tree|[DFS-O(n)](Python3/BinaryTree/DiameterOfBinaryTree/DFS543.py)||testcase
@@ -587,6 +587,8 @@ Algorithm
 
 * C++
   * [《LeetCode題解》](https://legacy.gitbook.com/book/siddontang/leetcode-solution/details)
+  * [wisdompeak/LeetCode: This repository contains the solutions and explanations to the algorithm problems on LeetCode. Only medium or above are included. All are written in C++/Python and implemented by myself. The problems attempted multiple times are labelled with hyperlinks.](https://github.com/wisdompeak/LeetCode)
+    * 
 * JavaScript
   * [《初學者練習 - LeetCode with Javascript》](https://legacy.gitbook.com/book/skyyen999/-leetcode-with-javascript/details)
   * [azl397985856/leetcode: LeetCode Solutions: A Record of My Problem Solving Journey.](https://github.com/azl397985856/leetcode)
@@ -597,9 +599,15 @@ Algorithm
   * [haoel/leetcode: LeetCode Problems' Solutions](https://github.com/haoel/leetcode)
   * [grandyang/leetcode: Provide all my solutions and explanations in Chinese for all the Leetcode coding problems.](https://github.com/grandyang/leetcode)
 
-### Experience
+### Study Group
 
-* [Google | L5 | MTV | Oct 2019 [Offer] - LeetCode Discuss](https://leetcode.com/discuss/interview-experience/424540/google-l5-mtv-oct-2019-offer)
+* Cruel Study Group
+  * [残酷刷题群](http://board.cruelcoding.com/) ([graduates](http://board.cruelcoding.com/graduates.html))
+    * [wisdompeak/lc-score-board: A smart application that automatically updates weekly contest score board for my Wechat coding group](https://github.com/wisdompeak/lc-score-board)
+    * [残酷群2021年会 - Google 簡報](https://docs.google.com/presentation/d/1wIYIszpPuKEKTMAQXyb4lllhXApNWfa9J53lYK5gHmM/edit#slide=id.g10a25ba6884_0_86)
+    * [LeetCode打卡记录 - Google 試算表](https://docs.google.com/spreadsheets/d/1kBGyRsSdbGDu7DzjQcC-UkZjZERdrP8-_QyVGXHSrB8/edit#gid=0)
+  * [在残酷刷题群里是什么样的体验？ - 知乎](https://www.zhihu.com/question/457519650)
+    * [Pool的残酷故事2021](https://roasted-ermine-595.notion.site/Pool-2021-60dd832e786d41d88a01b31b70a5be5f)
 
 ### Others
 
@@ -645,7 +653,7 @@ Quick typing math symbol
 
 VSCode ignore formatting on file
 
-* [visual studio code - How to exclude file extensions and languages from "format on save" in VSCode? - Stack Overflow](https://stackoverflow.com/questions/44831313/how-to-exclude-file-extensions-and-languages-from-format-on-save-in-vscode)
+* [X] [visual studio code - How to exclude file extensions and languages from "format on save" in VSCode? - Stack Overflow](https://stackoverflow.com/questions/44831313/how-to-exclude-file-extensions-and-languages-from-format-on-save-in-vscode)
 
 ```txt
  ! [new branch]      master     -> origin/master  (unable to update local ref)
