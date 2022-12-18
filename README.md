@@ -250,6 +250,7 @@ docker pull python:3.8
 |👍 260|Medium *|[Single Number III](https://leetcode.com/problems/single-number-iii/)|2020/6/22|Array|[Naive-O(n)](Python3/Array/SingleNumberIII/Naive260.py), [BitManipulation-O(n)](Python3/Array/SingleNumberIII/BitManipulation260.py)||
 |   263|Easy    |[Ugly Number](https://leetcode.com/problems/ugly-number/)|2020/7/4|Array|[Naive-O(n)](Python3/Math/UglyNumber/Naive263.py)||
 |👍 264|Medium *|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|2020/7/4|Array|[PriorityQueue-O(n)](Python3/Math/UglyNumberII/PriorityQueue264.py), [DP-O(n)](Python3/Math/UglyNumberII/DP264.py)|[Note](Python3/Math/UglyNumberII/Note264.md), Microsoft Intern Interview|do it again
+|   268|Easy    |[Missing Number](https://leetcode.com/problems/missing-number/)|2022/12/18|Array|[Naive-O(n^2)](Python3/Array/MissingNumber/Naive268.py)||testcase
 |👍 269|Hard *  |[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)|TODO|Array|||-
 |   278|Easy    |[First Bad Version](https://leetcode.com/problems/first-bad-version/)|2020/5/1|Iteractive|[Naive-O(logn)](Python3/Array/FirstBadVersion/Naive278.py)||testcase
 |   274|Medium  |[H-Index](https://leetcode.com/problems/h-index/)|2020/6/18|Array|[CumulativeSum-O(n)](Python3/Array/H-Index/CumulativeSum274.py)|sorting-based solution see 275|testcase, do it again
