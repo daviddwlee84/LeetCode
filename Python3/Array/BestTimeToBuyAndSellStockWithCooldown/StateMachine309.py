@@ -8,9 +8,9 @@ class Solution:
 
         https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75928/Share-my-DP-solution-(By-State-Machine-Thinking)
 
-        * 0: state_rest (can buy)
+        * 0: state_empty (can buy)
             * Rest: stay
-            * Buy: go to state_holding
+            * Buy: go to state_hold
         * 1: state_hold (can sell)
             * Rest: stay
             * Sell: go to selling
@@ -28,11 +28,11 @@ class Solution:
 
         for i in range(len(prices)):
 
-            # stay at state_hold or buy from state_rest
+            # stay at state_hold or buy from state_empty (i.e. max(hold, buy))
             # can buy, i.e. we have no sock now,
             # and the max profit should be "last no stock profit" or "last rest profit"
             hold = max(hold, rest - prices[i])
-            # stay at state_rest or rest from state_sold
+            # stay at state_empty or rest from state_sold
             # can sell, i.e. we now have stock,
             # and the profit should be "last stock profit" or "last no stock but buy this time"
             rest = max(rest, sold)
