@@ -638,6 +638,18 @@ Geometric Mean:
 
 * (TODO) [Interview Weekly #54 - YouTube](https://www.youtube.com/watch?v=OSjSCpknl_k)
 
+### Weekly Contest 325
+
+* [Weekly Contest 325](https://leetcode-cn.com/contest/weekly-contest-325)
+* [Ranking](https://leetcode-cn.com/contest/weekly-contest-325/ranking/): 4930 / 16134
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Shortest Distance to Target String in a Circular Array](https://leetcode.com/contest/weekly-contest-325/problems/shortest-distance-to-target-string-in-a-circular-array/)|2022/12/25|[Naive](LeetCodeWeeklyContest/WeeklyContest325/1/Naive.py)||-
+| Medium     |[Take K of Each Character From Left and Right](https://leetcode.com/contest/weekly-contest-325/problems/take-k-of-each-character-from-left-and-right/)|2022/12/25||[Backtacking-TLE](LeetCodeWeeklyContest/WeeklyContest325/2/DFS.py)|-
+| Medium     |[Maximum Tastiness of Candy Basket](https://leetcode.com/contest/weekly-contest-325/problems/maximum-tastiness-of-candy-basket/)|TODO|||-
+| Hard       |[Number of Great Partitions](https://leetcode.com/contest/weekly-contest-325/problems/number-of-great-partitions/)|TODO|||-
+
 ## Resources
 
 * [Codeforces](https://codeforces.com/)
