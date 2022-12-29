@@ -1,4 +1,4 @@
-from Naive import Solution as naive
+from Naive392 import Solution as naive
 
 testcase = [
     ("b", "c", False),
