@@ -376,6 +376,7 @@ docker pull python:3.8
 |   916|Medium  |[Word Subsets](https://leetcode.com/problems/word-subsets/)|2020/9/5|String|[Naive-O(n)](Python3/String/WordSubsets/Naive916.py), [Improve-O(n)](Python3/String/WordSubsets/Improve916.py), [Counter-O(n)](Python3/String/WordSubsets/Counter916.py)||testcase
 |👍 918|Medium *|[Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|2020/5/15|Array|[Naive-O(n)](Python3/Array/MaximumSumCircularSubarray/Naive918.py), [MinSumSubarray-O(n)](Python3/Array/MaximumSumCircularSubarray/MinSumSubarray918.py)|[Note](Python3/Array/MaximumSumCircularSubarray/Note918.md)|use other approach
 |  933|Easy    |[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|2020/10/1|Design|[Naive-O(n)](Python3/Design/NumberOfRecentCells/Naive933.py), [Naive2-O(n)](Python3/Design/NumberOfRecentCells/Naive2_933.py), [BinarySearch-O(logn)](Python3/Design/NumberOfRecentCells/BinarySearch933.py), [Queue-O(min(n, 3000))](Python3/Design/NumberOfRecentCells/Queue933.py), [CircularList-O(n)](Python3/Design/NumberOfRecentCells/CircularList933.py)||testcase
+|  944|Easy    |[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|2023/1/3|Array|[Naive-O(n)](Python3/Design/DeleteColumnsToMakeSorted/Naive944.py)||testcase
 |👍 952|Hard *  |[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|TODO|Array|||
 |   957|Medium  |[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)|2020/7/3|Array|[Naive-O(n)](Python3/Array/PrisonCellsAfterNDays/Naive957.py), [LoopDetection-O(n)](Python3/Array/PrisonCellsAfterNDays/LoopDetection957.py)|[Note-O(n)](Python3/Array/PrisonCellsAfterNDays/Note957.md)|
 |👍 978|Medium  |[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)|TODO|String|||
@@ -553,6 +554,12 @@ Algorithm
 ### Course
 
 * [Algorithms | Coursera](https://www.coursera.org/specializations/algorithms) (Paid)
+
+### Books
+
+* Cracking the Coding Interview
+* [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm)
+  * [Introduction - algo-en](https://labuladong.gitbook.io/algo-en/)
 
 ### LeetCode Links
 
