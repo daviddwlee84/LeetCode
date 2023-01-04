@@ -423,6 +423,7 @@ docker pull python:3.8
 |👍 1861|Medium  |[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|TODO|AdHoc||Code Signal|-
 |👍 1928|Hard *  |[Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)|TODO|Graph||Google Interview|-
 |👍 1971|Easy    |[Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|2022/12/19|Graph|[BFS-O(n)](Python3/Graph/FindIfPathExistsInGraph/BFS1971.py), [DFS-O(n)](Python3/Graph/FindIfPathExistsInGraph/DFS1971.py), [UnionFind-O(n)](Python3/Graph/FindIfPathExistsInGraph/UnionFind1971.py)||
+|👍 2244|Medium  |[Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|2023/1/4|Array|[Greedy-O(n)](Python3/Array/MinimumRoundsToCompleteAllTasks/Greedy2244.py)||-
 |👍 2279|Medium  |[Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/)|2022/12/27|Array|[Greedy-O(n)](Python3/Array/MaximumBagsWithFullCapacityOfRocks/Greedy2279.py)||-
 |  ???|Easy     |[Counting Elements](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3289/)|2020/4/7|Array|[Naive-O(nlogn)](Python3/Array/CountingElements/Naive.py), [SinglePass-O(n)](Python3/Array/CountingElements/SinglePass.py)||testcase
 |  ???|Easy     |[Perform String Shifts](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/529/week-2/3299/)|2020/4/15|String|[Naive-O(n)](Python3/String/PerformStringShifts/Naive.py)||testcase
