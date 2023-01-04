@@ -17,6 +17,7 @@ class Solution:
         }
         for count in counter.values():
             while count not in base_cases:
+                # try use -3 greedily until reach base cases
                 count -= 3
                 answer += 1
 

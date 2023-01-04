@@ -1,4 +1,5 @@
 from Greedy2244 import Solution as Greedy
+from Greedy2_2244 import Solution as Greedy2
 
 testcases = [
     ([2, 2, 3, 3, 2, 4, 4, 4, 4, 4], 4),
@@ -12,3 +13,7 @@ testcases = [
 def test_Greedy():
     for tasks, ans in testcases:
         assert Greedy().minimumRounds(tasks) == ans
+
+def test_Greedy2():
+    for tasks, ans in testcases:
+        assert Greedy2().minimumRounds(tasks) == ans
