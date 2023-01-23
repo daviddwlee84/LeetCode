@@ -1,4 +1,6 @@
 from Naive997 import Solution as naive
+from Improve997 import Solution as improve
+from Naive2_997 import Solution as naive2
 
 testcase = [
     (2, [[1, 2]], 2),
@@ -13,3 +15,13 @@ testcase = [
 def test_naive():
     for N, trust, ans in testcase:
         assert naive().findJudge(N, trust) == ans
+
+
+def test_improve():
+    for N, trust, ans in testcase:
+        assert improve().findJudge(N, trust) == ans
+
+
+def test_naive2():
+    for N, trust, ans in testcase:
+        assert naive2().findJudge(N, trust) == ans
