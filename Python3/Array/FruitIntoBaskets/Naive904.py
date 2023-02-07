@@ -22,6 +22,7 @@ class Solution:
                 elif len(basket) == 2 and fruit in basket:
                     basket[fruit] += 1
                 else:
+                    # TODO: Do something here to improve
                     break
 
             max_sum = max(max_sum, sum(basket.values()))

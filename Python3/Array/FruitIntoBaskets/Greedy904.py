@@ -23,9 +23,10 @@ class Solution:
                 if basket[fruits[oldest_fruit]] == 0:
                     basket.pop(fruits[oldest_fruit])
 
-                # Shrink the window size
+                # i.e. Don't increase the window size
                 oldest_fruit += 1
 
+        # right pointer will go to the end eventually so use len(fruits)
         return len(fruits) - oldest_fruit
 
 # class Solution:
