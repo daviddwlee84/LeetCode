@@ -433,6 +433,12 @@ docker pull python:3.8
 |  ???|Easy     |[First Unique Number](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3313/)|2020/4/28|Design|[Naive](Python3/Design/FirstUniqueNumber/Naive.py), [HT Counter](Python3/Design/FirstUniqueNumber/HTCounter.py), [Double Linked List](Python3/Design/FirstUniqueNumber/DLL.py), [Double Linked List + HT](Python3/Design/FirstUniqueNumber/DLLHT.py)|[Note](Python3/Design/FirstUniqueNumber/Note.md)|testcase, improve follow the hint (set, heap)
 |  ???|Easy     |[Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/532/week-5/3315/)|2020/4/30|Binary Tree|[Naive](Python3/BinaryTree/CheckIfAStringIsAValidSequenceFromRootToLeavesPathInABinaryTree/Naive.py)||testcase, improve (like iterative dfs)
 
+LintCode
+
+|Number | Difficulty | Problem | Date | Category | Method-TimeComplexity | Remark | TODO |
+|------:|------------|---------|------|----------|-----------------------|--------|------|
+|👍 391|Medium      |[Number of Airplanes in the Sky](https://www.lintcode.com/problem/391/)|2023/2/16|Array|[HeapSort](Python3/Array/NumberOfAirplanesInTheSky/HeapSort391.py)||Do it again (Sweep Line, ...)
+
 ## [Contest](Contest)
 
 ## LeetCode Learn Progress
