@@ -437,7 +437,7 @@ LintCode
 
 |Number | Difficulty | Problem | Date | Category | Method-TimeComplexity | Remark | TODO |
 |------:|------------|---------|------|----------|-----------------------|--------|------|
-|👍 391|Medium      |[Number of Airplanes in the Sky](https://www.lintcode.com/problem/391/)|2023/2/16|Array|[HeapSort](Python3/Array/NumberOfAirplanesInTheSky/HeapSort391.py)||Do it again (Sweep Line, ...)
+|👍 391|Medium      |[Number of Airplanes in the Sky](https://www.lintcode.com/problem/391/)|2023/2/16|Array|[HeapSort-O(nlogn)](Python3/Array/NumberOfAirplanesInTheSky/HeapSort391.py), [SweepLine-O(nlogn)](Python3/Array/NumberOfAirplanesInTheSky/SweepLine391.py)||Do it again
 
 ## [Contest](Contest)
 

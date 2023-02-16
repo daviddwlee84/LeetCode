@@ -1,5 +1,6 @@
 from typing import List, Tuple
 from HeapSort391 import Solution as HeapSort
+from SweepLine391 import Solution as SweepLine
 
 
 class Interval(object):
@@ -29,6 +30,12 @@ def _convert_intervals(list_intervals: List[Tuple[int, int]]):
 def test_HeapSort():
     for airplanes, ans in testcases:
         assert HeapSort().count_of_airplanes(
+            _convert_intervals(airplanes)) == ans
+
+
+def test_SweepLine():
+    for airplanes, ans in testcases:
+        assert SweepLine().count_of_airplanes(
             _convert_intervals(airplanes)) == ans
 
 
