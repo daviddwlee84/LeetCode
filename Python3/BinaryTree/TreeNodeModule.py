@@ -144,5 +144,6 @@ def drawtree(root):
 
 if __name__ == '__main__':
     # Draw tree test
-    drawtree(deserialize('[1,2,3,null,null,4,null,null,5]'))
-    drawtree(deserialize('[2,1,3,0,7,9,1,2,null,1,0,null,null,8,8,null,null,null,null,7]'))
+    # drawtree(deserialize('[1,2,3,null,null,4,null,null,5]'))
+    # drawtree(deserialize('[2,1,3,0,7,9,1,2,null,1,0,null,null,8,8,null,null,null,null,7]'))
+    drawtree(deserialize('[90,69,null,49,89,null,52]'))  # TODO: construct this tree into binary search tree
