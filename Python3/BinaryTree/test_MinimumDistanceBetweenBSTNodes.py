@@ -1,5 +1,6 @@
-from BinaryTree.MinimumDepthOfBinaryTree.BFS111 import Solution as DFS
 import BinaryTree.TreeNodeModule as tn
+# from BinaryTree.MinimumDepthOfBinaryTree.DFS111 import Solution as DFS
+# from BinaryTree.MinimumDepthOfBinaryTree.DFSImprove111 import Solution as DFSImprove
 
 testcases = [
     ('[4,2,6,1,3]', 1),
@@ -14,6 +15,10 @@ testcases = [
 # def test_DFS():
 #     for root, ans in testcases:
 #         assert DFS().minDepth(root) == ans
+
+# def test_DFSImprove():
+#     for root, ans in testcases:
+#         assert DFSImprove().minDepth(root) == ans
 
 
 # Wrong answer
