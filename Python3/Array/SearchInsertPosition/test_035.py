@@ -1,5 +1,6 @@
 from BinarySearch035 import Solution as bs
 from Naive035 import Solution as naive
+from BinarySearch2_035 import Solution as bs2
 
 array = []
 array.append([1, 3, 5, 6])
@@ -28,3 +29,8 @@ def test_binary_search():
 def test_naive():
     for nums, target, position in zip(array, targets, positions):
         assert naive().searchInsert(nums, target) == position
+
+
+def test_binary_search2():
+    for nums, target, position in zip(array, targets, positions):
+        assert bs2().searchInsert(nums, target) == position
