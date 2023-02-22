@@ -1,4 +1,5 @@
 from BinarySearch1011 import Solution as BinarySearch
+from BinarySearchImprove1011 import Solution as BinarySearchImprove
 
 testcases = [
     ({'weights': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 'days': 5}, 15),
@@ -10,3 +11,8 @@ testcases = [
 def test_BinarySearch():
     for testcase, ans in testcases:
         assert BinarySearch().shipWithinDays(**testcase) == ans
+
+
+def test_BinarySearchImprove():
+    for testcase, ans in testcases:
+        assert BinarySearchImprove().shipWithinDays(**testcase) == ans
