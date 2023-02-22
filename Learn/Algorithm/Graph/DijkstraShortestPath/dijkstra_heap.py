@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Tuple
 from itertools import combinations
 from collections import defaultdict
 import heapq
@@ -27,18 +27,19 @@ class Graph():
                 print(f'{u} <--> {v}: {self.graph[u][v]}')
         print(self.adjacency_vertices)
     
-    def print_answer(self, distance_from_source: List[int], source: int = None):
+    def print_answer(self, distance_from_source: List[int], parents: List[List[int]], source: int = None):
         if source:
             print(f'Result of Source from {source} vertex:')
-        print('Vertex', 'Distance from Source', sep='\t')
+        print('Vertex', 'Distance from Source', 'Parents', sep='\t')
         for node_id in range(self.vertices_num):
-            print(node_id, distance_from_source[node_id], sep='\t')
+            print(node_id, distance_from_source[node_id], parents[node_id], sep='\t')
         
     def dijkstra_single_source_shortest_path_algorithm(self, source_vertex: int) -> List[int]:
         priority_queue = []
         heapq.heappush(priority_queue, (0, source_vertex))
         distance_from_source = [float('inf')] * self.vertices_num
         distance_from_source[source_vertex] = 0
+        parents = [[] for _ in range(self.vertices_num)]
 
         while priority_queue:
             # the first vertex in queue is the minimum distance vertex
@@ -47,10 +48,12 @@ class Graph():
             for adj_node, weight in self.adjacency_vertices[min_distance_vertex]:
                 if distance_from_source[adj_node] > distance_from_source[min_distance_vertex] + weight:
                     distance_from_source[adj_node] = distance_from_source[min_distance_vertex] + weight
+                    parents[adj_node] += parents[min_distance_vertex]
+                    parents[adj_node].append(min_distance_vertex)
                     # Sorted by distance_from_source[adj_node]
                     heapq.heappush(priority_queue, (distance_from_source[adj_node], adj_node))
         
-        return distance_from_source
+        return distance_from_source, parents
 
 if __name__ == '__main__':
     graph = Graph([
@@ -68,4 +71,4 @@ if __name__ == '__main__':
     graph.print_graph()
 
     source = 0
-    graph.print_answer(graph.dijkstra_single_source_shortest_path_algorithm(source), source)
+    graph.print_answer(*graph.dijkstra_single_source_shortest_path_algorithm(source), source)
