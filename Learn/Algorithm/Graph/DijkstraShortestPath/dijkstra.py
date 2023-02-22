@@ -1,10 +1,9 @@
-from typing import List, Set
+from typing import List, Set, Tuple
+from itertools import combinations
 
 class Graph():
     """
     https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
-
-    TODO: calculate the path information by creating a parent array and update the parent array when distance is updated
     """
 
     def __init__(self, adjacency_matrix: List[List[int]]) -> None:
@@ -12,10 +11,19 @@ class Graph():
         self.graph = adjacency_matrix.copy()
         self.vertices_num = len(self.graph)
     
-    def print_graph(self, distance_from_source: List[int]):
-        print('Vertex \tDistance from Source')
+    def print_graph(self):
+        print(f'Graph vertices: {self.vertices_num}')
+        print('Graph distances between vertices:')
+        for u, v in combinations(range(self.vertices_num), 2):
+            if self.graph[u][v] > 0:
+                print(f'{u} <--> {v}: {self.graph[u][v]}')
+    
+    def print_answer(self, distance_from_source: List[int], parents: List[List[int]], source: int = None):
+        if source:
+            print(f'Result of Source from {source} vertex:')
+        print('Vertex', 'Distance from Source', 'Parents', sep='\t')
         for node_id in range(self.vertices_num):
-            print(node_id, '\t', distance_from_source[node_id])
+            print(node_id, distance_from_source[node_id], parents[node_id], sep='\t')
         
     def min_distance_vertex(self, distance_from_source: List[int], shortest_path_tree_vertices: Set[int]) -> int:
         """
@@ -31,10 +39,11 @@ class Graph():
         
         return min_index
 
-    def dijkstra_single_source_shortest_path_algorithm(self, source_vertex: int) -> List[int]:
+    def dijkstra_single_source_shortest_path_algorithm(self, source_vertex: int) -> Tuple[List[int], List[List[int]]]:
         distance_from_source = [float('inf')] * self.vertices_num
         distance_from_source[source_vertex] = 0
         shortest_path_tree_vertices = set()
+        parents = [[] for _ in range(self.vertices_num)]
 
         for _ in range(self.vertices_num):
             min_distance_vertex = self.min_distance_vertex(distance_from_source, shortest_path_tree_vertices)
@@ -48,8 +57,11 @@ class Graph():
                     and distance_from_source[node_id] > distance_from_source[min_distance_vertex] + distance_from_min_distance_vertex_to_node:
 
                     distance_from_source[node_id] = distance_from_source[min_distance_vertex] + distance_from_min_distance_vertex_to_node
+                    # calculate the path information by creating a parent array and update the parent array when distance is updated
+                    parents[node_id] += parents[min_distance_vertex]
+                    parents[node_id].append(min_distance_vertex)
         
-        return distance_from_source
+        return distance_from_source, parents
 
 if __name__ == '__main__':
     graph = Graph([
@@ -64,7 +76,7 @@ if __name__ == '__main__':
         [0, 0, 2, 0, 0, 0, 6, 7, 0]
     ])
 
-    source = 0
+    graph.print_graph()
 
-    print(f'Result of Source from {source} vertex:')
-    graph.print_graph(graph.dijkstra_single_source_shortest_path_algorithm(source))
+    source = 0
+    graph.print_answer(*graph.dijkstra_single_source_shortest_path_algorithm(source), source)
