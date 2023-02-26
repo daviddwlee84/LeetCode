@@ -645,10 +645,10 @@ Geometric Mean:
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[Shortest Distance to Target String in a Circular Array](https://leetcode.com/contest/weekly-contest-325/problems/shortest-distance-to-target-string-in-a-circular-array/)|2022/12/25|[Naive](LeetCodeWeeklyContest/WeeklyContest325/1/Naive.py)||-
-| Medium     |[Take K of Each Character From Left and Right](https://leetcode.com/contest/weekly-contest-325/problems/take-k-of-each-character-from-left-and-right/)|2022/12/25||[Backtacking-TLE](LeetCodeWeeklyContest/WeeklyContest325/2/DFS.py)|-
-| Medium     |[Maximum Tastiness of Candy Basket](https://leetcode.com/contest/weekly-contest-325/problems/maximum-tastiness-of-candy-basket/)|TODO|||-
-| Hard       |[Number of Great Partitions](https://leetcode.com/contest/weekly-contest-325/problems/number-of-great-partitions/)|TODO|||-
+| Easy       |[Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)|2022/12/25|[Naive](LeetCodeWeeklyContest/WeeklyContest325/1/Naive.py)||-
+| Medium     |[Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)|2022/12/25||[Backtacking-TLE](LeetCodeWeeklyContest/WeeklyContest325/2/DFS.py)|-
+| Medium     |[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)|TODO|||-
+| Hard       |[Number of Great Partitions](https://leetcode.com/problems/number-of-great-partitions/)|TODO|||-
 
 ### Weekly Contest 334
 
@@ -659,10 +659,10 @@ Geometric Mean:
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[Left and Right Sum Differences](https://leetcode.com/contest/weekly-contest-334/problems/left-and-right-sum-differences/)|2023/2/26|[Naive](LeetCodeWeeklyContest/WeeklyContest334/1/Naive.py)||-
-| Medium     |[Find the Divisibility Array of a String](https://leetcode.com/contest/weekly-contest-334/problems/find-the-divisibility-array-of-a-string/)|2023/2/26|[Improve](LeetCodeWeeklyContest/WeeklyContest334/2/Improve.py)|[Naive-TLE](LeetCodeWeeklyContest/WeeklyContest334/2/Naive.py)|-
-| Medium     |[Find the Maximum Number of Marked Indices](https://leetcode.com/contest/weekly-contest-334/problems/find-the-maximum-number-of-marked-indices/)|TODO|||-
-| Hard       |[Minimum Time to Visit a Cell In a Grid](https://leetcode.com/contest/weekly-contest-334/problems/minimum-time-to-visit-a-cell-in-a-grid/)|TODO|||-
+| Easy       |[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|2023/2/26|[Naive](LeetCodeWeeklyContest/WeeklyContest334/1/Naive.py)||-
+| Medium     |[Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)|2023/2/26|[Improve](LeetCodeWeeklyContest/WeeklyContest334/2/Improve.py)|[Naive-TLE](LeetCodeWeeklyContest/WeeklyContest334/2/Naive.py)|-
+| Medium     |[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|2023/2/26|[Greedy Sorting-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest334/3/Sorted4.py)||-
+| Hard       |[Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)|TODO|||-
 
 
 ## Resources
