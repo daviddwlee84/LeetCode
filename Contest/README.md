@@ -662,7 +662,7 @@ Geometric Mean:
 | Easy       |[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)|2023/2/26|[Naive](LeetCodeWeeklyContest/WeeklyContest334/1/Naive.py)||-
 | Medium     |[Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)|2023/2/26|[Improve](LeetCodeWeeklyContest/WeeklyContest334/2/Improve.py)|[Naive-TLE](LeetCodeWeeklyContest/WeeklyContest334/2/Naive.py)|-
 | Medium     |[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|2023/2/26|[Greedy Sorting-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest334/3/Sorted4.py)||-
-| Hard       |[Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)|TODO|||-
+| Hard       |[Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)|2023/2/26|[Heap Dijkstra](LeetCodeWeeklyContest/WeeklyContest334/4/Dijkstra.py)||-
 
 
 ## Resources
