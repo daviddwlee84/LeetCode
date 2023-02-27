@@ -8,6 +8,9 @@ class Node:
         self.value: int = value
         self.prev: Node = None
         self.next: Node = None
+    
+    def __repr__(self) -> str:
+        return 'Node' + str((self.key, self.value))
 
 
 class DoubleLinkedList:
@@ -20,24 +23,25 @@ class DoubleLinkedList:
         self.verbose = verbose
 
     @classmethod
-    def construct(cls, items: List[Tuple[int, int]]) -> 'DoubleLinkedList':
-        dll = cls()
+    def construct(cls, items: List[Tuple[int, int]], verbose: bool = False) -> 'DoubleLinkedList':
+        dll = cls(verbose)
         for item in items:
             dll.append(*item)
         return dll
 
-    @staticmethod
-    def remove_node(node: Node):
+    def remove_node(self, node: Node):
+        if self.verbose:
+            print('Remove', node)
         node.next.prev, node.prev.next = node.prev, node.next
 
     def remove_head_node(self) -> Node:
         node_to_remove = self.head.next
-        if self.verbose:
-            print('Removed', node_to_remove.value)
         self.remove_node(node_to_remove)
         return node_to_remove
 
     def add_tail_node(self, node: Node) -> None:
+        if self.verbose:
+            print('Append', node)
         self.tail.prev.next = node
         node.prev = self.tail.prev
         self.tail.prev = node
@@ -57,48 +61,20 @@ class DoubleLinkedList:
             node = node.next
         print(to_print)
 
-
-class LRUCache:
-    def __init__(self, capacity: int):
-        self.capacity = capacity
-        self.cache = {}
-        self.list = DoubleLinkedList()
-
-    def get(self, key: int) -> int:
-        if key not in self.cache:
-            return -1
-
-        node = self.cache[key]
-        self.list.remove_node(node)
-        self.list.add_tail_node(node)
-        return node.value
-
-    def put(self, key: int, value: int) -> None:
-        if key in self.cache:
-            # Remove old one and create new one (in order to put to the last)
-            self.list.remove_node(self.cache[key])
-        self.cache[key] = self.list.append(key, value)
-
-        if len(self.cache) > self.capacity:
-            # Remove least recent one
-            self.cache.pop(self.list.remove_head_node().key)
-
-# Your LRUCache object will be instantiated and called as such:
-# obj = LRUCache(capacity)
-# param_1 = obj.get(key)
-# obj.put(key,value)
-
-
 if __name__ == '__main__':
     # Test Double Linked List
-    dll = DoubleLinkedList.construct([(1, 1), (2, 2), (3, 3), (4, 4)])
+    dll = DoubleLinkedList.construct([(1, 1), (2, 2), (3, 3), (4, 4)], verbose=True)
     dll.print()
 
-    obj = LRUCache(2)
-    obj.put(1, 87)
-    value = obj.get(1)
-    print(value)
-    obj.list.print()
-    obj.put(2, 88)
-    obj.put(3, 99)
-    obj.list.print()
+    node1 = dll.append(5, 5)
+    dll.print()
+
+    node2 = Node(6, 6)
+    dll.add_tail_node(node2)
+    dll.print()
+
+    dll.remove_head_node()
+    dll.print()
+
+    dll.remove_node(node1)
+    dll.print()

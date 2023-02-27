@@ -1,5 +1,6 @@
 from Naive146 import LRUCache as Naive
 from OrderedDict146 import LRUCache as OrderedDict
+from Queue146 import LRUCache as Queue
 from DoubleLinkedList146 import LRUCache as DoubleLinkedList
 from typing import List
 
@@ -39,6 +40,11 @@ def test_Naive():
 def test_OrderedDict():
     for test in testcase:
         helper(*test, OrderedDict)
+
+
+def test_Queue():
+    for test in testcase:
+        helper(*test, Queue)
 
 
 def test_DoubleLinkedList():
