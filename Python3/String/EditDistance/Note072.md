@@ -46,10 +46,25 @@ Summary
 
 ## Solution
 
+* [72. Edit Distance 编辑距离【LeetCode 力扣题解】 - YouTube](https://www.youtube.com/watch?v=aZizRJoDEcE)
+  * Test Cases
+    1. Empty string
+    2. Normal inputs
+  * Interview Follow Ups
+    1. Can you find the sub-problem
+    2. Can you write the recursive solution
+    3. Can you realize the limitation of recursive solution
+    4. Can you optimize the solution
+
 ### Recursive
 
 * Time Complexity: $O(m^n)$
 * Space Complexity: $O(m^n)$
+
+### Recursive with Memory (i.e. Top-Down DP)
+
+* Time Complexity: $O(m \times n)$
+* Space Complexity: $O(m \times n)$
 
 ### Dynamic Programming
 
