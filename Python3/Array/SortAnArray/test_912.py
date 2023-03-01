@@ -1,4 +1,5 @@
 from QuickSort912 import Solution as QuickSort
+from HeapSort912 import Solution as HeapSort
 
 testcases = [
     [5, 2, 3, 1],
@@ -12,3 +13,7 @@ testcases = [
 def test_QuickSort():
     for nums in testcases:
         assert QuickSort().sortArray(nums.copy()) == sorted(nums)
+
+def test_HeapSort():
+    for nums in testcases:
+        assert HeapSort().sortArray(nums.copy()) == sorted(nums)
