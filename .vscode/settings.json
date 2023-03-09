@@ -1,0 +1,9 @@
+{
+    // https://medium.com/@zulhhandyplast/how-to-disable-vs-code-formatonsave-for-specific-file-extensions-c60e8f254243
+    "files.associations": {
+        "README.md": "README"
+    },
+    "[README]": {
+        "editor.formatOnSave": false
+    }
+}
