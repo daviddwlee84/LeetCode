@@ -1,9 +1,8 @@
 {
+    // https://stackoverflow.com/questions/29973619/how-to-associate-a-file-extension-with-a-certain-language-in-vs-code
     // https://medium.com/@zulhhandyplast/how-to-disable-vs-code-formatonsave-for-specific-file-extensions-c60e8f254243
-    "files.associations": {
-        "README.md": "README"
-    },
-    "[README]": {
+    // https://code.visualstudio.com/docs/languages/identifiers
+    "[markdown]": {
         "editor.formatOnSave": false
     }
 }
