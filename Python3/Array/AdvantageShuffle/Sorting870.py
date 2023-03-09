@@ -3,6 +3,9 @@ from typing import List
 
 class Solution:
     def advantageCount(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        """
+        https://leetcode.com/problems/advantage-shuffle/solutions/1125119/python-greedy-solution-two-pointers-explained/
+        """
         # 2, 7, 11, 15
         # 1, 4, 10, 11
 
