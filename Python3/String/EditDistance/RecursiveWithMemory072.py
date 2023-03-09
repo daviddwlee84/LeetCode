@@ -2,7 +2,7 @@ from functools import lru_cache
 
 
 class Solution:
-    @lru_cache
+    @lru_cache()  # TypeError: Expected maxsize to be an integer or None
     def minDistance(self, word1: str, word2: str) -> int:
         if len(word1) == 0 or len(word2) == 0:
             # We can keep do deletion on long one

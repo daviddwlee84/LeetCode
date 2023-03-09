@@ -1,4 +1,5 @@
 from typing import Tuple
+
 # [67] Add Binary
 #
 # https://leetcode.com/problems/add-binary/description/
@@ -46,8 +47,8 @@ class Solution:
         
         return answer
     
-    def adder(self, a: int, b: int, carry: int) -> Tuple(int, int):
-        # can be written in combinational logic
+    def adder(self, a: int, b: int, carry: int) -> Tuple[int, int]:
+        # can be written in combination logic
         result = a + b + carry
         if result < 2:
             return result, 0

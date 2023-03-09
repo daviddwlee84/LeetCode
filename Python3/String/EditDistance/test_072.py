@@ -1,7 +1,7 @@
+from DP2_072 import Solution as DP2
 from DP072 import Solution as DP
 from Recursive072 import Solution as Recursive
 from RecursiveWithMemory072 import Solution as RecursiveWithMemory
-from DP2_072 import Solution as DP2
 
 testcase = [
     ("horse", "ros", 3),

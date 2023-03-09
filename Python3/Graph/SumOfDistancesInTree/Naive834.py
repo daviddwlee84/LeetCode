@@ -13,7 +13,7 @@ class Solution:
 
         answer = [0] * n
 
-        @lru_cache
+        @lru_cache()  # TypeError: Expected maxsize to be an integer or None
         def dfs(start: int, curr: int, end: int, distance: int):
             visited.add(curr)
 
