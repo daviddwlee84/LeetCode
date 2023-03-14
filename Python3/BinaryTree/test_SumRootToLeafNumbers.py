@@ -1,5 +1,6 @@
 from BinaryTree.SumRootToLeafNumbers.Naive129 import Solution as naive
 from BinaryTree.SumRootToLeafNumbers.DFS129 import Solution as dfs
+from BinaryTree.SumRootToLeafNumbers.StackDFS129 import Solution as stack
 import BinaryTree.TreeNodeModule as tn
 
 
@@ -17,3 +18,8 @@ def test_naive():
 def test_dfs():
     for root, ans in testcase:
         assert dfs().sumNumbers(root) == ans
+
+
+def test_stack():
+    for root, ans in testcase:
+        assert stack().sumNumbers(root) == ans
