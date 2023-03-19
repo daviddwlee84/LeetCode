@@ -1,6 +1,7 @@
 from Naive211 import WordDictionary as naive
 from RegEx211 import WordDictionary as regex
 from Tire211 import WordDictionary as tire
+from Tire2_211 import WordDictionary as tire2
 
 testcase = [
     (["WordDictionary", "addWord", "addWord", "addWord", "search", "search", "search", "search"],
@@ -38,3 +39,7 @@ def test_regex():
 
 def test_tire():
     class_test(tire)
+
+
+def test_tire2():
+    class_test(tire2)
