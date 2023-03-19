@@ -612,8 +612,8 @@ Geometric Mean:
 
 ### Weekly Contest 247
 
-* [Weekly Contest 247](https://leetcode-cn.com/contest/weekly-contest-247)
-* [Ranking](https://leetcode-cn.com/contest/weekly-contest-247/ranking/): 2563 / 12634
+* [Weekly Contest 247](https://leetcode.com/contest/weekly-contest-247)
+* [Ranking](https://leetcode.com/contest/weekly-contest-247/ranking/): 2563 / 12634
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
@@ -626,8 +626,8 @@ Geometric Mean:
 
 ### Weekly Contest 248
 
-* [Weekly Contest 248](https://leetcode-cn.com/contest/weekly-contest-248)
-* [Ranking](https://leetcode-cn.com/contest/weekly-contest-248/ranking/): 6232 / 13720
+* [Weekly Contest 248](https://leetcode.com/contest/weekly-contest-248)
+* [Ranking](https://leetcode.com/contest/weekly-contest-248/ranking/): 6232 / 13720
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
@@ -640,8 +640,8 @@ Geometric Mean:
 
 ### Weekly Contest 325
 
-* [Weekly Contest 325](https://leetcode-cn.com/contest/weekly-contest-325)
-* [Ranking](https://leetcode-cn.com/contest/weekly-contest-325/ranking/): 4930 / 16134
+* [Weekly Contest 325](https://leetcode.com/contest/weekly-contest-325)
+* [Ranking](https://leetcode.com/contest/weekly-contest-325/ranking/): 4930 / 16134
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
@@ -654,8 +654,8 @@ Geometric Mean:
 
 > Start in the middle
 
-* [Weekly Contest 334](https://leetcode-cn.com/contest/weekly-contest-334)
-* [Ranking](https://leetcode-cn.com/contest/weekly-contest-334/ranking/): 7964 / 17403
+* [Weekly Contest 334](https://leetcode.com/contest/weekly-contest-334)
+* [Ranking](https://leetcode.com/contest/weekly-contest-334/ranking/): 7964 / 17403
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
@@ -664,6 +664,46 @@ Geometric Mean:
 | Medium     |[Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)|2023/2/26|[Greedy Sorting-O(nlogn)](LeetCodeWeeklyContest/WeeklyContest334/3/Sorted4.py)||-
 | Hard       |[Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)|2023/2/26|[Heap Dijkstra](LeetCodeWeeklyContest/WeeklyContest334/4/Dijkstra.py)||-
 
+### Weekly Contest 337
+
+* [Weekly Contest 337](https://leetcode.com/contest/weekly-contest-337)
+* [Ranking](https://leetcode.com/contest/weekly-contest-337/ranking/): 6156 / 17961
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/)|2023/3/19|[Naive](LeetCodeWeeklyContest/WeeklyContest337/1/Naive.py)||-
+| Medium     |[Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/)|2023/3/19|[Naive](LeetCodeWeeklyContest/WeeklyContest337/2/Naive.py)||-
+| Medium     |[The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|TODO||[Brute Force-O(n2^n)-TLE](LeetCodeWeeklyContest/WeeklyContest337/3/Naive_TLE.py)|-
+| Medium     |[Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/)|TODO|||-
+
+## Time Complexity by Constraints Tricks
+
+* [**How to determine the solution of a problem by looking at its constraints? - Codeforces**](https://codeforces.com/blog/entry/21344)
+* 
+
+Common time complexities
+
+Let n be the main variable in the problem.
+
+* If n ≤ 12, the time complexity can be O(n!).
+* If n ≤ 25, the time complexity can be O(2n).
+* If n ≤ 100, the time complexity can be O(n4).
+* If n ≤ 500, the time complexity can be O(n3).
+* If n ≤ 10^4, the time complexity can be O(n2).
+* If n ≤ 10^6, the time complexity can be O(n log n).
+* If n ≤ 10^8, the time complexity can be O(n).
+* If n > 10^8, the time complexity can be O(log n) or O(1).
+
+Examples of each common time complexity
+
+* O(n!) [Factorial time]: Permutations of 1 ... n
+* O(2^n) [Exponential time]: Exhaust all subsets of an array of size n
+* O(n^3) [Cubic time]: Exhaust all triangles with side length less than n
+* O(n^2) [Quadratic time]: Slow comparison-based sorting (eg. Bubble Sort, Insertion Sort, Selection Sort)
+* O(n log n) [Linearithmic time]: Fast comparison-based sorting (eg. Merge Sort)
+* O(n) [Linear time]: Linear Search (Finding maximum/minimum element in a 1D array), Counting Sort
+* O(log n) [Logarithmic time]: Binary Search, finding GCD (Greatest Common Divisor) using Euclidean Algorithm
+* O(1) [Constant time]: Calculation (eg. Solving linear equations in one unknown)
 
 ## Resources
 
@@ -708,3 +748,4 @@ Geometric Mean:
 * [How to estimate if a solution will exceed the time limit based on big-O?](https://codeforces.com/blog/entry/21772?)
   * Just multiply the number of operations in a loop by the amount of times it loops and try to estimate using that.
 * [Knowing the complexity in competitive programming](https://www.geeksforgeeks.org/knowing-the-complexity-in-competitive-programming/)
+* [[Feature request] Hint button for complexities - LeetCode Discuss](https://leetcode.com/discuss/general-discussion/675513/feature-request-hint-button-for-complexities)
