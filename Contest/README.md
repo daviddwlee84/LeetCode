@@ -673,7 +673,7 @@ Geometric Mean:
 |------------|-------------------|------|-----------------------|-------------|------|
 | Easy       |[Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/)|2023/3/19|[Naive](LeetCodeWeeklyContest/WeeklyContest337/1/Naive.py)||-
 | Medium     |[Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/)|2023/3/19|[Naive](LeetCodeWeeklyContest/WeeklyContest337/2/Naive.py)||-
-| Medium     |[The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|TODO||[Brute Force-O(n2^n)-TLE](LeetCodeWeeklyContest/WeeklyContest337/3/Naive_TLE.py)|-
+| Medium     |[The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|2023/3/20|[DFS-O(2^n)](LeetCodeWeeklyContest/WeeklyContest337/3/DFS.py)|[Brute Force-O(n2^n)-TLE](LeetCodeWeeklyContest/WeeklyContest337/3/Naive_TLE.py)|other solutions, [House Robber O(n)](https://leetcode.com/problems/the-number-of-beautiful-subsets/solutions/3314361/python-house-robber-o-n/)
 | Medium     |[Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/)|TODO|||-
 
 ## Time Complexity by Constraints Tricks
