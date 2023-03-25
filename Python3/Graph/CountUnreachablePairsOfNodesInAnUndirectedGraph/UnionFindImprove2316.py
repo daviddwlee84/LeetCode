@@ -45,6 +45,8 @@ class Solution:
         # (this part is Math)
         group_sizes = list(Counter([union_find.find(i) for i in range(n)]).values())
 
+        # print(group_sizes)
+
         answer = 0
         first_group_size = group_sizes[0]
         # If not more than 1 group, then answer should be 0
