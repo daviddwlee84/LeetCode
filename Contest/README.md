@@ -685,10 +685,10 @@ Geometric Mean:
 
 | Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
 |------------|-------------------|------|-----------------------|-------------|------|
-| Easy       |[K Items With the Maximum Sum](https://leetcode.com/contest/weekly-contest-338/problems/k-items-with-the-maximum-sum/)|2023/3/26|[Naive](LeetCodeWeeklyContest/WeeklyContest338/1/Naive.py)||-
+| Easy       |[K Items With the Maximum Sum](https://leetcode.com/contest/weekly-contest-338/problems/k-items-with-the-maximum-sum/)|2023/3/26|[Naive](LeetCodeWeeklyContest/WeeklyContest338/1/Naive.py), [Better](LeetCodeWeeklyContest/WeeklyContest338/1/Better.py)||-
 | Medium     |[Prime Subtraction Operation](https://leetcode.com/contest/weekly-contest-338/problems/prime-subtraction-operation/)|2023/3/26|[Naive 3](LeetCodeWeeklyContest/WeeklyContest338/2/Naive3.py)|[Naive 1 (TLE)](LeetCodeWeeklyContest/WeeklyContest338/2/Naive.py), [Naive 2 (TLE)](LeetCodeWeeklyContest/WeeklyContest338/2/Naive2.py)|-
-| Medium     |[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/contest/weekly-contest-338/problems/minimum-operations-to-make-all-array-elements-equal/)|TODO||[Brute Force-TLE](LeetCodeWeeklyContest/WeeklyContest338/3/Naive.py), [Math-WA](LeetCodeWeeklyContest/WeeklyContest338/3/Math.py)|-
-| Medium     |[Collect Coins in a Tree](https://leetcode.com/contest/weekly-contest-338/problems/collect-coins-in-a-tree/)|TODO|||-
+| Medium     |[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/contest/weekly-contest-338/problems/minimum-operations-to-make-all-array-elements-equal/)|2023/3/26|[Binary Search Math](LeetCodeWeeklyContest/WeeklyContest338/3/BinarySearchMath.py)|[Brute Force-TLE](LeetCodeWeeklyContest/WeeklyContest338/3/Naive.py), [Math-WA](LeetCodeWeeklyContest/WeeklyContest338/3/Math.py)|-
+| Hard       |[Collect Coins in a Tree](https://leetcode.com/contest/weekly-contest-338/problems/collect-coins-in-a-tree/)|TODO|||-
 
 ## Time Complexity by Constraints Tricks
 
