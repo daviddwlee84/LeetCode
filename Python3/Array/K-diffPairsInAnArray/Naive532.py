@@ -1,4 +1,5 @@
 from itertools import combinations
+from typing import List
 
 
 class Solution:
@@ -9,25 +10,25 @@ class Solution:
             if num2 - num1 == k:
                 if (num1, num2) not in answer:
                     answer.add((num1, num2))
-        
+
         return len(answer)
 
 # from collections import Counter
-# 
-# 
+#
+#
 # class Solution:
 #     def findPairs(self, nums: List[int], k: int) -> int:
 #         counter = Counter(nums)
 #         if k == 0:
 #             return sum(count >= 2 for count in counter.values())
-#         
+#
 #         answer = set()
 #         for num1, num2 in combinations(counter.keys(), 2):
 #             num1, num2 = min(num1, num2), max(num1, num2)
 #             if num2 - num1 == k:
 #                 if (num1, num2) not in answer:
 #                     answer.add((num1, num2))
-#         
+#
 #         return len(answer)
 
 # TLE

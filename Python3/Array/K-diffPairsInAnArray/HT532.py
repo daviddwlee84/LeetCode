@@ -1,4 +1,5 @@
 from collections import Counter
+from typing import List
 
 
 class Solution:
@@ -11,6 +12,6 @@ class Solution:
 
 
 # Runtime: 76 ms, faster than 98.74% of Python3 online submissions for K-diff Pairs in an Array.
-# Memory Usage: 15.5 MB, less than 37.53% of Python3 online submissions for K-diff Pairs in an Array.        
+# Memory Usage: 15.5 MB, less than 37.53% of Python3 online submissions for K-diff Pairs in an Array.
 
 # similar with https://leetcode.com/problems/k-diff-pairs-in-an-array/discuss/100135/JavaPython-Easy-Understood-Solution

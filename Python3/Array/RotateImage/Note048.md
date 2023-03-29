@@ -118,3 +118,27 @@ class Solution(object):
                 matrix[i][j] = matrix[i][n - 1 - j]
                 matrix[i][n - 1- j] = tmp
 ```
+
+## Wrong Answer
+
+```py
+class Solution:
+    def rotate(self, matrix: List[List[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+
+        (0, 0) -> (0, 2) -> (2, 2) -> (2, 0)
+        (0, 1) -> (2, 1) -> (1, 2) -> (1, 0)
+        """
+        n = len(matrix)
+        mid = len(matrix) // 2 + 1
+        for i in range(mid):
+            for k in range(mid - 1):
+                # print((k + i, k), (k + i, n - k - 1), (n - (k + i) - 1, n - k - 1), (n - (k + i) - 1, k))
+                # matrix[k + i][k], matrix[k + i][n - k - 1], matrix[n - (k + i) - 1][n - k - 1], matrix[n - (k + i) - 1][k] = matrix[n - (k + i) - 1][k], matrix[k + i][k], matrix[k + i][n - k - 1], matrix[n - (k + i) - 1][n - k - 1]
+                print((k, k + i), (k, n - (k + i) - 1), (n - k - 1, n - (k + i) - 1), (k, n - (k + i) - 1))
+                matrix[k + i][k], matrix[k + i][n - k - 1], matrix[n - (k + i) - 1][n - k - 1], matrix[n - (k + i) - 1][k] = matrix[n - (k + i) - 1][k], matrix[k + i][k], matrix[k + i][n - k - 1], matrix[n - (k + i) - 1][n - k - 1]
+
+                # matrix[k + i][k], matrix[]
+                # matrix[i][j], matrix[i][n - j - 1], matrix[n - i - 1][n - j - 1], matrix[n - j - 1][j] = matrix[n - j - 1][j],  matrix[i][j], matrix[i][n - j - 1], matrix[n - i - 1][n - j - 1]
+```
