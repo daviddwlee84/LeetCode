@@ -690,10 +690,21 @@ Geometric Mean:
 | Medium     |[Minimum Operations to Make All Array Elements Equal](https://leetcode.com/contest/weekly-contest-338/problems/minimum-operations-to-make-all-array-elements-equal/)|2023/3/26|[Binary Search Math](LeetCodeWeeklyContest/WeeklyContest338/3/BinarySearchMath.py)|[Brute Force-TLE](LeetCodeWeeklyContest/WeeklyContest338/3/Naive.py), [Math-WA](LeetCodeWeeklyContest/WeeklyContest338/3/Math.py)|-
 | Hard       |[Collect Coins in a Tree](https://leetcode.com/contest/weekly-contest-338/problems/collect-coins-in-a-tree/)|TODO|||-
 
+### Weekly Contest 339
+
+* [Weekly Contest 339](https://leetcode.cn/contest/weekly-contest-339)
+* [Ranking](https://leetcode.cn/contest/weekly-contest-339/ranking/): 1988 / 17239
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/)|2023/4/2|[Naive](LeetCodeWeeklyContest/WeeklyContest339/1/Naive.py)||-
+| Medium     |[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)|2023/4/2|[Greedy](LeetCodeWeeklyContest/WeeklyContest339/2/Greedy.py)||-
+| Medium     |[Mice and Cheese](https://leetcode.com/problems/mice-and-cheese/)|2023/4/2|[Greedy](LeetCodeWeeklyContest/WeeklyContest339/3/Greedy.py)||-
+| Hard       |[Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)|TODO|||-
+
 ## Time Complexity by Constraints Tricks
 
 * [**How to determine the solution of a problem by looking at its constraints? - Codeforces**](https://codeforces.com/blog/entry/21344)
-* 
 
 Common time complexities
 
