@@ -2,6 +2,7 @@ from BinaryTree.SumRootToLeafNumbers.Naive129 import Solution as naive
 from BinaryTree.SumRootToLeafNumbers.DFS129 import Solution as dfs
 from BinaryTree.SumRootToLeafNumbers.StackDFS129 import Solution as stack
 import BinaryTree.TreeNodeModule as tn
+from copy import deepcopy
 
 
 testcase = [
@@ -12,14 +13,14 @@ testcase = [
 
 def test_naive():
     for root, ans in testcase:
-        assert naive().sumNumbers(root) == ans
+        assert naive().sumNumbers(deepcopy(root)) == ans
 
 
 def test_dfs():
     for root, ans in testcase:
-        assert dfs().sumNumbers(root) == ans
+        assert dfs().sumNumbers(deepcopy(root)) == ans
 
 
 def test_stack():
     for root, ans in testcase:
-        assert stack().sumNumbers(root) == ans
+        assert stack().sumNumbers(deepcopy(root)) == ans
