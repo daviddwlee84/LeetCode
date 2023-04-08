@@ -85,3 +85,35 @@ Output: [[2],[1]]
 * [Clone an Undirected Graph - GeeksforGeeks](https://www.geeksforgeeks.org/clone-an-undirected-graph/)
 * [Python DFS short solution - LeetCode Discuss](https://leetcode.com/problems/clone-graph/discuss/42354/Python-DFS-short-solution)
 * [Java recursive, iterative DFS, BFS solutions with explanation - LeetCode Discuss](https://leetcode.com/problems/clone-graph/discuss/199890/java-recursive-iterative-dfs-bfs-solutions-with-explanation)
+
+## Fail
+
+```py
+from collections import deque
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val = 0, neighbors = None):
+        self.val = val
+        self.neighbors = neighbors if neighbors is not None else []
+"""
+
+class Solution:
+    def cloneGraph(self, node: 'Node') -> 'Node':
+        if not node:
+            return None
+        dummy_head = Node()
+        
+        visited = set([node])
+        queue = deque([(node, dummy_head)])
+        while queue:
+            temp, parent = queue.pop()
+            visited.add(temp)
+            clone = Node(temp.val)
+            parent.neighbors.append(clone)
+            for neigh in temp.neighbors:
+                if neigh not in visited:
+                    queue.appendleft((neigh, clone))
+        
+        return dummy_head.neighbors[0]
+```
