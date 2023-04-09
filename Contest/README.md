@@ -702,6 +702,18 @@ Geometric Mean:
 | Medium     |[Mice and Cheese](https://leetcode.com/problems/mice-and-cheese/)|2023/4/2|[Greedy](LeetCodeWeeklyContest/WeeklyContest339/3/Greedy.py)||-
 | Hard       |[Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)|TODO|||-
 
+### Weekly Contest 340
+
+* [Weekly Contest 340](https://leetcode.cn/contest/weekly-contest-340)
+* [Ranking](https://leetcode.cn/contest/weekly-contest-340/ranking/): 5875 / 21678
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)|2023/4/9|[Naive](LeetCodeWeeklyContest/WeeklyContest340/1/Naive.py)||Learn Prime related stuff
+| Medium     |[Sum of Distances](https://leetcode.com/problems/sum-of-distances/)|TODO||[Naive - TLE](LeetCodeWeeklyContest/WeeklyContest340/2/Naive.py)|-
+| Medium     |[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)|TODO||[Brute Force - WA](LeetCodeWeeklyContest/WeeklyContest340/3/Naive.py)|-
+| Hard       |[Minimum Number of Visited Cells in a Grid](https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/)|TODO|||-
+
 ## Time Complexity by Constraints Tricks
 
 * [**How to determine the solution of a problem by looking at its constraints? - Codeforces**](https://codeforces.com/blog/entry/21344)
