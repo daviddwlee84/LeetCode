@@ -1,5 +1,6 @@
 from Stack071 import Solution as stack
 from Naive071 import Solution as naive
+from Stack2_071 import Solution as stack2
 
 testcase = [
     ("/home/", "/home"),
@@ -19,3 +20,8 @@ def test_stack():
 def test_naive():
     for path, ans in testcase:
         assert naive().simplifyPath(path) == ans
+
+
+def test_stack2():
+    for path, ans in testcase:
+        assert stack2().simplifyPath(path) == ans
