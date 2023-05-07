@@ -714,6 +714,18 @@ Geometric Mean:
 | Medium     |[Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)|TODO||[Brute Force - WA](LeetCodeWeeklyContest/WeeklyContest340/3/Naive.py)|-
 | Hard       |[Minimum Number of Visited Cells in a Grid](https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/)|TODO|||-
 
+### Weekly Contest 344
+
+* [Weekly Contest 344](https://leetcode.cn/contest/weekly-contest-344)
+* [Ranking](https://leetcode.cn/contest/weekly-contest-344/ranking/): 3431 / 19931
+
+| Difficulty | Problem (Contest) | Date | Method                | Remark      | TODO |
+|------------|-------------------|------|-----------------------|-------------|------|
+| Easy       |[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|2023/5/7|[Naive](LeetCodeWeeklyContest/WeeklyContest344/1/Naive.py)||-
+| Medium     |[Frequency Tracker](https://leetcode.com/problems/frequency-tracker/)|2023/5/7|[Naive](LeetCodeWeeklyContest/WeeklyContest344/2/Naive.py)||-
+| Medium     |[Number of Adjacent Elements With the Same Color](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)|2023/5/7|[Naive](LeetCodeWeeklyContest/WeeklyContest344/3/Naive.py)||-
+| Medium     |[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|TODO||[Naive WA](LeetCodeWeeklyContest/WeeklyContest344/4/Naive.py)|-
+
 ## Time Complexity by Constraints Tricks
 
 * [**How to determine the solution of a problem by looking at its constraints? - Codeforces**](https://codeforces.com/blog/entry/21344)
