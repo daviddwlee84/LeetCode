@@ -724,7 +724,7 @@ Geometric Mean:
 | Easy       |[Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/)|2023/5/7|[Naive](LeetCodeWeeklyContest/WeeklyContest344/1/Naive.py)||-
 | Medium     |[Frequency Tracker](https://leetcode.com/problems/frequency-tracker/)|2023/5/7|[Naive](LeetCodeWeeklyContest/WeeklyContest344/2/Naive.py)||-
 | Medium     |[Number of Adjacent Elements With the Same Color](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)|2023/5/7|[Naive](LeetCodeWeeklyContest/WeeklyContest344/3/Naive.py)||-
-| Medium     |[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|TODO||[Naive WA](LeetCodeWeeklyContest/WeeklyContest344/4/Naive.py)|-
+| Medium *   |[Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)|2023/5/7|[Trick](LeetCodeWeeklyContest/WeeklyContest344/4/Trick.py)|[Naive WA](LeetCodeWeeklyContest/WeeklyContest344/4/Naive.py)|-
 
 ## Time Complexity by Constraints Tricks
 
