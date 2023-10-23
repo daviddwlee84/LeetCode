@@ -4,5 +4,9 @@
     // https://code.visualstudio.com/docs/languages/identifiers
     "[markdown]": {
         "editor.formatOnSave": false
-    }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
 }
