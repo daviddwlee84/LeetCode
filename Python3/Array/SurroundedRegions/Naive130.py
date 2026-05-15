@@ -28,7 +28,7 @@ class Solution:
 
     def dfs(self, board: List[List[str]], i, j):
         """
-        Collect all stuff in the same region, 
+        Collect all stuff in the same region,
         """
         stack = [(i, j)]
         region = []

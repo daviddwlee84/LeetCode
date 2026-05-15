@@ -14,11 +14,11 @@ class Solution:
         oldest_fruit = 0
         for fruit in fruits:
             basket[fruit] += 1
-            
+
             # Whenever the basket contains more than 1 fruit, it will try to
             if len(basket) > 2:
                 basket[fruits[oldest_fruit]] -= 1
-                
+
                 # Keep remove until the the oldest fruit has been removed
                 if basket[fruits[oldest_fruit]] == 0:
                     basket.pop(fruits[oldest_fruit])

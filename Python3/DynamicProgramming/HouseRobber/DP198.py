@@ -15,5 +15,5 @@ class Solution:
 
             for i in range(2, len(nums)):
                 houseRob.append(max(houseRob[i-2] + nums[i], houseRob[i-1]))
-            
+
             return houseRob[-1]

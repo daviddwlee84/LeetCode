@@ -11,7 +11,7 @@ The **performance** of a team is the sum of their engineers' speeds multiplied b
 ```txt
 Input: n = 6, speed = [2,10,3,1,5,8], efficiency = [5,4,3,9,7,2], k = 2
 Output: 60
-Explanation: 
+Explanation:
 We have the maximum performance of the team by selecting engineer 2 (with speed=10 and efficiency=4) and engineer 5 (with speed=5 and efficiency=7). That is, performance = (10 + 5) * min(4, 7) = 60.
 ```
 

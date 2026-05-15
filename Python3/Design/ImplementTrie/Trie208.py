@@ -23,13 +23,13 @@ class Trie:
             if char in node.childrenHashMap:
                 node = node.childrenHashMap[char]
             else:
-                new_node = Node(char) 
+                new_node = Node(char)
                 node.childrenHashMap[char] = new_node
                 node = new_node
-        
+
         node.isCompleteWord = True # The last node
 
-        
+
 
     def search(self, word):
         """
@@ -46,7 +46,7 @@ class Trie:
 
         return node.isCompleteWord
 
-        
+
 
     def startsWith(self, prefix):
         """
@@ -60,9 +60,9 @@ class Trie:
                 node = node.childrenHashMap[char]
             else:
                 return False
-        
+
         return True
-        
+
 
 
 # Your Trie object will be instantiated and called as such:

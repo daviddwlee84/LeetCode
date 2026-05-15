@@ -30,5 +30,3 @@ class Solution:
             # Vice versa
             node.next = l1
         return tempHead.next
-
-        

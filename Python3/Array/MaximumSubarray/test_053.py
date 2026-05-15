@@ -22,7 +22,7 @@ def test_BruteFore():
 def test_DynamicProgramming():
     for i, test in enumerate(testcase):
         assert DynamicProgramming().maxSubArray(test) == answer[i]
-    
+
 
 def test_DivideAndConquer():
     for i, test in enumerate(testcase):

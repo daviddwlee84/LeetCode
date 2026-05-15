@@ -11,14 +11,14 @@ class Solution:
     # Backtracking
     def permuteHelper(self, answer, permuteTemp, nums):
         """
-        :type answer: List[List[int]] 
+        :type answer: List[List[int]]
         :type permuteTemp: List[int]
         :type nums: List[int]
         """
         if len(permuteTemp) == len(nums):
             # Use permuteTemp.copy() or python will copy the reference to the list
             # (or use permuteTemp[:], list(permuteTemp))
-            answer.append(permuteTemp.copy()) 
+            answer.append(permuteTemp.copy())
         else:
             for i in nums:
                 if i in permuteTemp:

@@ -4,7 +4,7 @@ class Solution:
         :type prices: List[int]
         :rtype: int
         """
-        
+
         valley = peak = 0
         profit = 0
         i = 0

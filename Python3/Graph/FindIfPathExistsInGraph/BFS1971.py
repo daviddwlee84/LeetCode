@@ -25,5 +25,5 @@ class Solution:
 
                 if neighbor not in visited:
                     queue.append(neighbor)
-        
+
         return False

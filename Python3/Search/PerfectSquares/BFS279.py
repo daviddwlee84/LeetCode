@@ -11,7 +11,7 @@ class Solution:
         while x*x <= n:
             squaresToSearch.append(x*x)
             x += 1
-        
+
         queue = deque()
         queue.append(n)
 
@@ -22,7 +22,7 @@ class Solution:
 
             for _ in range(len(queue)):
                 toSearch = queue.popleft()
-                
+
                 for candidate in squaresToSearch:
                     if toSearch == candidate:
                         return layer

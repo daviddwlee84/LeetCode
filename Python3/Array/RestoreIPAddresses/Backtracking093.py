@@ -6,21 +6,21 @@ class Solution:
             return []
         if len(s) == 4:
             return [".".join(s)]
-        
+
         self.ans = []
         self.backtrack("", s, 4)
-        
+
         return self.ans
-        
+
     def backtrack(self, currentIp: str, leftStr: str, leftCount: int):
         if leftCount == 0 and len(leftStr) == 0:
             self.ans.append(currentIp)
         if leftCount == 0 and len(leftStr) > 0:
             return
-        
+
         if len(currentIp) > 0:
             currentIp += "."
-            
+
         for i in range(1, 4):
             print(leftStr[:i])
             if i <= len(leftStr) and int(leftStr[:i]) <= 255:

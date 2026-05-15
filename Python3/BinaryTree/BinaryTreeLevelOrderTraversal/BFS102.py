@@ -4,12 +4,12 @@ class Solution:
         :type root: TreeNode
         :rtype: List[List[int]]
         """
-        
+
         outputStack = []
 
         if not root:
             return outputStack
-        
+
         outputStack.append([])
         visitQueue = [root]
         thislevelnum = 1
@@ -34,5 +34,5 @@ class Solution:
                 thislevelnum = nextlevelnum
                 nextlevelnum = 0
                 level += 1
-            
+
         return outputStack

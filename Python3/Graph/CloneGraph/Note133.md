@@ -103,7 +103,7 @@ class Solution:
         if not node:
             return None
         dummy_head = Node()
-        
+
         visited = set([node])
         queue = deque([(node, dummy_head)])
         while queue:
@@ -114,6 +114,6 @@ class Solution:
             for neigh in temp.neighbors:
                 if neigh not in visited:
                     queue.appendleft((neigh, clone))
-        
+
         return dummy_head.neighbors[0]
 ```

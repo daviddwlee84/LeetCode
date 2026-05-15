@@ -33,7 +33,7 @@ class Solution:
 # Memory Usage: 14 MB, less than 33.33% of Python3 online submissions for Find K Pairs with Smallest Sums.
 
 
-# if use 
+# if use
 #           if idx2 < len(nums2) - 1:
 #               heapq.heappush(heap, (num1 + nums2[idx2 + 1], num1, nums2[idx2+1], idx2+1))
 #

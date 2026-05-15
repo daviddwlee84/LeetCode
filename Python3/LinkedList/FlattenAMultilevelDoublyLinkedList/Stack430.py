@@ -27,13 +27,13 @@ class Solution:
             if node.next:
                 stack.append(node.next)
                 node.next = None
-            
+
             if node.child:
                 stack.append(node.child)
                 node.child = None
-        
+
             prev = node
-        
+
         # remove dummy node from root
         dummy.next.prev = None
         return dummy.next

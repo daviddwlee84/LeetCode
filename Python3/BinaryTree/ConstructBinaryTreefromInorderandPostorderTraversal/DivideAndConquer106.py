@@ -10,11 +10,11 @@ class Solution:
         # No tree to build
         if not inorder or not postorder:
             return None
-        
+
         # The last node of postorder is root
         rootval = postorder.pop()
         root = TreeNode(rootval)
-        
+
         # Find the position of root in inorder (it seperate left and right subtree)
         rootIdx = inorder.index(rootval)
 

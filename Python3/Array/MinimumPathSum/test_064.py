@@ -24,7 +24,7 @@ def test_NoAdditionalSpace():
 # def test_Backtracking():
 #     for grid, ans in testcases:
 #         assert Backtracking().minPathSum(grid) == ans
-# 
+#
 # def test_BacktrackingWithEarlyStop():
 #     for grid, ans in testcases:
 #         assert BacktrackingWithEarlyStop().minPathSum(grid) == ans

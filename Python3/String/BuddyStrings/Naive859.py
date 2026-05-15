@@ -6,12 +6,12 @@ class Solution:
             return False
         if len(A) < 2:
             return False
-        
+
         for i, j in combinations(range(len(A)), 2):
             newA = A[:i] + A[j] + A[i+1:j] + A[i] + A[j+1:]
             if newA == B:
                 return True
-        
+
         return False
 
 # TLE

@@ -5,7 +5,7 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
-        
+
         for i in range(len(nums)):
             if i != len(nums):
                 for j in range(i+1, len(nums)):
@@ -18,4 +18,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-  

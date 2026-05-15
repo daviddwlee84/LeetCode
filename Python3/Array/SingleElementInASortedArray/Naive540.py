@@ -8,7 +8,7 @@ class Solution:
                 stack.remove(num)
             else:
                 stack.add(num)
-        
+
         return stack.pop()
 
 # Runtime: 80 ms, faster than 22.60% of Python3 online submissions for Single Element in a Sorted Array.

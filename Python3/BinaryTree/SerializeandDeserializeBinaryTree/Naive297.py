@@ -16,7 +16,7 @@ class Codec:
     # i.e. Level-order traversal
     def serialize(self, root: TreeNode) -> str:
         """Encodes a tree to a single string.
-        
+
         :type root: TreeNode
         :rtype: str
         """
@@ -34,16 +34,16 @@ class Codec:
 
             if all(n is None for n in visitQueue):
                 break # skip when all the element in queue is None
-            
+
         serializedString = serializedString[:-1] + ']'
         if serializedString == '[null]':
             return '[]'
         return serializedString
-        
+
 
     def deserialize(self, data: str) -> TreeNode:
         """Decodes your encoded data to tree.
-        
+
         :type data: str
         :rtype: TreeNode
         """
@@ -74,7 +74,7 @@ class Codec:
 
             if node is not None:
                 nodes.append(node)
-        
+
         return nodes[0]
 
 # Your Codec object will be instantiated and called as such:

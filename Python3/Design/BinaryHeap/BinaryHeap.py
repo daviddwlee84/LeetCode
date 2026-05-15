@@ -7,7 +7,7 @@ class BinaryHeap:
         self.__size = len(initialHeap)
         self.__items = initialHeap
         self.__minHeapMode = minHeapMode # Default is min heap
-    
+
     def __repr__(self):
         return ("Min" if self.__minHeapMode else "Max") + " Heap with size: " + str(self.__size) + " and data: " + str(self.__items)
 
@@ -33,8 +33,8 @@ class BinaryHeap:
         return self.__items[self.__getParentIndex(index)]
 
     def __swap(self, indexOne, indexTwo):
-        self.__items[indexOne], self.__items[indexTwo] = self.__items[indexTwo], self.__items[indexOne] 
-    
+        self.__items[indexOne], self.__items[indexTwo] = self.__items[indexTwo], self.__items[indexOne]
+
     ##### Main Public Methods
 
     # Return max/min
@@ -42,7 +42,7 @@ class BinaryHeap:
         if self.__size == 0:
             raise IllegalStateException('The size of the heap is zero.')
         return self.__items[0]
-        
+
     # Pop max/min
     def poll(self):
         if self.__size == 0:
@@ -73,7 +73,7 @@ class BinaryHeap:
             while self.__hasParent(index) and self.__parent(index) < self.__items[index]:
                 self.__swap(self.__getParentIndex(index), index)
                 index = self.__getParentIndex(index)
-        
+
     # Helper function for poll()
     def __heapifyDown(self):
         index = 0 # Start from the root
@@ -88,7 +88,7 @@ class BinaryHeap:
                     break
                 else:
                     self.__swap(index, smallerChildIndex)
-                
+
                 index = smallerChildIndex
         else:
             while self.__hasLeftChild(index):

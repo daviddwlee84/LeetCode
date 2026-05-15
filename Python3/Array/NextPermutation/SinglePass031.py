@@ -5,7 +5,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-    
+
         # Find the first decreasing from the end
         i = len(nums)-1
         while i > 0:
@@ -25,7 +25,7 @@ class Solution:
                 if nums[j] > nums[i-1]:
                     break
             nums[i-1], nums[j] = nums[j], nums[i-1]
-        
+
         self.reverseFrom(nums, i)
 
     def reverseFrom(self, nums: List[int], start: int):

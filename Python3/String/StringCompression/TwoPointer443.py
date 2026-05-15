@@ -8,7 +8,7 @@ class Solution:
         """
         read = 0
         write = 0
-        
+
         while read < len(chars):
             # Current char
             count = 1
@@ -17,17 +17,17 @@ class Solution:
             while read < len(chars) - 1 and chars[read] == chars[read + 1]:
                 count += 1
                 read += 1
-            
+
             # Write answer
             chars[write] = chars[read]
             write += 1
-            
+
             if count > 1:
                 for char in str(count):
                     chars[write] = char
                     write += 1
-            
+
             read += 1
-        
+
         # The answer don't care the values that indices are "> write"
         return write

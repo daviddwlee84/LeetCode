@@ -71,11 +71,11 @@ class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         self.left_inorder = []
         self.right_inorder = []
-        
+
         def inorder(node: Optional[TreeNode], left_first: bool):
             if not node:
                 return
-            
+
             if left_first:
                 inorder(node.left, left_first)
                 self.left_inorder.append(node.val)
@@ -84,9 +84,9 @@ class Solution:
                 inorder(node.right, left_first)
                 self.right_inorder.append(node.val)
                 inorder(node.left, left_first)
-        
+
         inorder(root.left, True)
         inorder(root.right, False)
-        
+
         return self.left_inorder == self.right_inorder
 ```

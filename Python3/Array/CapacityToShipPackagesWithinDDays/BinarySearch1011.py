@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
         start, end = max(weights), sum(weights)
-        
+
         while start < end:
             mid = start + (end - start) // 2
             # print(start, mid, end, self.test_valid(weights, days, mid))
@@ -12,9 +12,9 @@ class Solution:
                 end = mid
             else:
                 start = mid + 1
-        
+
         return start
-        
+
     @staticmethod
     def test_valid(weights: List[int], days: int, capacity: int) -> bool:
         temp = 0

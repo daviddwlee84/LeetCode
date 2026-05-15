@@ -10,7 +10,7 @@ class Solution:
                     dp[i][j] = j
                 elif j == 0:
                     dp[i][j] = i
-        
+
         # print(dp)
 
         for i in range(len(word1)):

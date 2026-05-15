@@ -19,7 +19,7 @@ class Solution:
             # end set to 0 to make sure it will be operate before take off 1
             sweep_line.append((airplane.start, 1))
             sweep_line.append((airplane.end, 0))
-        
+
         sweep_line.sort()
 
         ans = 0

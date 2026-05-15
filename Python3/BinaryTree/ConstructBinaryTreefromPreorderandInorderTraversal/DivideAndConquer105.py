@@ -8,7 +8,7 @@ class Solution:
         """
         if not preorder or not inorder:
             return None
-        
+
         root = TreeNode(preorder[0])
         inorderIdx = inorder.index(root.val)
         leftInorder = inorder[:inorderIdx]

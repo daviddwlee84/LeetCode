@@ -10,7 +10,7 @@ class Solution:
         nums.sort()
 
         ans = []
-        
+
         for i in range(len(nums)-2):
             # In case of duplicate list, if the number is duplicated, just move forward
             if i == 0 or (i > 0 and nums[i] != nums[i-1]):
@@ -29,5 +29,5 @@ class Solution:
                         fp += 1
                     else:
                         bp -= 1
-        
+
         return ans

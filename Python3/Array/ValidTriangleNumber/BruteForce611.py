@@ -11,7 +11,7 @@ class Solution:
                     # print((i, j, k))
                     if nums[i] + nums[j] > nums[k]:
                         answer += 1
-        
+
         return answer
 
 # TLE

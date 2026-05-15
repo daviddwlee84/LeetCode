@@ -16,9 +16,9 @@ class LFUCache:
         for key, value in my_dict.items():
             if value[1] == my_dict[minKey][1]:
                 allMinKey.append((key, value[2]))
-            
+
         minAndLRU = min(allMinKey, key=lambda k: k[1])
-            
+
         return minAndLRU[0]
 
     def get(self, key):
@@ -67,7 +67,7 @@ def main():
     print(cache.get(2))
     print(cache.get(3))
     print(cache.get(4))
-    
+
 
 if __name__ == '__main__':
     main()

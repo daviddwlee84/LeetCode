@@ -21,7 +21,7 @@ class Solution:
                     valid = True
             if not valid:
                 return False
-            
+
             prev_i, prev_j = i, j
             step += 1
 

@@ -22,7 +22,7 @@ Explanation: We pay 70 to 0-th worker and 35 to 2-th worker.
 ```txt
 Input: quality = [3,1,10,10,1], wage = [4,8,2,2,7], K = 3
 Output: 30.66667
-Explanation: We pay 4 to 0-th worker, 13.33333 to 2-th and 3-th workers seperately. 
+Explanation: We pay 4 to 0-th worker, 13.33333 to 2-th and 3-th workers seperately.
 ```
 
 **Note**:

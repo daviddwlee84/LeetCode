@@ -13,5 +13,5 @@ class Solution:
                 c = row.index(1)
                 if sum(mat[r0][c] for r0 in range(len(mat))) == 1:
                     ans += 1
-        
+
         return ans

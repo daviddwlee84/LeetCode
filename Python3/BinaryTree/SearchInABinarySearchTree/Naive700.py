@@ -14,8 +14,8 @@ class Solution:
                 root = root.left
             else:
                 root = root.right
-        
+
         return None
-    
+
 # Runtime: 80 ms, faster than 59.19% of Python3 online submissions for Search in a Binary Search Tree.
 # Memory Usage: 15.7 MB, less than 70.02% of Python3 online submissions for Search in a Binary Search Tree.

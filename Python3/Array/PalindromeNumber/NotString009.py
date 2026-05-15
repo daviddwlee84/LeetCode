@@ -19,7 +19,7 @@ class Solution:
                 # (So the LSB of temp will be the MSB of reverse_x and so on.)
                 reverse_x = reverse_x*10 + temp%10
                 temp //= 10
-            
+
             # Compare x with reverse x
             if x == reverse_x:
                 return True

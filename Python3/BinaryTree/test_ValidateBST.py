@@ -20,4 +20,3 @@ def test_inorderTraversal():
 def test_dfs():
     for i, case in enumerate(testBST):
         assert dfs().isValidBST(case) == answer[i]
-        

@@ -11,9 +11,9 @@ class Solution:
 
         while double_nums[left] > nums[right]:
             left -= 1
-        
+
         right_end = left
-        
+
         temp = 2
         while left >= 0 and right > right_end:
             if double_nums[left] <= nums[right]:

@@ -13,18 +13,18 @@ from typing import Tuple
 # Testcase Example:  '"11"\n"1"'
 #
 # Given two binary strings, return their sum (also a binary string).
-# 
+#
 # The input strings are both non-empty and contains only characters 1 or 0.
-# 
+#
 # Example 1:
-# 
-# 
+#
+#
 # Input: a = "11", b = "1"
 # Output: "100"
-# 
+#
 # Example 2:
-# 
-# 
+#
+#
 # Input: a = "1010", b = "1011"
 # Output: "10101"
 
@@ -36,7 +36,7 @@ class Solution:
             a = '0'*(max_len-len(a)) + a
         if len(b) < max_len:
             b = '0'*(max_len-len(b)) + b
-        
+
         answer = ''
         carry = 0
         for i in range(max_len-1, -1, -1):
@@ -44,9 +44,9 @@ class Solution:
             answer = str(result) + answer
         if carry != 0:
             answer = str(carry) + answer
-        
+
         return answer
-    
+
     def adder(self, a: int, b: int, carry: int) -> Tuple[int, int]:
         # can be written in combination logic
         result = a + b + carry

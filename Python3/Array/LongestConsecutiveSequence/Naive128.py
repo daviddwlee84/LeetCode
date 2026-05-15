@@ -5,7 +5,7 @@ class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         if not nums:
             return 0
-        
+
         self.table = {}
 
         for num in nums:
@@ -13,7 +13,7 @@ class Solution:
                 self.table[num] = self.table[num-1] + 1
             else:
                 self.table[num] = 1
-            
+
             self.updateHigherThan(num+1)
 
         return max(self.table.values())

@@ -29,5 +29,5 @@ class Solution:
                     bp -= 1
                 else:
                     fp += 1
-        
+
         return rtn

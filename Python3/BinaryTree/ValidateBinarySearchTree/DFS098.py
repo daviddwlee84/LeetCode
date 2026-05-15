@@ -14,8 +14,8 @@ class Solution:
     def isBSTUtil(self, root, minimum, maximum):
         if root == None:
             return True
-        
+
         if root.val <= minimum or root.val >= maximum:
             return False
-        
+
         return self.isBSTUtil(root.left, minimum, root.val) and self.isBSTUtil(root.right, root.val, maximum)

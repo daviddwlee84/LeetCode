@@ -9,7 +9,7 @@ class ParkingSystem:
             return True
         else:
             return False
-        
+
 
 
 # Your ParkingSystem object will be instantiated and called as such:

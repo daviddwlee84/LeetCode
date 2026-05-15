@@ -17,12 +17,12 @@ class Solution:
                 if mat[r][c]:
                     rowsums[r] += 1
                     colsums[c] += 1
-        
+
         ans = 0
         for r in range(R):
             for c in range(C):
                 if mat[r][c]:
                     if rowsums[r] == colsums[c] == 1:
                         ans += 1
-        
+
         return ans

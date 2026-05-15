@@ -5,7 +5,7 @@ class Solution:
         :type numRows: int
         :rtype: str
         """
-        
+
         grid = [""] * numRows # Table to store temporary status of ZigZag form
 
         connectChar = numRows - 2 # Subtract the first and last row

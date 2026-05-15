@@ -19,7 +19,7 @@ def _test_same(lst1: List[List[str]], lst2: List[List[str]]):
             lst2.remove(sorted(item))
         else:
             return False
-    
+
     if len(lst2) == 0:
         return True
     else:

@@ -48,9 +48,9 @@ Output: 1->1->2->3->4->4->5->6
 import heapq
 class Solution:
     # minheap approach. O(XlogX) time, O(X) space
-    # where X = K * N. minheap holds elms in every list. 
-    # 
-    # 1) build minheap with elms from every list 
+    # where X = K * N. minheap holds elms in every list.
+    #
+    # 1) build minheap with elms from every list
     # 2) merge lists
     #   A) pop from minheap, grab the min node
     #   B) link previous min to current min

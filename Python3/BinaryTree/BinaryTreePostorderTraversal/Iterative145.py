@@ -8,7 +8,7 @@ class Solution:
 
         if root == None:
             return outputStack
-        
+
         travelStack = [root]
         while travelStack:
             node = travelStack.pop()
@@ -17,6 +17,5 @@ class Solution:
                 travelStack.append(node.left)
             if node.right:
                 travelStack.append(node.right)
-        
+
         return outputStack
-        

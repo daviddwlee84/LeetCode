@@ -6,15 +6,15 @@ class Solution:
         cols = len(grid[0])
         if rows == 0 and cols == 0:
             return 0
-        
+
         grid1d = [item for items in grid for item in items]
-        
-        k %= rows * cols 
-        
+
+        k %= rows * cols
+
         new_grid1d = grid1d[-k:] + grid1d[:-k]
-        
+
         new_grid2d = [[new_grid1d[i*cols + j] for j in range(cols)] for i in range(rows)]
-        
+
         return new_grid2d
 
 if __name__ == "__main__":

@@ -24,6 +24,5 @@ class Solution:
                     break
             else:
                 return -1
-        
+
         return swap_count
-            

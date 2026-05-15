@@ -13,7 +13,7 @@ class Solution:
                         is_beautiful = False
                         break
                 answer += is_beautiful
-    
+
         return answer
 
 # TLE

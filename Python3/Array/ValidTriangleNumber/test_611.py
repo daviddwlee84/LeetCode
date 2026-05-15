@@ -26,5 +26,3 @@ def test_BinarySearch2():
 def test_TwoPointer():
     for nums, ans in testcases:
         assert TwoPointer().triangleNumber(nums) == ans
-
-

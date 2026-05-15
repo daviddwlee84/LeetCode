@@ -17,7 +17,7 @@ class Solution:
         self._helper(root, 1)
 
         return self.max_depth
-    
+
     def _helper(self, node, depth: int):
         self.max_depth = max(depth, self.max_depth)
         for child in node.children:

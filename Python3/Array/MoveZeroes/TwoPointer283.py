@@ -9,7 +9,7 @@ class Solution:
         # 2. All elements between the current and slow pointer are zeroes.
 
         lastNonZeroFoundAt = 0 # slow pointer
-        
+
         for curr in range(len(nums)):
             if nums[curr] != 0:
                 nums[lastNonZeroFoundAt], nums[curr] = nums[curr], nums[lastNonZeroFoundAt]

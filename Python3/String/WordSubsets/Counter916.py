@@ -22,7 +22,7 @@ class Solution:
 
 # https://docs.python.org/3.8/library/collections.html#collections.Counter
 #
-# c & d                       # intersection:  min(c[x], d[x]) 
+# c & d                       # intersection:  min(c[x], d[x])
 # Counter({'a': 1, 'b': 1})
 # c | d                       # union:  max(c[x], d[x])
 # Counter({'a': 3, 'b': 2})

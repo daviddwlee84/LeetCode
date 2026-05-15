@@ -15,8 +15,8 @@ class Solution:
                     # this loop will only run when starting a new sequence
                     current_num += 1
                     current_streak += 1
-                
+
                 # update longest streak
                 longest_streak = max(longest_streak, current_streak)
-        
+
         return longest_streak

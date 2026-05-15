@@ -24,4 +24,3 @@ class Solution:
             else:
                 # Sum too big (move end index)
                 end -= 1
-        

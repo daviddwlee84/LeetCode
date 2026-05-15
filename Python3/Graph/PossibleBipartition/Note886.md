@@ -6,7 +6,7 @@ We want to split a group of n people (labeled from `1` to `n`) into two groups o
 
 Given the integer `n` and the array `dislikes` where `dislikes[i] = [ai, bi]` indicates that the person labeled `ai` does not like the person labeled `bi`, return `true` *if it is possible to split everyone into two groups in this way*.
 
- 
+
 Example 1:
 
 ```txt
@@ -58,7 +58,7 @@ class Solution:
             # shift to 0 to n - 1
             like_graph[a - 1].remove(b - 1)
             like_graph[b - 1].remove(a - 1)
-        
+
         total = set(range(n))
         group_a = set()
         group_b = set()
@@ -72,12 +72,12 @@ class Solution:
                 if like not in visited:
                     if all(like in like_graph[m] for m in group):
                         group_by_dfs(like, group)
-        
+
         # print(like_graph)
 
         group_by_dfs(0, group_a)
         print(group_a)
-        
+
         if len(visited) == n:
             # only one group
             return False
@@ -85,7 +85,7 @@ class Solution:
         # left = total - visited
         left = total - group_a
         # print(total, visited, left)
-        
+
         group_by_dfs(min(left), group_b)
         print(group_b)
 

@@ -6,13 +6,13 @@ class Solution:
         """
 
         self.paths = []
-        
+
         if root:
             self.findPaths(root, str(root.val) + "")
-        
+
         return self.paths
 
-        
+
     def findPaths(self, node, pathString):
         if not node.left and not node.right:
             # when reach leaf, append current path string

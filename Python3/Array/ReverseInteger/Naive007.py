@@ -9,7 +9,7 @@ class Solution:
             outputlst = '-'
         else:
             outputlst = ''
-        
+
         temp = str(x)
         for i in range(len(temp), 0, -1):
             outputlst += temp[i-1]

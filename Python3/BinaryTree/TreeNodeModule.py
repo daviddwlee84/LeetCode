@@ -94,7 +94,7 @@ def treeNodeToList(root):
                 visitQueue.put(None)
         else:
             outputList.append(None)
-    
+
     for i in range(len(outputList)-1, -1, -1):
         if outputList[i]:
             break

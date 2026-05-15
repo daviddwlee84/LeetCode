@@ -5,7 +5,7 @@ class Solution:
                 if c != '0':
                     break
             return int(num[i:])
-        
+
         ver1 = [remove_leading_zero_and_convert_to_int(num) for num in version1.split('.')]
         ver2 = [remove_leading_zero_and_convert_to_int(num) for num in version2.split('.')]
         if len(ver1) < len(ver2):
@@ -18,5 +18,5 @@ class Solution:
                 return 1
             elif v1 < v2:
                 return -1
-        
+
         return 0

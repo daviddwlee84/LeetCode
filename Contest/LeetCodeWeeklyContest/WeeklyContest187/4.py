@@ -6,7 +6,7 @@ class Solution:
         answer = mat[0]
         for i in range(1, len(mat)):
             answer = self.kSmallestPairs(answer, mat[i], 200)
-        
+
         return answer[k-1]
 
 

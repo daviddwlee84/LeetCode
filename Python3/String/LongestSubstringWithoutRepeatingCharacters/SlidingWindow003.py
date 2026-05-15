@@ -8,7 +8,7 @@ class Solution:
         n = len(s)
 
         HashSet = set() # HashSet to check if a character in the current
-        
+
         ans = 0
         start = end = 0 # Indices
 
@@ -21,5 +21,5 @@ class Solution:
                 # If find the repeating character, move the start index forward
                 HashSet.remove(s[start])
                 start += 1
-        
+
         return ans

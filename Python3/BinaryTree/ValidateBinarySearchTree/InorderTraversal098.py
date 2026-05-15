@@ -13,22 +13,20 @@ class Solution:
         """
         if not root:
             return True
-        
+
         self.traversalList = []
         self.inorderTraversal(root)
-        
+
         for i in range(len(self.traversalList)-1):
             if self.traversalList[i] >= self.traversalList[i+1]:
                 return False
-        
+
         return True
-        
-        
+
+
     def inorderTraversal(self, root):
         if root.left:
             self.inorderTraversal(root.left)
         self.traversalList.append(root.val)
         if root.right:
             self.inorderTraversal(root.right)
-        
-        

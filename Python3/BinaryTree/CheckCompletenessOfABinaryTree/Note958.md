@@ -20,17 +20,17 @@ from collections import deque
 class Solution:
     def isCompleteTree(self, root: Optional[TreeNode]) -> bool:
         queue = deque([(root, 0)])
-        
+
         while queue:
             node, depth = queue.pop()
             if node.right and not node.left:
                 return False
-            
+
             if node.left:
                 queue.appendleft((node.left, depth + 1))
             if node.right:
                 queue.appendleft((node.right, depth + 1))
-        
+
         return True
 
 # [1,2,3,5,null,7,8] False

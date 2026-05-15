@@ -7,13 +7,13 @@ class Solution:
         color = image[sr][sc]
         if color == newColor:
             return image
-        
+
         frontier_stack = [(sr, sc)]
         while len(frontier_stack) > 0:
             point = frontier_stack.pop()
             x, y = point[0], point[1]
             image[x][y] = newColor
-            
+
             candidates = ((x + 1, y),
                           (x - 1, y),
                           (x, y + 1),
@@ -25,5 +25,5 @@ class Solution:
                     continue
                 if image[x][y] == color:
                     frontier_stack.append(cand)
-        
+
         return image

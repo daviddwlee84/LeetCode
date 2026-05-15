@@ -19,7 +19,7 @@ class Solution:
         https://leetcode.com/problems/check-completeness-of-a-binary-tree/solutions/3298346/clean-codes-full-explanation-b-f-s-c-java-python3/
         """
         queue = deque([root])
-        
+
         seen_null = False
 
         while queue:
@@ -28,11 +28,11 @@ class Solution:
             if node is None:
                 seen_null = True
                 continue
-            
+
             if seen_null:
                 return False
-            
+
             queue.appendleft(node.left)
             queue.appendleft(node.right)
-        
+
         return True

@@ -17,5 +17,5 @@ class Solution:
                         return time + 1
                     queue.appendleft(((row, col), time + 1))
                     # WA, Deprecated
-        
+
         return -1

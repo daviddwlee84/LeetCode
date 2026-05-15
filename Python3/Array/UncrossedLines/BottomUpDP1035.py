@@ -15,5 +15,5 @@ class Solution:
                 else:
                     dp_curr[j] = max(dp_curr[j - 1], dp_prev[j])
             dp_prev, dp_curr = dp_curr, [0] * (len(B) + 1)
-    
+
         return dp_prev[-1]

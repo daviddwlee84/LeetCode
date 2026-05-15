@@ -17,7 +17,7 @@ class MyStack:
         """
         self.top_element = x
         self.data.put(x)
-        
+
 
     def pop(self):
         """
@@ -28,7 +28,7 @@ class MyStack:
             # get each element and push it to the temp queue until left only one element
             self.top_element = self.data.get()
             self.temp.put(self.top_element)
-        
+
         rtn = self.data.get() # pop the last element as an answer
         self.data, self.temp = self.temp, self.data # swap temp queue to data queue
         return rtn
@@ -40,7 +40,7 @@ class MyStack:
         :rtype: int
         """
         return self.top_element
-        
+
 
     def empty(self):
         """
@@ -48,7 +48,7 @@ class MyStack:
         :rtype: bool
         """
         return self.data.empty()
-        
+
 
 
 # Your MyStack object will be instantiated and called as such:

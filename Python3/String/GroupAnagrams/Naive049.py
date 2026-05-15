@@ -19,7 +19,7 @@ class Solution:
             if not added:
                 group_counter[len(output)] = (curr_counter, len(string))
                 output.append([string])
-        
+
         return output
 
 # Time Limit Exceeded

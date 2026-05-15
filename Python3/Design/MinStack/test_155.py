@@ -27,7 +27,7 @@ def case2(constructor):
             assert minStack.getMin() == ans
         elif op == 'pop':
             assert minStack.pop() == ans
-    
+
 
 def test_naive():
     case1(naive)

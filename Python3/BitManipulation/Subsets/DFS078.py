@@ -14,4 +14,3 @@ class Solution:
             return
         self.helper(currentSet + [nums[start]], start+1, end, nums) # With num[start]
         self.helper(currentSet, start+1, end, nums) # Without num[start]
-        

@@ -13,7 +13,7 @@ class Solution:
         self.helper(digits, "")
 
         return self.combinations
-    
+
     def helper(self, digits_left: str, combination: str):
         for digit in NumberTable[digits_left[0]]: # try every possible char for each number
             combination += digit

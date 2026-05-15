@@ -8,7 +8,7 @@ class Solution:
         """
         if not nums:
             return 0
-        
+
         MAX = min(nums)
         for i in range(1, len(nums)+1): # i: compare length
             for j in range(len(nums)-i+1): # j: start position

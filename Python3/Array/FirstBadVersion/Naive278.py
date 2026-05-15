@@ -16,7 +16,7 @@ class Solution:
         """
         left = 1
         right = n
-        
+
         while left <= right:
             # In other language, we should use left + (right - left) / 2 to prevent from TLE (integer overflow)
             # start = 2147483647

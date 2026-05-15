@@ -41,10 +41,10 @@ class Solution:
 #         def helper(root: TreeNode, n: int) -> int:
 #             if not root:
 #                 return 0
-#         
+#
 #             if not root.left and not root.right:
 #                 return n * 10 + root.val
-#             
+#
 #             return helper(root.left, n * 10 + root.val) + helper(root.right, n * 10 + root.val)
-#       
+#
 #         return helper(root, 0)

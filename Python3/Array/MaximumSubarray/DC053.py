@@ -9,7 +9,7 @@ class Solution:
     def getMax(self, nums, start, end):
         if start == end:
             return nums[start]
-        
+
         middle = (start+end)//2
 
         leftMax = self.getMax(nums, start, middle)
@@ -27,7 +27,7 @@ class Solution:
         for i in range(middle, start-1, -1):
             leftSum += nums[i]
             leftMax = max(leftMax, leftSum)
-        
+
         for i in range(middle+1, end+1):
             rightSum += nums[i]
             rightMax = max(rightMax, rightSum)

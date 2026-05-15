@@ -15,17 +15,17 @@ class Solution:
                 if nums[i] < pivot:
                     nums[i], nums[low] = nums[low], nums[i]
                     low += 1
-            
+
             nums[low], nums[high] = nums[high], nums[low]
-        
+
             return low
-        
+
         def quick_sort(nums: List[int], low: int, high: int):
             if low < high:
                 pivot = partition(nums, low, high)
                 quick_sort(nums, low, pivot - 1)
                 quick_sort(nums, pivot + 1, high)
-        
+
         quick_sort(nums, 0, len(nums) - 1)
         return nums
 

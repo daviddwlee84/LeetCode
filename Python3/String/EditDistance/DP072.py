@@ -18,5 +18,5 @@ class Solution:
                 else:
                     # take the minimum number of three and plus one
                     table[i+1][j+1] = min(table[i][j+1], table[i][j], table[i+1][j]) + 1
-        
+
         return table[m][n]

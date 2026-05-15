@@ -16,16 +16,16 @@ class Solution:
             return lists[0]
 
         head = self.merge2List(lists[0], lists[1])
-        
+
         for ll in lists[2:]:
             head = self.merge2List(head, ll)
-        
+
         return head
-    
+
     # Merge two linked list and return head of them
     # PS. The merge2List can be simplified, since the linked lists are sorted.
     #     So if one linked list reach the end, you can simply connect the rest of the other linked list
-    #     by redirect the pointer to the head of the rest linked list. 
+    #     by redirect the pointer to the head of the rest linked list.
     def merge2List(self, ll1, ll2):
         if ll1 and not ll2:
             head = ll1

@@ -23,9 +23,9 @@ class Solution:
                 queue.appendleft((node.left, depth + 1))
             if node.right:
                 queue.appendleft((node.right, depth + 1))
-            
+
             if depth > len(answer):
                 answer.append([])
             answer[-1].append(node.val)
-        
+
         return [level if depth % 2 == 0 else list(reversed(level)) for depth, level in enumerate(answer)]

@@ -14,7 +14,7 @@ class Solution:
                 k -= 1
             i += 1
             pointer += 1
-        
+
         if k == 0:
             return last_miss + k
         return arr[-1] + k

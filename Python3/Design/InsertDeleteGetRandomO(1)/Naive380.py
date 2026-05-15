@@ -17,7 +17,7 @@ class RandomizedSet:
         else:
             self.data.add(val)
             return True
-        
+
 
     def remove(self, val: int) -> bool:
         """
@@ -28,7 +28,7 @@ class RandomizedSet:
             return True
         else:
             return False
-        
+
 
     def getRandom(self) -> int:
         """
@@ -51,8 +51,8 @@ class RandomizedSet:
         # index = int(random.random() * len(self.data))
         # Runtime: 412 ms, faster than 22.27% of Python3 online submissions for Insert Delete GetRandom O(1).
         # Memory Usage: 18.2 MB, less than 10.63% of Python3 online submissions for Insert Delete GetRandom O(1).
-        
-        
+
+
 
 
 # Your RandomizedSet object will be instantiated and called as such:

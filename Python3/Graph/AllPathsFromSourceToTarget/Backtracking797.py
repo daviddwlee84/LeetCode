@@ -18,4 +18,3 @@ class Solution:
                     dfs(node, path + [node])
         dfs(0, [0])
         return answer
-

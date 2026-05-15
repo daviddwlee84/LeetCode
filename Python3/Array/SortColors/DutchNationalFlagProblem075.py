@@ -8,7 +8,7 @@ class Solution:
 
         https://leetcode.com/problems/sort-colors/discuss/681591/Algorithm-Explained-or-Single-pass-or-O(n)
         https://en.wikipedia.org/wiki/Dutch_national_flag_problem
-        [0] 0, 0, 0 [low] 1, 1, 1 [mid] unknown [high] 2, 2, 2 [n-1] 
+        [0] 0, 0, 0 [low] 1, 1, 1 [mid] unknown [high] 2, 2, 2 [n-1]
         """
         low, mid, high = 0, 0, len(nums) - 1
 

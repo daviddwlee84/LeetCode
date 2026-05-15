@@ -11,28 +11,28 @@ class Solution:
             return 0
 
         costs = defaultdict(lambda: float('inf'))
-        
+
         edges = defaultdict(list)
         for start, end, price in flights:
             edges[start].append((end, price))
-        
+
         queue = deque([(src, -1, 0)]) # start, k, cost
 
         while queue:
             curr_city, k, cost = queue.pop()
-            
+
             if curr_city == dst or k == K:
                 # Early stop
                 continue
-        
+
             for end, price in edges[curr_city]:
                 if cost + price >= costs[end]:
                     # Early stop
                     continue
-                
+
                 costs[end] = cost + price
                 queue.appendleft((end, k+1, cost + price))
-        
+
         return costs[dst] if costs[dst] < float('inf') else -1
 
 # Runtime: 72 ms, faster than 99.32% of Python3 online submissions for Cheapest Flights Within K Stops.

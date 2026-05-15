@@ -77,7 +77,7 @@ class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         if numRows < 1: return []
         pt = [[1]]
-        
+
         for i in range(1, numRows):
             a = pt[-1]
             pt.append([1] + list(map(sum, zip(a, a[1:]))) + [1])

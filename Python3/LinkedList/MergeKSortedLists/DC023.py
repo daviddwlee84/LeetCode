@@ -29,9 +29,9 @@ class Solution:
                 lists[i] = self.merge2Lists(lists[i], lists[i+interval])
 
             interval *= 2
-        
+
         return lists[0] if totalLists > 0 else lists
-    
+
     def merge2Lists(self, l1, l2):
         # Declare a temporary head, because we aren't sure l1 or l2 is None or Head
         tempHead = node = ListNode(0)

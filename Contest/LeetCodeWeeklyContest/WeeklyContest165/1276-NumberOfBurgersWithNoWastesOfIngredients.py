@@ -10,7 +10,7 @@ class Solution:
             return list(ans.astype(int))
         else:
             return []
- 
+
 if __name__ == "__main__":
     print(Solution().numOfBurgers(16, 7)) # [1,6]
     print(Solution().numOfBurgers(17, 4)) # []

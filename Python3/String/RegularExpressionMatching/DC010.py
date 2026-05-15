@@ -7,11 +7,11 @@ class Solution:
         """
         if not p:
             return not s
-        
+
         # Initial status
         # If s is not None and (pattern == s[0] or '.')
         first_match = bool(s) and p[0] in {s[0], '.'}
-        
+
         if len(p) >= 2 and p[1] == '*':
             # Consider the current p[0]p[1] is c* (c is char)
             # 1. if * == 0, then skip to next p

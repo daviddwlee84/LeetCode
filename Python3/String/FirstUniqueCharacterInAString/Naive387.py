@@ -13,7 +13,7 @@ class Solution:
             else:
                 if char in unique_index:
                     unique_index.pop(char)
-    
+
         if not unique_index:
             return -1
         else:

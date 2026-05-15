@@ -9,7 +9,7 @@ class Solution:
 
         if not root:
             return outputStack
-        
+
         travelStack.append(root)
         while travelStack:
             node = travelStack.pop()

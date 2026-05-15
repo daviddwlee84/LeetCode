@@ -17,14 +17,14 @@ class Solution:
                 start = mid + 1
             else:
                 end = mid
-        
+
         return nums[start]
 
 # Runtime: 76 ms, faster than 46.02% of Python3 online submissions for Single Element in a Sorted Array.
 # Memory Usage: 16.1 MB, less than 7.69% of Python3 online submissions for Single Element in a Sorted Array.
 
 # Other Binary Search
-# 
+#
 # class Solution:
 #     def singleNonDuplicate(self, nums: List[int]) -> int:
 #         low = 0

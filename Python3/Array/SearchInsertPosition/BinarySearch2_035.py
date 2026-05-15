@@ -8,7 +8,7 @@ class Solution:
 
         while left < right:
             mid = (right - left) // 2 + left
-        
+
             # print(mid, nums[mid])
 
             if nums[mid] == target:
@@ -17,6 +17,6 @@ class Solution:
                 right = mid
             else:
                 left = mid + 1
-            
+
         # actually, left is mid + 1
         return mid if nums[mid] >= target else mid + 1

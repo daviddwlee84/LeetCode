@@ -9,7 +9,7 @@ class Solution:
         self.pattern = p
         self.table = {}
         return self.__dp(0, 0)
-    
+
     # Top Down Approach
     def __dp(self, i, j):
         # It only need to calculate if dp(i, j) doesn't exist
@@ -30,4 +30,3 @@ class Solution:
                     ans = first_match and self.__dp(i+1, j+1)
             self.table[i, j] = ans
         return self.table[i, j]
-        

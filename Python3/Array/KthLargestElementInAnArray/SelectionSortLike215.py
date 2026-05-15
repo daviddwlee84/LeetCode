@@ -9,4 +9,3 @@ class Solution:
                     max_idx = i
             nums[max_idx], nums[last_range-1] = nums[last_range-1], nums[max_idx]
         return nums[-k]
-                    

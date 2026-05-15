@@ -21,13 +21,13 @@ class Solution:
             # until the window has only 2 types of fruit.
             while len(basket) > 2:
                 basket[fruits[left]] -= 1
-                
+
                 # Keep remove until the the oldest fruit has been removed
                 if basket[fruits[left]] == 0:
                     basket.pop(fruits[left])
 
                 left += 1
-            
+
             max_picked = max(max_picked, right - left + 1)
 
         return max_picked

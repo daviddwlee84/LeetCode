@@ -14,4 +14,3 @@ class Solution:
             waysToStair.append(waysToStair[stair-1] + waysToStair[stair-2])
 
         return waysToStair[n-1]
-        

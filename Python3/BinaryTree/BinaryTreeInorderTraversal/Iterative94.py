@@ -9,7 +9,7 @@ class Solution:
 
         if not root:
             return outputStack
-        
+
         node = root
         while travelStack or node: # if stack is not empty or node is not None
             if node: # travel all left subtree and push into stack

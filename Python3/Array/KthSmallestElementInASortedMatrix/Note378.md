@@ -24,13 +24,13 @@ class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
         """
         We know the outer (top-left) will always be smaller than the bottom-right corner => (this is not true)
-        
+
         (X) matrix[k // len(matrix)][k % len(matrix)]
         """
 
         m, n = len(matrix), len(matrix[0])
         count = 0
-        
+
         layer = 0
         while True:
             next_count = (m - layer) + (n - layer) - 1
@@ -73,4 +73,3 @@ class Solution:
 
             count += 1
 ```
-                

@@ -15,7 +15,7 @@ class Solution:
 
         self.reverseHelper(head, None)
         return self.head
-    
+
 
     def reverseHelper(self, head, last):
         nextNode = head.next
@@ -24,5 +24,3 @@ class Solution:
             self.reverseHelper(nextNode, head)
         else:
             self.head = head
-
-        

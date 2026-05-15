@@ -32,4 +32,3 @@ class Solution:
                 base = 10 * base + int(s[i])
                 i += 1
         return base * sign
-

@@ -14,5 +14,3 @@ class Solution:
                 ans = ans + Value[c] - 2*prev_val
             prev_val = Value[c]
         return ans
-                
-            

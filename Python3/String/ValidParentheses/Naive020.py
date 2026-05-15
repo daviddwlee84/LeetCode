@@ -10,10 +10,10 @@ class Solution:
                 if len(stack) == 0:
                     # if nothing to pop then it must be invalid
                     return False
-                open_bracket = stack.pop()    
+                open_bracket = stack.pop()
                 if open_brackets[open_bracket] != c:
                     return False
         if len(stack) == 0:
-            return True        
+            return True
         else:
             return False

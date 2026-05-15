@@ -25,10 +25,10 @@ class Solution:
                 break
 
         return sameStack[-1]
-        
+
     # Return path value as list
     def PathToNode(self, root, nodeVal):
-        
+
         path = []
 
         def visit(root, nodeVal):
@@ -42,5 +42,3 @@ class Solution:
 
         visit(root, nodeVal)
         return path
-
-            

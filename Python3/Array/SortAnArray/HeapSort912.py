@@ -7,8 +7,8 @@ class Solution:
         heapq.heapify(nums)
 
         answer = []
-        
+
         while nums:
             answer.append(heapq.heappop(nums))
-        
+
         return answer

@@ -8,7 +8,7 @@ class Node:
         self.value: int = value
         self.prev: Node = None
         self.next: Node = None
-    
+
     def __repr__(self) -> str:
         return 'Node' + str((self.key, self.value))
 

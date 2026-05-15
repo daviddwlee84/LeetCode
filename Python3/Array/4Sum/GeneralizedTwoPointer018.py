@@ -29,7 +29,7 @@ class Solution:
             for i in range(len(nums)-N+1):
                 if target < nums[i]*N or target > nums[-1]*N: # the case that can never fulfill
                     break # early termination (take advantages of sorted list)
-                
+
                 if i == 0 or i > 0 and nums[i-1] != nums[i]: # recursively reduce N
                     # put nums[i] into candidate list and try
                     self.findNSum(nums[i+1:], target-nums[i], N-1, result+[nums[i]])

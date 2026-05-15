@@ -11,7 +11,7 @@ class Solution:
 
         node not in color: haven't been colored yet
         node is -1: color 1
-        node is 1: color 2 
+        node is 1: color 2
         """
         self.colors = {}  # visited nodes with color
 

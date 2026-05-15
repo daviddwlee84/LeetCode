@@ -22,6 +22,3 @@ levelOrderAns.append([])
 def test_BFS_LevelOrder():
     for num, case in enumerate(testcase):
         assert levelorder_BFS().levelOrder(case) == levelOrderAns[num]
-
-
-

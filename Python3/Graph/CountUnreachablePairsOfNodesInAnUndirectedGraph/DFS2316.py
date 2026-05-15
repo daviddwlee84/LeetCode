@@ -10,7 +10,7 @@ class Solution:
         for u, v in edges:
             graph[u].add(v)
             graph[v].add(u)
-        
+
         answer = 0
 
         visited = set()
@@ -31,7 +31,7 @@ class Solution:
                 continue
             group_sizes.append(0)
             dfs(i)
-        
+
         # print(group_sizes)
 
         answer = 0

@@ -15,11 +15,11 @@ class Solution:
     def minDiffInBST(self, root: Optional[TreeNode]) -> int:
         if root.left:
             self.minDiffInBST(root.left)
-        
+
         self.result = min(self.result, root.val - self.previous_val)
         self.previous_val = root.val
 
         if root.right:
             self.minDiffInBST(root.right)
-        
+
         return self.result

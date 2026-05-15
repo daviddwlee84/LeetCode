@@ -4,7 +4,7 @@ class Solution:
         :type root: TreeNode
         :rtype: List[str]
         """
-        
+
         paths = []
 
         if not root:
@@ -14,16 +14,16 @@ class Solution:
         visited = []
 
         while preorderStack:
-            
+
             # visit node
             node = preorderStack[-1]
             if node not in visited:
                 visited.append(node)
-            
+
             if not node.left and not node.right:
                 # when reach leaf, current stack is the path
                 paths.append(self.pathStackToString(preorderStack))
-                
+
             if node.left and node.left not in visited:
                 # travel left child (if haven't visited)
                 preorderStack.append(node.left)
@@ -33,7 +33,7 @@ class Solution:
             else:
                 # no where to go or all child have visited
                 preorderStack.pop()
-                
+
         return paths
 
     # Transfer stack in to string of path
@@ -44,5 +44,3 @@ class Solution:
             string += "->"
         string += str(stack[-1].val)
         return string
-
-

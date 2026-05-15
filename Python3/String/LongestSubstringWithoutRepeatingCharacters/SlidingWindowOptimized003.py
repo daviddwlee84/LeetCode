@@ -8,7 +8,7 @@ class Solution:
         n = len(s)
 
         HashMap = {} # Store current index of character
-        
+
         ans = 0
 
         start = 0
@@ -18,5 +18,5 @@ class Solution:
                 start = max(HashMap[s[end]], start)
             ans = max(ans, end - start + 1)
             HashMap[s[end]] = end + 1
-        
+
         return ans

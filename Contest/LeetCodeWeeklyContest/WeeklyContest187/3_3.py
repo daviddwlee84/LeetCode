@@ -14,7 +14,7 @@ class Solution:
         for right in range(len(nums)):
             # update maxDeque with new right pointer
             while maxDeque and maxDeque[-1] < nums[right]:
-                # if the current number is even smaller than the smallest max, 
+                # if the current number is even smaller than the smallest max,
                 maxDeque.pop()
             maxDeque.append(nums[right])
 
@@ -30,9 +30,9 @@ class Solution:
                 if minDeque[0] == nums[left]:
                     minDeque.popleft()
                 left += 1 # shrink it
-            
+
             result = max(result, right - left + 1)
-    
+
         return result
 
 # Runtime: 408 ms, faster than 80.00% of Python3 online submissions for Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.

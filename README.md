@@ -722,7 +722,7 @@ VSCode ignore formatting on file
 
 ```txt
  ! [new branch]      master     -> origin/master  (unable to update local ref)
-warning: url has no scheme: 
+warning: url has no scheme:
 fatal: credential url cannot be parsed:
 error: update_ref failed for ref 'refs/remotes/origin/master': cannot lock ref 'refs/remotes/origin/master': unable to resolve reference 'refs/remotes/origin/master': reference broken
 ```

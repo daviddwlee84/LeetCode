@@ -11,7 +11,7 @@ class Solution:
                 nums[i] = None
             else:
                 lastTemp = nums[i]
-        
+
         while None in nums:
             nums.remove(None)
 

@@ -18,7 +18,7 @@ class Graph():
                 continue
             self.adjacency_vertices[u].append((v, self.graph[u][v]))
             self.adjacency_vertices[v].append((u, self.graph[u][v]))
-    
+
     def print_graph(self):
         print(f'Graph vertices: {self.vertices_num}')
         print('Graph distances between vertices:')
@@ -26,14 +26,14 @@ class Graph():
             if self.graph[u][v] > 0:
                 print(f'{u} <--> {v}: {self.graph[u][v]}')
         print(self.adjacency_vertices)
-    
+
     def print_answer(self, distance_from_source: List[int], parents: List[List[int]], source: int = None):
         if source:
             print(f'Result of Source from {source} vertex:')
         print('Vertex', 'Distance from Source', 'Parents', sep='\t')
         for node_id in range(self.vertices_num):
             print(node_id, distance_from_source[node_id], parents[node_id], sep='\t')
-        
+
     def dijkstra_single_source_shortest_path_algorithm(self, source_vertex: int) -> List[int]:
         priority_queue = []
         heapq.heappush(priority_queue, (0, source_vertex))
@@ -52,7 +52,7 @@ class Graph():
                     parents[adj_node].append(min_distance_vertex)
                     # Sorted by distance_from_source[adj_node]
                     heapq.heappush(priority_queue, (distance_from_source[adj_node], adj_node))
-        
+
         return distance_from_source, parents
 
 if __name__ == '__main__':

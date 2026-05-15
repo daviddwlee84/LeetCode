@@ -12,5 +12,5 @@ class Solution:
                 small += 1
             else:
                 break
-        
+
         return [small+1, large+1]

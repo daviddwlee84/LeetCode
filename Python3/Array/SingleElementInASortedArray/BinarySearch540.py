@@ -3,7 +3,7 @@ from typing import List
 
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
-        """ 
+        """
         https://leetcode.com/problems/single-element-in-a-sorted-array/solutions/627921/java-c-python3-easy-explanation-o-logn-o-1/?orderBy=most_votes
 
         Pattern: first element takes even position and second element takes odd position

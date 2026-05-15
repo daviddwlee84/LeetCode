@@ -12,10 +12,10 @@ class Solution:
                 curr_pos = (curr_pos[0] - 1, curr_pos[1])
             elif direction == 'W':
                 curr_pos = (curr_pos[0], curr_pos[1] - 1)
-        
+
             if curr_pos in visited:
                 return True
             else:
                 visited.add(curr_pos)
-        
+
         return False

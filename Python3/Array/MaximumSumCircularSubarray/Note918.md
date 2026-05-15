@@ -60,7 +60,7 @@ Explanation: Subarray [-1] has maximum sum -1
 > 2. What is an alternate way of representing a circular array so that it appears to be a straight array? Essentially, there are two cases of this problem that we need to take care of. Let's look at the figure below to understand those two cases:
 >
 >     ![hint](https://assets.leetcode.com/uploads/2019/10/20/circular_subarray_hint_1.png)
-> 
+>
 > 3. The first case can be handled by the good old Kadane's algorithm. However, is there a smarter way of going about handling the second case as well?
 
 ## Note

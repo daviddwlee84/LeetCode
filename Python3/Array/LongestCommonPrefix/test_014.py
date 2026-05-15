@@ -11,4 +11,3 @@ ans.append("")
 def test_naive():
     for i, strs in enumerate(allstrs):
         assert naive().longestCommonPrefix(strs) == ans[i]
-    

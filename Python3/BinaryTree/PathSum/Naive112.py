@@ -7,7 +7,7 @@ class Solution:
         """
         if not root:
             return False
-        
+
         self.sum = sum
         self.pathSum = [] # Store all path sum
         self.hasPathSumHelper(root, 0)
@@ -24,4 +24,3 @@ class Solution:
             self.hasPathSumHelper(root.left, currentSum)
         if root.right:
             self.hasPathSumHelper(root.right, currentSum)
-            

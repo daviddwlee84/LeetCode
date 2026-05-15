@@ -4,12 +4,12 @@ class Solution:
         :type root: TreeNode
         :rtype: bool
         """
-        
+
         if not root:
             return True
         else:
             return self.isSymmetricHelper(root.left, root.right)
-        
+
     def isSymmetricHelper(self, leftnode, rightnode):
         if not leftnode and not rightnode: # Both reach leaf
             return True

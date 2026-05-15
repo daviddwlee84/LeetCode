@@ -3,9 +3,9 @@ from collections import defaultdict
 
 class Solution:
     def takeCharacters(self, s: str, k: int) -> int:
-        
+
         cnt = defaultdict(int)
-        
+
         def dfs(s_left: str, count: dict):
             # print(s_left, count)
             if all(count[c] >= k for c in ['a', 'b', 'c']):
@@ -27,5 +27,5 @@ class Solution:
             if left_dest < 0 or right_dest < 0:
                 return max(left_dest, right_dest)
             return min(left_dest, right_dest)
-        
+
         return dfs(s, cnt)

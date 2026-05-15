@@ -15,19 +15,19 @@ class Solution:
         # Don't need to swap
         if not head or not head.next:
             return head
-    
+
         ptr = head
         head = self.swapHelper(ptr, ptr.next)
         lastTemp = ptr
         ptr = ptr.next
-        
+
         while ptr and ptr.next:
             lastTemp.next = self.swapHelper(ptr, ptr.next)
             lastTemp = ptr
             ptr = ptr.next
 
         return head
-        
+
     # Swap two nodes and return its new first node's address
     def swapHelper(self, ori_first, ori_second):
         linkto = ori_second.next

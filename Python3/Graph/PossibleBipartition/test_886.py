@@ -12,4 +12,3 @@ testcases = [
 def test_bfs():
     for n, dislikes, ans in testcases:
         assert BFS().possibleBipartition(n, dislikes) == ans
-

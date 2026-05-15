@@ -22,7 +22,7 @@ class Solution:
                 front += 1
 
         return maxAreaTemp
-        
-        
+
+
     def calcArea(self, idx1, idx2):
         return abs(idx2 - idx1) * min(self.height[idx1], self.height[idx2])

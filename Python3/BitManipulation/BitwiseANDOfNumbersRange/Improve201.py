@@ -9,5 +9,5 @@ class Solution:
         """
         while n > m:
             n &= n - 1
-        
+
         return m & n

@@ -7,7 +7,7 @@ class Solution:
         self.S = S
         self.helper(nums, currentSum = 0)
         return self.ans
-    
+
     def helper(self, nums: List[int], currentSum):
         if len(nums) == 0 and currentSum == self.S:
             self.ans += 1

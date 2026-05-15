@@ -11,5 +11,5 @@ class Solution:
             else:
                 count += 1
             ans += count
-        
+
         return ans

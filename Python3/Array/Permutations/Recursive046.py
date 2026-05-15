@@ -9,8 +9,8 @@ class Solution:
         return ans
 
     def swapListMember(self, lst, idx1, idx2):
-        lst[idx1], lst[idx2] = lst[idx2], lst[idx1] 
-    
+        lst[idx1], lst[idx2] = lst[idx2], lst[idx1]
+
     # permute num[begin..end]
     # finished num[0..begin-1]
     def permuteHelper(self, answer, begin, num):
@@ -27,7 +27,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-        
-

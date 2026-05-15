@@ -38,5 +38,5 @@ class Solution:
             min_value = min(min_value, max_value)
             heapq.heappush(max_heap, -max_value)
             # print(max_value, min_value)
-        
+
         return min_deviation

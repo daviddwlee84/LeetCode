@@ -18,7 +18,7 @@ class Solution:
         # # Initialize Hash table
         # for num in nums:
         #     hashTable[num] = nums.index(num)
-        
+
         # # Go through and find the corresponding value index
         # for i, num in enumerate(nums):
         #     toFind = target - num

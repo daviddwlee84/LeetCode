@@ -9,10 +9,9 @@ class Solution:
             new_digits.append(temp)
         if carry:
             new_digits.append(1)
-        
+
         return list(reversed(new_digits))
-    
+
     def fullAdder(self, A: int, B: int, Cin: int) -> List[int]:
         S = A + B + Cin
         return S // 10, S % 10
-    

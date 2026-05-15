@@ -15,9 +15,9 @@ class Solution:
             index2node[index] = node
             index += 1
             node = node.next
-        
+
         # index here will be the length of linked list
-        
+
         if index-n-1 >= 0 and index-n+1 < index: # normal case
             index2node[index-n-1].next = index2node[index-n+1]
         elif index-n-1 >= 0 and index-n+1 >= index: # delete tail one

@@ -7,4 +7,3 @@ class Solution:
         """
         length = len(nums)
         nums[:] = nums[(length-k)%length:] + nums[:(length-k)%length]
-

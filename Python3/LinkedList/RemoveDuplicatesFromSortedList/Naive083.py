@@ -12,17 +12,17 @@
 #
 # Given a sorted linked list, delete all duplicates such that each element
 # appear only once.
-# 
+#
 # Example 1:
-# 
-# 
+#
+#
 # Input: 1->1->2
 # Output: 1->2
-# 
-# 
+#
+#
 # Example 2:
-# 
-# 
+#
+#
 # Input: 1->1->2->3->3
 # Output: 1->2->3
 
@@ -50,7 +50,7 @@ class Solution:
             # next node
             node = node.next
         return head
- 
+
 # 165/165 cases passed (108 ms)
 # Your runtime beats 7.6 % of python3 submissions
 # Your memory usage beats 6.45 % of python3 submissions (13.8 MB)

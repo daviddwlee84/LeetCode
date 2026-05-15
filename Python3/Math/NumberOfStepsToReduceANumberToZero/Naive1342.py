@@ -8,7 +8,7 @@ class Solution:
                 num -= 1
             ans += 1
         return ans
-            
+
 # Runtime: 32 ms, faster than 56.81% of Python3 online submissions for Number of Steps to Reduce a Number to Zero.
 # Memory Usage: 13.7 MB, less than 81.80% of Python3 online submissions for Number of Steps to Reduce a Number to Zero.
 

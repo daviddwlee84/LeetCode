@@ -4,7 +4,7 @@ class Solution:
             return False
         if len(A) < 2:
             return False
-        
+
         exist = set()
         duplicate_char = False
         different = {}
@@ -15,16 +15,16 @@ class Solution:
                 if A[i] in exist:
                     duplicate_char = True
                 exist.add(A[i])
-            
+
             if len(different) > 2:
                 return False
-        
+
         if len(different) == 1:
             return False
-        
+
         if len(different) == 0:
             return duplicate_char
-        
+
         diff = list(different.values())
         return diff[0][1] == diff[1][0] and diff[0][0] == diff[1][1]
 

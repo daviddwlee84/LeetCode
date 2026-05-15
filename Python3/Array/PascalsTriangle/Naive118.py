@@ -8,11 +8,11 @@ class Solution:
             for j in range(i+1):
                 ans[i].append(self.C(i, j))
         return ans
-        
+
     def C(self, m: int, n: int) -> int:
         assert m >= n
         return int(self.power(m)/(self.power(m-n) * self.power(n)))
-        
+
     def power(self, n: int):
         assert n >= 0
         num = 1

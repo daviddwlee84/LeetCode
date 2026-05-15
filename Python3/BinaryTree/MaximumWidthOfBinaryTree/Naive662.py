@@ -30,7 +30,7 @@ class Solution:
                 queue.appendleft((node.left, depth + 1, position * 2))
             if node.right:
                 queue.appendleft((node.right, depth + 1, position * 2 + 1))
-        
+
         max_width = 0
         for i, layer in enumerate(reversed(layers)):
             if 2 ** (len(layers) - i - 1) < max_width:

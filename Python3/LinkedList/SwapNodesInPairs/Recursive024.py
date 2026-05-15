@@ -9,7 +9,7 @@ class Solution:
         # Don't need to swap
         if not head or not head.next:
             return head
-        
+
         # Old:
         # head -> head.next -> nextPair
         # New:

@@ -10,5 +10,5 @@ class Solution:
         for i, buy in enumerate(prices):
             for sell in prices[i + 1:]:
                 max_profit = max(max_profit, sell - buy)
-                
+
         return max_profit

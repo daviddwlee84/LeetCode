@@ -40,7 +40,7 @@ preorderAns.append([3,1,2])
 def test_recursive_preorder():
     for num, case in enumerate(testcase):
         assert preorder_recursive().preorderTraversal(case) == preorderAns[num]
-    
+
 def test_iterative_preorder():
     for num, case in enumerate(testcase):
         assert preorder_iterative().preorderTraversal(case) == preorderAns[num]
@@ -57,7 +57,7 @@ inorderAns.append([1,3,2])
 def test_recursive_inorder():
     for num, case in enumerate(testcase):
         assert inorder_recursive().inorderTraversal(case) == inorderAns[num]
-    
+
 def test_iterative_inorder():
     for num, case in enumerate(testcase):
         assert inorder_iterative().inorderTraversal(case) == inorderAns[num]
@@ -74,7 +74,7 @@ postorderAns.append([1,2,3])
 def test_recursive_postorder():
     for num, case in enumerate(testcase):
         assert postorder_recursive().postorderTraversal(case) == postorderAns[num]
-    
+
 def test_iterative_postorder():
     for num, case in enumerate(testcase):
         assert postorder_iterative().postorderTraversal(case) == postorderAns[num]

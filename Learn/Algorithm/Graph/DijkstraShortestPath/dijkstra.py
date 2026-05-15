@@ -10,33 +10,33 @@ class Graph():
         assert len(adjacency_matrix) == len(adjacency_matrix[0]), 'adjacency matrix should be a square matrix of edge weight'
         self.graph = adjacency_matrix.copy()
         self.vertices_num = len(self.graph)
-    
+
     def print_graph(self):
         print(f'Graph vertices: {self.vertices_num}')
         print('Graph distances between vertices:')
         for u, v in combinations(range(self.vertices_num), 2):
             if self.graph[u][v] > 0:
                 print(f'{u} <--> {v}: {self.graph[u][v]}')
-    
+
     def print_answer(self, distance_from_source: List[int], parents: List[List[int]], source: int = None):
         if source:
             print(f'Result of Source from {source} vertex:')
         print('Vertex', 'Distance from Source', 'Parents', sep='\t')
         for node_id in range(self.vertices_num):
             print(node_id, distance_from_source[node_id], parents[node_id], sep='\t')
-        
+
     def min_distance_vertex(self, distance_from_source: List[int], shortest_path_tree_vertices: Set[int]) -> int:
         """
         Find the vertex with minimum distance value, from the set of vertices not yet included in shortest path tree
         """
-        
+
         minimum_distance = float('inf')
 
         for node_id in range(self.vertices_num):
             if node_id not in shortest_path_tree_vertices and distance_from_source[node_id] < minimum_distance:
                 minimum_distance = distance_from_source[node_id]
                 min_index = node_id
-        
+
         return min_index
 
     def dijkstra_single_source_shortest_path_algorithm(self, source_vertex: int) -> Tuple[List[int], List[List[int]]]:
@@ -60,7 +60,7 @@ class Graph():
                     # calculate the path information by creating a parent array and update the parent array when distance is updated
                     parents[node_id] += parents[min_distance_vertex]
                     parents[node_id].append(min_distance_vertex)
-        
+
         return distance_from_source, parents
 
 if __name__ == '__main__':
