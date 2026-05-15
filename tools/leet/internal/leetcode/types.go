@@ -131,21 +131,26 @@ func (c Contest) LocalDir(repoRoot string) string {
 	return filepath.Join(repoRoot, "Contest", "LeetCodeWeeklyContest", dirName)
 }
 
-// SubmitResult is what we surface after polling the judge.
+// SubmitResult is what we surface after polling the judge. The same struct
+// covers `submit` and `interpret_solution` (Run) check responses — they
+// share most fields, with `code_answer` + `expected_code_answer` populated
+// only on interpret.
 type SubmitResult struct {
-	StatusMsg      string `json:"status_msg"`
-	StatusCode     int    `json:"status_code"`
-	Lang           string `json:"lang"`
-	Runtime        string `json:"status_runtime"`
-	Memory         string `json:"status_memory"`
-	TotalCorrect   int    `json:"total_correct"`
-	TotalTestcases int    `json:"total_testcases"`
-	LastTestcase   string `json:"last_testcase"`
-	ExpectedOutput string `json:"expected_output"`
-	CodeOutput     string `json:"code_output"`
-	CompileError   string `json:"compile_error"`
-	RuntimeError   string `json:"runtime_error"`
-	State          string `json:"state"`
+	StatusMsg          string   `json:"status_msg"`
+	StatusCode         int      `json:"status_code"`
+	Lang               string   `json:"lang"`
+	Runtime            string   `json:"status_runtime"`
+	Memory             string   `json:"status_memory"`
+	TotalCorrect       int      `json:"total_correct"`
+	TotalTestcases     int      `json:"total_testcases"`
+	LastTestcase       string   `json:"last_testcase"`
+	ExpectedOutput     string   `json:"expected_output"`
+	CodeOutput         string   `json:"code_output"`
+	CompileError       string   `json:"compile_error"`
+	RuntimeError       string   `json:"runtime_error"`
+	State              string   `json:"state"`
+	CodeAnswer         []string `json:"code_answer,omitempty"`          // interpret: our stdout per sample
+	ExpectedCodeAnswer []string `json:"expected_code_answer,omitempty"` // interpret: expected stdout
 }
 
 // Accepted reports whether the submission passed all tests.
