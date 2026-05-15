@@ -1,0 +1,56 @@
+[project]
+name = "leetcode-practice"
+version = "0.1.0"
+description = "Personal LeetCode algorithm practice archive"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "coverage>=7.4",
+    "ruff>=0.5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["Python3"]
+python_files = ["test_*.py", "test.py"]
+addopts = "-q --tb=short"
+
+[tool.coverage.run]
+source = ["Python3"]
+branch = true
+omit = ["**/test_*.py", "**/test.py"]
+
+[tool.coverage.report]
+ignore_errors = true
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self\\.debug",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "def main",
+]
+
+[tool.coverage.html]
+directory = "coverage_html_report"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+# Legacy solution files often have unused imports (List/Optional) carried over
+# from LeetCode snippets, and use ambiguous names from problem statements.
+"Python3/**" = ["E741", "F401"]
+"Contest/**" = ["E741", "F401"]

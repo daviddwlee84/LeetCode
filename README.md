@@ -2,22 +2,27 @@
 
 ## Testing
 
-* local dependencies
-  * `pytest`
-  * `pytest-cov`
-  * `coverage`
+Project deps + dev tools live in `pyproject.toml` (`numpy`, `pytest`,
+`pytest-cov`, `coverage`, `ruff`). Locked via `uv.lock`.
 
-### Correctness (based on [pytest](https://docs.pytest.org/en/latest/contents.html))
+```sh
+uv sync                         # create .venv/ and install everything
+uv run pytest                   # run all tests
+uv run pytest --cov Python3/    # with coverage
+uv run ruff check               # lint
+uv run ruff format              # format
+```
 
-Test all the units (in the main directory):
+Without `uv` you can use pip (PEP 735 support in pip 24+):
 
-`py.test -v`
+```sh
+pip install -e ".[dev]"
+pytest
+```
 
-### Code Coverage
-
-`pytest --cov-report term --cov Python3/`
-
-> if successful you should see a new `.coverage` file
+> Configuration for pytest/coverage/ruff lives in `pyproject.toml`
+> (sections `[tool.pytest.ini_options]`, `[tool.coverage.run]`,
+> `[tool.ruff]`).
 
 `coverage report`
 
