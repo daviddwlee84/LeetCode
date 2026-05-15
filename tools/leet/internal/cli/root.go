@@ -32,5 +32,11 @@ Run 'leet auth' first to set cookies.`,
 		newReadmeCmd(),
 		newTUICmd(),
 	)
+	// Cobra normally adds `completion {bash|zsh|fish|powershell}` lazily
+	// inside Execute(). We force it now so we can layer our `completion
+	// install` subcommand on top — otherwise the parent doesn't exist yet
+	// at the time registerCompletionInstall runs.
+	root.InitDefaultCompletionCmd()
+	registerCompletionInstall(root)
 	return root
 }
