@@ -103,3 +103,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Go build artifacts (tools/leet)
+tools/leet/bin/
+tools/leet/dist/
+
+# leet-generated failed-submission cases
+**/cases/failed_*.txt
