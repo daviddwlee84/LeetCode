@@ -1,0 +1,21 @@
+[project]
+name = "{{REPO_NAME}}-docs"
+version = "0.0.0"
+description = "Docs build environment for {{SITE_NAME}}"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+docs = [
+    # Cap mkdocs/mkdocs-material below the next major: MkDocs 2.0 removes the
+    # plugin system entirely (no llmstxt / static-i18n / copy-to-llm under 2.x).
+    # See references/mkdocs-2-and-zensical.md for the full rationale and
+    # criteria for lifting these caps.
+    "mkdocs>=1.6,<2",
+    "mkdocs-material>=9.5,<10",
+    # Uncomment when you add a non-default language via add-language.sh
+    # (the script un-comments this line automatically on first run):
+    # "mkdocs-static-i18n>=1.2",
+    "mkdocs-llmstxt>=0.2",
+    "mkdocs-copy-to-llm>=0.1",
+    "pymdown-extensions>=10.7",
+]

@@ -1,0 +1,14 @@
+# Used by add-language.sh and references/i18n-guide.md.
+# Inserted into mkdocs.yml under `plugins:` (before `search`).
+# `add-language.sh` rewrites the `languages:` list as new locales are added.
+- i18n:
+    docs_structure: suffix
+    fallback_to_default: true
+    reconfigure_material: true
+    reconfigure_search: true
+    languages:
+      - locale: en
+        name: English
+        default: true
+      - locale: zh-TW
+        name: 繁體中文 (zh-TW)

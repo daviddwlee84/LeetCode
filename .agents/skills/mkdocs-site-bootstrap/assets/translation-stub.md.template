@@ -1,0 +1,11 @@
+# {{PAGE_TITLE}}
+
+!!! note "Terminology rule ({{LANG}} pages)"
+    技術名詞首次出現以「中文 (English original)」格式呈現，例：依賴注入
+    (dependency injection)。**不自創翻譯**——若無公認譯名直接保留英文
+    （如 `embedding`、`tokenizer`）。代碼、API 名、CLI flag、套件名、檔名一律不翻。
+
+!!! warning "Translation pending"
+    這個頁面尚未翻譯。請使用語言切換器（右上角 / language switcher）查看 English 原文。
+
+<!-- Translators: replace this body with the {{LANG}} translation. Keep the terminology admonition above. -->
