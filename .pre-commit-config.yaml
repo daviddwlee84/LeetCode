@@ -1,0 +1,47 @@
+# Pre-commit hooks for a project bootstrapped by agent-history-hygiene.
+#
+# Installed by `bootstrap-project.sh`. The `files:` regex is rendered from
+# assets/artifact-dirs.txt at install time -- edit that file instead of
+# hand-patching the regex below so the rules stay consistent across:
+#   - redact-agent-secrets (this file)
+#   - gitleaks allowlist (.gitleaks.toml)
+#   - stage-agent-artifacts.sh
+#
+# See https://pre-commit.com
+
+repos:
+  # Auto-redact leaked secrets in agent artifacts BEFORE gitleaks runs.
+  # If a file is rewritten pre-commit surfaces "files were modified by this
+  # hook" and the user must `git add` + recommit -- same UX as
+  # trailing-whitespace or end-of-file-fixer.
+  - repo: local
+    hooks:
+      - id: redact-agent-secrets
+        name: Auto-redact secrets in agent artifacts
+        entry: ./scripts/redact_secrets.py --fix
+        language: system
+        pass_filenames: false
+        # {{BOOTSTRAP_RENDER: files_regex}} -- rendered from artifact-dirs.txt
+        files: ^(\.specstory/history|\.claude/plans|\.cursor/plans|\.cursor/rules|\.opencode/plans|\.specify|\.codex)/.*\.md$
+
+  # Gitleaks -- block commit when unallowlisted secrets are detected.
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.22.1
+    hooks:
+      # Prefer system-installed gitleaks to avoid Go toolchain build issues.
+      - id: gitleaks-system
+        pass_filenames: false
+
+  # Standard pre-commit hygiene. Feel free to trim per project needs.
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: detect-private-key
+      - id: check-added-large-files
+        args: ['--maxkb=2048']
+      - id: check-merge-conflict
+      - id: end-of-file-fixer
+        exclude: ^\.specstory/
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+        exclude: ^\.specstory/

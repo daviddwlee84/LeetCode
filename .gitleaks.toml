@@ -1,0 +1,139 @@
+# Gitleaks configuration for repos bootstrapped by agent-history-hygiene.
+#
+# Source of truth: ~/.local/share/chezmoi/.gitleaks.toml. This file is a
+# portable subset copied in by `bootstrap-project.sh` for repos without
+# chezmoi. Keep rule IDs stable so allowlists stay comparable.
+#
+# https://github.com/gitleaks/gitleaks#configuration
+
+title = "agent-history-hygiene gitleaks config"
+
+[extend]
+useDefault = true
+
+# Global allowlist: redaction sentinels + example-shape strings the agent
+# legitimately discusses in transcripts/plans. Uses the [[allowlists]]
+# array form (gitleaks v8 forbids mixing with the deprecated [allowlist]).
+[[allowlists]]
+  description = "Redaction sentinels + documentation-shape keys"
+  regexTarget = "line"
+  regexes = [
+    # Already-redacted sentinels emitted by redact_secrets.py.
+    '''\b[A-Za-z0-9_-]+_REDACTED(?:_[A-Z_]+)?\b''',
+    # Truncated "sk-proj-XXX..." example shapes used in prose.
+    '''sk-[a-zA-Z0-9]{3,8}\.\.\.''',
+  ]
+
+# Path-scoped allowlist: inside agent artifact dirs, tolerate explicit
+# example/demo markers without unlocking real leaks. Both the path AND a
+# regex must match, so a real `sk-ant-api03-<95 chars>AA` still fires.
+[[allowlists]]
+  description = "Example/demo keys inside agent transcripts and plan files"
+  # Both path and regex must match, otherwise any .md under these dirs
+  # gets allowlisted wholesale (gitleaks v8 defaults to OR semantics).
+  condition   = "AND"
+  paths = [
+    '''\.specstory/history/.*\.md$''',
+    '''\.claude/plans/.*\.md$''',
+    '''\.cursor/(plans|rules)/.*\.md$''',
+    '''\.opencode/plans/.*\.md$''',
+    '''\.specify/.*\.md$''',
+    '''\.codex/.*\.md$''',
+  ]
+  regexTarget = "line"
+  regexes = [
+    '''example[-_]?(key|token|secret)''',
+    '''\bREDACTED\b''',
+    '''sk-[a-zA-Z0-9]{3,8}\.\.\.''',
+    '''your[-_]?(api[-_]?)?key[-_]?here''',
+  ]
+
+# ---------------------------------------------------------------------------
+# Custom rules -- prefix-anchored modern API keys gitleaks default rules miss
+# or under-specify. Curated subset of the chezmoi config; rule IDs match so
+# overrides in the user's chezmoi version remain compatible.
+# ---------------------------------------------------------------------------
+
+[[rules]]
+  id          = "openai-project-key"
+  description = "OpenAI project-scoped API key (sk-proj-...)"
+  regex       = '''\bsk-proj-[A-Za-z0-9_-]{80,}\b'''
+  tags        = ["key", "openai", "auto"]
+
+[[rules]]
+  id          = "anthropic-api-key-strict"
+  description = "Anthropic API key (sk-ant-apiNN-..., strict length)"
+  regex       = '''\bsk-ant-api\d{2}-[A-Za-z0-9_-]{93}AA\b'''
+  tags        = ["key", "anthropic", "auto"]
+
+[[rules]]
+  id          = "cursor-api-key"
+  description = "Cursor API key (cursor- prefixed)"
+  regex       = '''\bcursor-[A-Za-z0-9]{40,}\b'''
+  tags        = ["key", "cursor", "auto"]
+
+[[rules]]
+  id          = "huggingface-token"
+  description = "Hugging Face user access token (hf_...)"
+  regex       = '''\bhf_[A-Za-z0-9]{34,40}\b'''
+  tags        = ["key", "huggingface", "auto"]
+
+[[rules]]
+  id          = "supabase-service-pat"
+  description = "Supabase service / personal access token (sbp_...)"
+  regex       = '''\bsbp_[a-f0-9]{40}\b'''
+  tags        = ["key", "supabase", "auto"]
+
+[[rules]]
+  id          = "linear-api-key"
+  description = "Linear API key (lin_api_...)"
+  regex       = '''\blin_api_[A-Za-z0-9]{40}\b'''
+  tags        = ["key", "linear", "auto"]
+
+[[rules]]
+  id          = "tailscale-auth-key"
+  description = "Tailscale auth/client/api key (tskey-...)"
+  regex       = '''\btskey-(?:auth|client|api)-[A-Za-z0-9]+-[A-Za-z0-9]{24,}\b'''
+  tags        = ["key", "tailscale", "auto"]
+
+[[rules]]
+  id          = "notion-integration-token"
+  description = "Notion internal integration token (ntn_...)"
+  regex       = '''\bntn_[A-Za-z0-9]{40,}\b'''
+  tags        = ["key", "notion", "auto"]
+
+[[rules]]
+  id          = "wakatime-api-key"
+  description = "WakaTime API key (waka_ + RFC-4122 UUID)"
+  regex       = '''\bwaka_[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b'''
+  tags        = ["key", "wakatime", "auto"]
+
+# ---------------------------------------------------------------------------
+# Webhook URLs commonly emitted into LLM/agent transcripts during demos and
+# test scaffolding. gitleaks default rules cover slack-webhook-url,
+# microsoft-teams-webhook, and telegram-bot-api-token; these fill the gaps.
+# ---------------------------------------------------------------------------
+
+[[rules]]
+  id          = "discord-webhook-url"
+  description = "Discord webhook URL (discord.com / discordapp.com / ptb / canary)"
+  regex       = '''https?://(?:(?:ptb|canary)\.)?discord(?:app)?\.com/api/webhooks/\d{17,20}/[A-Za-z0-9_-]{60,80}'''
+  tags        = ["webhook", "discord", "auto"]
+
+[[rules]]
+  id          = "zapier-webhook-url"
+  description = "Zapier catch hook URL (hooks.zapier.com/hooks/catch/...)"
+  regex       = '''https?://hooks\.zapier\.com/hooks/catch/\d{6,12}/[A-Za-z0-9]{5,}/?'''
+  tags        = ["webhook", "zapier", "auto"]
+
+[[rules]]
+  id          = "make-webhook-url"
+  description = "Make.com / Integromat webhook URL"
+  regex       = '''https?://hook\.(?:[a-z]{2}\d+\.make\.com|integromat\.com)/[A-Za-z0-9]{20,}'''
+  tags        = ["webhook", "make", "integromat", "auto"]
+
+[[rules]]
+  id          = "stripe-webhook-secret"
+  description = "Stripe webhook signing secret (whsec_...)"
+  regex       = '''\bwhsec_[A-Za-z0-9]{32,}\b'''
+  tags        = ["webhook", "stripe", "auto"]
