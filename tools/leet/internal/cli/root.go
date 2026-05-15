@@ -23,6 +23,7 @@ Run 'leet auth' first to set cookies.`,
 	}
 
 	root.AddCommand(
+		newInitCmd(),
 		newAuthCmd(),
 		newDailyCmd(),
 		newContestCmd(),
