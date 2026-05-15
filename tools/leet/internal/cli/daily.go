@@ -6,6 +6,7 @@ import (
 
 	"github.com/daviddwlee84/LeetCode/tools/leet/internal/auth"
 	"github.com/daviddwlee84/LeetCode/tools/leet/internal/categories"
+	"github.com/daviddwlee84/LeetCode/tools/leet/internal/config"
 	"github.com/daviddwlee84/LeetCode/tools/leet/internal/editor"
 	"github.com/daviddwlee84/LeetCode/tools/leet/internal/leetcode"
 	"github.com/daviddwlee84/LeetCode/tools/leet/internal/scaffold"
@@ -31,11 +32,6 @@ func newDailyCmd() *cobra.Command {
 				return fmt.Errorf("fetch daily: %w", err)
 			}
 
-			cat := category
-			if cat == "" {
-				cat = categories.PickCategory(daily.TopicTagNames())
-			}
-
 			root := repoRoot
 			if root == "" {
 				r, err := findRepoRoot()
@@ -45,8 +41,18 @@ func newDailyCmd() *cobra.Command {
 				root = r
 			}
 
-			folder := scaffold.ProblemFolder(root, cat, daily.Title)
-			created, err := scaffold.DailyFromQuestion(folder, daily, withNote)
+			cfg, err := config.Load(root)
+			if err != nil {
+				return fmt.Errorf("load config: %w", err)
+			}
+
+			cat := category
+			if cat == "" {
+				cat = categories.PickFromConfig(cfg, daily.TopicTagNames())
+			}
+
+			folder := scaffold.ProblemFolder(cfg, root, cat, daily.Title)
+			created, err := scaffold.DailyFromQuestion(cfg, folder, daily, withNote)
 			if err != nil {
 				return err
 			}
@@ -61,8 +67,7 @@ func newDailyCmd() *cobra.Command {
 			if noEdit {
 				return nil
 			}
-			// Open the Naive solution file as the entry point.
-			entry := scaffold.NaivePath(folder, daily.QuestionFrontendID)
+			entry := scaffold.EntryPath(cfg, folder, daily.QuestionFrontendID)
 			return editor.Launch(entry)
 		},
 	}

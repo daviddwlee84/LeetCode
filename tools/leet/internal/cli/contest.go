@@ -5,6 +5,7 @@ import (
 	"path/filepath"
 
 	"github.com/daviddwlee84/LeetCode/tools/leet/internal/auth"
+	"github.com/daviddwlee84/LeetCode/tools/leet/internal/config"
 	"github.com/daviddwlee84/LeetCode/tools/leet/internal/leetcode"
 	"github.com/daviddwlee84/LeetCode/tools/leet/internal/scaffold"
 	"github.com/spf13/cobra"
@@ -59,7 +60,12 @@ func contestSub(name, slugPrefix string) *cobra.Command {
 				root = r
 			}
 
-			created, err := scaffold.Contest(root, contest)
+			cfg, err := config.Load(root)
+			if err != nil {
+				return fmt.Errorf("load config: %w", err)
+			}
+
+			created, err := scaffold.Contest(cfg, root, contest)
 			if err != nil {
 				return err
 			}
