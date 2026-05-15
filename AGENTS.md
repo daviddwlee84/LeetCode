@@ -1,5 +1,9 @@
-# CLAUDE.md — LeetCode practice repo
+# AGENTS.md — LeetCode practice repo
 
+> Canonical file (emerging cross-tool convention). `CLAUDE.md` in the
+> repo root is a symlink → this file, so Claude Code reads the same content.
+> Future tools (Cursor / OpenCode / Codex) can symlink in the same way.
+>
 > Context for AI coding assistants working in this repo.
 
 ## What this repo is
