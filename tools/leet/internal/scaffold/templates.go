@@ -5,44 +5,58 @@ import (
 	"fmt"
 	"strings"
 	"text/template"
+
+	"github.com/daviddwlee84/LeetCode/tools/leet/internal/config"
 )
 
-// solutionTmpl mirrors the existing repo style: minimal class with the method
-// stub from LeetCode, no frills. Any List / Optional imports come from the
-// LeetCode-provided code snippet, so we don't second-guess them.
-const solutionTmpl = `# {{.ID}}. {{.Title}} ({{.Difficulty}})
+// tmplCtx is the shared context type passed to every render function.
+// Different layouts pick which fields they actually use.
+type tmplCtx struct {
+	ID         string   // "1572"
+	Title      string   // "Matrix Diagonal Sum"
+	Difficulty string   // "Easy"
+	URL        string   // canonical LeetCode URL
+	Starter    string   // python3 code snippet from LeetCode (or stub)
+	Content    string   // problem description (best-effort markdown)
+	Samples    []string // raw sample testcase lines from LeetCode
+	Strategy   string   // e.g. "Naive"
+}
+
+const solutionHeaderTmpl = `# {{.ID}}. {{.Title}} ({{.Difficulty}})
 # {{.URL}}
 {{ .Starter -}}
 `
 
-// testTmpl matches the convention in test_1572.py:
-//
-//	from Naive1572 import Solution as Naive
-//
-//	testcases = [...]
-//
-//	def test_Naive():
-//	    for ... assert
-const testTmpl = `from Naive{{.ID}} import Solution as Naive
+// renderSolution writes the {strategy}{id}.py / {strategy_snake}.py contents.
+// Layout doesn't change the file body; only filename + path.
+func renderSolution(_ config.LayoutSpec, c tmplCtx) (string, error) {
+	return render("solution", solutionHeaderTmpl, c)
+}
 
-# Sample testcases from LeetCode. Replace the second tuple entry with the
-# expected output. Add more cases — including failed-submission inputs —
-# below.
-testcases = [
-{{- range .Samples }}
-    ({{ . }}, None),  # TODO: fill expected
-{{- end }}
-]
+// renderTest dispatches on TestStyle. "per_strategy" (legacy) keeps the
+// historical `for case in testcases: assert` shape; "parametrize"
+// (structured) uses pytest.mark.parametrize across strategies.
+func renderTest(spec config.LayoutSpec, c tmplCtx) (string, error) {
+	switch spec.TestStyle {
+	case "parametrize":
+		return renderStructuredTest(spec, c)
+	default:
+		return renderLegacyTest(spec, c)
+	}
+}
 
+// renderNote dispatches: legacy → Note{ID}.md; structured → README.md.
+// Both use the same body template (problem + approach section + complexity
+// + edge cases); only filename differs.
+func renderNote(_ config.LayoutSpec, c tmplCtx) (string, error) {
+	if c.Content == "" {
+		c.Content = "_(paste / refine the LeetCode description here)_"
+	} else {
+		c.Content = strings.TrimSpace(c.Content)
+	}
+	return render("note", noteTmpl, c)
+}
 
-def test_Naive():
-    sol = Naive()
-    for inputs, expected in testcases:
-        # TODO: invoke the actual method, e.g. sol.{{.MethodName}}(*inputs) == expected
-        assert expected is None or expected == expected
-`
-
-// noteTmpl is what we drop into Note{ID}.md when --with-note is set.
 const noteTmpl = `# {{.ID}}. {{.Title}}
 
 [LeetCode]({{.URL}}) — **{{.Difficulty}}**
@@ -53,7 +67,7 @@ const noteTmpl = `# {{.ID}}. {{.Title}}
 
 ## Approach
 
-### Naive
+### {{ if .Strategy }}{{ .Strategy }}{{ else }}Naive{{ end }}
 
 - Idea:
 - Time:  O(?)
@@ -64,46 +78,15 @@ const noteTmpl = `# {{.ID}}. {{.Title}}
 -
 `
 
-type tmplCtx struct {
-	ID         string
-	Title      string
-	Difficulty string
-	URL        string
-	Starter    string
-	Content    string
-	Samples    []string
-	MethodName string
-}
-
-func renderSolution(c tmplCtx) (string, error) {
-	return render("solution", solutionTmpl, c)
-}
-
-func renderTest(c tmplCtx) (string, error) {
-	if c.MethodName == "" {
-		c.MethodName = "solve"
+// wrapSamples turns each sample line into a single-element Python tuple
+// literal so commas inside the sample (e.g. "[1,2,3]\n5") don't break
+// outer testcases-list syntax.
+func wrapSamples(samples []string) []string {
+	out := make([]string, 0, len(samples))
+	for _, s := range samples {
+		out = append(out, fmt.Sprintf("(%s,)", s))
 	}
-	// Each sample line from LeetCode is plain (e.g. "[1,2,3,4]" or "[[1,2],[4,5]]").
-	// We wrap each into a single-element tuple so test syntax stays valid even
-	// if the sample contains commas at top level.
-	wrapped := make([]string, 0, len(c.Samples))
-	for _, s := range c.Samples {
-		// Heuristic: if the sample already looks like Python literal,
-		// emit it as a single tuple element. We don't try to parse multi-arg
-		// signatures — the user fixes those manually after scaffolding.
-		wrapped = append(wrapped, fmt.Sprintf("(%s,)", s))
-	}
-	c.Samples = wrapped
-	return render("test", testTmpl, c)
-}
-
-func renderNote(c tmplCtx) (string, error) {
-	if c.Content == "" {
-		c.Content = "_(paste / refine the LeetCode description here)_"
-	} else {
-		c.Content = strings.TrimSpace(c.Content)
-	}
-	return render("note", noteTmpl, c)
+	return out
 }
 
 func render(name, tmpl string, data any) (string, error) {

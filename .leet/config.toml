@@ -1,0 +1,13 @@
+# Per-repo leet config. Overrides ~/.config/leet/config.toml; CLI flags override this.
+#
+# This repo has used Naive{ID}.py / test_{ID}.py / Note{ID}.md folder
+# conventions since 2018. The "legacy" layout in defaults.go matches that
+# exactly. Pinning it here means:
+#   * `leet daily` always produces the historical filenames
+#   * Future user-level config changes (e.g. switching DEFAULT to structured)
+#     never silently change behavior in this repo
+#
+# All other fields (Categories, CategoryPriority, Paths) inherit from the
+# built-in defaults — which themselves are pulled from this repo's history.
+
+layout = "legacy"
